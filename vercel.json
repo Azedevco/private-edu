@@ -49,11 +49,11 @@
   "rewrites": [
     {
       "source": "/verify/:id*",
-      "destination": "/index.html"
+      "destination": "/"
     },
     {
       "source": "/admin",
-      "destination": "/index.html"
+      "destination": "/"
     }
   ]
 }
