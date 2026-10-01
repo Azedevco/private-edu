@@ -139,7 +139,12 @@
     "https://developer.apple.com/design/human-interface-guidelines/",
     "https://youtube.com/@seanallen",
     "https://roadmap.sh/ios"
-   ]
+   ],
+   "videos": {
+    "en": "https://www.youtube.com/watch?v=-VC3hIEL7eQ",
+    "ru": "https://www.youtube.com/watch?v=4yHVcrd8PoI",
+    "tr": "https://www.youtube.com/playlist?list=PLq4I99QKpIbl02hl7UM3cj-ay1w2Z3Bq6"
+   }
   },
   "android": {
    "lessons": [
@@ -265,7 +270,12 @@
     "https://youtube.com/@StevdzaSan",
     "https://roadmap.sh/android",
     "https://books.goalkicker.com/KotlinBook"
-   ]
+   ],
+   "videos": {
+    "en": "https://www.youtube.com/watch?v=fis26HvvDII",
+    "ru": "https://www.youtube.com/watch?v=zzV2aML_zNg",
+    "tr": "https://www.youtube.com/watch?v=OjAPFgIR8HM"
+   }
   },
   "cross-platform": {
    "lessons": [
@@ -431,7 +441,12 @@
     "https://youtube.com/@wcandillon",
     "https://roadmap.sh/flutter",
     "https://roadmap.sh/react-native"
-   ]
+   ],
+   "videos": {
+    "en": "https://www.youtube.com/watch?v=VPvVD8t02U8",
+    "ru": "https://www.youtube.com/watch?v=DtQFrhF3V9A",
+    "tr": "https://www.youtube.com/playlist?list=PL_6SFaIEF8jEq23G_cjPvrBM7_Hpi5xz0"
+   }
   },
   "game-programming": {
    "lessons": [
@@ -558,7 +573,12 @@
     "https://youtube.com/@SercanAltun",
     "https://roadmap.sh/game-developer",
     "https://www.pygame.org/docs/"
-   ]
+   ],
+   "videos": {
+    "en": "https://www.youtube.com/watch?v=gB1F9G0JXOo",
+    "tr": "https://www.youtube.com/watch?v=KZ5V9xIwwcE",
+    "ru": "https://www.youtube.com/watch?v=8B6YENK9bIU"
+   }
   },
   "graphics-programming": {
    "lessons": [
@@ -695,7 +715,12 @@
     "https://roadmap.sh/cpp",
     "https://threejs.org/manual/",
     "https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API/Tutorial"
-   ]
+   ],
+   "videos": {
+    "en": "https://www.youtube.com/watch?v=45MIykWJ-C4",
+    "ru": "https://www.youtube.com/watch?v=J6uINtQW7Ho",
+    "tr": "https://www.youtube.com/playlist?list=PLUR6lZV92DNRCv1gd_y1L3PZabM53ujaH"
+   }
   },
   "ar-vr": {
    "lessons": [
@@ -843,7 +868,12 @@
     "https://www.youtube.com/watch?v=UMqNHi1GDAE",
     "https://threejs.org/docs/",
     "https://youtube.com/@Brackeys"
-   ]
+   ],
+   "videos": {
+    "en": "https://www.youtube.com/watch?v=FJAO6jDYljs",
+    "ru": "https://www.youtube.com/playlist?list=PLqvx7FCmjn6to-oNhivPpFbGwad8rF1Cc",
+    "tr": "https://www.youtube.com/playlist?list=PL3Z9GcBKYIFAyd28hofkIRgfrKrLXc9rP"
+   }
   },
   "data-science": {
    "lessons": [
@@ -984,7 +1014,12 @@
     "https://youtube.com/@krishnaik06",
     "https://www.kaggle.com/learn",
     "https://greenteapress.com/thinkbayes/"
-   ]
+   ],
+   "videos": {
+    "en": "https://www.youtube.com/watch?v=r-uOLxNrNk8",
+    "ru": "https://www.youtube.com/playlist?list=PLlb7e2G7aSpRb95_Wi7lZ-zA6fOjV3_l7",
+    "tr": "https://www.youtube.com/playlist?list=PLfMRLSpipmftNAJQjpSWLEPAC6UMf_3iE"
+   }
   },
   "ml": {
    "lessons": [
@@ -1131,7 +1166,12 @@
     "https://christophm.github.io/interpretable-ml-book/",
     "https://youtube.com/@TwoMinutePapers",
     "https://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/"
-   ]
+   ],
+   "videos": {
+    "en": "https://www.youtube.com/watch?v=i_LwzRVP7bg",
+    "ru": "https://www.youtube.com/playlist?list=PLA0M1Bcd0w8zxDIDOTQHsX68MCDOAJDtj",
+    "tr": "https://www.youtube.com/playlist?list=PLfMRLSpipmfuumcvO3fObVAUpSqYAcZmF"
+   }
   },
   "deep-learning": {
    "lessons": [
@@ -1282,7 +1322,12 @@
     "https://youtube.com/@AndrejKarpathy",
     "https://youtube.com/@3blue1brown",
     "https://roadmap.sh/ai-data-scientist"
-   ]
+   ],
+   "videos": {
+    "en": "https://www.youtube.com/watch?v=V_xro1bcAuA",
+    "ru": "https://www.youtube.com/playlist?list=PLA0M1Bcd0w8xUIMIPSoiW05lDyPNPt4tf",
+    "tr": "https://www.youtube.com/playlist?list=PLfMRLSpipmftdjM4l9u7adgDZGDM7vNLE"
+   }
   },
   "ai-engineering": {
    "lessons": [
@@ -1427,7 +1472,12 @@
     "https://roadmap.sh/ai-engineer",
     "https://github.com/microsoft/AI-For-Beginners",
     "https://youtube.com/@AIJasonZ"
-   ]
+   ],
+   "videos": {
+    "en": "https://www.youtube.com/watch?v=sVcwVQRHIc8",
+    "tr": "https://www.youtube.com/playlist?list=PLh9ECzBB8tJMNOyR5qTmsJpAQEylrPMHF",
+    "ru": "https://www.youtube.com/playlist?list=PLA0M1Bcd0w8yv0XGiF1wjerjSZVSrYbjh"
+   }
   },
   "big-data": {
    "lessons": [
@@ -1562,7 +1612,12 @@
     "https://youtube.com/@marclamberti",
     "https://youtube.com/@SeattleDataGuy",
     "https://cognitiveclass.ai/"
-   ]
+   ],
+   "videos": {
+    "en": "https://www.youtube.com/watch?v=PHsC_t0j1dU",
+    "ru": "https://www.youtube.com/playlist?list=PL1nFVl41dGiWAbskN53U-dJ9edAa9fo58",
+    "tr": "https://www.youtube.com/playlist?list=PLE_VigU96aaAefVty8pHxHTxEZDqSivDd"
+   }
   },
   "cyber-security": {
    "lessons": [
@@ -1739,7 +1794,12 @@
     "https://youtube.com/@NetworkChuck",
     "https://youtube.com/@CanDeger",
     "https://www.freecodecamp.org/learn/information-security/"
-   ]
+   ],
+   "videos": {
+    "en": "https://www.youtube.com/watch?v=3Kq1MIfTWCE",
+    "ru": "https://www.youtube.com/playlist?list=PLPxEwGlYuJQlGUzoAoZsNlSHjIgRUe9dU",
+    "tr": "https://www.youtube.com/playlist?list=PLGWmuqrfJZRtILSgqBaa7Ur1IegoQCrDU"
+   }
   },
   "network": {
    "lessons": [
@@ -1886,7 +1946,12 @@
     "https://youtube.com/playlist?list=PLOspHqNVtKAA_5N3pI49wkH4WsTkeZ_iQ",
     "https://linkmeup.ru/sdsm/",
     "https://tr.wikipedia.org/wiki/TCP_ve_UDP_ba%C4%9flant%C4%B1_noktas%C4%B1_numaralar%C4%B1_listesi"
-   ]
+   ],
+   "videos": {
+    "en": "https://www.youtube.com/watch?v=IPvYjXCsTg8",
+    "ru": "https://www.youtube.com/playlist?list=PLtPJ9lKvJ4oiNMvYbOzCmWy6cRzYAh9B1",
+    "tr": "https://www.youtube.com/playlist?list=PLGWmuqrfJZRtQT4-OWQHFjGDO23rbNjMY"
+   }
   },
   "embedded": {
    "lessons": [
@@ -2010,7 +2075,12 @@
     "https://learn.adafruit.com/",
     "https://docs.micropython.org/en/latest/",
     "https://www.btkakademi.gov.tr/portal/course/projelerle-arduino-programlama-19045"
-   ]
+   ],
+   "videos": {
+    "en": "https://www.youtube.com/watch?v=zJ-LqeX_fLU",
+    "ru": "https://www.youtube.com/playlist?list=PLIqtBa8-MDK1Ph2ImerlhHnPYgH4ACn5o",
+    "tr": "https://www.youtube.com/playlist?list=PLtXAZpyAEX3_oMZNTz3CVuMqwRD2phxlK"
+   }
   },
   "iot": {
    "lessons": [
@@ -2188,7 +2258,12 @@
     "https://www.home-assistant.io/docs/",
     "https://docs.espressif.com",
     "https://youtube.com/@LezzetliRobotTarifleri"
-   ]
+   ],
+   "videos": {
+    "en": "https://www.youtube.com/watch?v=h0gWfVCSGQQ",
+    "ru": "https://www.youtube.com/playlist?list=PLMiVLClzZDbRu_oJghv6Yp6TeGNHuhYPU",
+    "tr": "https://www.youtube.com/playlist?list=PLDRcccSktQd5PtMWIMqNomzALXo3SFnPJ"
+   }
   },
   "blockchain": {
    "lessons": [
@@ -2353,7 +2428,12 @@
     "https://developer.bitcoin.org/",
     "https://roadmap.sh/blockchain",
     "https://youtube.com/@EatTheBlocks"
-   ]
+   ],
+   "videos": {
+    "en": "https://www.youtube.com/watch?v=M576WGiDBdQ",
+    "ru": "https://www.youtube.com/playlist?list=PLWlFXymvoaJ_0ok740kLXTn5qn-i1UnYr",
+    "tr": "https://www.youtube.com/playlist?list=PLby2HXktGwN4Cof_6a8YwlMrboX8-hs73"
+   }
   },
   "frontend": {
    "lessons": [
@@ -2524,7 +2604,12 @@
     "https://github.com/getify/You-Dont-Know-JS",
     "https://youtube.com/@Fireship",
     "https://resilientwebdesign.com/"
-   ]
+   ],
+   "videos": {
+    "en": "https://www.youtube.com/watch?v=jS4aFq5-91M",
+    "ru": "https://www.youtube.com/watch?v=repA7DrmZPk",
+    "tr": "https://www.youtube.com/watch?v=sUWEuDSD7bE"
+   }
   },
   "backend": {
    "lessons": [
@@ -2706,7 +2791,12 @@
     "https://roadmap.sh/backend",
     "https://youtube.com/@GencayYildiz",
     "https://youtube.com/@TraversyMedia"
-   ]
+   ],
+   "videos": {
+    "en": "https://www.youtube.com/watch?v=Oe421EPjeBE",
+    "ru": "https://www.youtube.com/watch?v=cfJrtx-k96U",
+    "tr": "https://www.youtube.com/watch?v=2EkMrrX9sYY"
+   }
   },
   "fullstack": {
    "lessons": [
@@ -2867,7 +2957,12 @@
     "https://youtube.com/@WebDevSimplified",
     "https://youtube.com/@Codevolution",
     "https://create.t3.gg"
-   ]
+   ],
+   "videos": {
+    "en": "https://www.youtube.com/watch?v=nu_pCVPKzTk",
+    "ru": "https://www.youtube.com/watch?v=GQ_pTmcXNrQ",
+    "tr": "https://www.youtube.com/watch?v=iiT_zpb4kCU"
+   }
   },
   "qa-automation": {
    "lessons": [
@@ -3021,7 +3116,12 @@
     "https://jestjs.io/docs/getting-started",
     "https://www.freecodecamp.org/learn/quality-assurance/",
     "https://www.thetesteye.com/papers/TheLittleBlackBookOnTestDesign.pdf"
-   ]
+   ],
+   "videos": {
+    "en": "https://www.youtube.com/watch?v=j7VZsCCnptM",
+    "tr": "https://www.youtube.com/watch?v=JdmgdsxqePM",
+    "ru": "https://www.youtube.com/watch?v=L2jMIJy0u90"
+   }
   },
   "devops": {
    "lessons": [
@@ -3154,7 +3254,12 @@
     "https://youtube.com/@JeffGeerling",
     "https://kubernetes.io/docs/",
     "https://youtube.com/@DevOpsToolkit"
-   ]
+   ],
+   "videos": {
+    "en": "https://www.youtube.com/watch?v=j5Zsa_eOXeY",
+    "tr": "https://www.youtube.com/watch?v=4XVfmGE1F_w",
+    "ru": "https://www.youtube.com/watch?v=n9uCgUzfeRQ"
+   }
   },
   "cloud": {
    "lessons": [
@@ -3298,7 +3403,12 @@
     "https://www.skills.google/",
     "https://youtube.com/@TechWithLucy",
     "https://youtube.com/@NetworkChuck"
-   ]
+   ],
+   "videos": {
+    "en": "https://www.youtube.com/watch?v=7HKot-brXFE",
+    "ru": "https://www.youtube.com/watch?v=hNKskKNWNKQ",
+    "tr": "https://www.youtube.com/playlist?list=PLm8ggkC19szAggb3smwNleuitkHSInf8i"
+   }
   }
  }
 }

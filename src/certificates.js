@@ -1,4 +1,4 @@
-// AZEDEV Learn - verified certificates. A certificate means three things were checked: the path's final test (8/10 or
+// AZEDEV Learn - verified certificates. A certificate means three things were checked: the path's final test (80% or
 // more), a project whose GitHub repository passed the automatic check, and a mentor who read that project. The site
 // has no server, so issuing is a human step: AZEDEV adds the entry to certificates.json after the mentor review, and
 // learn.azedev.com/verify/<ID> shows it to anyone. The site never says "issued" for something not in that list.
@@ -22,13 +22,13 @@ export const certEligibility = (sub) => {
     const reviewed = projects.find(({ st }) => st.check?.passed && st.check.repo === st.repo && st.reviewResult?.status === 'done');
     const requested = projects.find(({ st }) => st.check?.passed && st.check.repo === st.repo && st.review === 'requested');
     return {
-        final: Boolean(final && final.best >= 8),
+        final: Boolean(final && final.best >= 0.8 * final.total),
         finalText: final ? `${final.best} / ${final.total}` : '',
         project: Boolean(checked),
         review: Boolean(reviewed),
         requested: Boolean(requested),
         chosen: reviewed || requested || checked || null,
-        ready: Boolean(final && final.best >= 8 && reviewed)
+        ready: Boolean(final && final.best >= 0.8 * final.total && reviewed)
     };
 };
 
@@ -62,7 +62,7 @@ export const CertificateRequest = (sub) => {
         <h2 id="cert-title" class="t-title">Yoxlanmış sertifikat</h2>
         <p class="t-small mt-0.5">AZEDEV sertifikatı yalnız bu üç addımdan sonra verilir və hər kəs onu ictimai səhifədə yoxlaya bilər.</p>
         <ol class="ln-rows mt-3">
-            ${Row(e.final, 'Final testi: 8/10 və ya daha çox', e.finalText ? `Ən yaxşı nəticən: ${e.finalText}` : 'Hələ keçilməyib')}
+            ${Row(e.final, 'Final testi: 80% və ya daha çox', e.finalText ? `Ən yaxşı nəticən: ${e.finalText}` : 'Hələ keçilməyib')}
             ${Row(e.project, 'Layihə avtomatik yoxlamadan keçib', e.project ? esc(e.chosen.p.title?.az || e.chosen.p.title?.en || e.chosen.p.title || 'Layihə') : 'Layihələr bölməsində reponu bağla və "Yoxla" bas')}
             ${Row(e.review, 'Mentor layihəni qəbul edib', e.review ? 'Mentorun qərarı layihənin altında görünür' : e.requested ? 'Yoxlama istənib, mentorun qərarını gözlə' : 'Layihənin altında "Mentor yoxlaması istə" bas')}
         </ol>
@@ -112,7 +112,7 @@ export const VerifyPage = () => {
     <section class="mt-12 print:hidden" aria-labelledby="how-cert">
         <h2 id="how-cert" class="t-title">Sertifikat necə verilir?</h2>
         <ol class="ln-rows mt-3 text-[15px] text-text-soft">
-            ${['Öyrənən yolun final testindən 8/10 və ya daha çox toplayır.', 'Yolun layihəsini qurur; GitHub reposu avtomatik yoxlamadan keçir (açıqdır, README və kod var, dillər uyğundur).', 'AZEDEV icmasından mentor layihəni oxuyub rəy verir.', 'Bundan sonra AZEDEV sertifikatı siyahıya əlavə edir və ID verir. Hər sertifikat bu səhifədə açıq yoxlanır.']
+            ${['Öyrənən yolun final testində sualların ən azı 80%-ni düzgün cavablandırır.', 'Yolun layihəsini qurur; GitHub reposu avtomatik yoxlamadan keçir (açıqdır, README və kod var, dillər uyğundur).', 'AZEDEV icmasından mentor layihəni oxuyub rəy verir.', 'Bundan sonra AZEDEV sertifikatı siyahıya əlavə edir və ID verir. Hər sertifikat bu səhifədə açıq yoxlanır.']
                 .map((t, i) => `<li class="flex items-baseline gap-3 py-3"><span class="ln-num w-5 shrink-0 text-[18px]" aria-hidden="true">${i + 1}</span>${t}</li>`).join('')}
         </ol>
     </section>`, { width: 'narrow' });

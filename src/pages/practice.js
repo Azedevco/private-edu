@@ -9,7 +9,7 @@ import { Page, SupportNote } from '../shell.js'
 import { icon } from '../icons.js'
 import { Button, Status, Label, Badge, esc, levelKind, PageTitle, PracticeTabs, Section, ProgressBar, TextLink, ResourceCard } from '../ui.js'
 import { quizResult, isChallengeSolved, recommendations, subTitle, categoryOfSub, currentTrack, stagesOf } from '../progress.js'
-import { getQuiz, finalQuizId, pathsWithFinal, topicQuizzes, quizTotals, lessonQuizId, hasLessonQuiz } from '../quizzes.js'
+import { getQuiz, finalQuizId, pathsWithFinal, topicQuizzes, quizTotals, lessonQuizId, hasLessonQuiz, finalSize } from '../quizzes.js'
 import { CertificateRequest } from '../certificates.js'
 import { Hint, Term, isBeginner } from '../onboarding.js'
 
@@ -19,7 +19,11 @@ const difficulty = (level) => Status(DIFFICULTY[level] || level, levelKind(level
 const pad = (n) => String(n).padStart(2, '0');
 
 // Inline `code` in quiz text becomes a mono chip; everything else is escaped.
-const richText = (text) => esc(text).replace(/`([^`]+)`/g, '<code class="rounded-xs bg-alpha-6 px-1 py-0.5 font-mono text-[0.92em] text-text-soft break-words">$1</code>');
+// Fenced blocks (```lang ... ```), used by the practical final questions, become a small code panel.
+const inlineCode = (html) => html.replace(/`([^`]+)`/g, '<code class="rounded-xs bg-alpha-6 px-1 py-0.5 font-mono text-[0.92em] text-text-soft break-words">$1</code>');
+const richText = (text) => String(text ?? '').split(/```[\w+-]*\n?/).map((part, i) => (i % 2
+    ? `<pre class="az-code mt-3 block overflow-x-auto whitespace-pre !text-[14px] !leading-[1.6] font-normal"><code>${esc(part.replace(/\n$/, ''))}</code></pre>`
+    : inlineCode(esc(part)))).join('');
 
 // Minimal JavaScript highlighting for the az-code block: keywords, strings, comments; then line numbers.
 const JS_TOKEN = /(\/\/[^\n]*)|('(?:\\.|[^'\\\n])*'|"(?:\\.|[^"\\\n])*"|`(?:\\.|[^`\\])*`)|\b(function|const|let|var|return|if|else|for|while|do|of|in|new|class|extends|this|true|false|null|undefined|break|continue|typeof|instanceof|async|await|throw|try|catch|finally|switch|case|default)\b/g;
@@ -220,13 +224,13 @@ const MyTests = () => {
     const rows = [];
     const next = track.next >= 0 ? track.next : track.total - 1;
     if (hasLessonQuiz(track.sub, next)) rows.push(TestRow(lessonQuizId(track.sub, next), `Dərs testi: ${esc(stagesOf(track.sub, state.lang)[next]?.title || '')}`, ['3 sual', esc(subTitle(track.sub))]));
-    if (pathsWithFinal().includes(track.sub)) rows.push(TestRow(finalQuizId(track.sub), `${esc(subTitle(track.sub))}: final testi`, ['10 sual']));
+    if (pathsWithFinal().includes(track.sub)) rows.push(TestRow(finalQuizId(track.sub), `${esc(subTitle(track.sub))}: final testi`, [`${finalSize(track.sub)} sual`]));
     return rows.length ? Section({ title: 'Sənin yolun', note: 'Hazırda keçdiyin dərsin testi və yolun final testi.', body: `<ul class="ln-rows">${rows.join('')}</ul>` }) : '';
 };
 
 const PathTests = () => Section({
     title: 'Yolların testləri',
-    note: 'Hər yolda dərs testləri (hər biri 3 sual) və final testi (10 sual) var.',
+    note: 'Hər yolda dərs testləri (hər biri 3 sual) və praktiki final testi var.',
     body: `<ul class="ln-rows">${pathsWithFinal().map((sub) => ResourceCard({
         tag: 'li',
         title: esc(subTitle(sub)),

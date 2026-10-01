@@ -175,7 +175,7 @@ const FAQ = () => {
         ['Hesab açmalıyam?', `Yox. İrəliləyişin bu cihazda saxlanılır.${googleEnabled() ? ' İstəsən, Google ilə daxil olub onu Google Drive-ının gizli tətbiq qovluğunda saxlaya və başqa cihazda davam edə bilərsən.' : ''}`],
         ['Heç nə bilmirəm. Başlaya bilərəm?', 'Bəli. "Yeni başlayanlar üçün" işarəli yollar sıfırdan başlayır, çətin sözlərin yanında qısa izah var. Başa düşmədiyin yer olsa, icmada soruş.'],
         ['Materiallar hansı dildədir?', 'Çoxu ingiliscədir. Mümkün olan yerdə eyni dərs üçün türkcə və ya rusca material da göstəririk. Saytın özü azərbaycancadır.'],
-        ['Sertifikat verirsiniz?', 'Bəli, amma yalnız yoxlanmış sertifikat: yolun final testindən 8/10 topla, layihənin reposu avtomatik yoxlamadan keçsin və mentor onu oxusun. Sonra AZEDEV sənə ID verir və sertifikatı hər kəs learn.azedev.com/verify səhifəsində yoxlaya bilir.']
+        ['Sertifikat verirsiniz?', 'Bəli, amma yalnız yoxlanmış sertifikat: yolun final testində sualların ən azı 80%-ni düzgün cavablandır, layihənin reposu avtomatik yoxlamadan keçsin və mentor onu oxusun. Sonra AZEDEV sənə ID verir və sertifikatı hər kəs learn.azedev.com/verify səhifəsində yoxlaya bilir.']
     ];
     return `
     <section class="mt-20 sm:mt-28" aria-labelledby="faq-title">

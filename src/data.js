@@ -3,6 +3,7 @@ import curatedResources from './curated-resources.json' with { type: 'json' }
 export const languages = [
     { code: 'en', name: 'English', flag: '🇬🇧' },
     { code: 'tr', name: 'Türkçe', flag: '🇹🇷' },
+    { code: 'ru', name: 'Русский', flag: '🇷🇺' },
     { code: 'az', name: 'Azərbaycan', flag: '🇦🇿' },
 ];
 

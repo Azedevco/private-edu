@@ -51,3 +51,10 @@ export const planSize = (sub) => {
     [...p.tools, ...p.more].forEach((r) => urls.add(key(r.url)));
     return urls.size;
 };
+
+// One full video course per language for the whole path (English, Turkish, Russian; Azerbaijani when one exists).
+const VIDEO_ORDER = ['az', 'tr', 'ru', 'en'];
+export const pathVideos = (sub) => {
+    const v = plan.paths[sub]?.videos || {};
+    return VIDEO_ORDER.filter((lang) => v[lang]).map((lang) => ({ lang, res: find(sub, v[lang]) })).filter((x) => x.res);
+};

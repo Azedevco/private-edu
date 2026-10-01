@@ -236,6 +236,28 @@
     "level": "beginner",
     "source": "BTK Akademi",
     "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "LLM (Large Language Models) Büyük Dil Modelleri",
+    "url": "https://www.youtube.com/playlist?list=PLh9ECzBB8tJMNOyR5qTmsJpAQEylrPMHF",
+    "desc": "Böyük dil modellərini sən sistemli dərslərlə öyrənirsən, ona görə AI mühəndisliyə giriş üçün uyğundur.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "BilgisayarKavramlari",
+    "curated": true,
+    "duration": "72 video"
+   },
+   {
+    "type": "youtube",
+    "title": "Нейронные сети на Python. Уроки",
+    "url": "https://www.youtube.com/playlist?list=PLA0M1Bcd0w8yv0XGiF1wjerjSZVSrYbjh",
+    "desc": "Neyron şəbəkələrini rus dilində dərindən öyrənmək istəyirsənsə, bu dərslər sənə Python ilə şəbəkə qurmağı nəzəriyyə ilə göstərir.",
+    "lang": "ru",
+    "level": "beginner",
+    "source": "selfedu",
+    "curated": true,
+    "duration": "33 video"
    }
   ],
   "android": [
@@ -409,6 +431,28 @@
     "level": "beginner",
     "source": "Android Developers (Google)",
     "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Изучение Android Studio за час в одном видео! Создание погодного приложения с API",
+    "url": "https://www.youtube.com/watch?v=zzV2aML_zNg",
+    "desc": "Android-ə rus dilində başlamaq istəyirsənsə, bu video sənə API ilə işləyən hava tətbiqi yazmağı göstərir.",
+    "lang": "ru",
+    "level": "beginner",
+    "source": "Гоша Дударь",
+    "curated": true,
+    "duration": "1 video, 1 saat"
+   },
+   {
+    "type": "youtube",
+    "title": "BootCamp | 26 Nisan 2021 | Bölüm 6 | KOTLIN İLE ANDROID GELİŞTİRME",
+    "url": "https://www.youtube.com/watch?v=OjAPFgIR8HM",
+    "desc": "Kotlin ilə Android tətbiqi yazmağı öyrənmək istəyirsənsə, bu BTK dərsi sənə tətbiq qurmağı 3 saata praktik şəkildə göstərir.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "BTK Akademi TV",
+    "curated": true,
+    "duration": "1 video, 3 saat"
    }
   ],
   "ar-vr": [
@@ -561,6 +605,39 @@
     "level": "intermediate",
     "source": "Godot Engine",
     "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Project-Based Augmented Reality Course with Unity Engine and AR Foundation",
+    "url": "https://www.youtube.com/watch?v=FJAO6jDYljs",
+    "desc": "Unity və AR Foundation ilə artırılmış reallıq sən layihə üstündə öyrənirsən, ona görə AR-VR-yə giriş üçün uyğundur.",
+    "lang": "en",
+    "level": "beginner",
+    "source": "freeCodeCamp.org",
+    "curated": true,
+    "duration": "1 video, 2 saat"
+   },
+   {
+    "type": "youtube",
+    "title": "Как создавать VR игры в 2024 году на Unity | Unity XR Interaction Toolkit Tutorials for Beginners",
+    "url": "https://www.youtube.com/playlist?list=PLqvx7FCmjn6to-oNhivPpFbGwad8rF1Cc",
+    "desc": "Unity ilə VR oyun yaratmağı sən sıfırdan tətbiq edərək öyrənirsən, ona görə giriş üçün uyğundur.",
+    "lang": "ru",
+    "level": "beginner",
+    "source": "VR for Dev",
+    "curated": true,
+    "duration": "16 video"
+   },
+   {
+    "type": "youtube",
+    "title": "UNITY3D İLE VR OYUN GELİŞTİRME",
+    "url": "https://www.youtube.com/playlist?list=PL3Z9GcBKYIFAyd28hofkIRgfrKrLXc9rP",
+    "desc": "Unity ilə VR oyunu yazmağı öyrənmək istəyirsənsə, bu dərslər sənə quraşdırmadan başlayaraq VR səhnəsi qurmağı göstərir.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "KODLAB YAYIN",
+    "curated": true,
+    "duration": "21 video"
    }
   ],
   "backend": [
@@ -897,6 +974,39 @@
     "level": "beginner",
     "source": "Python Software Foundation",
     "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Node.js and Express.js - Full Course",
+    "url": "https://www.youtube.com/watch?v=Oe421EPjeBE",
+    "desc": "Node.js ilə backend yazmağı öyrənmək istəyirsənsə, bu kurs sənə Express ilə API qurmağı sıfırdan göstərir.",
+    "lang": "en",
+    "level": "beginner",
+    "source": "freeCodeCamp.org",
+    "curated": true,
+    "duration": "1 video, 8 saat"
+   },
+   {
+    "type": "youtube",
+    "title": "Python  - Полный Курс по Python [15 ЧАСОВ]",
+    "url": "https://www.youtube.com/watch?v=cfJrtx-k96U",
+    "desc": "Python-u dərindən öyrənmək istəyirsənsə, bu 16 saatlıq kurs sənə dili sıfırdan, çoxlu nümunə ilə verir.",
+    "lang": "ru",
+    "level": "beginner",
+    "source": "Bogdan Stashchuk",
+    "curated": true,
+    "duration": "1 video, 16 saat"
+   },
+   {
+    "type": "youtube",
+    "title": "Canlı - 5 Saatlik C# Programlama Kampı / Dersleri",
+    "url": "https://www.youtube.com/watch?v=2EkMrrX9sYY",
+    "desc": "C# ilə proqramlaşdırmağa başlamaq istəyirsənsə, bu 5 saatlıq kamp videosu sənə dili təməldən izah edir.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "Engin Demiroğ",
+    "curated": true,
+    "duration": "1 video, 5 saat"
    }
   ],
   "big-data": [
@@ -1125,6 +1235,28 @@
     "source": "kablosuzkedi (YouTube)",
     "curated": true,
     "duration": "2,5 saat"
+   },
+   {
+    "type": "youtube",
+    "title": "Курсы Apache Spark",
+    "url": "https://www.youtube.com/playlist?list=PL1nFVl41dGiWAbskN53U-dJ9edAa9fo58",
+    "desc": "Apache Spark ilə böyük məlumat emalını sən dərs-dərs öyrənirsən, ona görə giriş üçün uyğundur.",
+    "lang": "ru",
+    "level": "beginner",
+    "source": "Школа Больших Данных",
+    "curated": true,
+    "duration": "11 video"
+   },
+   {
+    "type": "youtube",
+    "title": "Büyük Veri",
+    "url": "https://www.youtube.com/playlist?list=PLE_VigU96aaAefVty8pHxHTxEZDqSivDd",
+    "desc": "Böyük məlumat əsaslarını sən universitet dərsləri ilə öyrənirsən, ona görə giriş üçün uyğundur.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "AUZEF Yönetim Bilişim Sistemleri",
+    "curated": true,
+    "duration": "15 video"
    }
   ],
   "blockchain": [
@@ -1277,6 +1409,39 @@
     "level": "beginner",
     "source": "ethereum.org",
     "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Solidity, Blockchain, and Smart Contract Course – Beginner to Expert Python Tutorial",
+    "url": "https://www.youtube.com/watch?v=M576WGiDBdQ",
+    "desc": "Blokçeyn və smart kontraktı sıfırdan sən kod yazaraq öyrənirsən, ona görə giriş üçün uyğundur.",
+    "lang": "en",
+    "level": "beginner",
+    "source": "freeCodeCamp.org",
+    "curated": true,
+    "duration": "1 video, 16 saat"
+   },
+   {
+    "type": "youtube",
+    "title": "Уроки Solidity/Ethereum",
+    "url": "https://www.youtube.com/playlist?list=PLWlFXymvoaJ_0ok740kLXTn5qn-i1UnYr",
+    "desc": "Solidity ilə smart kontraktı sən dərs-dərs yazaraq öyrənirsən, ona görə giriş üçün uyğundur.",
+    "lang": "ru",
+    "level": "beginner",
+    "source": "Ilya Krukowski",
+    "curated": true,
+    "duration": "105 video"
+   },
+   {
+    "type": "youtube",
+    "title": "Akıllı Kontrat Geliştiriciliği Kampı Tüm Liste | İTÜ Blockchain",
+    "url": "https://www.youtube.com/playlist?list=PLby2HXktGwN4Cof_6a8YwlMrboX8-hs73",
+    "desc": "Smart kontrakt yazmağı sən kamp proqramı ilə tətbiq edərək öyrənirsən, ona görə giriş üçün uyğundur.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "ITU Blockchain",
+    "curated": true,
+    "duration": "59 video"
    }
   ],
   "cloud": [
@@ -1500,6 +1665,28 @@
     "level": "beginner",
     "source": "Microsoft Learn",
     "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Базовая инфраструктура в облаках на примере AWS // Курс «Cloud Solution Architecture»",
+    "url": "https://www.youtube.com/watch?v=hNKskKNWNKQ",
+    "desc": "Bulud infrastrukturunu rus dilində anlamaq istəyirsənsə, bu açıq dərs sənə əsasları AWS nümunəsində göstərir.",
+    "lang": "ru",
+    "level": "beginner",
+    "source": "OTUS IT Онлайн - образование",
+    "curated": true,
+    "duration": "1 video, 2 saat"
+   },
+   {
+    "type": "youtube",
+    "title": "Azure Administrator | Az-104 ve Az-900 Sertifika Sınavlarına Hazırlık Eğitimi",
+    "url": "https://www.youtube.com/playlist?list=PLm8ggkC19szAggb3smwNleuitkHSInf8i",
+    "desc": "Bulud əsaslarını türk dilində öyrənmək istəyirsənsə, bu kurs sənə Azure üzərindən imtahan proqramı ilə sistemli şəkildə verir.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "Ayti Tech",
+    "curated": true,
+    "duration": "30 video"
    }
   ],
   "cross-platform": [
@@ -1707,6 +1894,28 @@
     "source": "Flutter Türkiye / Google Developer Communities Turkey (YouTube)",
     "curated": true,
     "duration": "2,5 saat"
+   },
+   {
+    "type": "youtube",
+    "title": "React Native полный курс: От нуля до рабочего приложения за 2 часа!",
+    "url": "https://www.youtube.com/watch?v=DtQFrhF3V9A",
+    "desc": "JavaScript ilə mobil tətbiq yazmaq istəyirsənsə, bu video sənə React Native ilə hazır tətbiq çıxarmağı göstərir.",
+    "lang": "ru",
+    "level": "beginner",
+    "source": "Dmitriy Kukhta",
+    "curated": true,
+    "duration": "1 video, 2 saat"
+   },
+   {
+    "type": "youtube",
+    "title": "Flutter Dart Dersleri: Sıfırdan Başlıyoruz (2025)",
+    "url": "https://www.youtube.com/playlist?list=PL_6SFaIEF8jEq23G_cjPvrBM7_Hpi5xz0",
+    "desc": "Bir kodla hər iki platformaya tətbiq yazmaq istəyirsənsə, bu dərslər sənə Dart dilindən başlayaraq Flutter-ı nizamlı şəkildə öyrədir.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "HQ NET",
+    "curated": true,
+    "duration": "46 video"
    }
   ],
   "cyber-security": [
@@ -1954,6 +2163,28 @@
     "source": "Atil Samancioglu (YouTube)",
     "curated": true,
     "duration": "15 dəqiqə"
+   },
+   {
+    "type": "youtube",
+    "title": "Полный курс по этичному взлому - от начального до продвинутого уровня kali linux",
+    "url": "https://www.youtube.com/playlist?list=PLPxEwGlYuJQlGUzoAoZsNlSHjIgRUe9dU",
+    "desc": "Etik hakerliyi Kali Linux ilə sən sıfırdan tətbiq edərək öyrənirsən, ona görə giriş üçün uyğundur.",
+    "lang": "ru",
+    "level": "beginner",
+    "source": "Codeby",
+    "curated": true,
+    "duration": "8 video"
+   },
+   {
+    "type": "youtube",
+    "title": "Sıfırdan Etik Hacker Olma Eğitimi",
+    "url": "https://www.youtube.com/playlist?list=PLGWmuqrfJZRtILSgqBaa7Ur1IegoQCrDU",
+    "desc": "Etik hakerliyi sıfırdan sən addım-addım tətbiq edərək öyrənirsən, ona görə giriş üçün uyğundur.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "Siber Kampüs",
+    "curated": true,
+    "duration": "184 video"
    }
   ],
   "data-science": [
@@ -2307,6 +2538,39 @@
     "source": "kablosuzkedi (YouTube)",
     "curated": true,
     "duration": "2,5 saat"
+   },
+   {
+    "type": "youtube",
+    "title": "Data Analysis with Python - Full Course for Beginners (Numpy, Pandas, Matplotlib, Seaborn)",
+    "url": "https://www.youtube.com/watch?v=r-uOLxNrNk8",
+    "desc": "Python ilə məlumat analizini sıfırdan sən tətbiq edərək öyrənirsən, ona görə giriş üçün uyğundur.",
+    "lang": "en",
+    "level": "beginner",
+    "source": "freeCodeCamp.org",
+    "curated": true,
+    "duration": "1 video, 4 saat"
+   },
+   {
+    "type": "youtube",
+    "title": "Анализ данных на Python в примерах и задачах. Часть 1 (весна 2018)",
+    "url": "https://www.youtube.com/playlist?list=PLlb7e2G7aSpRb95_Wi7lZ-zA6fOjV3_l7",
+    "desc": "Məlumat analizini Python ilə sən məsələ həll edərək öyrənirsən, ona görə giriş üçün uyğundur.",
+    "lang": "ru",
+    "level": "beginner",
+    "source": "Computer Science Center",
+    "curated": true,
+    "duration": "12 video"
+   },
+   {
+    "type": "youtube",
+    "title": "PYTHON ile VERİ BİLİMİ DERSLERİ",
+    "url": "https://www.youtube.com/playlist?list=PLfMRLSpipmftNAJQjpSWLEPAC6UMf_3iE",
+    "desc": "Veri bilimini Python ilə sən dərs-dərs tətbiq edərək öyrənirsən, ona görə giriş üçün uyğundur.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "Tirendaz Academy | Evren Özkip",
+    "curated": true,
+    "duration": "161 video"
    }
   ],
   "deep-learning": [
@@ -2525,6 +2789,39 @@
     "level": "beginner",
     "source": "Engin Demiroğ / Turkcell Geleceği Yazanlar",
     "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "PyTorch for Deep Learning & Machine Learning – Full Course",
+    "url": "https://www.youtube.com/watch?v=V_xro1bcAuA",
+    "desc": "PyTorch ilə sinir şəbəkələrini sıfırdan sən kod yazaraq öyrənirsən, ona görə dərin öyrənməyə giriş üçün uyğundur.",
+    "lang": "en",
+    "level": "beginner",
+    "source": "freeCodeCamp.org",
+    "curated": true,
+    "duration": "1 video, 26 saat"
+   },
+   {
+    "type": "youtube",
+    "title": "Нейронные сети на PyTorch",
+    "url": "https://www.youtube.com/playlist?list=PLA0M1Bcd0w8xUIMIPSoiW05lDyPNPt4tf",
+    "desc": "Sinir şəbəkələrini PyTorch ilə sən dərs-dərs kod yazaraq öyrənirsən, ona görə giriş üçün uyğundur.",
+    "lang": "ru",
+    "level": "beginner",
+    "source": "selfedu",
+    "curated": true,
+    "duration": "56 video"
+   },
+   {
+    "type": "youtube",
+    "title": "PYTHON ile DERİN ÖĞRENME 🔥 Yapay Zeka Dersleri",
+    "url": "https://www.youtube.com/playlist?list=PLfMRLSpipmftdjM4l9u7adgDZGDM7vNLE",
+    "desc": "Dərin öyrənməni Python ilə sən dərs-dərs tətbiq edərək öyrənirsən, ona görə giriş üçün uyğundur.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "Tirendaz Academy | Evren Özkip",
+    "curated": true,
+    "duration": "116 video"
    }
   ],
   "devops": [
@@ -2800,6 +3097,28 @@
     "level": "beginner",
     "source": "Microsoft Learn",
     "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Docker Nedir Nasıl Kullanılır? | Part #1 | Image Nedir? Container Nedir? Docker Komutları",
+    "url": "https://www.youtube.com/watch?v=4XVfmGE1F_w",
+    "desc": "Docker-ı türk dilində öyrənmək istəyirsənsə, bu video sənə imic və konteynerləri təcrübə ilə göstərir.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "kablosuzkedi",
+    "curated": true,
+    "duration": "1 video, 3 saat"
+   },
+   {
+    "type": "youtube",
+    "title": "Docker для Начинающих – Полный Курс",
+    "url": "https://www.youtube.com/watch?v=n9uCgUzfeRQ",
+    "desc": "Docker-ı rus dilində öyrənmək istəyirsənsə, bu kurs sənə konteynerləri sıfırdan praktik şəkildə izah edir.",
+    "lang": "ru",
+    "level": "beginner",
+    "source": "Владилен Минин",
+    "curated": true,
+    "duration": "1 video, 2 saat"
    }
   ],
   "embedded": [
@@ -2942,6 +3261,28 @@
     "level": "beginner",
     "source": "Microsoft Learn",
     "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Программирование микроконтроллеров AVR",
+    "url": "https://www.youtube.com/playlist?list=PLIqtBa8-MDK1Ph2ImerlhHnPYgH4ACn5o",
+    "desc": "Mikrokontroller proqramlaşdırmasını sən sıfırdan tətbiq edərək öyrənirsən, ona görə giriş üçün uyğundur.",
+    "lang": "ru",
+    "level": "beginner",
+    "source": "Программирование микроконтроллеров для начинающих!",
+    "curated": true,
+    "duration": "28 video"
+   },
+   {
+    "type": "youtube",
+    "title": "STM32 Cube IDE ile Gömülü Sistemlere Giriş",
+    "url": "https://www.youtube.com/playlist?list=PLtXAZpyAEX3_oMZNTz3CVuMqwRD2phxlK",
+    "desc": "Gömülü sistemləri STM32 ilə sən tətbiq edərək öyrənirsən, ona görə giriş üçün uyğundur.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "Electrobrains",
+    "curated": true,
+    "duration": "46 video"
    }
   ],
   "frontend": [
@@ -3266,6 +3607,39 @@
     "level": "beginner",
     "source": "Microsoft Learn",
     "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "JavaScript Programming - Full Course",
+    "url": "https://www.youtube.com/watch?v=jS4aFq5-91M",
+    "desc": "JavaScript-i sıfırdan öyrənmək istəyirsənsə, bu uzun və nizamlı kurs sənə əsasları ardıcıl şəkildə verir.",
+    "lang": "en",
+    "level": "beginner",
+    "source": "freeCodeCamp.org",
+    "curated": true,
+    "duration": "1 video, 8 saat"
+   },
+   {
+    "type": "youtube",
+    "title": "Полный Курс HTML / Изучение в одном видео для начинающих с нуля",
+    "url": "https://www.youtube.com/watch?v=repA7DrmZPk",
+    "desc": "HTML-i rus dilində sıfırdan öyrənmək istəyirsənsə, bu bir videolu kurs sənə əsas teqləri praktik nümunələrlə izah edir.",
+    "lang": "ru",
+    "level": "beginner",
+    "source": "Школа itProger / Программирование",
+    "curated": true,
+    "duration": "1 video, 2 saat"
+   },
+   {
+    "type": "youtube",
+    "title": "1 Videoda HTML Öğren. [ Web Geliştirme Eğitimi ]",
+    "url": "https://www.youtube.com/watch?v=sUWEuDSD7bE",
+    "desc": "HTML-i türk dilində sıfırdan öyrənmək istəyirsənsə, bu tək videolu dərs sənə səhifə qurmağı addım-addım göstərir.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "Türkiye Yazılım Akademisi",
+    "curated": true,
+    "duration": "1 video, 4 saat"
    }
   ],
   "fullstack": [
@@ -3551,6 +3925,28 @@
     "level": "beginner",
     "source": "Turkcell Geleceği Yazanlar",
     "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Полный Full Stack курс ReactJS + NodeJS для начинающих за 4 часа! (MongoDB, Express, React, NodeJS)",
+    "url": "https://www.youtube.com/watch?v=GQ_pTmcXNrQ",
+    "desc": "React və Node ilə tam tətbiq yazmağı öyrənmək istəyirsənsə, bu kurs sənə bütün mərhələləri 4 saatda göstərir.",
+    "lang": "ru",
+    "level": "beginner",
+    "source": "Archakov Blog",
+    "curated": true,
+    "duration": "1 video, 4 saat"
+   },
+   {
+    "type": "youtube",
+    "title": "MERN (React, Express, NodeJS, MongoDB, Redux, Tailwind, JWT) Stack Proje Yapalım",
+    "url": "https://www.youtube.com/watch?v=iiT_zpb4kCU",
+    "desc": "React və Node ilə tam tətbiq qurmağı görmək istəyirsənsə, bu video sənə MERN layihəsini sıfırdan yığmağı göstərir.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "Berkant KAYA",
+    "curated": true,
+    "duration": "1 video, 2 saat"
    }
   ],
   "game-programming": [
@@ -3733,6 +4129,39 @@
     "level": "intermediate",
     "source": "METANIT.COM (Евгений Попов)",
     "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Learn Unity - Beginner's Game Development Tutorial",
+    "url": "https://www.youtube.com/watch?v=gB1F9G0JXOo",
+    "desc": "Oyun yazmağa başlamaq istəyirsənsə, bu kurs sənə Unity mühərrikini sıfırdan, praktika ilə tanıtdırır.",
+    "lang": "en",
+    "level": "beginner",
+    "source": "freeCodeCamp.org",
+    "curated": true,
+    "duration": "1 video, 7 saat"
+   },
+   {
+    "type": "youtube",
+    "title": "Sıfırdan Unity ile Oyun Geliştirme Eğitimi | Unity 6 & C# (Ücretsiz Kurs)",
+    "url": "https://www.youtube.com/watch?v=KZ5V9xIwwcE",
+    "desc": "Unity ilə oyun yazmağı türk dilində öyrənmək istəyirsənsə, bu uzun kurs sənə C# ilə oyun qurmağı göstərir.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "SkinnyDev",
+    "curated": true,
+    "duration": "1 video, 14 saat"
+   },
+   {
+    "type": "youtube",
+    "title": "Как создать игру с нуля в Unity. Полный курс для новичков",
+    "url": "https://www.youtube.com/watch?v=8B6YENK9bIU",
+    "desc": "Unity ilə oyun yazmağı rus dilində öyrənmək istəyirsənsə, bu kurs sənə ilk oyunu sıfırdan yığmağı göstərir.",
+    "lang": "ru",
+    "level": "beginner",
+    "source": "MakeYourGame! - Уроки Unity",
+    "curated": true,
+    "duration": "1 video, 7 saat"
    }
   ],
   "graphics-programming": [
@@ -3915,6 +4344,39 @@
     "level": "beginner",
     "source": "Microsoft Learn",
     "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "OpenGL Course - Create 3D and 2D Graphics With C++",
+    "url": "https://www.youtube.com/watch?v=45MIykWJ-C4",
+    "desc": "Qrafika proqramlaşdırmasına girmək istəyirsənsə, bu kurs sənə OpenGL ilə 2D və 3D çəkməyi C++ ilə göstərir.",
+    "lang": "en",
+    "level": "beginner",
+    "source": "freeCodeCamp.org",
+    "curated": true,
+    "duration": "1 video, 2 saat"
+   },
+   {
+    "type": "youtube",
+    "title": "Лекция 1 | Компьютерная графика | Виталий Галинский | Лекториум",
+    "url": "https://www.youtube.com/watch?v=J6uINtQW7Ho",
+    "desc": "Kompüter qrafikasının nəzəriyyəsini rus dilində öyrənmək istəyirsənsə, bu universitet mühazirəsi sənə əsasları verir.",
+    "lang": "ru",
+    "level": "beginner",
+    "source": "Лекториум",
+    "curated": true,
+    "duration": "1 video, 1 saat"
+   },
+   {
+    "type": "youtube",
+    "title": "Bilgisayar Grafikleri Dersi",
+    "url": "https://www.youtube.com/playlist?list=PLUR6lZV92DNRCv1gd_y1L3PZabM53ujaH",
+    "desc": "Kompüter qrafikasını təməldən öyrənmək istəyirsənsə, bu universitet dərsləri sənə riyaziyyatdan OpenGL-ə qədər əsasları verir.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "Cengiz Güngör",
+    "curated": true,
+    "duration": "30 video"
    }
   ],
   "ios": [
@@ -4037,6 +4499,39 @@
     "level": "intermediate",
     "source": "Avito, Stepik",
     "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "SwiftUI Course for Beginners – Create an iOS App from Scratch",
+    "url": "https://www.youtube.com/watch?v=-VC3hIEL7eQ",
+    "desc": "iOS tətbiqi yazmağa başlamaq istəyirsənsə, bu kurs sənə SwiftUI ilə tətbiq qurmağı sıfırdan göstərir.",
+    "lang": "en",
+    "level": "beginner",
+    "source": "freeCodeCamp.org",
+    "curated": true,
+    "duration": "1 video, 4 saat"
+   },
+   {
+    "type": "youtube",
+    "title": "SwiftUI за 2 (почти) часа. Все Основы В Одном Видео",
+    "url": "https://www.youtube.com/watch?v=4yHVcrd8PoI",
+    "desc": "SwiftUI-ni rus dilində öyrənmək istəyirsənsə, bu video sənə əsasları iki saata yığcam şəkildə verir.",
+    "lang": "ru",
+    "level": "beginner",
+    "source": "Error Nil",
+    "curated": true,
+    "duration": "1 video, 2 saat"
+   },
+   {
+    "type": "youtube",
+    "title": "SwiftUI ile iOS Programlama",
+    "url": "https://www.youtube.com/playlist?list=PLq4I99QKpIbl02hl7UM3cj-ay1w2Z3Bq6",
+    "desc": "SwiftUI ilə iOS tətbiqi yazmağı öyrənmək istəyirsənsə, bu dərslər sənə Xcode-dan başlayaraq tətbiq qurmağı addım-addım göstərir.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "Seyfeddin Başsaraç",
+    "curated": true,
+    "duration": "19 video"
    }
   ],
   "iot": [
@@ -4159,6 +4654,39 @@
     "level": "beginner",
     "source": "Microsoft Learn",
     "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "IoT Full Course - Learn IoT In 4 Hours | Internet Of Things | IoT Tutorial For Beginners | Edureka",
+    "url": "https://www.youtube.com/watch?v=h0gWfVCSGQQ",
+    "desc": "Əşyalar internetinin əsaslarını sıfırdan sən ardıcıl öyrənirsən, ona görə giriş üçün uyğundur.",
+    "lang": "en",
+    "level": "beginner",
+    "source": "edureka!",
+    "curated": true,
+    "duration": "1 video, 4 saat"
+   },
+   {
+    "type": "youtube",
+    "title": "IoT / ИоТ: Всеобъемлющий Интернет. Введение в Интернет Вещей 2020",
+    "url": "https://www.youtube.com/playlist?list=PLMiVLClzZDbRu_oJghv6Yp6TeGNHuhYPU",
+    "desc": "Əşyalar internetinə girişi sən sistemli kursla öyrənirsən, ona görə uyğundur.",
+    "lang": "ru",
+    "level": "beginner",
+    "source": "Cisco Ne Slabo / SEDICOMM TV",
+    "curated": true,
+    "duration": "16 video"
+   },
+   {
+    "type": "youtube",
+    "title": "IoT - Nesnelerin İnterneti",
+    "url": "https://www.youtube.com/playlist?list=PLDRcccSktQd5PtMWIMqNomzALXo3SFnPJ",
+    "desc": "Əşyalar internetini sən layihələrlə tətbiq edərək öyrənirsən, ona görə giriş üçün uyğundur.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "Robotistan",
+    "curated": true,
+    "duration": "33 video"
    }
   ],
   "ml": [
@@ -4481,6 +5009,28 @@
     "source": "kablosuzkedi (YouTube)",
     "curated": true,
     "duration": "2,5 saat"
+   },
+   {
+    "type": "youtube",
+    "title": "Машинное обучение (machine learning)",
+    "url": "https://www.youtube.com/playlist?list=PLA0M1Bcd0w8zxDIDOTQHsX68MCDOAJDtj",
+    "desc": "Maşın öyrənməsini Python ilə sən dərs-dərs tətbiq edərək öyrənirsən, ona görə giriş üçün uyğundur.",
+    "lang": "ru",
+    "level": "beginner",
+    "source": "selfedu",
+    "curated": true,
+    "duration": "47 video"
+   },
+   {
+    "type": "youtube",
+    "title": "PYTHON ile MAKİNE ÖĞRENMESİ DERSLERİ",
+    "url": "https://www.youtube.com/playlist?list=PLfMRLSpipmfuumcvO3fObVAUpSqYAcZmF",
+    "desc": "Maşın öyrənməsini Python ilə sən dərs-dərs tətbiq edərək öyrənirsən, ona görə giriş üçün uyğundur.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "Tirendaz Academy | Evren Özkip",
+    "curated": true,
+    "duration": "161 video"
    }
   ],
   "network": [
@@ -4614,6 +5164,28 @@
     "source": "Stepik",
     "curated": true,
     "duration": "37 dərs"
+   },
+   {
+    "type": "youtube",
+    "title": "Computer Networking Full Course - OSI Model Deep Dive with Real Life Examples",
+    "url": "https://www.youtube.com/watch?v=IPvYjXCsTg8",
+    "desc": "Şəbəkə əsaslarını OSI modeli ilə sən real misallarla öyrənirsən, ona görə giriş üçün uyğundur.",
+    "lang": "en",
+    "level": "beginner",
+    "source": "Kunal Kushwaha",
+    "curated": true,
+    "duration": "1 video, 4 saat"
+   },
+   {
+    "type": "youtube",
+    "title": "Sıfırdan Network Dersleri",
+    "url": "https://www.youtube.com/playlist?list=PLGWmuqrfJZRtQT4-OWQHFjGDO23rbNjMY",
+    "desc": "Şəbəkə əsaslarını sıfırdan sən dərs-dərs öyrənirsən, ona görə giriş üçün uyğundur.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "Siber Kampüs",
+    "curated": true,
+    "duration": "85 video"
    }
   ],
   "qa-automation": [
@@ -4878,6 +5450,39 @@
     "level": "beginner",
     "source": "BTK Akademi",
     "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Selenium Course for Beginners - Web Scraping Bots, Browser Automation, Testing (Tutorial)",
+    "url": "https://www.youtube.com/watch?v=j7VZsCCnptM",
+    "desc": "Brauzer testlərini avtomatlaşdırmağı öyrənmək istəyirsənsə, bu kurs sənə Selenium-u Python ilə sıfırdan göstərir.",
+    "lang": "en",
+    "level": "beginner",
+    "source": "freeCodeCamp.org",
+    "curated": true,
+    "duration": "1 video, 3 saat"
+   },
+   {
+    "type": "youtube",
+    "title": "Yazılım Testine Giriş",
+    "url": "https://www.youtube.com/watch?v=JdmgdsxqePM",
+    "desc": "Test sahəsinə türk dilində girmək istəyirsənsə, bu giriş videosu sənə əsas anlayışları qısa və aydın verir.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "Ahmet Bulutluoz",
+    "curated": true,
+    "duration": "1 video, 50 dəqiqə"
+   },
+   {
+    "type": "youtube",
+    "title": "Автоматизированное тестирование с нуля / Полный курс за 3 часа / selenium + testng",
+    "url": "https://www.youtube.com/watch?v=L2jMIJy0u90",
+    "desc": "Avtotest yazmağı sıfırdan öyrənmək istəyirsənsə, bu 3 saatlıq kurs sənə Selenium və TestNG ilə test qurmağı göstərir.",
+    "lang": "ru",
+    "level": "beginner",
+    "source": "Лёша Маршал",
+    "curated": true,
+    "duration": "1 video, 4 saat"
    }
   ]
  },
@@ -5001,6 +5606,479 @@
     "lang": "en",
     "level": "beginner",
     "source": "Swaroop C H",
+    "curated": true
+   },
+   {
+    "type": "book",
+    "title": "Python for Everybody",
+    "url": "https://www.py4e.com/",
+    "desc": "Sıfırdan Python sintaksisini, dövrləri, funksiyaları və fayllarla işləməyi öyrənirsən. Onlayn pulsuz oxunur",
+    "lang": "en",
+    "level": "beginner",
+    "source": "Charles R. Severance",
+    "topic": "Python ilə proqramlaşdırmaya giriş",
+    "curated": true
+   },
+   {
+    "type": "book",
+    "title": "The Modern JavaScript Tutorial",
+    "url": "https://javascript.info/",
+    "desc": "Brauzerdə və serverdə işləyən JavaScript-in əsaslarını nümunələrlə öyrənirsən. Onlayn pulsuz oxunur",
+    "lang": "en",
+    "level": "beginner",
+    "source": "Ilya Kantor",
+    "topic": "JavaScript",
+    "curated": true
+   },
+   {
+    "type": "book",
+    "title": "The C Book",
+    "url": "https://publications.gbdirect.co.uk/c_book/",
+    "desc": "C dilində yaddaş, göstəricilər və strukturlarla işləməyi öyrənirsən. Onlayn pulsuz oxunur",
+    "lang": "en",
+    "level": "intermediate",
+    "source": "Mike Banahan, Declan Brady, Mark Doran",
+    "topic": "C dili",
+    "curated": true
+   },
+   {
+    "type": "book",
+    "title": "C++ Annotations",
+    "url": "https://fbb-git.gitlab.io/cppannotations/",
+    "desc": "C++ dilinin sintaksisini, sinifləri və standart kitabxananı dərindən öyrənirsən. Onlayn pulsuz oxunur",
+    "lang": "en",
+    "level": "intermediate",
+    "source": "Frank B. Brokken",
+    "topic": "C++",
+    "curated": true
+   },
+   {
+    "type": "book",
+    "title": "Introduction to Programming Using Java",
+    "url": "https://math.hws.edu/javanotes/",
+    "desc": "Java ilə obyekt-yönlü proqramlaşdırmanın əsaslarını addım-addım öyrənirsən. Onlayn pulsuz oxunur",
+    "lang": "en",
+    "level": "beginner",
+    "source": "David J. Eck",
+    "topic": "Java",
+    "curated": true
+   },
+   {
+    "type": "book",
+    "title": "The Little Go Book",
+    "url": "https://openmymind.net/The-Little-Go-Book/",
+    "desc": "Go dilinin sadə sintaksisi ilə kiçik proqramlar yazmağı öyrənirsən. Onlayn pulsuz oxunur",
+    "lang": "en",
+    "level": "beginner",
+    "source": "Karl Seguin",
+    "topic": "Go",
+    "curated": true
+   },
+   {
+    "type": "book",
+    "title": "The Rust Programming Language",
+    "url": "https://doc.rust-lang.org/book/",
+    "desc": "Rust dilində təhlükəsiz və sürətli proqramlar yazmağı rəsmi kitabdan öyrənirsən. Onlayn pulsuz oxunur",
+    "lang": "en",
+    "level": "beginner",
+    "source": "Steve Klabnik, Carol Nichols",
+    "topic": "Rust",
+    "curated": true
+   },
+   {
+    "type": "book",
+    "title": "Database Design, 2nd Edition",
+    "url": "https://opentextbc.ca/dbdesign01/",
+    "desc": "Cədvəl qurmağı, SQL sorğuları yazmağı və verilənlər bazası layihələndirməyi öyrənirsən. Onlayn pulsuz oxunur",
+    "lang": "en",
+    "level": "beginner",
+    "source": "Adrienne Watt, Nelson Eng",
+    "topic": "SQL və verilənlər bazaları",
+    "curated": true
+   },
+   {
+    "type": "book",
+    "title": "The Debian Administrator's Handbook",
+    "url": "https://debian-handbook.info/",
+    "desc": "Debian Linux-da paketlər, xidmətlər və server tənzimləməyi öyrənirsən. Onlayn pulsuz oxunur",
+    "lang": "en",
+    "level": "intermediate",
+    "source": "Raphaël Hertzog, Roland Mas",
+    "topic": "Linux və komanda sətri",
+    "curated": true
+   },
+   {
+    "type": "book",
+    "title": "Git from the Bottom Up",
+    "url": "https://jwiegley.github.io/git-from-the-bottom-up/",
+    "desc": "Git-in daxili iş prinsipini və branch-lərlə işləməyi dərindən öyrənirsən. Onlayn pulsuz oxunur",
+    "lang": "en",
+    "level": "intermediate",
+    "source": "John Wiegley",
+    "topic": "Git",
+    "curated": true
+   },
+   {
+    "type": "book",
+    "title": "Algorithms",
+    "url": "https://jeffe.cs.illinois.edu/teaching/algorithms/",
+    "desc": "Sıralama, qraf və rekursiya kimi klassik alqoritmləri analiz etməyi öyrənirsən. PDF müəllifin saytında",
+    "lang": "en",
+    "level": "advanced",
+    "source": "Jeff Erickson",
+    "topic": "Alqoritmlər",
+    "curated": true
+   },
+   {
+    "type": "book",
+    "title": "Think Data Structures",
+    "url": "https://greenteapress.com/wp/think-data-structures/",
+    "desc": "Massiv, siyahı, ağac və heş-cədvəl kimi strukturları Java ilə öyrənirsən. PDF müəllifin saytında",
+    "lang": "en",
+    "level": "intermediate",
+    "source": "Allen B. Downey",
+    "topic": "Data strukturları",
+    "curated": true
+   },
+   {
+    "type": "book",
+    "title": "Discrete Mathematics: An Open Introduction",
+    "url": "https://discrete.openmathbooks.org/",
+    "desc": "Məntiq, çoxluqlar, qraflar və induksiya ilə isbat aparmağı öyrənirsən. Onlayn pulsuz oxunur",
+    "lang": "en",
+    "level": "intermediate",
+    "source": "Oscar Levin",
+    "topic": "Diskret riyaziyyat",
+    "curated": true
+   },
+   {
+    "type": "book",
+    "title": "Linear Algebra",
+    "url": "https://hefferon.net/linearalgebra/",
+    "desc": "Vektorlar, matrislər və xətti sistemlərin həllini öyrənirsən. PDF müəllifin saytında",
+    "lang": "en",
+    "level": "intermediate",
+    "source": "Jim Hefferon",
+    "topic": "Xətti cəbr",
+    "curated": true
+   },
+   {
+    "type": "book",
+    "title": "Think Stats, 2nd Edition",
+    "url": "https://greenteapress.com/wp/think-stats-2e/",
+    "desc": "Ehtimal və statistikanı Python ilə real məlumatlar üzərində öyrənirsən. PDF müəllifin saytında",
+    "lang": "en",
+    "level": "intermediate",
+    "source": "Allen B. Downey",
+    "topic": "Ehtimal və statistika",
+    "curated": true
+   },
+   {
+    "type": "book",
+    "title": "Introduction to MIPS Assembly Language Programming",
+    "url": "https://open.umn.edu/opentextbooks/textbooks/59",
+    "desc": "MIPS assembleri ilə prosessorun və yaddaşın necə işlədiyini öyrənirsən. PDF açıq dərslik arxivində",
+    "lang": "en",
+    "level": "intermediate",
+    "source": "Charles W. Kann",
+    "topic": "Kompüter arxitekturası",
+    "curated": true
+   },
+   {
+    "type": "book",
+    "title": "Think OS",
+    "url": "https://greenteapress.com/wp/think-os/",
+    "desc": "Proseslər, yaddaş və fayl sistemləri kimi OS anlayışlarını C ilə öyrənirsən. PDF müəllifin saytında",
+    "lang": "en",
+    "level": "intermediate",
+    "source": "Allen B. Downey",
+    "topic": "Əməliyyat sistemləri",
+    "curated": true
+   },
+   {
+    "type": "book",
+    "title": "Computer Networking: Principles, Protocols and Practice",
+    "url": "https://www.computer-networking.info/",
+    "desc": "TCP/IP, marşrutlaşdırma və protokolların necə işlədiyini öyrənirsən. Onlayn pulsuz oxunur",
+    "lang": "en",
+    "level": "intermediate",
+    "source": "Olivier Bonaventure",
+    "topic": "Kompüter şəbəkələri",
+    "curated": true
+   },
+   {
+    "type": "book",
+    "title": "Crafting Interpreters",
+    "url": "https://craftinginterpreters.com/",
+    "desc": "Öz interpretatorunu yazaraq dillərin necə işlədiyini öyrənirsən. Onlayn pulsuz oxunur",
+    "lang": "en",
+    "level": "intermediate",
+    "source": "Robert Nystrom",
+    "topic": "Kompilyatorlar",
+    "curated": true
+   },
+   {
+    "type": "book",
+    "title": "Practical Foundations for Programming Languages",
+    "url": "https://www.cs.cmu.edu/~rwh/pfpl/",
+    "desc": "Tiplər və semantika ilə dillərin riyazi əsaslarını öyrənirsən. PDF müəllifin saytında",
+    "lang": "en",
+    "level": "advanced",
+    "source": "Robert Harper",
+    "topic": "Proqramlaşdırma dillərinin nəzəriyyəsi",
+    "curated": true
+   },
+   {
+    "type": "book",
+    "title": "Kotlin Notes for Professionals",
+    "url": "https://goalkicker.com/KotlinBook/",
+    "desc": "Kotlin sintaksisini və gündəlik istifadə olunan imkanları nümunələrlə öyrənirsən. PDF pulsuz yüklənir",
+    "lang": "en",
+    "level": "intermediate",
+    "source": "Stack Overflow icması (GoalKicker)",
+    "topic": "Kotlin",
+    "curated": true
+   },
+   {
+    "type": "book",
+    "title": "Fundamentals of Computer Programming with C#",
+    "url": "https://introprogramming.info/english-intro-csharp-book/",
+    "desc": "C# ilə əsaslardan başlayıb obyekt-yönlü proqramlar yazmağı öyrənirsən. PDF müəllifin saytında",
+    "lang": "en",
+    "level": "beginner",
+    "source": "Svetlin Nakov və komandası",
+    "topic": "C#",
+    "curated": true
+   },
+   {
+    "type": "book",
+    "title": "Learn to Code HTML & CSS",
+    "url": "https://learn.shayhowe.com/html-css/",
+    "desc": "Bu kitabda sən HTML və CSS ilə sıfırdan səhifə yığmağı öyrənirsən. Onlayn pulsuz oxunur",
+    "lang": "en",
+    "level": "beginner",
+    "source": "Shay Howe",
+    "topic": "HTML və CSS",
+    "curated": true
+   },
+   {
+    "type": "book",
+    "title": "High Performance Browser Networking",
+    "url": "https://hpbn.co/",
+    "desc": "Bu kitabda sən HTTP, TLS və brauzerin şəbəkə ilə necə işlədiyini öyrənirsən. Onlayn pulsuz oxunur",
+    "lang": "en",
+    "level": "intermediate",
+    "source": "Ilya Grigorik",
+    "topic": "HTTP və veb",
+    "curated": true
+   },
+   {
+    "type": "book",
+    "title": "Security Engineering, 3rd edition",
+    "url": "https://www.cl.cam.ac.uk/~rja14/book.html",
+    "desc": "Bu kitabda sən real sistemlərin necə hücuma məruz qaldığını və onları necə qorumağı öyrənirsən. Müəllifin saytında pulsuz PDF",
+    "lang": "en",
+    "level": "intermediate",
+    "source": "Ross Anderson",
+    "topic": "Kiber təhlükəsizlik",
+    "curated": true
+   },
+   {
+    "type": "book",
+    "title": "The Joy of Cryptography",
+    "url": "https://joyofcryptography.com/",
+    "desc": "Bu kitabda sən şifrləmə, imza və açar mübadiləsi kimi kriptoqrafiya anlayışlarını öyrənirsən. Onlayn pulsuz oxunur",
+    "lang": "en",
+    "level": "intermediate",
+    "source": "Mike Rosulek",
+    "topic": "Kriptoqrafiya",
+    "curated": true
+   },
+   {
+    "type": "book",
+    "title": "An Introduction to Statistical Learning",
+    "url": "https://www.statlearning.com/",
+    "desc": "Bu kitabda sən R ilə reqressiya və klassifikasiya kimi əsas maşın öyrənməsi üsullarını öyrənirsən. Saytda pulsuz PDF",
+    "lang": "en",
+    "level": "beginner",
+    "source": "Gareth James, Daniela Witten, Trevor Hastie, Robert Tibshirani",
+    "topic": "Maşın öyrənməsi",
+    "curated": true
+   },
+   {
+    "type": "book",
+    "title": "Deep Learning",
+    "url": "https://www.deeplearningbook.org/",
+    "desc": "Bu kitabda sən neyron şəbəkələrin riyazi əsaslarını və dərin öyrənmə modellərini öyrənirsən. Saytda pulsuz oxunur",
+    "lang": "en",
+    "level": "advanced",
+    "source": "Ian Goodfellow, Yoshua Bengio, Aaron Courville",
+    "topic": "Dərin öyrənmə",
+    "curated": true
+   },
+   {
+    "type": "book",
+    "title": "Python Data Science Handbook",
+    "url": "https://jakevdp.github.io/PythonDataScienceHandbook/",
+    "desc": "Bu kitabda sən Python, NumPy və pandas ilə veriləni təmizləməyi və təhlil etməyi öyrənirsən. Onlayn pulsuz oxunur",
+    "lang": "en",
+    "level": "beginner",
+    "source": "Jake VanderPlas",
+    "topic": "Data science",
+    "curated": true
+   },
+   {
+    "type": "book",
+    "title": "Speech and Language Processing, 3rd edition",
+    "url": "https://web.stanford.edu/~jurafsky/slp3/",
+    "desc": "Bu kitabda sən dil modelləri və maşın tərcüməsi kimi təbii dil emalı mövzularını öyrənirsən. Saytda pulsuz qaralama",
+    "lang": "en",
+    "level": "intermediate",
+    "source": "Daniel Jurafsky, James H. Martin",
+    "topic": "NLP",
+    "curated": true
+   },
+   {
+    "type": "book",
+    "title": "Computer Vision: Algorithms and Applications, 2nd edition",
+    "url": "https://szeliski.org/Book/",
+    "desc": "Bu kitabda sən şəkil emalı və obyekt tanınması kimi kompüter görməsi üsullarını öyrənirsən. Saytda pulsuz PDF",
+    "lang": "en",
+    "level": "intermediate",
+    "source": "Richard Szeliski",
+    "topic": "Kompüter görməsi",
+    "curated": true
+   },
+   {
+    "type": "book",
+    "title": "Distributed Systems, 4th edition",
+    "url": "https://www.distributed-systems.net/index.php/books/ds4/",
+    "desc": "Bu kitabda sən paylanmış sistemlərdə əlaqə, sinxronizasiya və xəta dözümlülüyünü öyrənirsən. Saytda pulsuz PDF",
+    "lang": "en",
+    "level": "intermediate",
+    "source": "Maarten van Steen, Andrew S. Tanenbaum",
+    "topic": "Paylanmış sistemlər",
+    "curated": true
+   },
+   {
+    "type": "book",
+    "title": "Site Reliability Engineering",
+    "url": "https://sre.google/sre-book/table-of-contents/",
+    "desc": "Bu kitabda sən Google təcrübəsi ilə etibarlılıq, monitorinq və insident idarəetməsini öyrənirsən. Onlayn pulsuz oxunur",
+    "lang": "en",
+    "level": "intermediate",
+    "source": "Google",
+    "topic": "DevOps və SRE",
+    "curated": true
+   },
+   {
+    "type": "book",
+    "title": "Kubernetes the Hard Way",
+    "url": "https://github.com/kelseyhightower/kubernetes-the-hard-way",
+    "desc": "Bu təlimatda sən Kubernetes klasterini əl ilə quraraq onun daxili işini öyrənirsən. GitHub-da pulsuz oxunur",
+    "lang": "en",
+    "level": "intermediate",
+    "source": "Kelsey Hightower",
+    "topic": "Kubernetes",
+    "curated": true
+   },
+   {
+    "type": "book",
+    "title": "Software Engineering at Google",
+    "url": "https://abseil.io/resources/swe-book",
+    "desc": "Bu kitabda sən böyük kod bazasında kod keyfiyyəti və komanda ilə iş prinsiplərini öyrənirsən. Onlayn pulsuz oxunur",
+    "lang": "en",
+    "level": "intermediate",
+    "source": "Titus Winters, Tom Manshreck, Hyrum Wright",
+    "topic": "Proqram mühəndisliyi",
+    "curated": true
+   },
+   {
+    "type": "book",
+    "title": "Test-Driven Development with Python",
+    "url": "https://www.obeythetestinggoat.com/",
+    "desc": "Bu kitabda sən testlərlə idarə olunan inkişafı Python və Django nümunəsində öyrənirsən. Onlayn pulsuz oxunur",
+    "lang": "en",
+    "level": "beginner",
+    "source": "Harry Percival",
+    "topic": "Proqram testləri",
+    "curated": true
+   },
+   {
+    "type": "book",
+    "title": "Learn You a Haskell for Great Good!",
+    "url": "https://learnyouahaskell.github.io/",
+    "desc": "Bu kitabda sən Haskell ilə funksional proqramlaşdırmanın əsaslarını əyləncəli şəkildə öyrənirsən. Onlayn pulsuz oxunur",
+    "lang": "en",
+    "level": "beginner",
+    "source": "Miran Lipovača",
+    "topic": "Funksional proqramlaşdırma",
+    "curated": true
+   },
+   {
+    "type": "book",
+    "title": "Game Programming Patterns",
+    "url": "https://gameprogrammingpatterns.com/",
+    "desc": "Bu kitabda sən oyun mühərriklərində tez-tez işlənən dizayn nümunələrini öyrənirsən. Onlayn pulsuz oxunur",
+    "lang": "en",
+    "level": "intermediate",
+    "source": "Robert Nystrom",
+    "topic": "Oyun proqramlaşdırması",
+    "curated": true
+   },
+   {
+    "type": "book",
+    "title": "Learn OpenGL",
+    "url": "https://learnopengl.com/",
+    "desc": "Bu kitabda sən OpenGL ilə 3D qrafika çəkməyi praktiki nümunələrlə öyrənirsən. Onlayn pulsuz oxunur",
+    "lang": "en",
+    "level": "beginner",
+    "source": "Joey de Vries",
+    "topic": "Kompüter qrafikası",
+    "curated": true
+   },
+   {
+    "type": "book",
+    "title": "Introduction to Embedded Systems",
+    "url": "https://ptolemy.berkeley.edu/books/leeseshia/",
+    "desc": "Bu kitabda sən sensorlarla işləyən embedded sistemlərin modelləşdirilməsini öyrənirsən. Saytda pulsuz PDF",
+    "lang": "en",
+    "level": "intermediate",
+    "source": "Edward Ashford Lee, Sanjit Arunkumar Seshia",
+    "topic": "Embedded sistemlər",
+    "curated": true
+   },
+   {
+    "type": "book",
+    "title": "Mastering Bitcoin",
+    "url": "https://github.com/bitcoinbook/bitcoinbook",
+    "desc": "Bu kitabda sən bitkoinin necə işlədiyini və blokçeyn proqramlaşdırmasını öyrənirsən. GitHub-da pulsuz oxunur",
+    "lang": "en",
+    "level": "intermediate",
+    "source": "Andreas M. Antonopoulos",
+    "topic": "Blockchain",
+    "curated": true
+   },
+   {
+    "type": "book",
+    "title": "Designing for the Web",
+    "url": "https://designingfortheweb.co.uk/",
+    "desc": "Bu kitabda sən veb üçün tipoqrafiya və düzülüşlə oxunaqlı dizayn qurmağı öyrənirsən. Onlayn pulsuz oxunur",
+    "lang": "en",
+    "level": "beginner",
+    "source": "Mark Boulton",
+    "topic": "UI və UX",
+    "curated": true
+   },
+   {
+    "type": "book",
+    "title": "R for Data Science, 2nd edition",
+    "url": "https://r4ds.hadley.nz/",
+    "desc": "Bu kitabda sən R və tidyverse ilə veriləni emal etməyi və qrafiklər qurmağı öyrənirsən. Onlayn pulsuz oxunur",
+    "lang": "en",
+    "level": "beginner",
+    "source": "Hadley Wickham, Mine Çetinkaya-Rundel, Garrett Grolemund",
+    "topic": "R ilə statistika",
     "curated": true
    }
   ],
@@ -5363,6 +6441,798 @@
     "lang": "tr",
     "level": "beginner",
     "source": "Programming Languages",
+    "curated": true
+   },
+   {
+    "type": "doc",
+    "title": "Ruby",
+    "url": "https://www.ruby-lang.org/en/documentation/quickstart/",
+    "desc": "Ruby dilinin rəsmi qısa başlanğıc səhifəsidir, sən dilin sintaksisini görüb ilk proqramını yazmaq üçün açırsan.",
+    "lang": "en",
+    "level": "beginner",
+    "category": "Languages",
+    "source": "Languages",
+    "curated": true
+   },
+   {
+    "type": "doc",
+    "title": "Ruby on Rails",
+    "url": "https://guides.rubyonrails.org/getting_started.html",
+    "desc": "Ruby on Rails çərçivəsinin rəsmi başlanğıc təlimatıdır, sən ilk veb tətbiqini addım-addım qurmaq üçün açırsan.",
+    "lang": "en",
+    "level": "beginner",
+    "category": "Backend",
+    "source": "Backend",
+    "curated": true
+   },
+   {
+    "type": "doc",
+    "title": "Django",
+    "url": "https://docs.djangoproject.com/en/stable/intro/tutorial01/",
+    "desc": "Django çərçivəsinin rəsmi ilk dərsidir, sən Python ilə veb tətbiq qurmağı praktik nümunə ilə öyrənmək üçün açırsan.",
+    "lang": "en",
+    "level": "beginner",
+    "category": "Backend",
+    "source": "Backend",
+    "curated": true
+   },
+   {
+    "type": "doc",
+    "title": "Flask",
+    "url": "https://flask.palletsprojects.com/en/stable/quickstart/",
+    "desc": "Flask çərçivəsinin rəsmi qısa başlanğıc səhifəsidir, sən kiçik Python veb tətbiqini tez qurmaq üçün açırsan.",
+    "lang": "en",
+    "level": "beginner",
+    "category": "Backend",
+    "source": "Backend",
+    "curated": true
+   },
+   {
+    "type": "doc",
+    "title": "FastAPI",
+    "url": "https://fastapi.tiangolo.com/tutorial/",
+    "desc": "FastAPI çərçivəsinin rəsmi dərslik səhifəsidir, sən Python ilə sürətli API yazmağı öyrənmək üçün açırsan.",
+    "lang": "en",
+    "level": "beginner",
+    "category": "Backend",
+    "source": "Backend",
+    "curated": true
+   },
+   {
+    "type": "doc",
+    "title": "Spring Boot",
+    "url": "https://docs.spring.io/spring-boot/docs/current/reference/html/getting-started.html",
+    "desc": "Spring Boot çərçivəsinin rəsmi başlanğıc bölməsidir, sən Java ilə ilk xidmətini qurmaq üçün açırsan.",
+    "lang": "en",
+    "level": "beginner",
+    "category": "Backend",
+    "source": "Backend",
+    "curated": true
+   },
+   {
+    "type": "doc",
+    "title": "Laravel",
+    "url": "https://laravel.com/docs/12.x",
+    "desc": "Laravel çərçivəsinin rəsmi sənəd səhifəsidir, sən PHP ilə veb tətbiq qurmağı öyrənmək üçün açırsan.",
+    "lang": "en",
+    "level": "beginner",
+    "category": "Backend",
+    "source": "Backend",
+    "curated": true
+   },
+   {
+    "type": "doc",
+    "title": "NestJS",
+    "url": "https://docs.nestjs.com/first-steps",
+    "desc": "NestJS çərçivəsinin rəsmi ilk addımlar səhifəsidir, sən TypeScript ilə server tətbiqi qurmağa başlamaq üçün açırsan.",
+    "lang": "en",
+    "level": "beginner",
+    "category": "Backend",
+    "source": "Backend",
+    "curated": true
+   },
+   {
+    "type": "doc",
+    "title": "Nuxt",
+    "url": "https://nuxt.com/docs/getting-started/introduction",
+    "desc": "Nuxt çərçivəsinin rəsmi başlanğıc səhifəsidir, sən Vue ilə tam veb tətbiq qurmağı öyrənmək üçün açırsan.",
+    "lang": "en",
+    "level": "beginner",
+    "category": "Web",
+    "source": "Web",
+    "curated": true
+   },
+   {
+    "type": "doc",
+    "title": "Svelte",
+    "url": "https://svelte.dev/tutorial/svelte/welcome-to-svelte",
+    "desc": "Svelte kitabxanasının rəsmi interaktiv dərsidir, sən komponent yazmağı brauzerdəcə yoxlayaraq öyrənmək üçün açırsan.",
+    "lang": "en",
+    "level": "beginner",
+    "category": "Web",
+    "source": "Web",
+    "curated": true
+   },
+   {
+    "type": "doc",
+    "title": "Astro",
+    "url": "https://docs.astro.build/en/getting-started/",
+    "desc": "Astro çərçivəsinin rəsmi başlanğıc səhifəsidir, sən sürətli məzmun saytı qurmağa başlamaq üçün açırsan.",
+    "lang": "en",
+    "level": "beginner",
+    "category": "Web",
+    "source": "Web",
+    "curated": true
+   },
+   {
+    "type": "doc",
+    "title": "Bootstrap",
+    "url": "https://getbootstrap.com/docs/5.3/getting-started/introduction/",
+    "desc": "Bootstrap kitabxanasının rəsmi başlanğıc səhifəsidir, sən hazır siniflərlə səliqəli səhifə yığmağı öyrənmək üçün açırsan.",
+    "lang": "en",
+    "level": "beginner",
+    "category": "Web",
+    "source": "Web",
+    "curated": true
+   },
+   {
+    "type": "doc",
+    "title": "Sass",
+    "url": "https://sass-lang.com/guide/",
+    "desc": "Sass dilinin rəsmi bələdçi səhifəsidir, sən CSS-i dəyişən və qarışıqlarla rahat yazmağı öyrənmək üçün açırsan.",
+    "lang": "en",
+    "level": "beginner",
+    "category": "Web",
+    "source": "Web",
+    "curated": true
+   },
+   {
+    "type": "doc",
+    "title": "webpack",
+    "url": "https://webpack.js.org/guides/getting-started/",
+    "desc": "webpack alətinin rəsmi başlanğıc təlimatıdır, sən layihənin fayllarını paketləməyi öyrənmək üçün açırsan.",
+    "lang": "en",
+    "level": "beginner",
+    "category": "Tools",
+    "source": "Tools",
+    "curated": true
+   },
+   {
+    "type": "doc",
+    "title": "esbuild",
+    "url": "https://esbuild.github.io/getting-started/",
+    "desc": "esbuild alətinin rəsmi başlanğıc səhifəsidir, sən JavaScript layihəni çox sürətli yığmağı öyrənmək üçün açırsan.",
+    "lang": "en",
+    "level": "beginner",
+    "category": "Tools",
+    "source": "Tools",
+    "curated": true
+   },
+   {
+    "type": "doc",
+    "title": "Deno",
+    "url": "https://docs.deno.com/runtime/getting_started/installation/",
+    "desc": "Deno mühitinin rəsmi quraşdırma və başlanğıc səhifəsidir, sən JavaScript və TypeScript-i serverdə işlətməyə başlamaq üçün açırsan.",
+    "lang": "en",
+    "level": "beginner",
+    "category": "Backend",
+    "source": "Backend",
+    "curated": true
+   },
+   {
+    "type": "doc",
+    "title": "Bun",
+    "url": "https://bun.sh/docs/quickstart",
+    "desc": "Bun mühitinin rəsmi qısa başlanğıc səhifəsidir, sən JavaScript layihəni quraşdırıb işə salmağı öyrənmək üçün açırsan.",
+    "lang": "en",
+    "level": "beginner",
+    "category": "Backend",
+    "source": "Backend",
+    "curated": true
+   },
+   {
+    "type": "doc",
+    "title": "Elixir",
+    "url": "https://elixir-lang.org/getting-started/introduction.html",
+    "desc": "Elixir dilinin rəsmi giriş səhifəsidir, sən funksional sintaksisi və paralel işləmə əsaslarını öyrənmək üçün açırsan.",
+    "lang": "en",
+    "level": "beginner",
+    "category": "Languages",
+    "source": "Languages",
+    "curated": true
+   },
+   {
+    "type": "doc",
+    "title": "Scala",
+    "url": "https://docs.scala-lang.org/getting-started.html",
+    "desc": "Scala dilinin rəsmi başlanğıc səhifəsidir, sən JVM üzərində işləyən dilə ilk addımı atmaq üçün açırsan.",
+    "lang": "en",
+    "level": "beginner",
+    "category": "Languages",
+    "source": "Languages",
+    "curated": true
+   },
+   {
+    "type": "doc",
+    "title": "Haskell",
+    "url": "https://www.haskell.org/documentation/",
+    "desc": "Haskell dilinin rəsmi sənəd səhifəsidir, sən funksional proqramlaşdırma materiallarını bir yerdən tapmaq üçün açırsan.",
+    "lang": "en",
+    "level": "beginner",
+    "category": "Languages",
+    "source": "Languages",
+    "curated": true
+   },
+   {
+    "type": "doc",
+    "title": "Julia",
+    "url": "https://docs.julialang.org/en/v1/manual/getting-started/",
+    "desc": "Julia dilinin rəsmi başlanğıc bölməsidir, sən elmi hesablama dilinin əsaslarını öyrənmək üçün açırsan.",
+    "lang": "en",
+    "level": "beginner",
+    "category": "Languages",
+    "source": "Languages",
+    "curated": true
+   },
+   {
+    "type": "doc",
+    "title": "R",
+    "url": "https://cran.r-project.org/doc/manuals/r-release/R-intro.html",
+    "desc": "R dilinin rəsmi giriş kitabıdır, sən statistika və qrafiklər üçün dilin əsaslarını öyrənmək üçün açırsan.",
+    "lang": "en",
+    "level": "beginner",
+    "category": "Languages",
+    "source": "Languages",
+    "curated": true
+   },
+   {
+    "type": "doc",
+    "title": "Lua",
+    "url": "https://www.lua.org/start.html",
+    "desc": "Lua dilinin rəsmi başlanğıc səhifəsidir, sən yüngül skript dilini hara və necə öyrənəcəyini bilmək üçün açırsan.",
+    "lang": "en",
+    "level": "beginner",
+    "category": "Languages",
+    "source": "Languages",
+    "curated": true
+   },
+   {
+    "type": "doc",
+    "title": "Zig",
+    "url": "https://ziglang.org/learn/getting-started/",
+    "desc": "Zig dilinin rəsmi başlanğıc səhifəsidir, sən dilin quraşdırmasını və ilk proqramını öyrənmək üçün açırsan.",
+    "lang": "en",
+    "level": "beginner",
+    "category": "Languages",
+    "source": "Languages",
+    "curated": true
+   },
+   {
+    "type": "doc",
+    "title": "SQLite",
+    "url": "https://www.sqlite.org/quickstart.html",
+    "desc": "SQLite bazasının rəsmi qısa başlanğıc səhifəsidir, sən faylda saxlanan kiçik bazanı tez qurmağı öyrənmək üçün açırsan.",
+    "lang": "en",
+    "level": "beginner",
+    "category": "Databases",
+    "source": "Databases",
+    "curated": true
+   },
+   {
+    "type": "doc",
+    "title": "MariaDB",
+    "url": "https://mariadb.com/kb/en/documentation/",
+    "desc": "MariaDB bazasının rəsmi bilik bazasıdır, sən quraşdırma və sorğular üzrə cavab tapmaq üçün açırsan.",
+    "lang": "en",
+    "level": "beginner",
+    "category": "Databases",
+    "source": "Databases",
+    "curated": true
+   },
+   {
+    "type": "doc",
+    "title": "Elasticsearch",
+    "url": "https://www.elastic.co/guide/en/elasticsearch/reference/current/getting-started.html",
+    "desc": "Elasticsearch sisteminin rəsmi başlanğıc təlimatıdır, sən tam mətn axtarışı quraşdırmağı öyrənmək üçün açırsan.",
+    "lang": "en",
+    "level": "beginner",
+    "category": "Databases",
+    "source": "Databases",
+    "curated": true
+   },
+   {
+    "type": "doc",
+    "title": "Neo4j",
+    "url": "https://neo4j.com/docs/getting-started/",
+    "desc": "Neo4j bazasının rəsmi başlanğıc səhifəsidir, sən qraf bazasında düyün və əlaqə qurmağı öyrənmək üçün açırsan.",
+    "lang": "en",
+    "level": "beginner",
+    "category": "Databases",
+    "source": "Databases",
+    "curated": true
+   },
+   {
+    "type": "doc",
+    "title": "Supabase",
+    "url": "https://supabase.com/docs/guides/getting-started",
+    "desc": "Supabase platformasının rəsmi başlanğıc bələdçisidir, sən baza və girişli tətbiq arxasını tez qurmağı öyrənmək üçün açırsan.",
+    "lang": "en",
+    "level": "beginner",
+    "category": "Backend",
+    "source": "Backend",
+    "curated": true
+   },
+   {
+    "type": "doc",
+    "title": "Firebase",
+    "url": "https://firebase.google.com/docs/build",
+    "desc": "Firebase platformasının rəsmi qurma sənədləridir, sən mobil və veb tətbiqə arxa xidmət əlavə etməyi öyrənmək üçün açırsan.",
+    "lang": "en",
+    "level": "beginner",
+    "category": "Backend",
+    "source": "Backend",
+    "curated": true
+   },
+   {
+    "type": "doc",
+    "title": "Prisma",
+    "url": "https://www.prisma.io/docs/getting-started",
+    "desc": "Prisma alətinin rəsmi başlanğıc səhifəsidir, sən baza ilə TypeScript arasında tip təhlükəsiz əlaqə qurmağı öyrənmək üçün açırsan.",
+    "lang": "en",
+    "level": "beginner",
+    "category": "Databases",
+    "source": "Databases",
+    "curated": true
+   },
+   {
+    "type": "doc",
+    "title": "GraphQL",
+    "url": "https://graphql.org/learn/",
+    "desc": "GraphQL dilinin rəsmi öyrənmə səhifəsidir, sən API sorğularını dəqiq yazmağı öyrənmək üçün açırsan.",
+    "lang": "en",
+    "level": "beginner",
+    "category": "Backend",
+    "source": "Backend",
+    "curated": true
+   },
+   {
+    "type": "doc",
+    "title": "gRPC",
+    "url": "https://grpc.io/docs/what-is-grpc/introduction/",
+    "desc": "gRPC çərçivəsinin rəsmi giriş səhifəsidir, sən xidmətlər arası sürətli çağırışların necə işlədiyini öyrənmək üçün açırsan.",
+    "lang": "en",
+    "level": "beginner",
+    "category": "Backend",
+    "source": "Backend",
+    "curated": true
+   },
+   {
+    "type": "doc",
+    "title": "OpenAPI",
+    "url": "https://learn.openapis.org/",
+    "desc": "OpenAPI spesifikasiyasının rəsmi öyrənmə saytıdır, sən API təsviri yazmağı öyrənmək üçün açırsan.",
+    "lang": "en",
+    "level": "beginner",
+    "category": "Backend",
+    "source": "Backend",
+    "curated": true
+   },
+   {
+    "type": "doc",
+    "title": "Dart",
+    "url": "https://dart.dev/get-started",
+    "desc": "Dart dilinin rəsmi başlanğıc səhifəsidir, sən dili quraşdırıb ilk proqramını yazmaq üçün açırsan.",
+    "lang": "en",
+    "level": "beginner",
+    "category": "Languages",
+    "source": "Languages",
+    "curated": true
+   },
+   {
+    "type": "doc",
+    "title": "Ansible",
+    "url": "https://docs.ansible.com/ansible/latest/getting_started/index.html",
+    "desc": "Ansible server konfiqurasiyasını avtomatlaşdıran alətdir və sən ilk playbookunu yazmaq üçün bu rəsmi səhifəni açırsan.",
+    "lang": "en",
+    "level": "beginner",
+    "category": "DevOps & Cloud",
+    "source": "DevOps & Cloud",
+    "curated": true
+   },
+   {
+    "type": "doc",
+    "title": "Helm",
+    "url": "https://helm.sh/docs/intro/quickstart/",
+    "desc": "Helm Kubernetes paketlərini idarə edən vasitədir və sən chart quraşdırmağı öyrənmək üçün bu rəsmi təlimatı açırsan.",
+    "lang": "en",
+    "level": "beginner",
+    "category": "DevOps & Cloud",
+    "source": "DevOps & Cloud",
+    "curated": true
+   },
+   {
+    "type": "doc",
+    "title": "Prometheus",
+    "url": "https://prometheus.io/docs/introduction/first_steps/",
+    "desc": "Prometheus monitorinq və metrika toplama sistemidir və sən ilk sorğularını yoxlamaq üçün bu rəsmi təlimatı açırsan.",
+    "lang": "en",
+    "level": "beginner",
+    "category": "DevOps & Cloud",
+    "source": "DevOps & Cloud",
+    "curated": true
+   },
+   {
+    "type": "doc",
+    "title": "Grafana",
+    "url": "https://grafana.com/docs/grafana/latest/getting-started/",
+    "desc": "Grafana metrikləri qrafiklə göstərən panel alətidir və sən ilk dashboardunu qurmaq üçün bu rəsmi təlimatı açırsan.",
+    "lang": "en",
+    "level": "beginner",
+    "category": "DevOps & Cloud",
+    "source": "DevOps & Cloud",
+    "curated": true
+   },
+   {
+    "type": "doc",
+    "title": "GitHub Actions",
+    "url": "https://docs.github.com/en/actions/get-started/quickstart",
+    "desc": "GitHub Actions kod dəyişikliyində avtomatik yoxlama və yayım işlədən xidmətdir və sən ilk workflowunu yazmaq üçün bu rəsmi təlimatı açırsan.",
+    "lang": "en",
+    "level": "beginner",
+    "category": "DevOps & Cloud",
+    "source": "DevOps & Cloud",
+    "curated": true
+   },
+   {
+    "type": "doc",
+    "title": "GitLab CI/CD",
+    "url": "https://docs.gitlab.com/ci/quick_start/",
+    "desc": "GitLab CI/CD test və yayımı avtomatlaşdıran boru xəttidir və sən ilk pipeline-ını qurmaq üçün bu rəsmi təlimatı açırsan.",
+    "lang": "en",
+    "level": "beginner",
+    "category": "DevOps & Cloud",
+    "source": "DevOps & Cloud",
+    "curated": true
+   },
+   {
+    "type": "doc",
+    "title": "Jenkins",
+    "url": "https://www.jenkins.io/doc/pipeline/tour/getting-started/",
+    "desc": "Jenkins test və yayımı avtomatlaşdıran açıq mənbəli serverdir və sən ilk pipeline-ını qurmaq üçün bu rəsmi təlimatı açırsan.",
+    "lang": "en",
+    "level": "beginner",
+    "category": "DevOps & Cloud",
+    "source": "DevOps & Cloud",
+    "curated": true
+   },
+   {
+    "type": "doc",
+    "title": "Amazon Web Services",
+    "url": "https://aws.amazon.com/getting-started/",
+    "desc": "Amazon Web Services bulud server və xidmətlər platformasıdır və sən ilk layihəni yerləşdirmək üçün bu rəsmi başlanğıc səhifəni açırsan.",
+    "lang": "en",
+    "level": "beginner",
+    "category": "DevOps & Cloud",
+    "source": "DevOps & Cloud",
+    "curated": true
+   },
+   {
+    "type": "doc",
+    "title": "Google Cloud",
+    "url": "https://cloud.google.com/docs/get-started",
+    "desc": "Google Cloud bulud server və xidmətlər platformasıdır və sən ilk layihəni qurmaq üçün bu rəsmi təlimatı açırsan.",
+    "lang": "en",
+    "level": "beginner",
+    "category": "DevOps & Cloud",
+    "source": "DevOps & Cloud",
+    "curated": true
+   },
+   {
+    "type": "doc",
+    "title": "Cloudflare",
+    "url": "https://developers.cloudflare.com/fundamentals/",
+    "desc": "Cloudflare saytları sürətləndirən və qoruyan şəbəkə xidmətidir və sən ilk zonanı qoşmaq üçün bu rəsmi təlimatı açırsan.",
+    "lang": "en",
+    "level": "beginner",
+    "category": "DevOps & Cloud",
+    "source": "DevOps & Cloud",
+    "curated": true
+   },
+   {
+    "type": "doc",
+    "title": "NGINX",
+    "url": "https://nginx.org/en/docs/beginners_guide.html",
+    "desc": "NGINX veb server və əks proksi proqramıdır və sən ilk konfiqurasiyanı yazmaq üçün bu rəsmi başlanğıc təlimatını açırsan.",
+    "lang": "en",
+    "level": "beginner",
+    "category": "Backend",
+    "source": "Backend",
+    "curated": true
+   },
+   {
+    "type": "doc",
+    "title": "Apache HTTP Server",
+    "url": "https://httpd.apache.org/docs/2.4/getting-started.html",
+    "desc": "Apache HTTP Server geniş yayılmış veb server proqramıdır və sən ilk virtual hostunu qurmaq üçün bu rəsmi təlimatı açırsan.",
+    "lang": "en",
+    "level": "beginner",
+    "category": "Backend",
+    "source": "Backend",
+    "curated": true
+   },
+   {
+    "type": "doc",
+    "title": "Project Jupyter",
+    "url": "https://docs.jupyter.org/en/latest/start/index.html",
+    "desc": "Project Jupyter kod və qeydləri birlikdə işlədən dəftər mühitidir və sən ilk dəftərini açmaq üçün bu rəsmi sənədləri açırsan.",
+    "lang": "en",
+    "level": "beginner",
+    "category": "Data & AI",
+    "source": "Data & AI",
+    "curated": true
+   },
+   {
+    "type": "doc",
+    "title": "NumPy",
+    "url": "https://numpy.org/doc/stable/user/quickstart.html",
+    "desc": "NumPy Python-da massiv və riyazi hesablama kitabxanasıdır və sən əsas əməlləri öyrənmək üçün bu rəsmi təlimatı açırsan.",
+    "lang": "en",
+    "level": "beginner",
+    "category": "Data & AI",
+    "source": "Data & AI",
+    "curated": true
+   },
+   {
+    "type": "doc",
+    "title": "Matplotlib",
+    "url": "https://matplotlib.org/stable/users/getting_started/",
+    "desc": "Matplotlib Python-da qrafik çəkmə kitabxanasıdır və sən ilk qrafikini qurmaq üçün bu rəsmi təlimatı açırsan.",
+    "lang": "en",
+    "level": "beginner",
+    "category": "Data & AI",
+    "source": "Data & AI",
+    "curated": true
+   },
+   {
+    "type": "doc",
+    "title": "Keras",
+    "url": "https://keras.io/getting_started/",
+    "desc": "Keras neyron şəbəkə qurmaq üçün Python kitabxanasıdır və sən ilk modelini öyrətmək üçün bu rəsmi təlimatı açırsan.",
+    "lang": "en",
+    "level": "beginner",
+    "category": "Data & AI",
+    "source": "Data & AI",
+    "curated": true
+   },
+   {
+    "type": "doc",
+    "title": "Hugging Face Transformers",
+    "url": "https://huggingface.co/docs/transformers/quicktour",
+    "desc": "Hugging Face Transformers hazır dil və görüntü modelləri kitabxanasıdır və sən ilk modeli işlətmək üçün bu rəsmi təlimatı açırsan.",
+    "lang": "en",
+    "level": "beginner",
+    "category": "Data & AI",
+    "source": "Data & AI",
+    "curated": true
+   },
+   {
+    "type": "doc",
+    "title": "LangChain",
+    "url": "https://docs.langchain.com/oss/python/langchain/quickstart",
+    "desc": "LangChain dil modelləri ilə proqram qurma çərçivəsidir və sən ilk zəncirini yazmaq üçün bu rəsmi təlimatı açırsan.",
+    "lang": "en",
+    "level": "beginner",
+    "category": "Data & AI",
+    "source": "Data & AI",
+    "curated": true
+   },
+   {
+    "type": "doc",
+    "title": "OpenCV",
+    "url": "https://docs.opencv.org/4.x/d9/df8/tutorial_root.html",
+    "desc": "OpenCV görüntü emalı və kompüter görməsi kitabxanasıdır və sən ilk proqramını yazmaq üçün bu rəsmi dərsləri açırsan.",
+    "lang": "en",
+    "level": "beginner",
+    "category": "Data & AI",
+    "source": "Data & AI",
+    "curated": true
+   },
+   {
+    "type": "doc",
+    "title": "Unity",
+    "url": "https://docs.unity3d.com/Manual/UnityManual.html",
+    "desc": "Unity oyun və interaktiv səhnə mühərrikidir və sən ilk səhnəni qurmaq üçün bu rəsmi təlimatı açırsan.",
+    "lang": "en",
+    "level": "beginner",
+    "category": "Games & Graphics",
+    "source": "Games & Graphics",
+    "curated": true
+   },
+   {
+    "type": "doc",
+    "title": "Unreal Engine",
+    "url": "https://dev.epicgames.com/documentation/en-us/unreal-engine/getting-started-with-unreal-engine",
+    "desc": "Unreal Engine böyük oyun və 3D səhnə mühərrikidir və sən ilk layihəni başlatmaq üçün bu rəsmi təlimatı açırsan.",
+    "lang": "en",
+    "level": "beginner",
+    "category": "Games & Graphics",
+    "source": "Games & Graphics",
+    "curated": true
+   },
+   {
+    "type": "doc",
+    "title": "Blender",
+    "url": "https://docs.blender.org/manual/en/latest/getting_started/index.html",
+    "desc": "Blender 3D modelləşdirmə və animasiya proqramıdır və sən interfeyslə işləməyi öyrənmək üçün bu rəsmi təlimatı açırsan.",
+    "lang": "en",
+    "level": "beginner",
+    "category": "Games & Graphics",
+    "source": "Games & Graphics",
+    "curated": true
+   },
+   {
+    "type": "doc",
+    "title": "Three.js",
+    "url": "https://threejs.org/docs/index.html",
+    "desc": "Three.js brauzerdə 3D qrafika üçün JavaScript kitabxanasıdır və sən ilk səhnəni çəkmək üçün bu rəsmi sənədləri açırsan.",
+    "lang": "en",
+    "level": "beginner",
+    "category": "Games & Graphics",
+    "source": "Games & Graphics",
+    "curated": true
+   },
+   {
+    "type": "doc",
+    "title": "Babylon.js",
+    "url": "https://doc.babylonjs.com/start/",
+    "desc": "Babylon.js brauzerdə 3D səhnə üçün JavaScript mühərrikidir və sən ilk səhnəni qurmaq üçün bu rəsmi başlanğıc səhifəni açırsan.",
+    "lang": "en",
+    "level": "beginner",
+    "category": "Games & Graphics",
+    "source": "Games & Graphics",
+    "curated": true
+   },
+   {
+    "type": "doc",
+    "title": "Vulkan",
+    "url": "https://docs.vulkan.org/guide/latest/index.html",
+    "desc": "Vulkan qrafika və hesablama üçün aşağı səviyyəli interfeysdir və sən əsas anlayışları öyrənmək üçün bu rəsmi təlimatı açırsan.",
+    "lang": "en",
+    "level": "beginner",
+    "category": "Games & Graphics",
+    "source": "Games & Graphics",
+    "curated": true
+   },
+   {
+    "type": "doc",
+    "title": "Raspberry Pi",
+    "url": "https://projects.raspberrypi.org/en/",
+    "desc": "Raspberry Pi təhsil üçün kiçik kompüter lövhəsidir və sən ilk layihəni başlamaq üçün bu rəsmi dərsləri açırsan.",
+    "lang": "en",
+    "level": "beginner",
+    "category": "Hardware & IoT",
+    "source": "Hardware & IoT",
+    "curated": true
+   },
+   {
+    "type": "doc",
+    "title": "ESP-IDF",
+    "url": "https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/index.html",
+    "desc": "ESP-IDF ESP32 çipləri üçün rəsmi proqram çərçivəsidir və sən ilk proqramı yükləmək üçün bu rəsmi təlimatı açırsan.",
+    "lang": "en",
+    "level": "beginner",
+    "category": "Hardware & IoT",
+    "source": "Hardware & IoT",
+    "curated": true
+   },
+   {
+    "type": "doc",
+    "title": "MicroPython",
+    "url": "https://docs.micropython.org/en/latest/esp32/tutorial/intro.html",
+    "desc": "MicroPython kiçik cihazlar üçün Python-dur və sən ilk skripti işlətmək üçün bu rəsmi təlimatı açırsan.",
+    "lang": "en",
+    "level": "beginner",
+    "category": "Hardware & IoT",
+    "source": "Hardware & IoT",
+    "curated": true
+   },
+   {
+    "type": "doc",
+    "title": "Playwright",
+    "url": "https://playwright.dev/docs/intro",
+    "desc": "Playwright brauzeri avtomatik idarə edən test alətidir və sən ilk testini yazmaq üçün bu rəsmi təlimatı açırsan.",
+    "lang": "en",
+    "level": "beginner",
+    "category": "Testing",
+    "source": "Testing",
+    "curated": true
+   },
+   {
+    "type": "doc",
+    "title": "Cypress",
+    "url": "https://docs.cypress.io/guides/getting-started/installing-cypress",
+    "desc": "Cypress veb interfeys üçün avtomatik test alətidir və sən ilk testi quraşdırmaq üçün bu rəsmi təlimatı açırsan.",
+    "lang": "en",
+    "level": "beginner",
+    "category": "Testing",
+    "source": "Testing",
+    "curated": true
+   },
+   {
+    "type": "doc",
+    "title": "Selenium",
+    "url": "https://selenium.dev/documentation/getting_started/",
+    "desc": "Selenium brauzer avtomatlaşdırması üçün test çərçivəsidir və sən ilk skripti yazmaq üçün bu rəsmi təlimatı açırsan.",
+    "lang": "en",
+    "level": "beginner",
+    "category": "Testing",
+    "source": "Testing",
+    "curated": true
+   },
+   {
+    "type": "doc",
+    "title": "Jest",
+    "url": "https://jestjs.io/docs/getting-started",
+    "desc": "Jest JavaScript üçün test çərçivəsidir və sən ilk testi yazmaq üçün bu rəsmi təlimatı açırsan.",
+    "lang": "en",
+    "level": "beginner",
+    "category": "Testing",
+    "source": "Testing",
+    "curated": true
+   },
+   {
+    "type": "doc",
+    "title": "pytest",
+    "url": "https://docs.pytest.org/en/stable/getting-started.html",
+    "desc": "pytest Python üçün test çərçivəsidir və sən ilk testi işlətmək üçün bu rəsmi təlimatı açırsan.",
+    "lang": "en",
+    "level": "beginner",
+    "category": "Testing",
+    "source": "Testing",
+    "curated": true
+   },
+   {
+    "type": "doc",
+    "title": "Electron",
+    "url": "https://www.electronjs.org/docs/latest/",
+    "desc": "Electron veb texnologiya ilə masaüstü proqram qurma çərçivəsidir və sən ilk pəncərəni açmaq üçün bu rəsmi sənədləri açırsan.",
+    "lang": "en",
+    "level": "beginner",
+    "category": "Tools",
+    "source": "Tools",
+    "curated": true
+   },
+   {
+    "type": "doc",
+    "title": "Tauri",
+    "url": "https://tauri.app/start/",
+    "desc": "Tauri yüngül masaüstü proqram qurma çərçivəsidir və sən ilk layihəni başlatmaq üçün bu rəsmi başlanğıc səhifəni açırsan.",
+    "lang": "en",
+    "level": "beginner",
+    "category": "Tools",
+    "source": "Tools",
+    "curated": true
+   },
+   {
+    "type": "doc",
+    "title": "React Native",
+    "url": "https://reactnative.dev/docs/getting-started",
+    "desc": "React Native mobil proqram üçün JavaScript çərçivəsidir və sən ilk ekranı qurmaq üçün bu rəsmi təlimatı açırsan.",
+    "lang": "en",
+    "level": "beginner",
+    "category": "Mobile",
+    "source": "Mobile",
+    "curated": true
+   },
+   {
+    "type": "doc",
+    "title": "Expo",
+    "url": "https://docs.expo.dev/get-started/start-developing/",
+    "desc": "Expo React Native layihəni tez başlatma platformasıdır və sən ilk proqramı işə salmaq üçün bu rəsmi təlimatı açırsan.",
+    "lang": "en",
+    "level": "beginner",
+    "category": "Mobile",
+    "source": "Mobile",
     "curated": true
    }
   ],

@@ -12,8 +12,8 @@ import {
 import { trackProgress, isStageDone, stagesOf, isItemDone, itemsDone, categoryOfSub, quizResult } from '../progress.js'
 import { Hint, Term, isBeginner } from '../onboarding.js'
 import { plainPath, STARTER_PATHS, levelAz } from '../plain.js'
-import { lessonPlan, pathPlan, planSize } from '../curriculum.js'
-import { hasLessonQuiz, hasFinalQuiz, lessonQuizId, finalQuizId } from '../quizzes.js'
+import { lessonPlan, pathPlan, planSize, pathVideos } from '../curriculum.js'
+import { hasLessonQuiz, hasFinalQuiz, lessonQuizId, finalQuizId, finalSize } from '../quizzes.js'
 import { CertificateRequest } from '../certificates.js'
 
 const L = getLocalizedContent;
@@ -277,11 +277,12 @@ export const CategoryDetail = () => {
             </li>`;
             }).join('')}
         </ol>
+        ${VideoCourses() ? `<div class="mt-10">${VideoCourses()}</div>` : ''}
         ${hasFinalQuiz(sub.id) ? `
         <section class="mt-10" aria-labelledby="final-title">
             <h2 id="final-title" class="t-title">Final testi</h2>
-            <p class="t-small mt-0.5">${prog.total > 0 && prog.next < 0 ? 'Bütün dərsləri bitirdin. İndi 10 sualla özünü yoxla.' : 'Dərsləri bitirəndən sonra bütün yol üzrə 10 sual.'}</p>
-            <div class="mt-3">${QuizRow(finalQuizId(sub.id), `${esc(pathName)}: final testi`, 10)}</div>
+            <p class="t-small mt-0.5">${prog.total > 0 && prog.next < 0 ? `Bütün dərsləri bitirdin. İndi ${finalSize(sub.id)} sualla özünü yoxla.` : `Dərsləri bitirəndən sonra bütün yol üzrə ${finalSize(sub.id)} sual.`}</p>
+            <div class="mt-3">${QuizRow(finalQuizId(sub.id), `${esc(pathName)}: final testi`, finalSize(sub.id))}</div>
         </section>
         ${CertificateRequest(sub.id)}` : ''}`;
     };
@@ -295,7 +296,16 @@ export const CategoryDetail = () => {
                 return ResourceCard({ tag: 'li', title: esc(res.title), icon: type.icon, meta: [type.label, langWord(res.lang)], note: res.desc ? esc(res.desc) : '', href: res.url, action: type.verb });
             }).join('')}
         </ul>`;
+    // One complete video course per language for the whole path, before the lesson-by-lesson plan.
+    const videos = pathVideos(sub.id);
+    const VideoCourses = () => videos.length ? `
+        <section class="mb-10" aria-labelledby="video-courses">
+            <h2 id="video-courses" class="t-title">Video kurslar</h2>
+            <p class="t-small mt-0.5">Bütün yolu videolarla öyrənmək istəsən, öz dilində birini seç. Dərslərdəki addımlar da bu mövzuları izləyir.</p>
+            <ul class="ln-rows mt-3">${videos.map(({ lang, res }) => ResourceCard({ tag: 'li', title: esc(res.title), icon: 'circle-play', meta: [langWord(lang), res.source ? `<span translate="no">${esc(res.source)}</span>` : '', res.duration ? esc(res.duration) : ''], note: res.desc ? esc(res.desc) : '', href: res.url, action: 'İzlə' })).join('')}</ul>
+        </section>` : '';
     const renderPlan = () => `
+        ${VideoCourses()}
         <p class="t-body max-w-[42rem]">Materiallar dərslərin sırası ilə düzülüb. Hər dərsdə 1-ci addımdan başla, sonra növbətinə keç.</p>
         <ol class="mt-6 grid gap-8" aria-label="${esc(pathName)}: dərs-dərs materiallar">
             ${plan.lessons.map((lessonSteps, i) => lessonSteps.length && steps[i] ? `
@@ -340,7 +350,7 @@ export const CategoryDetail = () => {
                 return ResourceCard({ tag: 'li', title: `Dərs ${i + 1}: ${esc(st.title)}`, icon: 'list-checks', meta: ['3 sual', result ? `Ən yaxşı nəticə: ${result.best} / ${result.total}` : (isStageDone(sub.id, i) ? 'Dərs bitib' : '')], onclick: `window.openQuiz('${id}')`, action: result ? 'Yenidən' : 'Başla' });
             }).join('')}</ul>
         </section>` : ''}
-        ${hasFinalQuiz(sub.id) ? `<section class="mt-10" aria-labelledby="final-tests"><h2 id="final-tests" class="t-title">Final testi</h2><div class="mt-3">${QuizRow(finalQuizId(sub.id), `${esc(pathName)}: final testi`, 10)}</div></section>` : ''}
+        ${hasFinalQuiz(sub.id) ? `<section class="mt-10" aria-labelledby="final-tests"><h2 id="final-tests" class="t-title">Final testi</h2><div class="mt-3">${QuizRow(finalQuizId(sub.id), `${esc(pathName)}: final testi`, finalSize(sub.id))}</div></section>` : ''}
         <div class="mt-10"></div>
         ${questions.length ? `
         <p class="t-small mb-4">Cavabı görmək üçün suala toxun.</p>

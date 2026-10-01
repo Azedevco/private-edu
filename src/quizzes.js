@@ -18,6 +18,7 @@ export const finalQuizId = (sub) => `final:${sub}`;
 export const hasLessonQuiz = (sub, i) => Boolean(generated[sub]?.lessons?.[i]?.questions?.length);
 export const hasFinalQuiz = (sub) => Boolean(generated[sub]?.final?.length);
 export const pathsWithFinal = () => Object.keys(generated).filter(hasFinalQuiz);
+export const finalSize = (sub) => generated[sub]?.final?.length || 0;
 
 const fromGenerated = (x) => ({ q: x.q, options: x.options, correct: 0, explanation: x.explain || '' });
 

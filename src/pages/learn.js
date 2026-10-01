@@ -47,7 +47,6 @@ const LEVEL_ORDER = { beginner: 0, intermediate: 1, advanced: 2 };
 const byLevel = (a, b) => (LEVEL_ORDER[a.level] ?? 1) - (LEVEL_ORDER[b.level] ?? 1);
 const LANG_WORD = { az: 'Azərbaycanca', tr: 'Türkcə', en: 'İngiliscə', ru: 'Rusca' };
 const urlKey = (url) => String(url || '').replace(/^https?:\/\/(www\.)?/, '').replace(/\/$/, '').toLowerCase();
-const hostOf = (url) => { try { return new URL(url).hostname.replace(/^www\./, ''); } catch { return ''; } };
 const library = curated.library || { books: [], videos: [], docs: [] };
 
 // --- Books: compact cards; the summary and key lessons wait behind "Əsas fikirlər" so the list stays scannable. ---
@@ -96,12 +95,12 @@ export const BooksPage = () => {
     ${Hint('resources')}
     ${Section({
         title: 'Pulsuz oxu',
-        note: `${free.length} kitab, asandan çətinə. Hamısını müəllif və ya nəşriyyat pulsuz yayır.`,
+        note: `${free.length} kitab, ${new Set(free.map((b) => b.topic || b.title)).size} mövzu, asandan çətinə. Hamısını müəllif və ya nəşriyyat pulsuz yayır.`,
         body: `<ul class="ln-rows">${free.map((b) => ResourceCard({
             tag: 'li',
             title: esc(b.title),
             icon: 'book-open',
-            meta: ['Pulsuz kitab', esc(levelAz(b.level)), esc(b.source), LANG_WORD[b.lang] || ''],
+            meta: [b.topic ? esc(b.topic) : 'Pulsuz kitab', esc(levelAz(b.level)), esc(b.source || b.author || ''), LANG_WORD[b.lang] || ''],
             note: esc(b.desc),
             href: b.url,
             action: 'Oxu'
@@ -165,24 +164,54 @@ const DOC_ICON = {
 };
 
 // One card per documentation site: the checked library's hubs join the list unless that site is already there.
+// Groups for the documentation list (about 100 entries): the area in Azerbaijani, in reading order.
+const DOC_GROUPS = [
+    ['Web', 'Veb'], ['Languages', 'Proqramlaşdırma dilləri'], ['Backend', 'Backend'], ['Databases', 'Verilənlər bazaları'],
+    ['Mobile', 'Mobil'], ['DevOps & Cloud', 'DevOps və bulud'], ['Data & AI', 'Data və süni intellekt'], ['Security', 'Təhlükəsizlik'],
+    ['Testing', 'Test'], ['Games & Graphics', 'Oyun və qrafika'], ['Hardware & IoT', 'Avadanlıq və IoT'], ['Tools', 'Alətlər']
+];
+const LEGACY_GROUP = { 'Web Standards': 'Web', 'All-in-one API Docs': 'Tools', Frontend: 'Web', Backend: 'Backend', Language: 'Languages', Styling: 'Web', DevOps: 'DevOps & Cloud', Databases: 'Databases' };
+// Older entries carry free-text categories: sort them into a group by keywords.
+const docGroup = (doc) => {
+    const c = doc.category || '';
+    if (DOC_GROUPS.some(([id]) => id === c)) return c;
+    if (LEGACY_GROUP[c]) return LEGACY_GROUP[c];
+    const t = `${c} ${doc.source || ''} ${doc.name || doc.title || ''}`.toLowerCase();
+    if (/secur|owasp/.test(t)) return 'Security';
+    if (/test/.test(t)) return 'Testing';
+    if (/mobile|android|ios|flutter|swift|kotlin/.test(t)) return 'Mobile';
+    if (/data|ml|machine|pandas|torch|scikit|tensor|ai\b/.test(t)) return 'Data & AI';
+    if (/devops|cloud|kubernetes|docker|terraform|linux|arch/.test(t)) return 'DevOps & Cloud';
+    if (/database|sql|mongo|redis|postgres/.test(t)) return 'Databases';
+    if (/game|godot|unity|graphic/.test(t)) return 'Games & Graphics';
+    if (/arduino|iot|embedded|hardware/.test(t)) return 'Hardware & IoT';
+    if (/frontend|web|css|html|javascript|vue|angular|react|mdn/.test(t)) return 'Web';
+    if (/backend|node|express|django/.test(t)) return 'Backend';
+    if (/language|go\b|rust|java|c#|php|python|typescript/.test(t)) return 'Languages';
+    return 'Tools';
+};
+
+// One card per documentation entry (no duplicates by address), grouped by area, with a short list of areas on top.
 export const DocsPage = () => {
-    const hosts = new Set(documentationLinks.map((doc) => hostOf(doc.url)));
+    const seen = new Set();
     const docs = [
-        ...documentationLinks.map((doc) => ({ name: doc.name, url: doc.url, icon: DOC_ICON[doc.category] || 'file-text', note: esc(doc.desc || '') })),
-        ...library.docs.filter((doc) => doc.lang !== 'en' || (!hosts.has(hostOf(doc.url)) && hosts.add(hostOf(doc.url))))
-            .map((doc) => ({ name: doc.title, url: doc.url, icon: 'file-text', note: esc(doc.desc), lang: doc.lang }))
-    ];
+        ...documentationLinks.map((doc) => ({ name: doc.name, url: doc.url, category: doc.category, icon: DOC_ICON[doc.category] || 'file-text', note: esc(doc.desc || '') })),
+        ...library.docs.map((doc) => ({ name: doc.title, url: doc.url, category: doc.category, source: doc.source, icon: 'file-text', note: esc(doc.desc), lang: doc.lang }))
+    ].filter((doc) => !seen.has(urlKey(doc.url)) && seen.add(urlKey(doc.url)));
+    const groups = DOC_GROUPS.map(([id, name]) => ({ id, name, list: docs.filter((d) => docGroup(d) === id) })).filter((g) => g.list.length);
+    const anchor = (id) => 'docs-' + id.toLowerCase().replace(/[^a-z]+/g, '-');
     return Page(`
     ${PageTitle({
         title: 'Öyrən',
-        description: 'Proqramlaşdırma dillərinin və alətlərin rəsmi təlimatları. Hər biri başqa saytda açılır.',
+        description: `Proqramlaşdırma dillərinin və alətlərin ${docs.length} rəsmi təlimatı, sahələrə görə. Hər biri başqa saytda açılır.`,
         tabs: LearnTabs('docs')
     })}
     ${Hint('resources')}
-    ${Section({
-        title: 'Texniki təlimatlar',
-        note: `${docs.length} rəsmi təlimat`,
-        body: `<ul class="ln-rows">${docs.map((doc) => ResourceCard({
+    <nav class="mt-6 flex flex-wrap gap-2" aria-label="Sahələr">${groups.map((g) => `<a href="#${anchor(g.id)}" class="az-chip min-h-11">${g.name}<span class="az-chip__count">${g.list.length}</span></a>`).join('')}</nav>
+    ${groups.map((g) => `<div id="${anchor(g.id)}" class="scroll-mt-20">${Section({
+        title: g.name,
+        note: `${g.list.length} təlimat`,
+        body: `<ul class="ln-rows">${g.list.map((doc) => ResourceCard({
             tag: 'li',
             title: `<span translate="no">${esc(doc.name)}</span>`,
             icon: doc.icon,
@@ -191,6 +220,6 @@ export const DocsPage = () => {
             href: doc.url,
             action: 'Təlimatı aç'
         })).join('')}</ul>`
-    })}
+    })}</div>`).join('')}
 `);
 };

@@ -40,9 +40,9 @@
 "q": "İş qovluğunun vəziyyətini nə göstərir?",
 "options": [
 "`git status`",
-"`git clone`",
-"`git merge`",
-"`git push`"
+"`git log`",
+"`git diff`",
+"`git show`"
 ],
 "explanation": "`git status` dəyişmiş və staged faylları göstərir. Növbəti addımı buradan bilirsən."
 },
@@ -50,9 +50,9 @@
 "q": "Uzaq ünvanı depoya necə bağlayırıq?",
 "options": [
 "`git remote add origin <url>`",
-"`git branch add origin <url>`",
-"`git push add origin <url>`",
-"`git clone add origin <url>`"
+"`git push origin <url>`",
+"`git clone origin <url>`",
+"`git origin add <url>`"
 ],
 "explanation": "Bu əmr yerli depoya `origin` adlı uzaq ünvan əlavə edir. Sonra `push` etmək olur."
 },
@@ -61,8 +61,8 @@
 "options": [
 "`git push origin main`",
 "`git pull origin main`",
-"`git clone origin main`",
-"`git status origin main`"
+"`git push main origin`",
+"`git push origin master`"
 ],
 "explanation": "`git push` commit-ləri uzaq `main` budağına göndərir. Belə kod komanda ilə paylaşılır."
 },
@@ -71,8 +71,8 @@
 "options": [
 "`git pull`",
 "`git push`",
-"`git init`",
-"`git add`"
+"`git fetch`",
+"`git clone`"
 ],
 "explanation": "`git pull` uzaq budağın yeniliklərini endirib birləşdirir. Komandanın işi sənə gəlir."
 },
@@ -80,9 +80,9 @@
 "q": "Yeni budaq necə yaradılır?",
 "options": [
 "`git branch yeni-budaq`",
-"`git commit yeni-budaq`",
+"`git checkout yeni-budaq`",
 "`git push yeni-budaq`",
-"`git clone yeni-budaq`"
+"`git init yeni-budaq`"
 ],
 "explanation": "`git branch` yeni budaq yaradır. Hər yeni iş ayrı budaqda yazılır."
 },
@@ -90,9 +90,9 @@
 "q": "Başqa budağa necə keçirik?",
 "options": [
 "`git switch yeni-budaq`",
-"`git save yeni-budaq`",
-"`git send yeni-budaq`",
-"`git show yeni-budaq`"
+"`git branch yeni-budaq`",
+"`git merge yeni-budaq`",
+"`git pull yeni-budaq`"
 ],
 "explanation": "`git switch` iş budağını dəyişir. Fayllar həmin budağın vəziyyətinə keçir."
 },
@@ -120,8 +120,8 @@
 "options": [
 "Səhifənin quruluşunu yaradır",
 "Səhifəyə rəng və stil verir",
-"Serverdə məlumat saxlayır",
-"Brauzeri sürətləndirir"
+"Form məlumatını serverə göndərir",
+"Səhifədə hərəkət və məntiq yazır"
 ],
 "explanation": "HTML səhifənin skeletidir: başlıq, mətn və şəkil. Stili CSS verir."
 },
@@ -129,9 +129,9 @@
 "q": "HTML sənədi nə ilə başlayır?",
 "options": [
 "`<!DOCTYPE html>`",
-"`<style html>`",
-"`<script html>`",
-"`<body html>`"
+"`<html lang=\"az\">`",
+"`<head>`",
+"`<meta charset=\"utf-8\">`"
 ],
 "explanation": "Bu sətir brauzerə HTML5 sənədi olduğunu deyir. Həmişə ən üstdə yazılır."
 },
@@ -140,8 +140,8 @@
 "options": [
 "`<h1>`",
 "`<h6>`",
-"`<p>`",
-"`<span>`"
+"`<header>`",
+"`<title>`"
 ],
 "explanation": "`<h1>` səhifənin əsas başlığıdır. `h6`-ya doğru ölçü kiçilir."
 },
@@ -149,8 +149,8 @@
 "q": "Mətn paraqrafı hansı teqdir?",
 "options": [
 "`<p>`",
-"`<img>`",
-"`<a>`",
+"`<span>`",
+"`<div>`",
 "`<br>`"
 ],
 "explanation": "`<p>` abzas yaradır. Adi mətnlər onun içində yazılır."
@@ -159,9 +159,9 @@
 "q": "Başqa səhifəyə keçid necə yaradılır?",
 "options": [
 "`<a href=\"...\">`",
-"`<link src=\"...\">`",
-"`<img href=\"...\">`",
-"`<p link=\"...\">`"
+"`<a src=\"...\">`",
+"`<link href=\"...\">`",
+"`<a link=\"...\">`"
 ],
 "explanation": "`<a>` teqi `href` ünvanına keçid yaradır. Mətn kliklənən linkə çevrilir."
 },
@@ -169,9 +169,9 @@
 "q": "Şəkil səhifəyə necə əlavə olunur?",
 "options": [
 "`<img src=\"...\" alt=\"...\">`",
-"`<pic src=\"...\" alt=\"...\">`",
-"`<image src=\"...\" href=\"...\">`",
-"`<photo link=\"...\" alt=\"...\">`"
+"`<a src=\"...\" alt=\"...\">`",
+"`<img link=\"...\" alt=\"...\">`",
+"`<img src=\"...\" href=\"...\">`"
 ],
 "explanation": "`<img>` `src` ünvandakı şəkli göstərir. `alt` şəkil açılmasa görünür."
 },
@@ -179,9 +179,9 @@
 "q": "Nöqtəli siyahı necə yaradılır?",
 "options": [
 "`<ul>` içində `<li>`",
-"`<ol>` içində `<tr>`",
-"`<table>` içində `<li>`",
-"`<div>` içində `<td>`"
+"`<ol>` içində `<li>`",
+"`<ul>` içində `<td>`",
+"`<div>` içində `<li>`"
 ],
 "explanation": "`<ul>` nöqtəli siyahı yaradır. Hər sətir `<li>` ilə yazılır."
 },
@@ -189,9 +189,9 @@
 "q": "Mətn yazmaq üçün forma xanası hansıdır?",
 "options": [
 "`<input>`",
-"`<output>`",
-"`<img>`",
-"`<p>`"
+"`<textarea>`",
+"`<form>`",
+"`<button>`"
 ],
 "explanation": "`<input>` forma xanası yaradır. `type` ilə onun növü seçilir."
 },
@@ -201,7 +201,7 @@
 "`<header>`",
 "`<div>`",
 "`<span>`",
-"`<b>`"
+"`<i>`"
 ],
 "explanation": "`<header>` mənası bəlli teqdir. Axtarış və əlçatanlıq üçün yaxşıdır."
 },
@@ -209,9 +209,9 @@
 "q": "`alt` atributu nə üçündür?",
 "options": [
 "Şəkil açılmasa mətn göstərir",
-"Şəklin ölçüsünü böyüdür",
-"Şəkli avtomatik yükləyir",
-"Şəkilə keçid əlavə edir"
+"Şəkilə açar söz əlavə edir",
+"Başlıq kimi şəklin üstə yazılır",
+"Şəkilin ünvanını saxlayır"
 ],
 "explanation": "`alt` şəkil görünməyəndə oxunur. Ekran oxuyucular da ondan istifadə edir."
 }
@@ -229,8 +229,8 @@
 "options": [
 "Səhifəyə stil verir",
 "Səhifənin mətnini yazır",
-"Məlumat bazası yaradır",
-"Faylları serverə atır"
+"Səhifədə düymə məntiqi yazır",
+"Səhifəni internetə yerləşdirir"
 ],
 "explanation": "CSS rəng, ölçü və düzülüşü idarə edir. HTML quruluş, CSS görünüşdür."
 },
@@ -238,9 +238,9 @@
 "q": "Mətnin rəngi hansı xassədir?",
 "options": [
 "`color`",
-"`font-src`",
-"`text-url`",
-"`bg-color`"
+"`background-color`",
+"`font-size`",
+"`text-align`"
 ],
 "explanation": "`color` mətnin rəngini təyin edir. Məsələn `color: red` yazılır."
 },
@@ -249,8 +249,8 @@
 "options": [
 "`display: flex`",
 "`display: block`",
-"`position: flex`",
-"`float: flex`"
+"`display: inline`",
+"`display: inline-block`"
 ],
 "explanation": "`display: flex` övladları elastik sətirdə düzür. Sonra oxlarla idarə olunur."
 },
@@ -258,9 +258,9 @@
 "q": "`justify-content` nəyi düzür?",
 "options": [
 "Əsas ox üzrə düzülüşü",
-"Mətnin şriftini",
-"Fon şəklini",
-"Sərhəd qalınlığını"
+"Köməkçi ox üzrə düzülüşü",
+"Sətir sayını təyin edir",
+"Elementin böyümə payını təyin edir"
 ],
 "explanation": "`justify-content` əsas oxda boşluğu bölür. Məsələn `center` ortalayır."
 },
@@ -268,9 +268,9 @@
 "q": "`align-items` nəyi düzür?",
 "options": [
 "Köməkçi ox üzrə düzülüşü",
-"Səhifənin başlığını",
-"Şriftin ölçüsünü",
-"Keçidin rəngini"
+"Əsas ox üzrə düzülüşü",
+"Tək elementin öz yerini təyin edir",
+"Sütun sayını təyin edir"
 ],
 "explanation": "`align-items` kəsişən oxda düzür. `center` çox vaxt şaquli ortalayır."
 },
@@ -278,9 +278,9 @@
 "q": "`flex-direction: column` nə edir?",
 "options": [
 "Elementləri sütunda düzür",
-"Elementləri gizlədir",
-"Mətni qalın edir",
-"Fonu şəffaf edir"
+"Elementləri sətirdə düzür",
+"Elementləri tərs sütunda düzür",
+"Elementləri bir sətirə sıxışdırır"
 ],
 "explanation": "Sütun rejimində əsas ox şaquli olur. Elementlər alt-alta düzülür."
 },
@@ -289,8 +289,8 @@
 "options": [
 "`display: grid`",
 "`display: flex`",
-"`position: grid`",
-"`float: grid`"
+"`display: block`",
+"`display: table`"
 ],
 "explanation": "`display: grid` ikiölçülü tor yaradır. Sətir və sütun ayrı idarə olunur."
 },
@@ -298,9 +298,9 @@
 "q": "3 bərabər sütun necə yaradılır?",
 "options": [
 "`grid-template-columns: 1fr 1fr 1fr`",
-"`flex-template-columns: 1fr 1fr 1fr`",
 "`grid-template-rows: 1fr 1fr 1fr`",
-"`grid-columns-template: 1fr 1fr 1fr`"
+"`grid-template-columns: 2fr 1fr 1fr`",
+"`grid-auto-columns: 1fr 1fr 1fr`"
 ],
 "explanation": "Bu yazı 3 bərabər sütun yaradır. `1fr` boş yerin bərabər payıdır."
 },
@@ -309,8 +309,8 @@
 "options": [
 "Elementlər arası boşluq qoyur",
 "Hərflər arası boşluq qoyur",
-"Səhifənin kənarını silir",
-"Şriftin qalınlığını artırır"
+"Mətnlə kənar arası boşluq qoyur",
+"Sütun enini bərabər bölür"
 ],
 "explanation": "`gap` grid və flex-də element arası məsafədir. Hər tərəfə `margin` yazmırsan."
 },
@@ -318,9 +318,9 @@
 "q": "Ekrana uyğunlaşan tor necə yazılır?",
 "options": [
 "`repeat(auto-fit, minmax(200px, 1fr))`",
-"`repeat(auto-fix, minmax(200px, 1fr))`",
-"`repeat(auto-fit, minimax(200px, 1fr))`",
-"`loop(auto-fit, minmax(200px, 1fr))`"
+"`repeat(auto-fill, minmax(200px, 1fr))`",
+"`repeat(auto-fit, minmax(100px, 2fr))`",
+"`repeat(auto-fit, maxmin(200px, 1fr))`"
 ],
 "explanation": "Bu yazı sütun sayını ekrana uyğunlaşdırır. Dar ekranda sütun azalır."
 }
@@ -337,9 +337,9 @@
 "q": "`console.log()` nə edir?",
 "options": [
 "Konsola mesaj yazdırır",
-"Səhifəni yeniləyir",
-"Yeni fayl yaradır",
-"Düyməni gizlədir"
+"Səhifədə xəbərdarlıq pəncərəsi açır",
+"Mətni səhifəyə əlavə edir",
+"Kodu addım-addım dayandırıb yoxlayır"
 ],
 "explanation": "`console.log` yoxlama üçün konsola yazır. Xəta axtarışında kömək edir."
 },
@@ -348,8 +348,8 @@
 "options": [
 "`let x = 1`",
 "`const x = 1`",
-"`static x = 1`",
-"`fixed x = 1`"
+"`final x = 1`",
+"`static x = 1`"
 ],
 "explanation": "`let` ilə yaradılan dəyişən yenidən yazılır. `const` isə sabit qalır."
 },
@@ -389,7 +389,7 @@
 "`arr.push(x)`",
 "`arr.pop(x)`",
 "`arr.shift(x)`",
-"`arr.get(x)`"
+"`arr.add(x)`"
 ],
 "explanation": "`push` elementi sona əlavə edir. `pop` isə sondan silir."
 },
@@ -417,9 +417,9 @@
 "q": "Elementi ID-yə görə necə seçirik?",
 "options": [
 "`document.querySelector(\"#id\")`",
-"`document.queryElement(\"#id\")`",
-"`document.findSelector(\"#id\")`",
-"`document.getStyle(\"#id\")`"
+"`document.querySelector(\".id\")`",
+"`document.querySelector(\"id\")`",
+"`document.querySelectorAll(\"#id\")`"
 ],
 "explanation": "`querySelector` CSS seçicisi ilə ilk elementi tapır. `#` ID deməkdir."
 },
@@ -427,9 +427,9 @@
 "q": "Klik hadisəsi düyməyə necə bağlanır?",
 "options": [
 "`btn.addEventListener(\"click\", f)`",
-"`btn.addEventAction(\"click\", f)`",
-"`btn.setEventListener(\"click\", f)`",
-"`btn.onAddEvent(\"click\", f)`"
+"`btn.addEventListener(\"onclick\", f)`",
+"`btn.onClick(\"click\", f)`",
+"`btn.attachEvent(\"click\", f)`"
 ],
 "explanation": "`addEventListener` hadisəni gözləyir. Klik olanda funksiya işləyir."
 }
@@ -446,9 +446,9 @@
 "q": "TypeScript nədir?",
 "options": [
 "Tipli JavaScript üstçoxluğu",
-"Yeni verilənlər bazası",
-"Brauzer əvəzləyicisi",
-"CSS genişlənməsi"
+"JavaScript-dən sürətli yeni dil",
+"Brauzerdə ayrıca işləyən dil",
+"JavaScript-i əvəz edən fərqli dil"
 ],
 "explanation": "TypeScript JavaScript-ə tip əlavə edir. Kod işə düşməzdən əvvəl xəta tutur."
 },
@@ -498,7 +498,7 @@
 "`let adlar: string[]`",
 "`let adlar: strings[]`",
 "`let adlar: string()`",
-"`let adlar: [string]`"
+"`let adlar: Array`"
 ],
 "explanation": "`string[]` yalnız mətn siyahısı deməkdir. Başqa tip əlavə etmək olmaz."
 },
@@ -516,9 +516,9 @@
 "q": "`interface` nə üçündür?",
 "options": [
 "Obyektin formasını təsvir edir",
-"Faylları serverə yükləyir",
-"Dövrü təkrarlayır",
-"Stili səhifəyə bağlayır"
+"Obyektin yenisini yaddaşda yaradır",
+"Dəyəri iş vaxtı yoxlayıb dəyişir",
+"Faylları bir-birinə bağlayır"
 ],
 "explanation": "`interface` obyektin hansı xanalara malik olduğunu deyir. Səhv xana yazılsa xəta verir."
 },
@@ -537,8 +537,8 @@
 "options": [
 "Əvvəlcə yoxlama tələb edir",
 "Heç vaxt xəta göstərmir",
-"Kodun işini sürətləndirir",
-"Faylın ölçüsünü kiçildir"
+"Yoxlamasız istənilən yerə yazılır",
+"Ədədə avtomatik çevrilir"
 ],
 "explanation": "`unknown` dəyəri yoxlamadan işlətməyə qoymur. `any` isə yoxlamanı söndürür."
 }
@@ -550,104 +550,104 @@
 "id": "topic-python-esaslari",
 "questions": [
 {
-"explanation": "`print()` Python-da ekrana yazmaq üçün standart funksiyadır.",
+"q": "Ekrana yazmaq üçün hansı funksiya istifadə olunur?",
 "options": [
 "`print()`",
 "`echo()`",
 "`write()`",
-"`show()`"
+"`display()`"
 ],
-"q": "Ekrana yazmaq üçün hansı funksiya istifadə olunur?"
+"explanation": "`print()` Python-da ekrana yazmaq üçün standart funksiyadır."
 },
 {
-"explanation": "Dəyişən hərflə başlayır və boşluq və ya tire saxlamır.",
+"q": "Aşağıdakılardan hansı düzgün dəyişən təyinidir?",
 "options": [
 "`ad = \"Ali\"`",
 "`2ad = \"Ali\"`",
 "`ad-adi = \"Ali\"`",
 "`ad adi = \"Ali\"`"
 ],
-"q": "Aşağıdakılardan hansı düzgün dəyişən təyinidir?"
+"explanation": "Dəyişən hərflə başlayır və boşluq və ya tire saxlamır."
 },
 {
-"explanation": "`5` tam ədəddir və Python-da onun tipi `int` olur.",
+"q": "`x = 5` olduqda `x` hansı tipdə olur?",
 "options": [
 "`int`",
 "`str`",
 "`float`",
 "`bool`"
 ],
-"q": "`x = 5` olduqda `x` hansı tipdə olur?"
+"explanation": "`5` tam ədəddir və Python-da onun tipi `int` olur."
 },
 {
-"explanation": "Siyahı kvadrat mötərizə ilə yaradılır, vergüllə ayrılır.",
+"q": "Üç ədəddən ibarət siyahı necə yaradılır?",
 "options": [
 "`[1, 2, 3]`",
 "`(1, 2, 3)`",
 "`{1, 2, 3}`",
-"`<1, 2, 3>`"
+"`\"1, 2, 3\"`"
 ],
-"q": "Üç ədəddən ibarət siyahı necə yaradılır?"
+"explanation": "Siyahı kvadrat mötərizə ilə yaradılır, vergüllə ayrılır."
 },
 {
-"explanation": "`len()` siyahıdakı elementlərin sayını qaytarır, burada 3-dür.",
+"q": "`len([1, 2, 3])` nə qaytarır?",
 "options": [
 "`3`",
 "`2`",
 "`6`",
 "`0`"
 ],
-"q": "`len([1, 2, 3])` nə qaytarır?"
+"explanation": "`len()` siyahıdakı elementlərin sayını qaytarır, burada 3-dür."
 },
 {
-"explanation": "Şərt yoxlamaq üçün Python-da `if` açar sözü yazılır.",
+"q": "Şərti yoxlamaq üçün hansı açar söz yazılır?",
 "options": [
 "`if`",
 "`when`",
 "`check`",
 "`case`"
 ],
-"q": "Şərti yoxlamaq üçün hansı açar söz yazılır?"
+"explanation": "Şərt yoxlamaq üçün Python-da `if` açar sözü yazılır."
 },
 {
-"explanation": "`range(3)` `0, 1, 2` verir və `for` ilə gəzilir.",
+"q": "`0, 1, 2` ədədlərini gəzmək üçün hansı dövr doğrudur?",
 "options": [
 "`for i in range(3):`",
 "`for i from 0 to 3:`",
 "`foreach i in range(3):`",
 "`loop i from 0 to 3:`"
 ],
-"q": "`0, 1, 2` ədədlərini gəzmək üçün hansı dövr doğrudur?"
+"explanation": "`range(3)` `0, 1, 2` verir və `for` ilə gəzilir."
 },
 {
-"explanation": "Funksiya `def` açar sözü ilə təyin olunur və ad yazılır.",
+"q": "Arqumentsiz `salam` funksiyası necə təyin olunur?",
 "options": [
 "`def salam():`",
 "`func salam():`",
 "`fun salam():`",
 "`define salam():`"
 ],
-"q": "Arqumentsiz `salam` funksiyası necə təyin olunur?"
+"explanation": "Funksiya `def` açar sözü ilə təyin olunur və ad yazılır."
 },
 {
-"explanation": "`True` və `False` məntiqi tip olan `bool`-un dəyərləridir.",
+"q": "`True` və `False` hansı tipin dəyərləridir?",
 "options": [
 "`bool`",
 "`int`",
 "`str`",
 "`none`"
 ],
-"q": "`True` və `False` hansı tipin dəyərləridir?"
+"explanation": "`True` və `False` məntiqi tip olan `bool`-un dəyərləridir."
 },
 {
-"explanation": "Xəta ola bilən kod `try` blokuna yazılır, xəta `except` ilə tutulur.",
+"q": "Xətanı tutmaq üçün hansı blok yazılır?",
 "options": [
 "`try/except`",
 "`do/catch`",
 "`try/catch`",
 "`safe/error`"
 ],
-"q": "Xətanı tutmaq üçün hansı blok yazılır?"
+"explanation": "Xəta ola bilən kod `try` blokuna yazılır, xəta `except` ilə tutulur."
 }
 ],
 "timeLimitSeconds": 300,
@@ -659,104 +659,104 @@
 "id": "topic-sql",
 "questions": [
 {
-"explanation": "`SELECT * FROM users` cədvəldəki bütün sütunları seçir.",
+"q": "Cədvəldən hər şeyi seçmək üçün hansı sorğu doğrudur?",
 "options": [
 "`SELECT * FROM users`",
 "`GET * FROM users`",
 "`FETCH * FROM users`",
 "`SHOW * FROM users`"
 ],
-"q": "Cədvəldən hər şeyi seçmək üçün hansı sorğu doğrudur?"
+"explanation": "`SELECT * FROM users` cədvəldəki bütün sütunları seçir."
 },
 {
-"explanation": "Yeni sətir əlavə etmək üçün `INSERT INTO` əmri işlənir.",
+"q": "Cədvələ yeni sətir əlavə etmək üçün nə yazılır?",
 "options": [
 "`INSERT INTO users ...`",
 "`ADD INTO users ...`",
 "`CREATE INTO users ...`",
 "`APPEND INTO users ...`"
 ],
-"q": "Cədvələ yeni sətir əlavə etmək üçün nə yazılır?"
+"explanation": "Yeni sətir əlavə etmək üçün `INSERT INTO` əmri işlənir."
 },
 {
-"explanation": "Sətirləri şərtlə süzmək üçün `WHERE` yazılır.",
+"q": "Yalnız Bakı sakinlərini seçmək üçün nə işlənir?",
 "options": [
 "`WHERE`",
 "`FILTER`",
 "`IF`",
 "`WHEN`"
 ],
-"q": "Yalnız Bakı sakinlərini seçmək üçün nə işlənir?"
+"explanation": "Sətirləri şərtlə süzmək üçün `WHERE` yazılır."
 },
 {
-"explanation": "Sıralama üçün `ORDER BY` yazılır və sütun adı göstərilir.",
+"q": "Sətirləri `ad` sütununa görə sıralamaq necə olur?",
 "options": [
 "`ORDER BY ad`",
 "`SORT BY ad`",
 "`GROUP BY ad`",
-"`ARRANGE ad`"
+"`ORDER ad`"
 ],
-"q": "Sətirləri `ad` sütununa görə sıralamaq necə olur?"
+"explanation": "Sıralama üçün `ORDER BY` yazılır və sütun adı göstərilir."
 },
 {
-"explanation": "Mövcud sətirləri dəyişmək üçün `UPDATE ... SET` işlənir.",
+"q": "Mövcud sətri dəyişmək üçün hansı əmr yazılır?",
 "options": [
 "`UPDATE users SET ...`",
 "`MODIFY users SET ...`",
 "`CHANGE users SET ...`",
-"`EDIT users SET ...`"
+"`ALTER users SET ...`"
 ],
-"q": "Mövcud sətri dəyişmək üçün hansı əmr yazılır?"
+"explanation": "Mövcud sətirləri dəyişmək üçün `UPDATE ... SET` işlənir."
 },
 {
-"explanation": "Sətir silmək üçün `DELETE FROM` yazılır və şərt qoyulur.",
+"q": "Şərtlə sətir silmək üçün hansı əmr yazılır?",
 "options": [
 "`DELETE FROM users ...`",
 "`REMOVE FROM users ...`",
 "`DROP FROM users ...`",
 "`CLEAR FROM users ...`"
 ],
-"q": "Şərtlə sətir silmək üçün hansı əmr yazılır?"
+"explanation": "Sətir silmək üçün `DELETE FROM` yazılır və şərt qoyulur."
 },
 {
-"explanation": "Yeni cədvəl yaratmaq üçün `CREATE TABLE` əmri işlənir.",
+"q": "`users` adlı cədvəl yaratmaq üçün nə yazılır?",
 "options": [
 "`CREATE TABLE users ...`",
-"`MAKE TABLE users ...`",
-"`NEW TABLE users ...`",
-"`BUILD TABLE users ...`"
+"`CREATE DATABASE users ...`",
+"`ALTER TABLE users ...`",
+"`INSERT TABLE users ...`"
 ],
-"q": "`users` adlı cədvəl yaratmaq üçün nə yazılır?"
+"explanation": "Yeni cədvəl yaratmaq üçün `CREATE TABLE` əmri işlənir."
 },
 {
-"explanation": "`NULL` dəyərin olmadığını, sahənin boş qaldığını bildirir.",
+"q": "SQL-də `NULL` nə deməkdir?",
 "options": [
 "Dəyər yoxdur, boşdur",
 "Sıfır ədədinə bərabərdir",
 "Boş mətnə bərabərdir",
 "Yalan dəyərə bərabərdir"
 ],
-"q": "SQL-də `NULL` nə deməkdir?"
+"explanation": "`NULL` dəyərin olmadığını, sahənin boş qaldığını bildirir."
 },
 {
-"explanation": "`DISTINCT` təkrar sətirləri atır və hər dəyəri bir dəfə göstərir.",
+"q": "Təkrarları atıb tək nüsxələri necə seçirik?",
 "options": [
 "`SELECT DISTINCT ad ...`",
 "`SELECT UNIQUE ad ...`",
 "`SELECT ONLY ad ...`",
 "`SELECT SINGLE ad ...`"
 ],
-"q": "Təkrarları atıb tək nüsxələri necə seçirik?"
+"explanation": "`DISTINCT` təkrar sətirləri atır və hər dəyəri bir dəfə göstərir."
 },
 {
-"explanation": "İki cədvəl `JOIN ... ON` ilə açar sütunla birləşdirilir.",
+"q": "İki cədvəli açarla birləşdirmək üçün nə yazılır?",
 "options": [
 "`JOIN ... ON ...`",
 "`MERGE ... ON ...`",
-"`LINK ... ON ...`",
-"`COMBINE ... ON ...`"
+"`JOIN ... WHERE ...`",
+"`UNION ... ON ...`"
 ],
-"q": "İki cədvəli açarla birləşdirmək üçün nə yazılır?"
+"explanation": "İki cədvəl `JOIN ... ON` ilə açar sütunla birləşdirilir."
 }
 ],
 "timeLimitSeconds": 300,
@@ -768,104 +768,104 @@
 "id": "topic-linux-terminal",
 "questions": [
 {
-"explanation": "`pwd` hazırda işlədiyin qovluğun yolunu göstərir.",
+"q": "Hazırkı qovluğu göstərən əmr hansıdır?",
 "options": [
 "`pwd`",
-"`pos`",
-"`loc`",
-"`wrk`"
+"`ls`",
+"`cd`",
+"`whoami`"
 ],
-"q": "Hazırkı qovluğu göstərən əmr hansıdır?"
+"explanation": "`pwd` hazırda işlədiyin qovluğun yolunu göstərir."
 },
 {
-"explanation": "`ls` qovluqdakı fayl və qovluqların siyahısını göstərir.",
+"q": "Qovluğun içini görmək üçün nə yazılır?",
 "options": [
 "`ls`",
-"`list`",
-"`show`",
-"`view`"
+"`dir`",
+"`cat`",
+"`pwd`"
 ],
-"q": "Qovluğun içini görmək üçün nə yazılır?"
+"explanation": "`ls` qovluqdakı fayl və qovluqların siyahısını göstərir."
 },
 {
-"explanation": "`cd` ilə başqa qovluğa keçmək olur.",
+"q": "`sənədlər` qovluğuna keçmək üçün nə yazılır?",
 "options": [
 "`cd sənədlər`",
-"`go sənədlər`",
-"`move sənədlər`",
-"`open sənədlər`"
+"`ls sənədlər`",
+"`mkdir sənədlər`",
+"`cd /sənədlər`"
 ],
-"q": "`sənədlər` qovluğuna keçmək üçün nə yazılır?"
+"explanation": "`cd` ilə başqa qovluğa keçmək olur."
 },
 {
-"explanation": "Yeni qovluq yaratmaq üçün `mkdir` və ad yazılır.",
+"q": "`yeni` adlı qovluq yaratmaq üçün nə yazılır?",
 "options": [
 "`mkdir yeni`",
-"`makedir yeni`",
-"`newdir yeni`",
-"`createdir yeni`"
+"`touch yeni`",
+"`cp yeni`",
+"`ls yeni`"
 ],
-"q": "`yeni` adlı qovluq yaratmaq üçün nə yazılır?"
+"explanation": "Yeni qovluq yaratmaq üçün `mkdir` və ad yazılır."
 },
 {
-"explanation": "`cat` faylın mətnini terminala çıxarır.",
+"q": "`qeyd.txt` mətnini ekrana necə çıxarırıq?",
 "options": [
 "`cat qeyd.txt`",
-"`run qeyd.txt`",
-"`exe qeyd.txt`",
-"`go qeyd.txt`"
+"`ls qeyd.txt`",
+"`cd qeyd.txt`",
+"`echo qeyd.txt`"
 ],
-"q": "`qeyd.txt` mətnini ekrana necə çıxarırıq?"
+"explanation": "`cat` faylın mətnini terminala çıxarır."
 },
 {
-"explanation": "`rm` göstərilən faylı birdəfəlik silir.",
+"q": "`rm qeyd.txt` nə edir?",
 "options": [
 "Faylı silir",
-"Faylı açır",
-"Faylı köçürür",
-"Faylı gizlədir"
+"Faylı zibil qutusuna göndərir",
+"Faylı başqa yerə köçürür",
+"Faylın içini təmizləyir"
 ],
-"q": "`rm qeyd.txt` nə edir?"
+"explanation": "`rm` göstərilən faylı birdəfəlik silir."
 },
 {
-"explanation": "`man` ilə əmrin təlimat səhifəsi açılır.",
+"q": "`ls` əmrinin təlimatını necə açırıq?",
 "options": [
 "`man ls`",
-"`helpme ls`",
-"`info! ls`",
-"`doc ls`"
+"`help ls`",
+"`manual ls`",
+"`readme ls`"
 ],
-"q": "`ls` əmrinin təlimatını necə açırıq?"
+"explanation": "`man` ilə əmrin təlimat səhifəsi açılır."
 },
 {
-"explanation": "`+x` bayrağı fayla icra izni verir.",
+"q": "`chmod +x run.sh` əmri nə edir?",
 "options": [
 "İcra izni verir",
-"Faylı silir",
-"Faylı gizlədir",
-"Faylı köçürür"
+"Yazma izni verir",
+"Oxuma izni verir",
+"Faylı adminə çevirir"
 ],
-"q": "`chmod +x run.sh` əmri nə edir?"
+"explanation": "`+x` bayrağı fayla icra izni verir."
 },
 {
-"explanation": "`grep` faylda verilən söz olan sətirləri tapır.",
+"q": "`log.txt`-də `səhv` sözünü necə axtarırıq?",
 "options": [
 "`grep \"səhv\" log.txt`",
 "`find \"səhv\" log.txt`",
-"`seek \"səhv\" log.txt`",
-"`scan \"səhv\" log.txt`"
+"`locate \"səhv\" log.txt`",
+"`grep log.txt \"səhv\"`"
 ],
-"q": "`log.txt`-də `səhv` sözünü necə axtarırıq?"
+"explanation": "`grep` faylda verilən söz olan sətirləri tapır."
 },
 {
-"explanation": "`sudo` əmri admin hüququ ilə işlədir.",
+"q": "`sudo` əmrin əvvəlinə nə əlavə edir?",
 "options": [
 "Əmri admin kimi işlədir",
 "Əmri fon rejimində işlədir",
-"Əmrin işini ləğv edir",
-"Faylı arxivə yığır"
+"Əmrin çıxışını fayla yazır",
+"Əmrin səhvini avtomatik düzəldir"
 ],
-"q": "`sudo` əmrin əvvəlinə nə əlavə edir?"
+"explanation": "`sudo` əmri admin hüququ ilə işlədir."
 }
 ],
 "timeLimitSeconds": 300,
@@ -877,104 +877,104 @@
 "id": "topic-http-ve-rest-api",
 "questions": [
 {
-"explanation": "Səhifəni almaq üçün brauzer serverə `GET` sorğusu göndərir.",
+"q": "Səhifəni almaq üçün brauzer hansı metodu işlədir?",
 "options": [
 "`GET`",
-"`SEND`",
-"`TAKE`",
-"`OPEN`"
+"`POST`",
+"`PUT`",
+"`FETCH`"
 ],
-"q": "Səhifəni almaq üçün brauzer hansı metodu işlədir?"
+"explanation": "Səhifəni almaq üçün brauzer serverə `GET` sorğusu göndərir."
 },
 {
-"explanation": "`200 OK` sorğunun uğurla yerinə yetirildiyini bildirir.",
+"q": "Uğurlu `GET` sorğusu adətən hansı kodu qaytarır?",
 "options": [
 "`200 OK`",
-"`404 OK`",
-"`500 OK`",
-"`302 OK`"
+"`201 Created`",
+"`204 No Content`",
+"`304 Not Modified`"
 ],
-"q": "Uğurlu `GET` sorğusu adətən hansı kodu qaytarır?"
+"explanation": "`200 OK` sorğunun uğurla yerinə yetirildiyini bildirir."
 },
 {
-"explanation": "`404` ünvanın tapılmadığını, səhifənin olmadığını bildirir.",
+"q": "Səhifə tapılmadıqda hansı kod gəlir?",
 "options": [
 "`404`",
 "`200`",
 "`500`",
 "`301`"
 ],
-"q": "Səhifə tapılmadıqda hansı kod gəlir?"
+"explanation": "`404` ünvanın tapılmadığını, səhifənin olmadığını bildirir."
 },
 {
-"explanation": "REST-də yeni yazı yaratmaq üçün `POST` metodu işlənir.",
+"q": "REST-də yeni istifadəçi yaratmaq üçün nə işlənir?",
 "options": [
 "`POST`",
-"`GET`",
-"`PING`",
-"`VIEW`"
+"`PUT`",
+"`PATCH`",
+"`GET`"
 ],
-"q": "REST-də yeni istifadəçi yaratmaq üçün nə işlənir?"
+"explanation": "REST-də yeni yazı yaratmaq üçün `POST` metodu işlənir."
 },
 {
-"explanation": "`201 Created` yeni məlumatın uğurla yaradıldığını bildirir.",
+"q": "Yeni yazı yaradıldıqda hansı kod qaytarılır?",
 "options": [
 "`201 Created`",
-"`200 Deleted`",
-"`404 Created`",
-"`500 Created`"
+"`200 OK`",
+"`202 Accepted`",
+"`204 No Content`"
 ],
-"q": "Yeni yazı yaradıldıqda hansı kod qaytarılır?"
+"explanation": "`201 Created` yeni məlumatın uğurla yaradıldığını bildirir."
 },
 {
-"explanation": "JSON-də açar dırnaqda yazılır və iki nöqtə ilə dəyərə bağlanır.",
+"q": "Adı `Ali` olan düzgün JSON hansıdır?",
 "options": [
 "`{\"ad\": \"Ali\"}`",
 "`{ad: Ali}`",
 "`{\"ad\" = \"Ali\"}`",
 "`[ad: Ali]`"
 ],
-"q": "Adı `Ali` olan düzgün JSON hansıdır?"
+"explanation": "JSON-də açar dırnaqda yazılır və iki nöqtə ilə dəyərə bağlanır."
 },
 {
-"explanation": "`Bearer` token adətən `Authorization` başlığında göndərilir.",
+"q": "`Bearer` tokeni adətən hara qoyulur?",
 "options": [
 "`Authorization` başlığına",
-"`Footer` cavab başlığına",
-"`Title` cavab başlığına",
-"`Status` cavab sətrinə"
+"`Authentication` başlığına",
+"Sorğunun `body` gövdəsinə",
+"Ünvanın `query` parametrinə"
 ],
-"q": "`Bearer` tokeni adətən hara qoyulur?"
+"explanation": "`Bearer` token adətən `Authorization` başlığında göndərilir."
 },
 {
-"explanation": "Mövcud yazını tam yeniləmək üçün `PUT` və ünvan yazılır.",
+"q": "`5` nömrəli istifadəçini yeniləmək üçün nə yazılır?",
 "options": [
 "`PUT /users/5`",
-"`GET /users/5`",
-"`PING /users/5`",
-"`VIEW /users/5`"
+"`POST /users/5`",
+"`PUT /users`",
+"`UPDATE /users/5`"
 ],
-"q": "`5` nömrəli istifadəçini yeniləmək üçün nə yazılır?"
+"explanation": "Mövcud yazını tam yeniləmək üçün `PUT` və ünvan yazılır."
 },
 {
-"explanation": "Sual işarəsindən sonrakı hissə `query` parametri adlanır.",
+"q": "`GET /users?id=5` ünvanında `?id=5` nədir?",
 "options": [
 "`query` parametri",
 "`header` başlığı",
 "`body` gövdəsi",
-"`cookie` faylı"
+"`path` parametri"
 ],
-"q": "`GET /users?id=5` ünvanında `?id=5` nədir?"
+"explanation": "Sual işarəsindən sonrakı hissə `query` parametri adlanır."
 },
 {
-"explanation": "HTTPS trafiki şifrələyir, HTTP-də mətn açıq gedir.",
+"q": "HTTPS HTTP-dən nə ilə fərqlənir?",
 "options": [
 "Trafiği şifrələyir",
-"Daha sürətli açılır",
-"Pulsuz domen verir",
-"Reklamı bloklayır"
+"Səhifəni daha sürətli açır",
+"Saytı axtarışda yuxarı qaldırır",
+"Brauzer tarixçəsini gizlədir"
 ],
-"q": "HTTPS HTTP-dən nə ilə fərqlənir?"
+"explanation": "HTTPS trafiki şifrələyir, HTTP-də mətn açıq gedir."
 }
 ],
 "timeLimitSeconds": 300,
@@ -986,104 +986,104 @@
 "id": "topic-docker",
 "questions": [
 {
-"explanation": "`image` konteyner yaratmaq üçün hazır şablondur.",
+"q": "Konteyner yaratmaq üçün hazır şablon nə adlanır?",
 "options": [
 "`image`",
-"`video`",
-"`audio`",
-"`photo`"
+"`container`",
+"`volume`",
+"`registry`"
 ],
-"q": "Konteyner yaratmaq üçün hazır şablon nə adlanır?"
+"explanation": "`image` konteyner yaratmaq üçün hazır şablondur."
 },
 {
-"explanation": "`container` `image`-dən işə salınmış canlı nüsxədir.",
+"q": "`image`-dən işə salınmış nüsxə nə adlanır?",
 "options": [
 "`container`",
-"`package`",
-"`folder`",
-"`archive`"
+"`image`",
+"`volume`",
+"`Dockerfile`"
 ],
-"q": "`image`-dən işə salınmış nüsxə nə adlanır?"
+"explanation": "`container` `image`-dən işə salınmış canlı nüsxədir."
 },
 {
-"explanation": "`Dockerfile` `image` yığmaq üçün addımları saxlayır.",
+"q": "`Dockerfile` nə üçündür?",
 "options": [
 "`image` yığmaq üçün",
-"Musiqi yazmaq üçün",
-"Şəkil çəkmək üçün",
-"Mətn çap etmək üçün"
+"Konteyneri işə salmaq üçün",
+"`image`-ləri internetdən endirmək üçün",
+"Konteynerin loquna baxmaq üçün"
 ],
-"q": "`Dockerfile` nə üçündür?"
+"explanation": "`Dockerfile` `image` yığmaq üçün addımları saxlayır."
 },
 {
-"explanation": "`docker ps` hazırda işləyən konteynerləri siyahılayır.",
+"q": "`docker ps` nə göstərir?",
 "options": [
 "İşləyən konteynerləri",
-"Saxlanılan şəkilləri",
-"Sistem saatını",
-"İstifadəçi adlarını"
+"Bütün `image`-ləri",
+"Dayanmış konteynerləri də",
+"Konteynerin loqlarını"
 ],
-"q": "`docker ps` nə göstərir?"
+"explanation": "`docker ps` hazırda işləyən konteynerləri siyahılayır."
 },
 {
-"explanation": "`docker build` `Dockerfile`-dən yeni `image` yığır.",
+"q": "`docker build -t ad .` əmri nə edir?",
 "options": [
 "`image` yığır",
-"`image` silir",
-"`image` açır",
-"`image` gizlədir"
+"`image` endirir",
+"`image` işə salır",
+"`image`-ləri siyahılayır"
 ],
-"q": "`docker build -t ad .` əmri nə edir?"
+"explanation": "`docker build` `Dockerfile`-dən yeni `image` yığır."
 },
 {
-"explanation": "İşləyən konteyneri `docker stop` ilə saxlamaq olur.",
+"q": "Konteyneri saxlamaq üçün nə yazılır?",
 "options": [
 "`docker stop ad`",
-"`docker close ad`",
 "`docker exit ad`",
-"`docker halt ad`"
+"`docker down ad`",
+"`docker remove ad`"
 ],
-"q": "Konteyneri saxlamaq üçün nə yazılır?"
+"explanation": "İşləyən konteyneri `docker stop` ilə saxlamaq olur."
 },
 {
-"explanation": "`-p` bayrağı konteyner portunu kompüterə açır.",
+"q": "Konteynerin `80` portunu açmaq üçün nə yazılır?",
 "options": [
 "`-p 8080:80`",
-"`-x 8080:80`",
-"`-z 8080:80`",
-"`-q 8080:80`"
+"`-v 8080:80`",
+"`-e 8080:80`",
+"`--name 8080:80`"
 ],
-"q": "Konteynerin `80` portunu açmaq üçün nə yazılır?"
+"explanation": "`-p` bayrağı konteyner portunu kompüterə açır."
 },
 {
-"explanation": "`docker logs` konteynerin çap etdiyi yazıları göstərir.",
+"q": "`docker logs ad` nə göstərir?",
 "options": [
 "Konteynerin çapını",
-"Konteynerin şəklini",
-"Konteynerin açarını",
-"Konteynerin qiymətini"
+"Konteynerdəki faylları",
+"Konteynerin portlarını",
+"Konteynerin `image` adını"
 ],
-"q": "`docker logs ad` nə göstərir?"
+"explanation": "`docker logs` konteynerin çap etdiyi yazıları göstərir."
 },
 {
-"explanation": "`volume` konteyner silinsə də məlumatı saxlayır.",
+"q": "Docker `volume` nə üçün işlənir?",
 "options": [
 "Məlumatı saxlamaq üçün",
-"Səsi artırmaq üçün",
-"Sürəti artırmaq üçün",
-"Şəbəkəni bağlamaq üçün"
+"Konteyner şəklini saxlamaq üçün",
+"Portları açmaq üçün",
+"Mühit dəyişəni ötürmək üçün"
 ],
-"q": "Docker `volume` nə üçün işlənir?"
+"explanation": "`volume` konteyner silinsə də məlumatı saxlayır."
 },
 {
-"explanation": "`compose up` fayldakı bütün xidmətləri birlikdə açır.",
+"q": "`docker compose up` nə edir?",
 "options": [
 "Birdən çox xidməti açır",
-"Bütün şəkilləri silir",
-"Bütün portları bağlayır",
-"Əməliyyat sistemini yeniləyir"
+"Bütün `image`-ləri yenidən yığır",
+"Bütün konteynerləri silir",
+"Fayldakı xidmətləri dayandırır"
 ],
-"q": "`docker compose up` nə edir?"
+"explanation": "`compose up` fayldakı bütün xidmətləri birlikdə açır."
 }
 ],
 "timeLimitSeconds": 300,
@@ -1100,9 +1100,9 @@
 "explanation": "IP ünvan hər qurğunu şəbəkədə unikal tanıdır, ona görə paketlər doğru ünvana gedir.",
 "options": [
 "Qurğunu şəbəkədə unikal tanımaq",
-"Brauzeri daha sürətli açmaq",
-"Kompüteri virusdan qorumaq",
-"Veb saytın dizaynını qurmaq"
+"Qurğuya internet sürəti ayırmaq",
+"Qurğunun trafikini şifrələyib qorumaq",
+"Domen adını IP ünvana çevirmək"
 ],
 "q": "Şəbəkədə `IP` ünvanın əsas vəzifəsi nədir?"
 },
@@ -1110,9 +1110,9 @@
 "explanation": "DNS domen adlarını IP ünvana çevirir, ona görə brauzer doğru serveri tapır.",
 "options": [
 "Domen adını `IP` ünvana çevirir",
-"Faylları serverə yükləyir",
-"Virusları aşkar edib silir",
-"Veb səhifəni dizayn edir"
+"Qurğulara avtomatik `IP` ünvan paylayır",
+"`IP` ünvanı MAC ünvana bağlayır",
+"Trafiki şəbəkələr arası yönləndirir"
 ],
 "q": "`DNS` xidməti nə iş görür?"
 },
@@ -1131,8 +1131,8 @@
 "options": [
 "`TCP` təsdiqli, `UDP` təsdiqsiz göndərir",
 "`UDP` təsdiqli, `TCP` təsdiqsiz göndərir",
-"Hər ikisi tam eyni cür işləyir",
-"Hər ikisi ancaq çap üçün işləyir"
+"`TCP` sürətli, `UDP` etibarlı göndərir",
+"`TCP` ancaq veb, `UDP` ancaq fayl üçündür"
 ],
 "q": "`TCP` ilə `UDP` arasında əsas fərq nədir?"
 },
@@ -1162,7 +1162,7 @@
 "Paketləri şəbəkələr arası yönəldir",
 "Cihazlara avtomatik `IP` paylayır",
 "Domen adlarını `IP`-yə çevirir",
-"`Wi-Fi` siqnalını gücləndirir"
+"Paketləri eyni şəbəkə içində paylayır"
 ],
 "q": "`Router` ev şəbəkəsində əsasən nə edir?"
 },
@@ -1170,9 +1170,9 @@
 "explanation": "TCP bağlantı üç mərhələli handshake ilə başlayır: `SYN`, `SYN-ACK`, `ACK`.",
 "options": [
 "Üç mərhələli `handshake` gedir",
-"Tək paketlə dərhal bağlanır",
-"Əvvəlcə parol soruşulur",
-"Əvvəlcə fayl endirilir"
+"İki mərhələli `handshake` gedir",
+"Dörd mərhələli `handshake` ilə bağlanır",
+"Əvvəlcə TLS açarı razılaşdırılır"
 ],
 "q": "`TCP` bağlantısı başlayanda nə baş verir?"
 },
@@ -1180,9 +1180,9 @@
 "explanation": "127.0.0.1 loopback ünvandır və həmişə öz kompüterini göstərir.",
 "options": [
 "Öz kompüterin özünü göstərir",
-"İnternet provayderi göstərir",
-"Ən yaxın routeri göstərir",
-"`Google` serverini göstərir"
+"Ev şəbəkəsinin routerini göstərir",
+"Provayderin DNS serverini göstərir",
+"`Google` DNS serverini göstərir"
 ],
 "q": "`127.0.0.1` (`localhost`) nə deməkdir?"
 },
@@ -1209,9 +1209,9 @@
 "explanation": "HTTPS brauzerlə server arası trafiki şifrələyir və dinləmədən qoruyur.",
 "options": [
 "Trafiki şifrələyib qoruyur",
-"Saytı daha rəngli göstərir",
-"Reklamları tam bloklayır",
-"Kodu avtomatik düzəldir"
+"Serveri DDoS hücumundan qoruyur",
+"Səhifədəki zərərli kodu təmizləyir",
+"Saytı fişinq nüsxələrdən qoruyur"
 ],
 "q": "`HTTPS` sayta nə qazandırır?"
 },
@@ -1229,9 +1229,9 @@
 "explanation": "XSS zərərli skriptin başqa istifadəçinin brauzerində işləməsidir.",
 "options": [
 "Zərərli skriptin brauzerdə işləməsi",
-"Serverin çox qızması halı",
-"Şifrənin unudulması halı",
-"İnternetin yavaşlaması halı"
+"Zərərli sorğunun bazanı oxuması",
+"Saxta formanın başqa saytda işləməsi",
+"Şifrəli trafikin yolda oxunması"
 ],
 "q": "`XSS` hücumu nədir?"
 },
@@ -1240,8 +1240,8 @@
 "options": [
 "Parametrli sorğular işlətmək",
 "Sorğuya mətni birbaşa yapışdırmaq",
-"Xəta mətnini gizlətməmək",
-"`admin`-loqinlə qoşulmaq"
+"Mətndə tək dırnaqları əl ilə silmək",
+"Bazaya ancaq `admin` ilə qoşulmaq"
 ],
 "q": "`SQL injection`-dən necə qorunmaq olar?"
 },
@@ -1250,8 +1250,8 @@
 "options": [
 "Hər formaya gizli `token` qoymaq",
 "Bütün formalara eyni açar qoymaq",
-"İstifadəçini yadda saxlamamaq",
-"Saytı ancaq gündüz açmaq"
+"`Cookie`-də parolu açıq saxlamaq",
+"Formanı ancaq `GET` ilə göndərmək"
 ],
 "q": "`CSRF` hücumundan necə qorunmaq olar?"
 },
@@ -1260,8 +1260,8 @@
 "options": [
 "Parolu `bcrypt` ilə saxlamaq",
 "Parolu açıq mətnlə saxlamaq",
-"Parolu `URL`-də göndərmək",
-"Parolu fayl adına yazmaq"
+"Parolu `MD5` ilə tək dəfə ötürmək",
+"Parolu `Base64` ilə kodlayıb saxlamaq"
 ],
 "q": "Parolları bazada necə saxlamaq lazımdır?"
 },
@@ -1269,9 +1269,9 @@
 "explanation": "Sınıq giriş nəzarəti OWASP Top 10-luqda birinci riskdir və icazəsiz girişi açır.",
 "options": [
 "Sınıq giriş nəzarəti riski",
-"Gözəl düymə rəngi seçimi",
-"Şrift ölçüsü səhvi",
-"Loqonun kiçik olması"
+"`HTTPS` sertifikatının pulsuz olması",
+"Brauzerin avtomatik yenilənməsi",
+"Parolun uzun və unikal olması"
 ],
 "q": "Hansı risk `OWASP Top 10`-a aiddir?"
 },
@@ -1279,9 +1279,9 @@
 "explanation": "2FA girişə ikinci sübut əlavə edir, ona görə oğurlanmış parol bəs etmir.",
 "options": [
 "Oğurlanmış parolu yararsız edir",
-"İnterneti daha da sürətləndirir",
-"Virusları avtomatik silir",
-"Saytın dizaynını yeniləyir"
+"Parolun təxminini çətinləşdirir",
+"Fişinq saytları avtomatik bağlayır",
+"Zərərli qoşmaları avtomatik silir"
 ],
 "q": "İki mərhələli giriş (`2FA`) nə üçün lazımdır?"
 },
@@ -1289,9 +1289,9 @@
 "explanation": "Rate limit çoxlu cəhdləri bloklayır və brute-force hücumunu zəiflədir.",
 "options": [
 "Çoxlu cəhdləri bloklayır",
-"Bütün cəhdlərə icazə verir",
-"Parolları açıq göstərir",
-"Loqları tamamilə silir"
+"Uğursuz cəhdləri loqa yazmadan silir",
+"Parolu avtomatik gücləndirir",
+"Hər IP-yə limitsiz cəhd verir"
 ],
 "q": "`Rate limit` kobud güc hücumuna necə kömək edir?"
 },
@@ -1299,9 +1299,9 @@
 "explanation": "CORS brauzerə hansı saytların API-yə müraciət edə biləcəyini deyir.",
 "options": [
 "Hansı saytın `API`-yə girə bildiyi",
-"Hansı rəngin dəbli olduğu",
-"Hansı brauzerin ən yaxşısı olduğu",
-"Hansı hostinqin ucuz olduğu"
+"İstifadəçinin hansı səhifəyə girə bildiyi",
+"Hansı skriptin səhifədə işləyə bildiyi",
+"Trafikin hansı portdan ötürüldüyü"
 ],
 "q": "`CORS` siyasəti nəyi idarə edir?"
 }
@@ -1318,9 +1318,9 @@
 "explanation": "Sinif obyektlər üçün qəlibdir: sahələri və metodları təsvir edir.",
 "options": [
 "Obyektlər üçün qəlib təsviri",
-"Kompüterin yaddaş çipi",
-"Proqramın quraşdırma faylı",
-"İnternetə qoşulma açarı"
+"Obyektin yaddaşdakı hazır nüsxəsi",
+"Proqramın işə düşən icra faylı",
+"Obyektlər arası əlaqə diaqramı"
 ],
 "q": "Proqramda `class` nədir?"
 },
@@ -1328,9 +1328,9 @@
 "explanation": "Obyekt sinfin canlı nümunəsidir və öz dəyərlərini saxlayır.",
 "options": [
 "Sinfin canlı nümunəsidir",
-"Kompüterin ekran kartıdır",
-"Kodun çap olunmuş halıdır",
-"Qovluqdakı şəkil faylıdır"
+"Sinfin ümumi qəlib təsviridir",
+"Proqramın mənbə kod faylıdır",
+"Siniflər arası əlaqə cədvəlidir"
 ],
 "q": "Proqramda `obyekt` nədir?"
 },
@@ -1338,9 +1338,9 @@
 "explanation": "Konstruktor obyekt yarananda işləyir və başlanğıc dəyərləri qoyur.",
 "options": [
 "Obyekt yarananda işləyən metod",
-"Obyekt silinəndə işləyən virus",
-"Proqramı bağlayan düymə",
-"Faylı çap edən əmr"
+"Obyekt silinəndə yaddaşı təmizləyir",
+"Sinfin bütün metodlarını siyahılayır",
+"Obyektin tipini iş vaxtı dəyişir"
 ],
 "q": "`Konstruktor` nə iş görür?"
 },
@@ -1349,8 +1349,8 @@
 "options": [
 "Daxili vəziyyəti metodla açmaq",
 "Bütün sahələri açıq saxlamaq",
-"Kodu şərhsiz yazmaq",
-"Faylları arxivə sıxışdırmaq"
+"Alt sinfə bütün sahələri ötürmək",
+"Eyni metoda fərqli davranış vermək"
 ],
 "q": "`Enkapsulyasiya` nə deməkdir?"
 },
@@ -1358,9 +1358,9 @@
 "explanation": "Vərəsəlik alt sinfə ana sinfin sahə və metodlarını təkrar yazmadan verir.",
 "options": [
 "Alt sinfin üst sinfdən törəməsi",
-"Faylın nüsxəsini çıxarmaq",
-"Dəyişəni sıfırlamaq əməli",
-"Proqramı yenidən açmaq"
+"Obyektin sinifdən nüsxələnməsi",
+"Bir sinfin başqasını içində saxlaması",
+"Daxili vəziyyəti metodla gizlətmək"
 ],
 "q": "`Vərəsəlik` (`inheritance`) nədir?"
 },
@@ -1369,8 +1369,8 @@
 "options": [
 "Ancaq sinfin özü daxil olur",
 "Hər kəs birbaşa daxil olur",
-"Ancaq brauzer daxil olur",
-"Ancaq printer daxil olur"
+"Ancaq alt siniflər daxil olur",
+"Ancaq eyni paketdəkilər daxil olur"
 ],
 "q": "`private` sahəyə kim daxil ola bilər?"
 },
@@ -1378,9 +1378,9 @@
 "explanation": "Polimorfizm eyni metoda fərqli siniflərdə fərqli davranış verir.",
 "options": [
 "Eyni metoda fərqli davranış vermək",
-"Eyni faylı iki dəfə açmaq",
-"Eyni dəyişəni iki dəfə silmək",
-"Eyni şəkli iki dəfə çap etmək"
+"Eyni sinifdən çox obyekt yaratmaq",
+"Alt sinfin üst sinfdən törəməsi",
+"Bütün sahələri açıq saxlamaq"
 ],
 "q": "`Polimorfizm` nə deməkdir?"
 },
@@ -1388,9 +1388,9 @@
 "explanation": "Override alt sinfin ana sinfin metodunu özünəməxsus yenidən yazmasıdır.",
 "options": [
 "Alt sinfin metodu yenidən yazması",
-"Üst sinfin faylı silməsi",
-"Dəyişənin adını gizlətməsi",
-"Proqramın donub qalması"
+"Alt sinfin yeni sahə əlavə etməsi",
+"Üst sinfin metodu gizlətməsi",
+"Metodu fərqli adla təkrar yaratmaq"
 ],
 "q": "Metodun `override` olunması nədir?"
 },
@@ -1398,9 +1398,9 @@
 "explanation": "Abstraksiya vacib xüsusiyyətləri saxlayıb xırdalıqları gizlədir.",
 "options": [
 "Vacibi saxlayıb xırdalığı gizlətmək",
-"Bütün kodu bir sətirə yığmaq",
-"Bütün xətaları gizlətmək",
-"Bütün faylları silmək"
+"Bütün detalları açıq saxlamaq",
+"Kodu tək sətirdə sıx yazmaq",
+"Vərəsəlik zəncirini uzatmaq"
 ],
 "q": "`Abstraksiya` nə deməkdir?"
 },
@@ -1408,9 +1408,9 @@
 "explanation": "Abstrakt sinifdən birbaşa obyekt yaranmır, ondan vərəsəlik alınır.",
 "options": [
 "Ondan birbaşa obyekt yaranmır",
-"Ondan yalnız şəkil yaranır",
-"Onda heç metod olmur",
-"Onda heç sinif olmur"
+"Onda heç metod yazılmır",
+"Onda ancaq açıq sahə olur",
+"Ondan vərəsəlik almaq olmur"
 ],
 "q": "Abstrakt sinfin əsas fərqi nədir?"
 }
@@ -1428,8 +1428,8 @@
 "options": [
 "`arr[0]` birinci elementi verir",
 "`arr[0]` son elementi verir",
-"`arr[0]` massivi silir",
-"`arr[0]` massivi çap edir"
+"`arr[0]` massivin uzunluğunu verir",
+"`arr[0]` ikinci elementi verir"
 ],
 "q": "Massivdə `arr[0]` nə deməkdir?"
 },
@@ -1438,8 +1438,8 @@
 "options": [
 "Son qoyulan birinci çıxır",
 "Birinci qoyulan birinci çıxır",
-"Bütün elementlər birdən çıxır",
-"Elementlər heç vaxt çıxmır"
+"Ortadakı element birinci çıxır",
+"Təsadüfi element birinci çıxır"
 ],
 "q": "`Stek` (`stack`) necə işləyir?"
 },
@@ -1448,8 +1448,8 @@
 "options": [
 "Birinci gələn birinci gedir",
 "Son gələn birinci gedir",
-"Ortadakı birinci gedir",
-"Təsadüfi biri gedir"
+"Prioritetli element birinci gedir",
+"Ortadakı element birinci gedir"
 ],
 "q": "`Növbə` (`queue`) necə işləyir?"
 },
@@ -1457,9 +1457,9 @@
 "explanation": "Bağlı siyahıda hər düyün dəyər və növbəti düyünün ünvanını saxlayır.",
 "options": [
 "Düyünlər zəncir kimi bağlanır",
-"Bütün düyünlər tək-tək durur",
-"Düyünlər şəkildən ibarətdir",
-"Düyünlər avtomatik silinir"
+"Elementlər ardıcıl yaddaşda durur",
+"Bütün düyünlər eyni ünvanda durur",
+"Düyünlər indekslə birbaşa açılır"
 ],
 "q": "Bağlı siyahı (`linked list`) nədir?"
 },
@@ -1467,9 +1467,9 @@
 "explanation": "Set eyni dəyəri bir dəfə saxlayır və təkrarları atır.",
 "options": [
 "Eyni dəyəri bir dəfə saxlayır",
-"Eyni dəyəri min dəfə saxlayır",
-"Ancaq mətn saxlamır",
-"Ancaq şəkil saxlayır"
+"Eyni dəyəri çox dəfə saxlayır",
+"Elementləri əlavə sırası ilə düzür",
+"Açarla dəyəri cüt saxlayır"
 ],
 "q": "`Set` strukturunun əsas fərqi nədir?"
 },
@@ -1477,9 +1477,9 @@
 "explanation": "Hash map açarla dəyəri bağlayır və orta hesabla `O(1)` tapır.",
 "options": [
 "Açarla dəyəri sürətlə tapır",
-"Faylları diskdə sıralayır",
-"Şəkilləri ekranda böyüdür",
-"Səsi mikrofondan yazır"
+"Açarı sıralı siyahıda saxlayır",
+"Dəyərləri diskdə ardıcıl düzür",
+"Cütləri əlavə sırası ilə gəzir"
 ],
 "q": "`Hash map` nə üçün əlverişlidir?"
 },
@@ -1489,7 +1489,7 @@
 "Ən üst düyün kökdür",
 "Ən alt düyün kökdür",
 "Ortadakı düyün kökdür",
-"Hər düyün kök sayılır"
+"Ən çox uşağı olan düyündür"
 ],
 "q": "Ağacda (`tree`) kök (`root`) nədir?"
 },
@@ -1498,8 +1498,8 @@
 "options": [
 "Solda kiçik, sağda böyük olur",
 "Solda böyük, sağda kiçik olur",
-"Hər iki yanda eyni olur",
-"Heç bir qayda olmur"
+"Valideyn həmişə ən böyük olur",
+"Bütün düyünlər eyni səviyyədə olur"
 ],
 "q": "İkili axtarış ağacında qayda nədir?"
 },
@@ -1507,9 +1507,9 @@
 "explanation": "Qrafda təpələr edge adlanan əlaqələrlə birləşir.",
 "options": [
 "Təpələri birləşdirən əlaqədir",
-"Qrafı silən xüsusi düymədir",
-"Şəkli kəsən alətdir",
-"Səsi yazan mikrofondur"
+"Təpədə saxlanan dəyərdir",
+"Qrafın başlanğıc düyünüdür",
+"Təpələrin çəki cədvəlidir"
 ],
 "q": "Qrafda `edge` nədir?"
 },
@@ -1517,9 +1517,9 @@
 "explanation": "Funksiya çağırışları stekdə saxlanır, ona görə geri qayıtma düzgün işləyir.",
 "options": [
 "Funksiya çağırışlarını saxlayır",
-"Şəkilləri albomda saxlayır",
-"Mahnıları playlistdə saxlayır",
-"Parolları açıq saxlayır"
+"Faylları diskdə ardıcıl saxlayır",
+"Sorğuları gəliş sırası ilə saxlayır",
+"Açar-dəyər cütlərini saxlayır"
 ],
 "q": "Proqramda stek ən çox nə üçün işlənir?"
 }
@@ -1536,9 +1536,9 @@
 "explanation": "Big-O giriş böyüdükcə addımların necə artdığını göstərir.",
 "options": [
 "Artım sürətini göstərir",
-"Yaddaşın rəngini göstərir",
-"Ekranın ölçüsünü göstərir",
-"Faylın adını göstərir"
+"Proqramın yazıldığı dili göstərir",
+"Kodun sətir sayını göstərir",
+"Yaddaşın gigabaytla həcmini göstərir"
 ],
 "q": "`Big-O` notasiyası nəyi göstərir?"
 },
@@ -1548,7 +1548,7 @@
 "Həmişə bir addıma işləyir",
 "Giriş qədər addım atır",
 "Girişin kvadratı qədər artır",
-"Heç vaxt bitmir"
+"Giriş ikiqat olanda ikiqat yavaşlayır"
 ],
 "q": "`O(1)` mürəkkəblik nə deməkdir?"
 },
@@ -1557,8 +1557,8 @@
 "options": [
 "Vaxt girişlə xətti artır",
 "Vaxt həmişə sabit qalır",
-"Vaxt girişdən asılı azalır",
-"Vaxt təsadüfi dəyişir"
+"Vaxt girişin kvadratı ilə artır",
+"Vaxt giriş böyüdükcə log artır"
 ],
 "q": "`O(n)` mürəkkəblik nə deməkdir?"
 },
@@ -1566,9 +1566,9 @@
 "explanation": "Rekursiyada baza halı dayanma şərtidir, olmasa sonsuz dövr alınır.",
 "options": [
 "Dayanma şərtidir",
-"Başlama düyməsidir",
-"Çap əmridir",
-"Silgi düyməsidir"
+"Rekursiyanın ilk çağırışıdır",
+"Funksiyanın dönüş tipidir",
+"Dövrün addım ölçüsüdür"
 ],
 "q": "Rekursiyada baza halı (`base case`) nədir?"
 },
@@ -1577,8 +1577,8 @@
 "options": [
 "Hər elementə bir-bir baxır",
 "Ancaq ortaya baxır",
-"Ancaq sonuncuya baxır",
-"Elementlərə baxmadan bitirir"
+"Ortadan başlayıb yarı bölür",
+"Əvvəlcə massivi sıralayır"
 ],
 "q": "Xətti axtarış necə işləyir?"
 },
@@ -1586,9 +1586,9 @@
 "explanation": "Binar axtarış sıralı massivi yarı bölür və O(log n) işləyir.",
 "options": [
 "Sıralı massivi yarı bölür",
-"Qarışıq massivi qarışdırır",
-"Bütün siyahını silir",
-"Hər dəfə yenidən yazır"
+"Sırasız siyahını yarı bölür",
+"Hər elementə bir-bir baxır",
+"Təsadüfi elementi yoxlayır"
 ],
 "q": "Binar axtarış necə işləyir?"
 },
@@ -1598,7 +1598,7 @@
 "Pis halda `O(n^2)` edir",
 "Həmişə `O(1)` edir",
 "Həmişə `O(log n)` edir",
-"Heç vaxt bitmir"
+"Pis halda `O(n log n)` edir"
 ],
 "q": "`Bubble sort`-un pis halı necədir?"
 },
@@ -1617,8 +1617,8 @@
 "options": [
 "Ən yavaş iş rejimidir",
 "Ən sürətli iş rejimidir",
-"Orta rəng rejimidir",
-"Ekran işıq rejimidir"
+"Orta hesabla iş rejimidir",
+"Ən az yaddaş işlədən rejimdir"
 ],
 "q": "`Worst case` analiz nə deməkdir?"
 },
@@ -1626,9 +1626,9 @@
 "explanation": "Məkan mürəkkəbliyi alqoritmin əlavə nə qədər yaddaş işlətdiyini göstərir.",
 "options": [
 "Əlavə yaddaş sərfini göstərir",
-"Ekran parlaqlığını göstərir",
-"Faylın çəkisini göstərir",
-"Kodun rəngini göstərir"
+"Prosessorun nüvə sayını göstərir",
+"Kodun sətir sayını göstərir",
+"Faylın diskdə yerini göstərir"
 ],
 "q": "Məkan (`space`) mürəkkəbliyi nədir?"
 }
@@ -1645,9 +1645,9 @@
 "q": "React nədir?",
 "options": [
 "İnterfeys qurmaq üçün JavaScript kitabxanası",
-"Server idarə edən əməliyyat sistemi",
-"Verilənlər bazası üçün sorğu dili",
-"Şəkil redaktəsi üçün brauzer aləti"
+"Serverdə API yaratmaq üçün JavaScript çərçivəsi",
+"JavaScript-i işlədən brauzer mühərriki",
+"Səhifəyə stil vermək üçün CSS kitabxanası"
 ],
 "explanation": "React interfeysləri komponentlərlə qurmaq üçün JavaScript kitabxanasıdır."
 },
@@ -1655,9 +1655,9 @@
 "q": "`JSX` nədir?",
 "options": [
 "JavaScript içində HTML-ə bənzər yazılış",
-"Tamamilə yeni proqramlaşdırma dili",
-"Verilənlər bazası cədvəl növü",
-"Brauzer üçün şəkil formatı"
+"Brauzerdə birbaşa işləyən HTML növü",
+"JavaScript-i HTML-ə çevirən server aləti",
+"Stil yazmaq üçün CSS genişlənməsi"
 ],
 "explanation": "`JSX` JavaScript içində HTML-ə bənzər sintaksis yazmağa imkan verir."
 },
@@ -1665,9 +1665,9 @@
 "q": "Komponentə kənardan ötürülən məlumat necə adlanır?",
 "options": [
 "`props` adlanan giriş məlumatı",
-"`setup` adlanan quraşdırma faylı",
-"`backup` adlanan nüsxə faylı",
-"`proxy` adlanan şəbəkə serveri"
+"`state` adlanan daxili vəziyyət",
+"`context` adlanan ümumi yaddaş",
+"`ref` adlanan birbaşa keçid"
 ],
 "explanation": "Valideyn komponent uşağa məlumatı `props` ilə ötürür."
 },
@@ -1675,9 +1675,9 @@
 "q": "`useState` hook-u nə edir?",
 "options": [
 "Komponentdə dəyişən vəziyyət saxlayır",
-"Serverdə yeni cədvəl yaradır",
-"Brauzer tarixçəsini təmizləyir",
-"Faylı diskə avtomatik yazır"
+"Komponentdə sabit dəyər saxlayır",
+"Serverdən məlumat yükləyib gətirir",
+"DOM düyününə birbaşa keçid saxlayır"
 ],
 "explanation": "`useState` komponentin yaddaşında vəziyyət saxlayır və yeniləyir."
 },
@@ -1685,9 +1685,9 @@
 "q": "`useEffect` adətən nə üçün işlədilir?",
 "options": [
 "Məlumat yükləmək kimi kənar işlər üçün",
-"Yeni komponent faylı yaratmaq üçün",
-"Dizayn rənglərini seçmək üçün",
-"Şifrəni şifrələmək üçün"
+"Vəziyyəti yadda saxlamaq üçün",
+"Hesablamanı yadda saxlamaq üçün",
+"DOM düyününə keçid saxlamaq üçün"
 ],
 "explanation": "`useEffect` məlumat yükləmə kimi kənar effektlər üçün işlədilir."
 },
@@ -1695,9 +1695,9 @@
 "q": "Siyahı göstərərkən `key` niyə lazımdır?",
 "options": [
 "Hər elementi fərqləndirib düzgün yeniləyir",
-"Siyahını avtomatik əlifba sırası ilə düzür",
-"Elementləri avtomatik silir",
-"Səhifəni çap üçün hazırlayır"
+"Siyahını əlifba sırası ilə düzür",
+"Elementlərin sırasını serverdə saxlayır",
+"Hər elementə avtomatik stil verir"
 ],
 "explanation": "`key` React-ə hansı elementin dəyişdiyini tapmağa kömək edir."
 },
@@ -1706,8 +1706,8 @@
 "options": [
 "`props` gəlir, `state` komponentdə dəyişir",
 "`props` dəyişir, `state` heç dəyişmir",
-"İkisi də yalnız serverdə saxlanılır",
-"İkisi də yalnız fayla yazılır"
+"`props` dəyişir, `state` kənardan gəlir",
+"İkisi də yalnız valideyndə saxlanılır"
 ],
 "explanation": "`props` kənardan gəlir və dəyişdirilmir, `state` isə komponentdə dəyişir."
 },
@@ -1715,9 +1715,9 @@
 "q": "Nəzarət olunan (controlled) input nə deməkdir?",
 "options": [
 "Dəyəri `state` ilə idarə olunan input",
-"İnternetsiz işləyən giriş xanası",
-"Yalnız rəqəm qəbul edən düymə",
-"Avtomatik bağlanan pəncərə"
+"Dəyəri DOM-un özündə qalan input",
+"Yalnız oxunan, dəyişməz input",
+"Təsdiqlənmədən göndərilən input"
 ],
 "explanation": "Nəzarət olunan inputun dəyəri `state`-də saxlanılır və oradan idarə olunur."
 },
@@ -1725,9 +1725,9 @@
 "q": "`useMemo` nə üçün işlədilir?",
 "options": [
 "Bahalı hesablamanı yadda saxlamaq üçün",
-"Şəkilləri serverə yükləmək üçün",
-"Yeni səhifə açmaq üçün",
-"İstifadəçini sistemdən çıxarmaq üçün"
+"Məlumat yükləmək kimi kənar iş üçün",
+"DOM düyününə keçid saxlamaq üçün",
+"Vəziyyəti yadda saxlamaq üçün"
 ],
 "explanation": "`useMemo` bahalı hesablamanın nəticəsini yadda saxlayıb təkrar işi azaldır."
 },
@@ -1735,9 +1735,9 @@
 "q": "Virtual DOM-in əsas faydası nədir?",
 "options": [
 "Lazımsız səhifə yeniləmələrini azaldır",
-"İnternetin sürətini artırır",
-"Kompüteri virusdan qoruyur",
-"Faylları buluda avtomatik nüsxələyir"
+"Şəbəkə sorğularını avtomatik azaldır",
+"Brauzer yaddaşını tam boşaldır",
+"JavaScript-i maşın koduna çevirir"
 ],
 "explanation": "Virtual DOM dəyişikliyi müqayisə edib yalnız lazımi yeri yeniləyir."
 }
@@ -1754,9 +1754,9 @@
 "q": "Node.js nədir?",
 "options": [
 "JavaScript-i serverdə işlədən mühit",
-"Yeni sosial şəbəkə tətbiqi",
-"Verilənlər bazası idarə paneli",
-"Şəkil çəkmək üçün mobil tətbiq"
+"JavaScript üçün brauzer əlavəsi",
+"JavaScript üçün paket anbarı",
+"JavaScript üçün kod redaktoru"
 ],
 "explanation": "Node.js JavaScript kodunu brauzerdən kənarda, serverdə işlədir."
 },
@@ -1764,9 +1764,9 @@
 "q": "`npm` nə edir?",
 "options": [
 "Paketləri quraşdırıb idarə edir",
-"Kompüterə antivirus yazır",
-"İnternet sürətini ölçür",
-"Faylları kağıza çap edir"
+"JavaScript-i serverdə işlədir",
+"Kodu maşın dilinə çevirir",
+"Layihəni internetə yerləşdirir"
 ],
 "explanation": "`npm` hazır paketləri quraşdırmaq və idarə etmək üçün alətdir."
 },
@@ -1774,9 +1774,9 @@
 "q": "`package.json` faylı nə saxlayır?",
 "options": [
 "Layihə məlumatı və asılılıqları",
-"İstifadəçinin şəxsi şəkillərini",
-"Brauzer tarixçəsini",
-"Sistem parollarını"
+"Quraşdırılmış paketlərin kodu",
+"Paketlərin dəqiq kilid siyahısı",
+"Mühit açarları və şifrələr"
 ],
 "explanation": "`package.json` layihənin adı, versiyası və asılılıqlarını saxlayır."
 },
@@ -1784,9 +1784,9 @@
 "q": "`node_modules` qovluğu nədir?",
 "options": [
 "Quraşdırılmış paketlərin qovluğu",
-"Sistem şəkillərinin qovluğu",
-"Silinmiş faylların zibili",
-"Brauzer əlavələrinin siyahısı"
+"Layihə ayarlarının saxlandığı fayl",
+"Mənbə kodunun saxlandığı qovluq",
+"Yerləşdirmə üçün yığılmış fayllar"
 ],
 "explanation": "`npm install` paketləri `node_modules` qovluğuna yükləyir."
 },
@@ -1794,9 +1794,9 @@
 "q": "`import` və ya `require` nə edir?",
 "options": [
 "Hazır modulu koda qoşur",
-"Kompüteri yenidən başladır",
-"Faylı printerə göndərir",
-"İnterneti söndürüb açır"
+"Yeni paketi anbara yükləyir",
+"Modulu anbardan endirib quraşdırır",
+"Layihəni sıfırdan yaradır"
 ],
 "explanation": "Modulu işlətmək üçün onu `import` və ya `require` ilə qoşuruq."
 },
@@ -1804,9 +1804,9 @@
 "q": "Express nə üçün işlədilir?",
 "options": [
 "Server və API yaratmaq üçün",
-"Video montaj etmək üçün",
-"Musiqi bəstələmək üçün",
-"Xəritə çəkmək üçün"
+"Məlumat bazası idarə etmək üçün",
+"Səhifəyə stil vermək üçün",
+"Test ssenarisi yazmaq üçün"
 ],
 "explanation": "Express Node.js-də server və API yaratmağı asanlaşdırır."
 },
@@ -1814,9 +1814,9 @@
 "q": "`npm install` əmri nə edir?",
 "options": [
 "Asılılıqları qovluğa yükləyir",
-"Kompüterin dilini dəyişir",
-"Ekran parlaqlığını artırır",
-"Yeni istifadəçi yaradır"
+"Layihəni sıfırdan yaradır",
+"Paketi anbara dərc edir",
+"Köhnə paketləri sistemdən silir"
 ],
 "explanation": "`npm install` `package.json`-dəki asılılıqları yükləyib quraşdırır."
 },
@@ -1824,9 +1824,9 @@
 "q": "`package-lock.json` nə üçün lazımdır?",
 "options": [
 "Paket versiyalarını sabit saxlayır",
-"Ekran şəklini yadda saxlayır",
-"Musiqi siyahısı yaradır",
-"Printeri quraşdırır"
+"Layihə məlumatını əl ilə yazır",
+"Mühit dəyişənlərini saxlayır",
+"Skript əmrlərini siyahılayır"
 ],
 "explanation": "`package-lock.json` hər paketin dəqiq versiyasını qeyd edir."
 },
@@ -1834,9 +1834,9 @@
 "q": "Event loop nədir?",
 "options": [
 "Sorğuları növbə ilə icra edən mexanizm",
-"Arxa fonda musiqi çalan proqram",
-"Şəkilləri slayd rejimində göstərir",
-"Yeni qovluq yaratmaq əmri"
+"Faylları sırayla arxivləyən alət",
+"Paketləri növbə ilə yeniləyən əmr",
+"Sorğuları iş parçalarına bölən üsul"
 ],
 "explanation": "Event loop sorğuları növbəyə qoyub tək-tək icra edir."
 },
@@ -1844,9 +1844,9 @@
 "q": "`process.env` nə saxlayır?",
 "options": [
 "Açarlar kimi mühit dəyişənlərini",
-"Brauzerdə saxlanan oyunları",
-"Çap olunmuş köhnə sənədləri",
-"Silinmiş mesajları"
+"Brauzerdə saxlanan çərəzləri",
+"Komanda sətri arqumentlərini",
+"Yüklənmiş modulların siyahısını"
 ],
 "explanation": "Açar və ünvan kimi həssas ayarlar `process.env`-də saxlanılır."
 }
@@ -1863,9 +1863,9 @@
 "q": "Unit test nəyi yoxlayır?",
 "options": [
 "Tək funksiya və ya modulu",
-"Bütün şirkət işçilərini",
-"Kompüterin sürətini",
-"İnternet xəttini"
+"Modulların birgə işini",
+"Tətbiqi başdan sona istifadəçi kimi",
+"Kodun neçə faizin örtüldüyünü"
 ],
 "explanation": "Unit test ən kiçik hissəni, məsələn bir funksiyanı yoxlayır."
 },
@@ -1873,9 +1873,9 @@
 "q": "Integration test nəyi yoxlayır?",
 "options": [
 "Modulların birgə işini",
-"Ofis mebellərinin sayını",
-"Printerin rəngini",
-"Klavişlərin səsini"
+"Tək funksiya və ya modulu",
+"Tətbiqi başdan sona istifadəçi kimi",
+"Nəticəni yadda saxlayıb müqayisəni"
 ],
 "explanation": "Integration test bir neçə modulun birlikdə düzgün işlədiyini yoxlayır."
 },
@@ -1883,9 +1883,9 @@
 "q": "E2E test nəyi yoxlayır?",
 "options": [
 "Tətbiqi istifadəçi kimi başdan sona",
-"Kompüterin daşınma çəkisini ölçür",
-"Ekranın diaqonal ölçüsünü ölçür",
-"Siçanın xarici rəngini seçir"
+"Tək funksiya və ya modulu",
+"Modulların birgə işini",
+"Kodun neçə faizin örtüldüyünü"
 ],
 "explanation": "E2E test tətbiqi real istifadəçi kimi açıb bütün yolu yoxlayır."
 },
@@ -1893,9 +1893,9 @@
 "q": "Testdə `assert` nə edir?",
 "options": [
 "Gözlənilənlə faktiki dəyəri müqayisə edir",
-"Kompüterdə yeni fayl yaradıb ad verir",
-"Kompüteri yuxu rejiminə qoyur",
-"Səsi yüksəldib alçaldır"
+"Test üçün saxta obyekt yaradır",
+"Kodun örtük faizini hesablayır",
+"Testləri qruplaşdırıb adlandırır"
 ],
 "explanation": "`assert` gözlənilən cavabla faktiki cavabın eyni olmasını yoxlayır."
 },
@@ -1903,9 +1903,9 @@
 "q": "Mock nədir?",
 "options": [
 "Test üçün saxta obyekt",
-"Kompüter üçün yeni siçan",
-"Kompüteri qoruyan antivirus",
-"Sürətli printer"
+"Gözlənilənlə faktiki müqayisə",
+"Keçməyən testdən əvvəl yazılan kod",
+"Yadda saxlanan köhnə nəticə"
 ],
 "explanation": "Mock real xidmətin yerinə keçən saxta obyektdir."
 },
@@ -1913,9 +1913,9 @@
 "q": "Test coverage nə göstərir?",
 "options": [
 "Kodun neçə faizi test olunub",
-"Ofisin neçə faizi işıqlıdır",
-"Kitabın neçə səhifəsi var",
-"Günün neçə saatı qalıb"
+"Testlərin neçəsi keçib",
+"Xətaların neçəsi düzəlib",
+"Funksiyanın neçə dəfə çağrıldığı"
 ],
 "explanation": "Test coverage kodun hansı hissəsinin testlə yoxlandığını göstərir."
 },
@@ -1923,9 +1923,9 @@
 "q": "TDD-də ilk addım nədir?",
 "options": [
 "Əvvəlcə keçməyən test yazmaq",
-"Əvvəlcə dizayn şəkli çəkmək",
-"Əvvəlcə serveri söndürmək",
-"Əvvəlcə bütün kodu silmək"
+"Əvvəlcə keçən kodu yazmaq",
+"Əvvəlcə bütün testləri işə salmaq",
+"Əvvəlcə örtük faizini ölçmək"
 ],
 "explanation": "TDD-də əvvəlcə keçməyən test yazılır, sonra onu keçirən kod yazılır."
 },
@@ -1933,9 +1933,9 @@
 "q": "Snapshot test nə edir?",
 "options": [
 "Nəticəni yadda saxlayıb müqayisə edir",
-"Ekran şəklini çərçivəyə salır",
-"Musiqini nota çevirir",
-"Mətni tərcümə edir"
+"Nəticəni əl ilə gözlə yoxlayır",
+"Kodu sətir-sətir addımlayır",
+"Yük altında cavab vaxtını ölçür"
 ],
 "explanation": "Snapshot test nəticənin şəklini yadda saxlayıb sonrakı ilə müqayisə edir."
 },
@@ -1943,9 +1943,9 @@
 "q": "\"Flaky\" test nə deməkdir?",
 "options": [
 "Bəzən keçən, bəzən keçməyən test",
-"Heç vaxt işə düşməyən düymə",
-"Yalnız gecə işləyən proqram",
-"Səsi olmayan video"
+"Heç vaxt keçməyən qırıq test",
+"Həmişə keçən sabit test ssenarisi",
+"Əl ilə atlanıb keçilən test"
 ],
 "explanation": "\"Flaky\" test səbəbsiz yerə bəzən keçir, bəzən keçmir."
 },
@@ -1953,9 +1953,9 @@
 "q": "Jest-də `describe` və `it` nə edir?",
 "options": [
 "Testləri qruplaşdırıb ssenari yazır",
-"Faylları arxivə yığıb bağlayır",
-"Şəkilləri kəsib yapışdırır",
-"Səhifəni çap edib göndərir"
+"Paketləri quraşdırıb yeniləyir",
+"Xətanı tutub davam edir",
+"Nəticəni yadda saxlayıb müqayisə edir"
 ],
 "explanation": "`describe` testləri qruplaşdırır, `it` isə hər ssenarini yazır."
 }
@@ -1972,9 +1972,9 @@
 "q": "IaaS nə verir?",
 "options": [
 "Hazır virtual server və yaddaş",
-"Hazır elektron poçt qutusu",
-"Hazır musiqi arxivi",
-"Hazır oyun konsolu"
+"Kod yerləşdirmək üçün hazır platforma",
+"Brauzerdə işləyən hazır proqram",
+"İcarəyə götürülən fiziki server"
 ],
 "explanation": "IaaS virtual server, yaddaş və şəbəkə kimi hazır resurs verir."
 },
@@ -1982,9 +1982,9 @@
 "q": "PaaS nə verir?",
 "options": [
 "Kod yerləşdirmək üçün hazır platforma",
-"Evə isti pizza çatdırılma xidməti",
-"Avtomobil icarəsi xidməti",
-"Kinoteatr bileti satışı"
+"Hazır virtual server və yaddaş",
+"Brauzerdə işləyən hazır proqram",
+"Ofisdə quraşdırılan fiziki server"
 ],
 "explanation": "PaaS server qayğısı olmadan kod yerləşdirmək üçün platformadır."
 },
@@ -1992,9 +1992,9 @@
 "q": "SaaS-a misal hansıdır?",
 "options": [
 "Brauzerdə işləyən Gmail poçtu",
-"Evdə quraşdırılan mətbəx sobası",
-"Kağız dəftər və qələm",
-"Velosiped icarəsi"
+"Kompüterə quraşdırılan ofis paketi",
+"Kod yerləşdirmək üçün bulud platforma",
+"İcarəyə götürülən virtual server"
 ],
 "explanation": "Gmail quraşdırmadan brauzerdə işləyən SaaS nümunəsidir."
 },
@@ -2002,9 +2002,9 @@
 "q": "AWS-də `EC2` nədir?",
 "options": [
 "İcarəyə götürülən virtual server",
-"İnternetdə pulsuz elektron kitabxana",
-"Onlayn musiqi radiosu",
-"Şəkil paylaşma saytı"
+"Fayl saxlamaq üçün bulud yaddaş",
+"İdarə olunan hazır verilənlər bazası",
+"Serversiz kod işlədən xidmət"
 ],
 "explanation": "`EC2` AWS buludunda icarəyə götürülən virtual serverdir."
 },
@@ -2012,9 +2012,9 @@
 "q": "`S3` nə üçün işlədilir?",
 "options": [
 "Fayl və şəkil saxlamaq üçün",
-"Yemək sifariş etmək üçün",
-"Taksi çağırmaq üçün",
-"Hava proqnozuna baxmaq üçün"
+"Virtual server icarəyə götürmək üçün",
+"Verilənlər bazası idarə etmək üçün",
+"Hadisəyə görə kod işlətmək üçün"
 ],
 "explanation": "`S3` fayl və obyekt saxlamaq üçün bulud yaddaşdır."
 },
@@ -2022,9 +2022,9 @@
 "q": "`RDS` nədir?",
 "options": [
 "AWS-nin idarə etdiyi verilənlər bazası",
-"İnternetdə pulsuz film izləmə xidməti",
-"Onlayn oyun platforması",
-"Telefon zəng tətbiqi"
+"Fayl saxlayan bulud yaddaş xidməti",
+"Virtual server icarə xidməti",
+"Serversiz kod işlədən xidmət"
 ],
 "explanation": "`RDS` AWS tərəfindən idarə olunan hazır verilənlər bazasıdır."
 },
@@ -2032,9 +2032,9 @@
 "q": "Region və zona seçimi nə üçün önəmlidir?",
 "options": [
 "Sürəti artırır, kəsilməni azaldır",
-"Ekran rəngini gözəlləşdirir",
-"Klaviş səsini azaldır",
-"Batareyanı tez doldurur"
+"Yaddaş həcmini avtomatik artırır",
+"İstifadə haqqını sıfıra endirir",
+"Təhlükəsizlik açarını yeniləyir"
 ],
 "explanation": "Yaxın region sürəti artırır, çox zona kəsilmədən qoruyur."
 },
@@ -2042,9 +2042,9 @@
 "q": "Auto Scaling nə edir?",
 "options": [
 "Yükə görə server sayını dəyişir",
-"İşçinin maaşını avtomatik artırır",
-"Şəkli avtomatik böyüdür",
-"Səsi avtomatik yazır"
+"Yaddaşdakı faylı avtomatik böyüdür",
+"Trafiki serverlərə əl ilə paylayır",
+"Serveri cədvələ görə söndürüb açır"
 ],
 "explanation": "Auto Scaling yük çoxalanda server artırır, azalanda azaldır."
 },
@@ -2052,9 +2052,9 @@
 "q": "Pay-as-you-go nə deməkdir?",
 "options": [
 "İstifadə etdiyin qədər ödəyirsən",
-"Hər şey üçün əvvəlcədən ödəyirsən",
-"Bütün xidmətlər pulsuzdur",
-"Yalnız nağd ödəniş keçir"
+"İllik sabit məbləğ ödəyirsən",
+"Bütün istifadə pulsuzdur",
+"Əvvəlcədən birdəfəlik ödəyirsən"
 ],
 "explanation": "Pay-as-you-go modelində yalnız işlətdiyin resursun pulunu ödəyirsən."
 },
@@ -2062,9 +2062,9 @@
 "q": "`Lambda` nədir?",
 "options": [
 "Serversiz kod işlədən xidmət",
-"Yeni növ noutbuk",
-"Pulsuz internet paketi",
-"Onlayn mağaza"
+"İcarəyə götürülən virtual server",
+"Fayl saxlayan bulud yaddaş",
+"İdarə olunan verilənlər bazası"
 ],
 "explanation": "`Lambda` server qurmadan hadisəyə görə kod işlədir."
 }
@@ -2081,9 +2081,9 @@
 "q": "Maşın öyrənməsi nədir?",
 "options": [
 "Məlumatdan öyrənən proqram üsulu",
-"Kompüteri təmizləyən fırça",
-"Yeni klaviş düzümü",
-"Tez çap edən printer"
+"Qaydanı əl ilə yazan proqram üsulu",
+"Məlumatı diskdə sıxan arxiv üsulu",
+"İnterneti sürətləndirən şəbəkə üsulu"
 ],
 "explanation": "Maşın öyrənməsində proqram qayda əzbərləmir, məlumatdan öyrənir."
 },
@@ -2091,9 +2091,9 @@
 "q": "Nəzarətli öyrənmə nədir?",
 "options": [
 "Cavabı məlum məlumatla öyrənmə",
-"Müəllimsiz boş sinifdə dərs",
-"İnternetsiz oyun oynamaq",
-"Kitabsız imtahan vermək"
+"Cavabsız məlumatda qrup tapma",
+"Mükafata görə siyasət öyrənmə",
+"Qaydanı əl ilə yazıb yoxlama"
 ],
 "explanation": "Nəzarətli öyrənmədə model cavabı məlum nümunələrlə öyrənir."
 },
@@ -2101,9 +2101,9 @@
 "q": "Nəzarətsiz öyrənmə nə edir?",
 "options": [
 "Məlumatda gizli qrupları tapır",
-"Kompüteri avtomatik söndürür",
-"Faylları zibilə atır",
-"Şifrəni özü dəyişir"
+"Cavabı məlum nümunə ilə öyrənir",
+"Mükafata görə siyasət öyrənir",
+"Səhvi addım-addım azaldır"
 ],
 "explanation": "Nəzarətsiz öyrənmə cavabsız məlumatda oxşar qrupları tapır."
 },
@@ -2111,9 +2111,9 @@
 "q": "Test çoxluğu nə üçündür?",
 "options": [
 "Modeli yeni məlumatda yoxlamaq",
-"Dərs cədvəlini rənglərlə bəzəmək",
-"Sinfi sərinlətmək",
-"Kitabı cildləmək"
+"Modeli təlim məlumatında öyrətmək",
+"Ən yaxşı ayarı əl ilə seçmək",
+"Çatışmayan dəyərləri doldurmaq"
 ],
 "explanation": "Test çoxluğu modelin görmədiyi məlumatda necə işlədiyini yoxlayır."
 },
@@ -2121,9 +2121,9 @@
 "q": "Overfitting nədir?",
 "options": [
 "Modelin nümunələri əzbərləməsi",
-"Kompüterin həddindən çox qızması",
-"Faylın çox böyüməsi",
-"Ekranın çox parlaması"
+"Modelin az öyrənib səhv buraxması",
+"Təlimin çox sürətli bitməsi",
+"Məlumatın serverdə itməsi"
 ],
 "explanation": "Overfitting olanda model öyrənmir, təlim nümunələrini əzbərləyir."
 },
@@ -2131,9 +2131,9 @@
 "q": "`label` nədir?",
 "options": [
 "Proqnozlaşdırılan doğru cavab",
-"Kompüterin istehsalçı markası",
-"Kompüterdə faylın rəngi",
-"Düymənin səsi"
+"Modelə verilən giriş əlaməti",
+"Modelin təlimdə buraxdığı səhv faizi",
+"Təlim üçün ayrılan vaxt limiti"
 ],
 "explanation": "`label` modelin tapmalı olduğu doğru cavabdır."
 },
@@ -2141,9 +2141,9 @@
 "q": "`feature` nədir?",
 "options": [
 "Modelə verilən giriş əlaməti",
-"Telefonun karton satış qutusu",
-"Proqramın tanıtım loqosu",
-"Saytın fon şəkli"
+"Proqnozlaşdırılan doğru cavab",
+"Modelin çıxış ehtimalı",
+"Təlim dövrünün sayı"
 ],
 "explanation": "`feature` modelin qərar üçün işlətdiyi giriş əlamətidir."
 },
@@ -2151,9 +2151,9 @@
 "q": "Məlumatı train və testə bölmək niyə lazımdır?",
 "options": [
 "Əzbərləməni aşkar edib dürüst yoxlamaq",
-"Faylları rənginə görə qovluğa ayırmaq",
-"Kompüteri iki yerə bölmək",
-"Dərsi yarıda saxlamaq"
+"Faylları ölçüsünə görə sıralamaq",
+"Təlimi iki dəfə sürətləndirmək",
+"Yaddaşda yerə qənaət etmək"
 ],
 "explanation": "Ayrı test çoxluğu modelin həqiqətən öyrəndiyini dürüst yoxlayır."
 },
@@ -2161,9 +2161,9 @@
 "q": "Regression ilə classification fərqi nədir?",
 "options": [
 "Ədəd təxmini və kateqoriya seçimi",
-"Sürətli və yavaş internet fərqi",
-"Böyük və kiçik ekran",
-"Yeni və köhnə telefon"
+"Kateqoriya seçimi və ədəd təxmini",
+"İkisi də yalnız ədəd təxmini",
+"İkisi də yalnız kateqoriya seçimi"
 ],
 "explanation": "Regression ədəd təxmin edir, classification isə kateqoriya seçir."
 },
@@ -2171,9 +2171,9 @@
 "q": "Gradient descent nə edir?",
 "options": [
 "Səhvi azaldan ayarı axtarır",
-"Dağdan xizəklə düşür",
-"Şəkli aşağı sürüşdürür",
-"Səsi tədricən azaldır"
+"Məlumatı qruplara ayırır",
+"Ən vacib əlaməti seçir",
+"Test faizini əl ilə artırır"
 ],
 "explanation": "Gradient descent addım-addım səhvi azaldan ayarı axtarır."
 }
