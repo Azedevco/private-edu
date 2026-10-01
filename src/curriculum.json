@@ -33,7 +33,11 @@
      {
       "url": "https://docs.swift.org/swift-book/documentation/the-swift-programming-language/",
       "do": "read",
-      "note": "'The Basics', 'Collection Types', 'Control Flow' və 'Structures and Classes' fəsillərini oxu."
+      "note": "'The Basics', 'Collection Types', 'Control Flow' və 'Structures and Classes' fəsillərini oxu.",
+      "alt": [
+       "https://gelecegiyazanlar.turkcell.com.tr/egitimler/swift-ile-ios-programlama",
+       "https://metanit.com/swift/tutorial/"
+      ]
      },
      {
       "url": "https://www.hackingwithswift.com/100/swiftui",
@@ -229,7 +233,10 @@
      {
       "url": "https://developer.android.com/docs",
       "do": "reference",
-      "note": "'Background work' bölməsində 'Background tasks' və 'Services' səhifələrini oxu."
+      "note": "'Background work' bölməsində 'Background tasks' və 'Services' səhifələrini oxu.",
+      "alt": [
+       "https://developer.android.com/guide/background?hl=ru"
+      ]
      }
     ],
     [
@@ -241,7 +248,10 @@
      {
       "url": "https://developer.android.com/docs",
       "do": "reference",
-      "note": "'Publishing' bölməsində 'App bundles' və 'Android vitals' səhifələrinə bax."
+      "note": "'Publishing' bölməsində 'App bundles' və 'Android vitals' səhifələrinə bax.",
+      "alt": [
+       "https://developer.android.com/distribute?hl=ru"
+      ]
      }
     ]
    ],
@@ -558,13 +568,17 @@
       "do": "watch",
       "note": "İlk videolardan başla: vektor, xətti çevrilmə və matris vurmasını vizual şəkildə anla.",
       "alt": [
-       "https://metanit.com/cpp/tutorial/"
+       "https://metanit.com/cpp/tutorial/",
+       "https://learn.microsoft.com/tr-tr/cpp/c-language/"
       ]
      },
      {
       "url": "https://www.scratchapixel.com/",
       "do": "read",
-      "note": "'Mathematics for Computer Graphics' altındakı 'Geometry' dərsini oxu: vektor, koordinat sistemi, matris, triqonometriya."
+      "note": "'Mathematics for Computer Graphics' altındakı 'Geometry' dərsini oxu: vektor, koordinat sistemi, matris, triqonometriya.",
+      "alt": [
+       "https://learn.microsoft.com/tr-tr/cpp/"
+      ]
      }
     ],
     [
@@ -701,7 +715,10 @@
      {
       "url": "https://www.youtube.com/watch?v=gGYtahQjmWQ",
       "do": "watch",
-      "note": "Unity-də VR layihəsinin ilk qurulumunu izlə; yeni Unity versiyalarında menyular bir az fərqli ola bilər."
+      "note": "Unity-də VR layihəsinin ilk qurulumunu izlə; yeni Unity versiyalarında menyular bir az fərqli ola bilər.",
+      "alt": [
+       "https://gelecegiyazanlar.turkcell.com.tr/egitimler/unity"
+      ]
      },
      {
       "url": "https://aframe.io/docs/",
@@ -711,7 +728,11 @@
      {
       "url": "https://docs.godotengine.org/en/stable/tutorials/xr/index.html",
       "do": "read",
-      "note": "'Basic Tutorial' hissəsində 'Setting up XR' səhifəsini oxu və Godot variantını gör."
+      "note": "'Basic Tutorial' hissəsində 'Setting up XR' səhifəsini oxu və Godot variantını gör.",
+      "alt": [
+       "https://www.btkakademi.gov.tr/portal/course/unity-ile-dijital-oyun-gelistirmeye-giris-10680",
+       "https://docs.godotengine.org/ru/stable/"
+      ]
      }
     ],
     [
@@ -732,7 +753,10 @@
      {
       "url": "https://docs.unity3d.com/6000.0/Documentation/Manual/XR.html",
       "do": "read",
-      "note": "'Set up an XR Project' və 'Set up an XR scene' hissələrini oxu."
+      "note": "'Set up an XR Project' və 'Set up an XR scene' hissələrini oxu.",
+      "alt": [
+       "https://docs.godotengine.org/ru/stable/tutorials/xr/index.html"
+      ]
      },
      {
       "url": "https://developers.meta.com/horizon/documentation/",
@@ -1870,7 +1894,10 @@
      {
       "url": "https://www.youtube.com/watch?v=zJ-LqeX_fLU",
       "do": "watch",
-      "note": "Section 2: Foundation of Electronics hissəsini izlə: gərginlik, cərəyan, müqavimət və Om qanunu."
+      "note": "Section 2: Foundation of Electronics hissəsini izlə: gərginlik, cərəyan, müqavimət və Om qanunu.",
+      "alt": [
+       "https://wiki.amperka.ru/arduino"
+      ]
      },
      {
       "url": "https://docs.arduino.cc/",
@@ -1882,7 +1909,11 @@
      {
       "url": "https://beej.us/guide/bgc/",
       "do": "read",
-      "note": "Pointers, Bitwise Operations, Types IV (volatile) və structs II (Padding Bytes) fəsillərini oxu."
+      "note": "Pointers, Bitwise Operations, Types IV (volatile) və structs II (Padding Bytes) fəsillərini oxu.",
+      "alt": [
+       "https://metanit.com/c/tutorial/",
+       "https://learn.microsoft.com/tr-tr/cpp/c-language/"
+      ]
      },
      {
       "url": "https://docs.arduino.cc/",
@@ -1894,7 +1925,10 @@
      {
       "url": "https://users.ece.utexas.edu/~valvano/Volume1/IntroToEmbSys/",
       "do": "read",
-      "note": "1-ci fəsildə I/O Ports və Registers, 6-cı fəsildə Interrupt Concepts və SysTick hissələrini oxu."
+      "note": "1-ci fəsildə I/O Ports və Registers, 6-cı fəsildə Interrupt Concepts və SysTick hissələrini oxu.",
+      "alt": [
+       "https://www.btkakademi.gov.tr/portal/course/projelerle-arduino-programlama-19045"
+      ]
      },
      {
       "url": "https://docs.arduino.cc/",
@@ -2012,7 +2046,10 @@
      {
       "url": "https://wokwi.com",
       "do": "practice",
-      "note": "Wokwi-də ilk sketch-ini yaz; eyni işi MicroPython ilə də sınayıb iki dili müqayisə et."
+      "note": "Wokwi-də ilk sketch-ini yaz; eyni işi MicroPython ilə də sınayıb iki dili müqayisə et.",
+      "alt": [
+       "https://stepik.org/course/67/promo"
+      ]
      },
      {
       "url": "https://github.com/microsoft/IoT-For-Beginners",
@@ -2078,7 +2115,10 @@
      {
       "url": "https://docs.arduino.cc/arduino-cloud/",
       "do": "practice",
-      "note": "Getting Started with Arduino Cloud ilə cihazını buluda qoş, Dashboards & Widgets ilə məlumatı göstər."
+      "note": "Getting Started with Arduino Cloud ilə cihazını buluda qoş, Dashboards & Widgets ilə məlumatı göstər.",
+      "alt": [
+       "https://learn.microsoft.com/ru-ru/azure/iot-hub/"
+      ]
      },
      {
       "url": "https://docs.aws.amazon.com/iot/",
@@ -2164,14 +2204,21 @@
      {
       "url": "https://ethereum.org/en/developers/",
       "do": "read",
-      "note": "Intro to Ethereum və Consensus Mechanisms (Proof-of-Work, Proof-of-Stake) səhifələrini oxu."
+      "note": "Intro to Ethereum və Consensus Mechanisms (Proof-of-Work, Proof-of-Stake) səhifələrini oxu.",
+      "alt": [
+       "https://gelecegiyazanlar.turkcell.com.tr/egitimler/blockchain-teknolojileri"
+      ]
      }
     ],
     [
      {
       "url": "https://www.youtube.com/watch?v=gyMwXuJrbJQ",
       "do": "watch",
-      "note": "Lesson 1-in Making Your First Transaction, Gas I və Signing Transactions hissələrində test əməliyyatı et."
+      "note": "Lesson 1-in Making Your First Transaction, Gas I və Signing Transactions hissələrində test əməliyyatı et.",
+      "alt": [
+       "https://ethereum.org/ru/wallets/",
+       "https://ethereum.org/tr/wallets/"
+      ]
      },
      {
       "url": "https://ethereum.org/en/developers/",
@@ -2188,7 +2235,11 @@
      {
       "url": "https://docs.soliditylang.org/",
       "do": "read",
-      "note": "Introduction to Smart Contracts və Solidity by Example bölmələrini oxu."
+      "note": "Introduction to Smart Contracts və Solidity by Example bölmələrini oxu.",
+      "alt": [
+       "https://ethereum.org/ru/developers/",
+       "https://ethereum.org/tr/developers/"
+      ]
      },
      {
       "url": "https://cryptozombies.io/",
@@ -2451,7 +2502,8 @@
       "do": "read",
       "note": "'Learn Performance' kursunda 'Code-split JavaScript' və 'Lazy load images and iframe elements' modullarını oxu.",
       "alt": [
-       "https://selectel.ru/blog/tutorials/deploy-with-nginx/"
+       "https://selectel.ru/blog/tutorials/deploy-with-nginx/",
+       "https://learn.microsoft.com/tr-tr/training/modules/host-a-web-app-with-azure-app-service/"
       ]
      }
     ]
@@ -2603,7 +2655,8 @@
       "do": "watch",
       "note": "'Scalability and Security' mühazirəsinin 'Load Balancing', 'Autoscaling' və 'Caching' hissələrini izlə.",
       "alt": [
-       "https://yandex.cloud/ru/docs/managed-kafka/quickstart"
+       "https://yandex.cloud/ru/docs/managed-kafka/quickstart",
+       "https://learn.microsoft.com/tr-tr/dotnet/architecture/microservices/"
       ]
      },
      {
@@ -2632,7 +2685,10 @@
      {
       "url": "https://expressjs.com/",
       "do": "reference",
-      "note": "'Advanced topics' altında 'Security best practices' səhifəsini oxu və öz API-nə tətbiq et."
+      "note": "'Advanced topics' altında 'Security best practices' səhifəsini oxu və öz API-nə tətbiq et.",
+      "alt": [
+       "https://docs.python.org/tr/3/library/unittest.html"
+      ]
      }
     ]
    ],
@@ -2701,7 +2757,8 @@
       "do": "watch",
       "note": "Videonun 'Create Backend Reviews API' hissəsini izlə: Express ilə API-nin qurulmasını başdan sona görəcəksən.",
       "alt": [
-       "https://metanit.com/web/nodejs/"
+       "https://metanit.com/web/nodejs/",
+       "https://gelecegiyazanlar.turkcell.com.tr/egitimler/web-programlama"
       ]
      },
      {
@@ -2755,7 +2812,10 @@
      {
       "url": "https://fullstackopen.com/en/",
       "do": "read",
-      "note": "Part 4-də 'User administration' və 'Token authentication' bölmələrini et: JWT ilə girişi özün qurursan."
+      "note": "Part 4-də 'User administration' və 'Token authentication' bölmələrini et: JWT ilə girişi özün qurursan.",
+      "alt": [
+       "https://www.btkakademi.gov.tr/portal/course/web-uygulama-guevenligi-ve-web-sizma-tekniklerine-giris-10587"
+      ]
      },
      {
       "url": "https://nextjs.org/learn",
@@ -2846,7 +2906,8 @@
       "do": "reference",
       "note": "WebDriver bölməsindəki 'Locators' səhifəsini açıq saxla və hər locator növünü öz testində sına.",
       "alt": [
-       "https://learn.microsoft.com/ru-ru/shows/getting-started-with-end-to-end-testing-with-playwright/get-started-with-end-to-end-testing-with-playwright"
+       "https://learn.microsoft.com/ru-ru/shows/getting-started-with-end-to-end-testing-with-playwright/get-started-with-end-to-end-testing-with-playwright",
+       "https://www.btkakademi.gov.tr/portal/course/yazilim-test-otomasyonu-12117"
       ]
      },
      {
@@ -2924,7 +2985,8 @@
       "do": "watch",
       "note": "'Tools and Techniques for Performance and Load Testing' kursu ilə performans və yük testinin əsaslarını gör.",
       "alt": [
-       "https://www.youtube.com/watch?v=yYhdCOCpGyE"
+       "https://www.youtube.com/watch?v=yYhdCOCpGyE",
+       "https://www.btkakademi.gov.tr/portal/course/siber-guvenlige-giris-27928"
       ]
      },
      {
@@ -2998,7 +3060,8 @@
       "do": "read",
       "note": "'Processes', 'Package Management' və 'Networking' fəsillərini oxu; ssh ilə uzaq serverə qoşulmağı burada görəcəksən.",
       "alt": [
-       "https://nginx.org/ru/docs/beginners_guide.html"
+       "https://nginx.org/ru/docs/beginners_guide.html",
+       "https://gelecegiyazanlar.turkcell.com.tr/egitimler/temel-linux"
       ]
      }
     ],
@@ -3075,7 +3138,8 @@
       "do": "read",
       "note": "'Monitoring Distributed Systems' və 'Service Level Objectives' fəsillərini oxu: nəyi niyə izləməli olduğunu anlayacaqsan.",
       "alt": [
-       "https://yandex.cloud/ru/docs/monitoring/quickstart"
+       "https://yandex.cloud/ru/docs/monitoring/quickstart",
+       "https://learn.microsoft.com/tr-tr/devops/"
       ]
      }
     ]
@@ -3160,7 +3224,10 @@
      {
       "url": "https://docs.aws.amazon.com",
       "do": "reference",
-      "note": "RDS və ya DynamoDB sənədinə baxıb kiçik bir baza yarat, sonra xərc yaranmasın deyə onu sil."
+      "note": "RDS və ya DynamoDB sənədinə baxıb kiçik bir baza yarat, sonra xərc yaranmasın deyə onu sil.",
+      "alt": [
+       "https://learn.microsoft.com/tr-tr/azure/azure-sql/"
+      ]
      }
     ],
     [
@@ -3214,7 +3281,8 @@
       "do": "build",
       "note": "'The Challenge' bölməsindəki AWS versiyasının 16 addımını sırayla et; hər addımı GitHub-da qeyd et.",
       "alt": [
-       "https://yandex.cloud/ru/docs/tutorials/web/static/console"
+       "https://yandex.cloud/ru/docs/tutorials/web/static/console",
+       "https://learn.microsoft.com/tr-tr/training/modules/host-a-web-app-with-azure-app-service/"
       ]
      }
     ]

@@ -389,6 +389,26 @@
     "level": "beginner",
     "source": "Android Developers (Google)",
     "curated": true
+   },
+   {
+    "type": "doc",
+    "title": "Обзор фоновых задач | Background work | Android Developers",
+    "url": "https://developer.android.com/guide/background?hl=ru",
+    "desc": "WorkManager və servis seçimini rəsmi təlimatla düzgün qurmağı öyrənəcəksən.",
+    "lang": "ru",
+    "level": "intermediate",
+    "source": "Android Developers (Google)",
+    "curated": true
+   },
+   {
+    "type": "doc",
+    "title": "Распространяйте свои приложения и игры в Google Play | Android Developers",
+    "url": "https://developer.android.com/distribute?hl=ru",
+    "desc": "Tətbiqi imzalamağı, paketləməyi və Play-də yayımlamağı addım-addım görəcəksən.",
+    "lang": "ru",
+    "level": "beginner",
+    "source": "Android Developers (Google)",
+    "curated": true
    }
   ],
   "ar-vr": [
@@ -500,6 +520,46 @@
     "lang": "en",
     "level": "beginner",
     "source": "Valem",
+    "curated": true
+   },
+   {
+    "type": "course",
+    "title": "Unity",
+    "url": "https://gelecegiyazanlar.turkcell.com.tr/egitimler/unity",
+    "desc": "Sən Unity ilə ilk səhnəni qurmağı və C# ilə sadə skript yazmağı öyrənəcəksən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "Turkcell Geleceği Yazanlar",
+    "curated": true
+   },
+   {
+    "type": "course",
+    "title": "Unity ile Dijital Oyun Geliştirmeye Giriş",
+    "url": "https://www.btkakademi.gov.tr/portal/course/unity-ile-dijital-oyun-gelistirmeye-giris-10680",
+    "desc": "Sən Unity arayüzünü və oyun məntiqini addım-addım tətbiq edəcəksən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "BTK Akademi",
+    "curated": true
+   },
+   {
+    "type": "doc",
+    "title": "Godot Docs – Документация Godot Engine (4.x) на русском языке",
+    "url": "https://docs.godotengine.org/ru/stable/",
+    "desc": "Godot-da ilk səhnəni qurmağı və skript əlavə etməyi rəsmi təlimatla öyrənəcəksən.",
+    "lang": "ru",
+    "level": "beginner",
+    "source": "Godot Engine",
+    "curated": true
+   },
+   {
+    "type": "doc",
+    "title": "XR — Документация Godot Engine (4.x) на русском языке",
+    "url": "https://docs.godotengine.org/ru/stable/tutorials/xr/index.html",
+    "desc": "Godot-da OpenXR ilə VR səhnəsi quraşdırmağı və Quest-uyğun rejimi yoxlamağı öyrənəcəksən.",
+    "lang": "ru",
+    "level": "intermediate",
+    "source": "Godot Engine",
     "curated": true
    }
   ],
@@ -817,6 +877,26 @@
     "source": "Stepik — Екатерина Рудина (Kaspersky ICS CERT)",
     "curated": true,
     "duration": "9 saat"
+   },
+   {
+    "type": "doc",
+    "title": ".NET Mikro Hizmetleri. Kapsayıcılı .NET Uygulamaları mimarisi",
+    "url": "https://learn.microsoft.com/tr-tr/dotnet/architecture/microservices/",
+    "desc": "Sən mikroservis sərhədlərini və servis arası əlaqəni nümunə memarlıqla öyrənəcəksən.",
+    "lang": "tr",
+    "level": "intermediate",
+    "source": "Microsoft Learn",
+    "curated": true
+   },
+   {
+    "type": "doc",
+    "title": "unittest — Unit testing framework — Python 3.14.7 belgelendirmesi",
+    "url": "https://docs.python.org/tr/3/library/unittest.html",
+    "desc": "Sən Python-da unit test yazmağı rəsmi sənədlərdəki nümunələrlə öyrənəcəksən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "Python Software Foundation",
+    "curated": true
    }
   ],
   "big-data": [
@@ -1157,6 +1237,46 @@
     "level": "beginner",
     "source": "freeCodeCamp / Patrick Collins",
     "curated": true
+   },
+   {
+    "type": "doc",
+    "title": "Кошельки Эфириума: покупайте, храните и отправляйте криптовалюту",
+    "url": "https://ethereum.org/ru/wallets/",
+    "desc": "Pulqabı yaratmağı, açarları qorumağı və ilk əməliyyatı göndərməyi öyrənəcəksən.",
+    "lang": "ru",
+    "level": "beginner",
+    "source": "ethereum.org",
+    "curated": true
+   },
+   {
+    "type": "doc",
+    "title": "Ресурсы для разработчиков Эфириума",
+    "url": "https://ethereum.org/ru/developers/",
+    "desc": "Smart kontrakt yolunu, alətləri və ilk müqaviləni hara yazacağını görəcəksən.",
+    "lang": "ru",
+    "level": "beginner",
+    "source": "ethereum.org",
+    "curated": true
+   },
+   {
+    "type": "doc",
+    "title": "Ethereum cüzdanları: Kripto Satın Alın, Saklayın ve Gönderin",
+    "url": "https://ethereum.org/tr/wallets/",
+    "desc": "Sən pulqabı yaratmağı, açarları qorumağı və əməliyyat göndərməyi öyrənəcəksən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "ethereum.org",
+    "curated": true
+   },
+   {
+    "type": "doc",
+    "title": "Ethereum Geliştirici Kaynakları",
+    "url": "https://ethereum.org/tr/developers/",
+    "desc": "Sən smart kontrakt alətlərini və ilk addımları rəsmi mənbədən görəcəksən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "ethereum.org",
+    "curated": true
    }
   ],
   "cloud": [
@@ -1359,6 +1479,26 @@
     "lang": "ru",
     "level": "beginner",
     "source": "Yandex Cloud",
+    "curated": true
+   },
+   {
+    "type": "doc",
+    "title": "Azure SQL belgeleri - Azure SQL",
+    "url": "https://learn.microsoft.com/tr-tr/azure/azure-sql/",
+    "desc": "Sən buludda əlaqəli məlumat bazası yaratmağı və ona qoşulmağı öyrənəcəksən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "Microsoft Learn",
+    "curated": true
+   },
+   {
+    "type": "course",
+    "title": "Azure App Service ile web uygulaması barındırma",
+    "url": "https://learn.microsoft.com/tr-tr/training/modules/host-a-web-app-with-azure-app-service/",
+    "desc": "Sən veb tətbiqi Azure-da yerləşdirib canlı ünvanla paylaşacaqsan.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "Microsoft Learn",
     "curated": true
    }
   ],
@@ -2650,6 +2790,16 @@
     "level": "beginner",
     "source": "Yandex Cloud",
     "curated": true
+   },
+   {
+    "type": "doc",
+    "title": "DevOps kaynak merkezi - Azure DevOps",
+    "url": "https://learn.microsoft.com/tr-tr/devops/",
+    "desc": "Sən DevOps təcrübələrini və izləmə yanaşmalarını rəsmi mənbədən araşdıracaqsan.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "Microsoft Learn",
+    "curated": true
    }
   ],
   "embedded": [
@@ -2761,6 +2911,36 @@
     "lang": "en",
     "level": "beginner",
     "source": "Brian \"Beej\" Hall",
+    "curated": true
+   },
+   {
+    "type": "doc",
+    "title": "Электронное приложение к набору «Arduino. Восьмибитная академия»",
+    "url": "https://wiki.amperka.ru/arduino",
+    "desc": "Rezistor, LED və sadə sxemləri Arduino üzərində yığıb ölçməyi öyrənəcəksən.",
+    "lang": "ru",
+    "level": "beginner",
+    "source": "Амперка",
+    "curated": true
+   },
+   {
+    "type": "doc",
+    "title": "Руководство по программированию на языке С",
+    "url": "https://metanit.com/c/tutorial/",
+    "desc": "Pointerlər, yaddaş və bit əməliyyatları ilə C dilini nümunələrlə öyrənəcəksən.",
+    "lang": "ru",
+    "level": "beginner",
+    "source": "Metanit",
+    "curated": true
+   },
+   {
+    "type": "doc",
+    "title": "C belgeleri - kullanmaya başlama, öğreticiler, başvuru.",
+    "url": "https://learn.microsoft.com/tr-tr/cpp/c-language/",
+    "desc": "Sən C dilinin qaydalarını rəsmi sənədlərdən dəqiqləşdirəcəksən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "Microsoft Learn",
     "curated": true
    }
   ],
@@ -3076,6 +3256,16 @@
     "level": "intermediate",
     "source": "Selectel",
     "curated": true
+   },
+   {
+    "type": "course",
+    "title": "Azure App Service ile web uygulaması barındırma",
+    "url": "https://learn.microsoft.com/tr-tr/training/modules/host-a-web-app-with-azure-app-service/",
+    "desc": "Sən saytını buludda yerləşdirib canlı ünvanla paylaşmağı öyrənəcəksən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "Microsoft Learn",
+    "curated": true
    }
   ],
   "fullstack": [
@@ -3340,6 +3530,26 @@
     "lang": "ru",
     "level": "beginner",
     "source": "Гоша Дударь",
+    "curated": true
+   },
+   {
+    "type": "course",
+    "title": "Web Uygulama Güvenliği ve Web Sızma Tekniklerine Giriş",
+    "url": "https://www.btkakademi.gov.tr/portal/course/web-uygulama-guevenligi-ve-web-sizma-tekniklerine-giris-10587",
+    "desc": "Sən veb tətbiqlərdəki təhlükəsizlik risklərini, CORS və CSRF kimi hücumları və onlardan qorunma yollarını öyrənəcəksən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "BTK Akademi",
+    "curated": true
+   },
+   {
+    "type": "course",
+    "title": "Web Programlama",
+    "url": "https://gelecegiyazanlar.turkcell.com.tr/egitimler/web-programlama",
+    "desc": "Sən Node.js ilə server yazmağı və MongoDB ilə məlumat saxlamağı kiçik nümunələrlə öyrənəcəksən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "Turkcell Geleceği Yazanlar",
     "curated": true
    }
   ],
@@ -3685,6 +3895,26 @@
     "level": "beginner",
     "source": "OGLDev (рус. перевод)",
     "curated": true
+   },
+   {
+    "type": "doc",
+    "title": "Microsoft C/C++ Belgeleri",
+    "url": "https://learn.microsoft.com/tr-tr/cpp/",
+    "desc": "Sən C++ sintaksisini və yaddaş qaydalarını rəsmi sənədlərdən dəqiqləşdirəcəksən.",
+    "lang": "tr",
+    "level": "intermediate",
+    "source": "Microsoft Learn",
+    "curated": true
+   },
+   {
+    "type": "doc",
+    "title": "C belgeleri - kullanmaya başlama, öğreticiler, başvuru.",
+    "url": "https://learn.microsoft.com/tr-tr/cpp/c-language/",
+    "desc": "Sən pointer və yaddaş məntiqini C sənədlərindəki nümunələrlə təkrarlayacaqsan.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "Microsoft Learn",
+    "curated": true
    }
   ],
   "ios": [
@@ -3908,6 +4138,26 @@
     "lang": "en",
     "level": "intermediate",
     "source": "freeCodeCamp",
+    "curated": true
+   },
+   {
+    "type": "interactive",
+    "title": "Программирование на Python",
+    "url": "https://stepik.org/course/67/promo",
+    "desc": "Python sintaksisini avtomatik yoxlanılan tapşırıqlarla məşq edəcəksən.",
+    "lang": "ru",
+    "level": "beginner",
+    "source": "Bioinformatics Institute (Stepik)",
+    "curated": true
+   },
+   {
+    "type": "doc",
+    "title": "Документация по Центру Интернета вещей Azure",
+    "url": "https://learn.microsoft.com/ru-ru/azure/iot-hub/",
+    "desc": "Buludla cihaz qoşmağı, telemetriya göndərməyi və idarəetməni rəsmi təlimatla öyrənəcəksən.",
+    "lang": "ru",
+    "level": "beginner",
+    "source": "Microsoft Learn",
     "curated": true
    }
   ],
@@ -4617,6 +4867,16 @@
     "lang": "ru",
     "level": "beginner",
     "source": "OTUS",
+    "curated": true
+   },
+   {
+    "type": "course",
+    "title": "Siber Güvenliğe Giriş",
+    "url": "https://www.btkakademi.gov.tr/portal/course/siber-guvenlige-giris-27928",
+    "desc": "Sən təhlükəsizlik taramalarının məntiqini və əsas zəiflikləri öyrənəcəksən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "BTK Akademi",
     "curated": true
    }
   ]
