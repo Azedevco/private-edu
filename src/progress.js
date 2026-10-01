@@ -189,7 +189,11 @@ export const recommendations = (lang, limit = 3) => {
         const stage = stagesOf(track.sub, lang)[track.next];
         out.push({ kind: 'stage', icon: 'map', title: stage.title, meta: `${subTitle(track.sub)} · dərs ${track.next + 1} / ${track.total}`, go: `window.openTopic('${track.cat}', '${track.sub}', ${track.next})` });
     }
-    const quiz = quizzesData.find((q) => !quizResult(q.id));
+    // Practice comes from the learner's own path: the test of a finished lesson not taken yet, else a general test.
+    let untested = track ? stagesOf(track.sub, lang).findIndex((_, i) => isStageDone(track.sub, i) && !quizResult(`lesson:${track.sub}:${i}`)) : -1;
+    if (untested < 0 && track && track.next >= 0 && !quizResult(`lesson:${track.sub}:${track.next}`)) untested = track.next;
+    const quiz = untested >= 0 ? null : quizzesData.find((q) => !quizResult(q.id));
+    if (untested >= 0) out.push({ kind: 'quiz', icon: 'list-checks', title: `Dərs testi: ${stagesOf(track.sub, lang)[untested].title}`, meta: `${subTitle(track.sub)} · 3 sual`, go: `window.openQuiz('lesson:${track.sub}:${untested}')` });
     if (quiz) out.push({ kind: 'quiz', icon: 'list-checks', title: quiz.title, meta: `Test · ${quiz.questions.length} sual`, go: `window.navigateTo('quizzes'); window.switchQuiz('${quiz.id}')` });
     const challenge = codingChallengesData.find((c) => !isChallengeSolved(c.id));
     if (challenge) out.push({ kind: 'challenge', icon: 'square-terminal', title: challenge.title, meta: `Kod tapşırığı · ${levelAz(challenge.difficulty)}`, go: `window.navigateTo('challenges'); window.selectChallenge('${challenge.id}')` });

@@ -8,6 +8,7 @@ import { icon } from '../icons.js'
 import { Button, esc, PageTitle, Section, ResourceCard, LearnTabs } from '../ui.js'
 import { Hint } from '../onboarding.js'
 import { levelAz } from '../plain.js'
+import { ReportButton } from './report.js'
 
 // --- Courses: free full courses, grouped by language (Azerbaijani and Turkish first); each says who teaches it. ---
 const COURSE_GROUPS = [['az', 'Azərbaycanca'], ['tr', 'Türkcə'], ['ru', 'Rusca'], ['en', 'İngiliscə']];
@@ -35,7 +36,8 @@ export const CoursesPage = () => {
                 meta: [c.level ? esc(levelAz(c.level)) : '', esc(c.duration || ''), `<span translate="no">${esc(c.provider || '')}</span>`],
                 note: [c.desc ? esc(c.desc) : '', c.note ? `<span class="text-text-mute">${esc(c.note)}</span>` : ''].filter(Boolean).join(' '),
                 href: c.url,
-                action: 'Kursa keç'
+                action: 'Kursa keç',
+                after: ReportButton(c.url, c.title, 'Kurslar')
             })).join('')}</ul>`
         }) : '';
     }).join('')}
@@ -63,7 +65,8 @@ const BookCard = (b) => {
             icon: 'book-open',
             meta: [b.paid ? 'Pullu kitab' : 'Pulsuz kitab', esc(b.author), esc(b.year)],
             href: link,
-            action: b.paid ? 'Kitaba bax' : 'Oxu'
+            action: b.paid ? 'Kitaba bax' : 'Oxu',
+            after: link ? ReportButton(link, b.title, 'Kitablar') : ''
         })}
         ${summary || lessons.length ? `
         <details class="group -mt-2 pb-3 pl-[30px]">
@@ -103,7 +106,8 @@ export const BooksPage = () => {
             meta: [b.topic ? esc(b.topic) : 'Pulsuz kitab', esc(levelAz(b.level)), esc(b.source || b.author || ''), LANG_WORD[b.lang] || ''],
             note: esc(b.desc),
             href: b.url,
-            action: 'Oxu'
+            action: 'Oxu',
+            after: ReportButton(b.url, b.title, 'Kitablar')
         })).join('')}</ul>`
     })}
     ${Section({
@@ -143,7 +147,8 @@ export const VideosPage = () => {
                 meta: ['Video kanal', c.source && c.source !== c.title ? `<span translate="no">${esc(c.source)}</span>` : ''],
                 note: c.note || '',
                 href: c.url,
-                action: 'İzlə'
+                action: 'İzlə',
+                after: ReportButton(c.url, c.title, 'Videolar')
             })).join('')}</ul>`
         }) : '';
     }).join('')}
@@ -218,7 +223,8 @@ export const DocsPage = () => {
             meta: ['Texniki təlimat', doc.lang && doc.lang !== 'en' ? LANG_WORD[doc.lang] : ''],
             note: doc.note,
             href: doc.url,
-            action: 'Təlimatı aç'
+            action: 'Təlimatı aç',
+            after: ReportButton(doc.url, doc.name, 'Təlimatlar')
         })).join('')}</ul>`
     })}</div>`).join('')}
 `);

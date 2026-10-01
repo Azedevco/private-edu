@@ -181,7 +181,7 @@ export const AreaTile = (catId, size = 'size-10') => `<span class="flex ${size} 
  * Resource row (in a ruled .ln-rows list): type icon, title, one meta line (Video · İngiliscə · youtube.com), an optional
  * note and the verb. The whole row is the link; an external href opens a new tab and says so.
  */
-export const ResourceCard = ({ title, meta = [], icon: iconName = 'file-text', href = '', onclick = '', action = 'Başla', note = '', tag = 'article' }) => {
+export const ResourceCard = ({ title, meta = [], icon: iconName = 'file-text', href = '', onclick = '', action = 'Başla', note = '', tag = 'article', after = '' }) => {
     // External links name their site in the meta line and carry ↗, so it is clear before the tap that another site opens.
     let host = '';
     const external = /^https?:/.test(href);
@@ -199,7 +199,7 @@ export const ResourceCard = ({ title, meta = [], icon: iconName = 'file-text', h
     const body = href
         ? `<a href="${href}" class="${cls}"${external ? ' target="_blank" rel="noopener noreferrer"' : ''}>${inner}${external ? newTabNote() : ''}</a>`
         : onclick ? `<button type="button" onclick="${onclick}" class="${cls}">${inner}</button>` : `<div class="${cls}">${inner}</div>`;
-    return `<${tag}>${body}</${tag}>`;
+    return `<${tag}>${body}${after ? `<div class="-mt-3 pb-2 pl-[30px]">${after}</div>` : ''}</${tag}>`;
 };
 
 /**

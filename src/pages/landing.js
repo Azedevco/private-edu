@@ -57,20 +57,25 @@ const Choices = () => Section({
 });
 
 // Block 3: how it works. The route drawing with its four steps written out beside it, so it reads as a guide.
-const HOW = ['Yol seç', 'Material öyrən', 'Məşq et', 'Layihə qur'];
+const HOW = [
+    ['Yol seç', 'Nə düzəltmək istədiyini seç: sayt, tətbiq, oyun…'],
+    ['Öyrən', 'Hər dərsdə əvvəl bir əsas video və ya məqalə, sonra əlavələr.'],
+    ['Məşq et', 'Dərsin sonunda 3 qısa sual: səhv etsən, izahını görürsən.'],
+    ['Qur', 'Öyrəndiklərinlə kiçik real iş düzəlt və GitHub-a yüklə.'],
+    ['İrəliləyişini izlə', 'Profil səhifəsində harada qaldığını və nə qaldığını görürsən.']
+];
 const HowItWorks = () => Section({
     id: 'how-title',
     title: 'Necə işləyir?',
     body: `
-        <div class="az-card grid grid-cols-1 items-center gap-6 p-5 sm:p-6 lg:grid-cols-[minmax(0,1fr)_minmax(0,420px)] lg:gap-10">
-            <div class="mx-auto w-full max-w-[340px] lg:order-last lg:max-w-[420px]">${RouteArt()}</div>
+        <div class="grid grid-cols-1 items-center gap-6 lg:grid-cols-[minmax(0,1fr)_minmax(0,420px)] lg:gap-10">
+            <div class="mx-auto hidden w-full max-w-[420px] lg:order-last lg:block">${RouteArt()}</div>
             <div class="min-w-0">
-                <p class="t-body">Hər yol dərslərdən ibarətdir. Dərsləri sıra ilə keçirsən, sonra öyrəndiklərinlə kiçik bir iş düzəldirsən.</p>
-                <ol class="mt-4 border-t border-line">
-                    ${HOW.map((step, i) => `
-                    <li class="flex min-h-12 items-center gap-3 border-b border-line">
+                <ol class="ln-rows">
+                    ${HOW.map(([step, text], i) => `
+                    <li class="flex items-baseline gap-3 py-3.5">
                         <span class="ln-num w-6 shrink-0" aria-hidden="true">${i + 1}</span>
-                        <span class="text-[15px] text-text">${step}</span>
+                        <span class="min-w-0"><span class="block text-[16px] font-medium text-text">${step}</span><span class="t-small mt-0.5 block">${text}</span></span>
                     </li>`).join('')}
                 </ol>
                 <button type="button" onclick="window.openOnboarding()" class="mt-3 inline-flex min-h-11 items-center gap-2 text-[14px] text-text-soft transition-colors hover:text-text">

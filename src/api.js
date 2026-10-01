@@ -64,3 +64,17 @@ export const loadAdminData = async () => {
 
 // Mentor review and certificate requests: recorded for mentors (best effort; WhatsApp stays the conversation).
 export const sendRequest = (payload) => apiCall('/api/requests', { method: 'POST', body: payload });
+
+// Problem reports on materials (admin): one status at a time, with the count of each status for the tabs.
+let reports = { status: 'new', items: null, counts: {} };
+export const getReports = () => reports;
+export const loadReports = async (status = reports.status) => {
+    reports = { ...reports, status, items: null };
+    render();
+    const r = await apiCall(`/api/reports?status=${encodeURIComponent(status)}`, { admin: true });
+    if (reports.status !== status) return r;
+    reports = { status, items: r.ok ? r.items : [], counts: r.ok ? r.counts : reports.counts, error: r.ok ? '' : (r.offline ? 'Server əlçatan deyil.' : 'Şikayətləri yükləmək alınmadı.') };
+    render();
+    return r;
+};
+export const setReportStatus = (id, status, adminNote = '') => apiCall(`/api/reports?id=${encodeURIComponent(id)}`, { method: 'PATCH', admin: true, body: { status, adminNote } });

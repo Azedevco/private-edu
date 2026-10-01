@@ -214,6 +214,8 @@ Sayt statikdir. Brauzer bazaya qoşulmur, bazaya yalnız Vercel funksiyaları (`
 | `GET/PATCH/DELETE /api/submissions?…` | Admin moderasiyası (`Authorization: Bearer ADMIN_TOKEN`) |
 | `POST /api/requests` | Mentor yoxlaması və sertifikat müraciətləri: mentorlar üçün bir siyahı |
 | `GET/PATCH /api/requests` | Admin: müraciətləri bağlamaq |
+| `POST /api/reports` | Materialın yanındakı "Problem bildir": link işləmir, köhnədir, mövzu uyğun deyil və s. Eyni link və səbəb bir qeyddə toplanır (sayğacla) |
+| `GET/PATCH /api/reports?…` | Admin → Şikayətlər: Yeni → Yoxlanılır → Həll olundu / Rədd edildi. Bağlanmış qeydlər 90 gündən sonra silinir |
 | `GET /api/health` | Baza əlçatandırmı, 512 MB-ın nə qədəri istifadə olunur |
 
 **512 MB-a sığmaq və təhlükəsizlik üçün:**
@@ -262,7 +264,7 @@ API ayrıca 20 testlə yoxlanır: validasiya, dublikat, honeypot, rate limit, ad
   - `/assets` üçün uzunmüddətli keş;
   - `/verify/*` üçün SPA yönləndirməsi.
 - **Env:** `VITE_GOOGLE_CLIENT_ID` dəyişənini Vercel-də təyin edin. Google Cloud-da *Authorized JavaScript origins* siyahısına `https://learn.azedev.com` əlavə olunmalıdır. Tətbiq hələ "Testing" rejimindədirsə, "Publish app" edin.
-- **Admin paneli:** yalnız lokal inkişafda (`npm run dev`) açılır. Production build-də admin şifrəsi yoxdur.
+- **Admin paneli:** `/admin` ünvanında açılır (menyularda və axtarışda yoxdur). Vercel-də təyin olunmuş `ADMIN_TOKEN` ilə daxil olunur.
 - **Service worker:** `public/sw.js` → `CACHE_NAME`. Böyük dizayn dəyişikliyindən sonra versiyanı artırın.
 
 ---

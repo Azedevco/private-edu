@@ -228,18 +228,42 @@ const MyTests = () => {
     return rows.length ? Section({ title: 'Sənin yolun', note: 'Hazırda keçdiyin dərsin testi və yolun final testi.', body: `<ul class="ln-rows">${rows.join('')}</ul>` }) : '';
 };
 
-const PathTests = () => Section({
-    title: 'Yolların testləri',
-    note: 'Hər yolda dərs testləri (hər biri 3 sual) və praktiki final testi var.',
-    body: `<ul class="ln-rows">${pathsWithFinal().map((sub) => ResourceCard({
+const PathTests = () => {
+    const row = (sub) => ResourceCard({
         tag: 'li',
         title: esc(subTitle(sub)),
         icon: 'list-checks',
         meta: [`${stagesOf(sub, state.lang).length} dərs testi`, 'final testi'],
         onclick: `window.navigateToCategory('${categoryOfSub(sub)?.id}', '${sub}', 'interview')`,
         action: 'Testlərə bax'
-    })).join('')}</ul>`
-});
+    });
+    const subs = pathsWithFinal();
+    return Section({
+        title: 'Yolların testləri',
+        note: 'Hər yolda dərs testləri (hər biri 3 sual) və praktiki final testi var.',
+        body: `<ul class="ln-rows">${subs.slice(0, 5).map(row).join('')}</ul>${More(subs.slice(5).map(row), `Daha ${subs.length - 5} yol`)}`
+    });
+};
+
+// The rest of a long list behind one native disclosure.
+const More = (rows, label) => (rows.length ? `
+    <details class="group">
+        <summary class="flex min-h-12 cursor-pointer list-none items-center gap-2 text-[14px] text-text-soft hover:text-text [&::-webkit-details-marker]:hidden">${label}<span class="transition-transform group-open:rotate-180">${icon('chevron-down', 'size-4')}</span></summary>
+        <ul class="ln-rows">${rows.join('')}</ul>
+    </details>` : '');
+
+// No path yet: say where tests come from and give one easy test to try right now.
+const NoPathYet = (topics) => {
+    const first = topics.find((q) => /html/i.test(q.title)) || topics[0];
+    return Section({
+        title: 'Haradan başlayım?',
+        note: 'Testlər dərslərin sonunda gəlir: bir yol seçəndə hər dərsin öz testi olur.',
+        body: `<ul class="ln-rows">
+            ${ResourceCard({ tag: 'li', title: 'Öyrənmə yolu seç', meta: ['Dərslər, testlər və layihə bir ardıcıllıqla'], icon: 'map', onclick: "window.navigateTo('roadmaps')", action: 'Yollar' })}
+            ${first ? TestRow(first.id, `İndi sına: ${esc(first.title)}`, [`${first.questions.length} sual`, `${minutes(first)} dəq`]) : ''}
+        </ul>`
+    });
+};
 
 const QuizPicker = () => {
     const beginner = isBeginner();
@@ -253,13 +277,16 @@ const QuizPicker = () => {
         })}
         ${Hint('practice')}
         <p class="mt-6 font-serif text-[20px] text-text"><span class="tabular-nums">${t.tests}</span> test · <span class="tabular-nums">${t.questions}</span> sual</p>
-        ${MyTests()}
-        ${Section({
-            title: 'Mövzu testləri',
-            note: `${topics.length} mövzu: bir texnologiyanı ayrıca yoxla.`,
-            body: `<ul class="ln-rows">${topics.map((quiz) => TestRow(quiz.id, esc(quiz.title), [`${quiz.questions.length} sual`, `${minutes(quiz)} dəq`])).join('')}</ul>`
-        })}
+        ${currentTrack(state.lang) ? MyTests() : NoPathYet(topics)}
         ${PathTests()}
+        ${(() => {
+            const row = (quiz) => TestRow(quiz.id, esc(quiz.title), [`${quiz.questions.length} sual`, `${minutes(quiz)} dəq`]);
+            return Section({
+                title: 'Mövzu testləri',
+                note: `${topics.length} mövzu: bir texnologiyanı ayrıca yoxla.`,
+                body: `<ul class="ln-rows">${topics.slice(0, 6).map(row).join('')}</ul>${More(topics.slice(6).map(row), `Daha ${topics.length - 6} mövzu testi`)}`
+            });
+        })()}
         ${beginner ? MorePractice() : ''}
     `);
 };

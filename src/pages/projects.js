@@ -9,7 +9,7 @@ import { icon } from '../icons.js'
 import {
     PageTitle, Chips, Segmented, Status, Badge, Button, Label, ExternalLink, EmptyState, TextLink, AreaTile, levelKind, esc
 } from '../ui.js'
-import { allProjects, projectState, isRepoUrl, subTitle, stagesOf } from '../progress.js'
+import { allProjects, projectState, isRepoUrl, subTitle, stagesOf, currentTrack } from '../progress.js'
 import { checkRun, checkButtonId, formatDate, autoRefreshReview } from '../repo-check.js'
 import { azedevBrand } from '../azedev-data.js'
 import { Hint, Term, isBeginner } from '../onboarding.js'
@@ -29,9 +29,11 @@ const STATUS = {
 };
 
 // Page-local filters. level null = not chosen yet: beginners start on the easiest level, everyone else on all.
-const filters = { area: 'all', level: null };
-window.setProjectsArea = (id) => { filters.area = id; requestRender(); };
+// sub: one path's projects only (opened from a lesson's "Qur" block).
+const filters = { area: 'all', level: null, sub: '' };
+window.setProjectsArea = (id) => { filters.area = id; filters.sub = ''; requestRender(); };
 window.setProjectsLevel = (id) => { filters.level = id; requestRender(); };
+window.openProjectsFor = (sub) => { filters.sub = String(sub || '').replace(/[^\w-]/g, ''); filters.level = 'all'; window.navigateTo('projects'); };
 
 // The learner's own repository, once started: a GitHub URL field with a save button, and the saved link.
 const RepoField = (sub, project, repo) => {
@@ -202,53 +204,88 @@ const ProjectCard = ({ sub, cat, project }) => {
     </li>`;
 };
 
-// --- Projects page ---
+// A project not started yet, as one ruled row: what it is, its path and level, the skills, one action. Starting it
+// moves it up to "Sənin layihələrin" as a full card (GitHub link, checks, mentor review).
+const ProjectRow = ({ sub, cat, project }) => `
+    <li class="py-5">
+        <div class="flex items-start gap-3">
+            <div class="min-w-0 flex-1">
+                <h3 class="t-item">${esc(L(project.title))}</h3>
+                <p class="t-small mt-1">${[esc(subTitle(sub)), esc(levelAz(project.level)), (project.tech || []).slice(0, 3).map(esc).join(', ')].filter(Boolean).join(' · ')}</p>
+                <p class="mt-2 text-[15px] leading-relaxed text-text-soft">${esc(L(project.desc))}</p>
+            </div>
+        </div>
+        <div class="mt-3 flex flex-wrap items-center gap-x-4 gap-y-1">
+            ${Button('Layihəyə başla', { onclick: `window.setProjectStatus(${jsArg(sub)}, ${jsArg(project.id)}, 'started')`, icon: 'arrow-right', size: 'sm' })}
+            ${cat ? TextLink(`${esc(subTitle(sub))} dərsləri`, `window.navigateToCategory('${cat}', ${jsArg(sub)}, 'roadmap')`) : ''}
+        </div>
+    </li>`;
+
+// --- Projects page: yours first, then this path's, then everything with filters (rows, not big cards) ---
 export const ProjectsPage = () => {
     const all = allProjects().filter((p) => p.cat);
-    const areas = categories.filter((c) => all.some((p) => p.cat === c.id));
-    const levels = LEVELS.filter((lv) => all.some((p) => p.project.level === lv));
+    const mine = all.filter((p) => projectState(p.sub, p.project.id).status);
+    const rest = all.filter((p) => !projectState(p.sub, p.project.id).status);
+    const track = currentTrack(state.lang);
+    const focusSub = filters.sub || '';
+    const areas = categories.filter((c) => rest.some((p) => p.cat === c.id));
+    const levels = LEVELS.filter((lv) => rest.some((p) => p.project.level === lv));
     const level = filters.level ?? (isBeginner() && levels.includes('junior') ? 'junior' : 'all');
-    const byArea = filters.area === 'all' ? all : all.filter((p) => p.cat === filters.area);
-    const shown = level === 'all' ? byArea : byArea.filter((p) => p.project.level === level);
-    const started = all.filter((p) => projectState(p.sub, p.project.id).status === 'started').length;
-    const done = all.filter((p) => projectState(p.sub, p.project.id).status === 'done').length;
+    const scope = focusSub ? rest.filter((p) => p.sub === focusSub) : filters.area === 'all' ? rest : rest.filter((p) => p.cat === filters.area);
+    const shown = level === 'all' ? scope : scope.filter((p) => p.project.level === level);
+    // The current path's projects lead the list (without hiding the others).
+    if (track && !focusSub) shown.sort((a, b) => (b.sub === track.sub) - (a.sub === track.sub));
+    const done = mine.filter((p) => projectState(p.sub, p.project.id).status === 'done').length;
 
     return Page(`
         ${PageTitle({
             title: 'Layihələr',
-            description: `${Term('layihə', 'Layihə')} öyrəndiklərinlə düzəltdiyin kiçik real işdir. Birinə başla, kodunu ${Term('github', 'GitHub')}-da saxla və hazır olanda tamamlandı kimi qeyd et.`
+            description: `${Term('layihə', 'Layihə')} öyrəndiklərinlə düzəltdiyin kiçik real işdir: sayt, tətbiq və ya proqram. Birini seç, kodunu ${Term('github', 'GitHub')}-a yüklə və yoxlat.`
         })}
         ${Hint('projects')}
-        ${isBeginner() ? `
-        <ol class="ln-rows mt-6 text-[15px] text-text-soft sm:grid sm:grid-cols-3 sm:gap-x-6 sm:border-t-0 sm:[&>li]:border-t sm:[&>li]:border-b-0" aria-label="Layihə necə işləyir">
-            ${['Layihə seç və “Layihəyə başla” bas', 'Kodunu GitHub-a yüklə və linkini əlavə et', 'Avtomatik yoxlamadan keç, sonra mentor rəyi istə'].map((text, i) => `
+
+        ${mine.length ? `
+        <section class="mt-8" aria-labelledby="my-projects">
+            <h2 id="my-projects" class="t-title">Sənin layihələrin</h2>
+            <p class="t-small mt-1">${mine.length - done} davam edir · ${done} tamamlanıb</p>
+            <ul class="mt-4 grid grid-cols-1 gap-2 xl:grid-cols-2">${mine.map(ProjectCard).join('')}</ul>
+        </section>` : isBeginner() ? `
+        <ol class="ln-rows mt-6 text-[15px] text-text-soft" aria-label="Layihə necə işləyir">
+            ${['Aşağıdan bir layihə seç və “Layihəyə başla” bas', 'Kodunu GitHub-a yüklə və linkini əlavə et', 'Avtomatik yoxlamadan keç, sonra mentor rəyi istə'].map((text, i) => `
             <li class="flex items-baseline gap-3 py-3"><span class="ln-num w-5 shrink-0 text-[18px]" aria-hidden="true">${i + 1}</span>${text}</li>`).join('')}
-        </ol>
-        <p class="t-small mt-3">Hər layihə bir neçə ${Term('bacarıq')} tələb edir. Yeni başlayırsansa, başlanğıc səviyyəli layihələrdən başla.</p>` : ''}
+        </ol>` : ''}
 
-        <div class="mt-6 grid grid-cols-1 gap-3">
-            <div class="-mx-5 overflow-x-auto px-5 no-scrollbar sm:mx-0 sm:overflow-visible sm:px-0 [&>div]:flex-nowrap sm:[&>div]:flex-wrap">${Chips(
-                [{ id: 'all', label: 'Bütün sahələr', count: all.length }, ...areas.map((c) => ({ id: c.id, label: esc(L(c.title)), count: all.filter((p) => p.cat === c.id).length }))],
-                filters.area, (id) => `window.setProjectsArea('${id}')`, 'Sahə'
-            )}</div>
-            <div>${Segmented(
-                [{ id: 'all', label: 'Hamısı' }, ...levels.map((lv) => ({ id: lv, label: levelAz(lv) }))],
-                level, (id) => `window.setProjectsLevel('${id}')`, 'Çətinlik'
-            )}</div>
-        </div>
-
-        <p class="t-small mt-8">${shown.length} layihə${started || done ? ` · ${started} davam edir · ${done} tamamlanıb` : ''}</p>
-        ${shown.length ? `
-        <ul class="mt-3 grid grid-cols-1 gap-2 xl:grid-cols-2">
-            ${shown.map(ProjectCard).join('')}
-        </ul>` : `
-        <div class="mt-3">${EmptyState(
-            'Bu seçimə uyğun layihə yoxdur',
-            'Bu sahədə bu səviyyədə layihə hələ yoxdur. Filtrləri sıfırla və ya başlanğıc səviyyəli layihələrə bax.',
-            `<div class="flex flex-wrap justify-center gap-2">
-                ${Button('Filtrləri sıfırla', { onclick: "window.setProjectsArea('all'); window.setProjectsLevel('all')", icon: 'rotate-ccw' })}
-                ${Button('Başlanğıc layihələr', { onclick: "window.setProjectsArea('all'); window.setProjectsLevel('junior')", icon: 'arrow-right' })}
-            </div>`
-        )}</div>`}
+        <section class="mt-10" aria-labelledby="pick-project">
+            <div class="flex items-baseline justify-between gap-3">
+                <h2 id="pick-project" class="t-title">${focusSub ? `${esc(subTitle(focusSub))} layihələri` : mine.length ? 'Yeni layihə seç' : 'Layihə seç'}</h2>
+                ${focusSub ? TextLink('Bütün layihələr', "window.setProjectsArea('all')") : ''}
+            </div>
+            ${focusSub ? '' : `
+            <div class="mt-4 grid grid-cols-1 gap-3">
+                <div class="-mx-5 overflow-x-auto px-5 no-scrollbar sm:mx-0 sm:overflow-visible sm:px-0 [&>div]:flex-nowrap sm:[&>div]:flex-wrap">${Chips(
+                    [{ id: 'all', label: 'Bütün sahələr', count: rest.length }, ...areas.map((c) => ({ id: c.id, label: esc(L(c.title)), count: rest.filter((p) => p.cat === c.id).length }))],
+                    filters.area, (id) => `window.setProjectsArea('${id}')`, 'Sahə'
+                )}</div>
+                <div>${Segmented(
+                    [{ id: 'all', label: 'Hamısı' }, ...levels.map((lv) => ({ id: lv, label: levelAz(lv) }))],
+                    level, (id) => `window.setProjectsLevel('${id}')`, 'Çətinlik'
+                )}</div>
+            </div>`}
+            <p class="t-small mt-6">${shown.length} layihə${track && !focusSub && shown.some((p) => p.sub === track.sub) ? ` · əvvəlcə ${esc(subTitle(track.sub))} yolunun layihələri` : ''}</p>
+            ${shown.length ? `<ul class="ln-rows mt-2">${shown.slice(0, 8).map(ProjectRow).join('')}</ul>
+            ${shown.length > 8 ? `
+            <details class="group">
+                <summary class="flex min-h-12 cursor-pointer list-none items-center gap-2 text-[14px] text-text-soft hover:text-text [&::-webkit-details-marker]:hidden">Daha ${shown.length - 8} layihə<span class="transition-transform group-open:rotate-180">${icon('chevron-down', 'size-4')}</span></summary>
+                <ul class="ln-rows">${shown.slice(8).map(ProjectRow).join('')}</ul>
+            </details>` : ''}` : `
+            <div class="mt-3">${EmptyState(
+                'Bu seçimə uyğun layihə yoxdur',
+                'Bu sahədə bu səviyyədə layihə hələ yoxdur. Filtrləri sıfırla və ya başlanğıc səviyyəli layihələrə bax.',
+                `<div class="flex flex-wrap justify-center gap-2">
+                    ${Button('Filtrləri sıfırla', { onclick: "window.setProjectsArea('all'); window.setProjectsLevel('all')", icon: 'rotate-ccw' })}
+                    ${Button('Başlanğıc layihələr', { onclick: "window.setProjectsArea('all'); window.setProjectsLevel('junior')", icon: 'arrow-right' })}
+                </div>`
+            )}</div>`}
+        </section>
     `);
 };

@@ -7366,7 +7366,7 @@ projects: [
             az: "Heç bir qrafik API (OpenGL/DirectX) istifadə etmədən, pikselləri bir-bir CPU ilə ekrana çəkən mühərrik.", 
             en: "A renderer that draws pixels to the screen using only the CPU, without any graphics APIs." 
         },
-        tech: ["C++", "SDL2 / SFML (Piksel tamponu için)", "Linear Algebra"],
+        tech: ["C++", "SDL2 / SFML", "Linear Algebra"],
         features: { 
             tr: ["Tel kafes (Wireframe) render", "Barycentric koordinat hesaplama", "Z-Buffering"], 
             az: ["Wireframe render", "Barycentric koordinat hesablanması", "Z-Buffering"], 

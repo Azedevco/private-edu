@@ -5,7 +5,8 @@ import { categories } from '../data.js'
 import { downloadableCheatSheets } from '../azedev-data.js'
 import { getCommunityUploads } from '../storage.js'
 import { renderMarkdown, readingMinutes } from '../markdown.js'
-import { loadAdminData, loadCommunity, getAdminData } from '../api.js'
+import { loadAdminData, loadCommunity, getAdminData, getReports } from '../api.js'
+import { reasonLabel } from './report.js'
 import { levelAz } from '../plain.js'
 import { state, getLocalizedContent } from '../core.js'
 import { Page } from '../shell.js'
@@ -140,7 +141,8 @@ export const DownloadsHubPage = () => {
 };
 
 // Sheet frame: full screen on phones (sticky header and footer), a centred app window from 640px.
-const Sheet = ({ labelledBy, onClose, width = 'sm:max-w-xl', title, subtitle = '', body, footer, form = '' }) => {
+// A dialog: full screen on a phone (forms with several fields), or a bottom sheet with `short` (a quick choice).
+export const Sheet = ({ labelledBy, onClose, width = 'sm:max-w-xl', title, subtitle = '', body, footer, form = '', short = false }) => {
     const inner = `
         <header class="flex shrink-0 items-start gap-3 border-b border-line px-4 py-3 pt-[calc(12px+env(safe-area-inset-top))] sm:px-6 sm:pt-4">
             <div class="min-w-0 flex-1 py-1">
@@ -152,14 +154,14 @@ const Sheet = ({ labelledBy, onClose, width = 'sm:max-w-xl', title, subtitle = '
         <div class="min-h-0 flex-1 overflow-y-auto px-4 py-6 sm:px-6">${body}</div>
         <footer class="shrink-0 border-t border-line px-4 py-3 pb-[calc(12px+env(safe-area-inset-bottom))] sm:px-6 sm:pb-3">${footer}</footer>`;
     return `
-    <div class="fixed inset-0 z-[999] flex items-stretch justify-center bg-bg sm:items-center sm:bg-bg/80 sm:p-4" onclick="if (event.target === this) ${onClose}">
-        <div class="flex h-full w-full flex-col bg-bg sm:h-auto sm:max-h-[90vh] ${width} sm:overflow-hidden sm:rounded-window sm:border sm:border-alpha-10 sm:bg-card sm:[box-shadow:var(--shadow-window)]" role="dialog" aria-modal="true" aria-labelledby="${labelledBy}">
+    <div class="fixed inset-0 z-[999] flex ${short ? 'items-end bg-bg/80' : 'items-stretch bg-bg'} justify-center sm:items-center sm:bg-bg/80 sm:p-4" onclick="if (event.target === this) ${onClose}">
+        <div class="flex ${short ? 'max-h-[92vh] rounded-t-window border-t border-alpha-10 bg-card' : 'h-full bg-bg'} w-full flex-col sm:h-auto sm:max-h-[90vh] ${width} sm:overflow-hidden sm:rounded-window sm:border sm:border-alpha-10 sm:bg-card sm:[box-shadow:var(--shadow-window)]" role="dialog" aria-modal="true" aria-labelledby="${labelledBy}">
             ${form ? `<form ${form} class="flex min-h-0 flex-1 flex-col">${inner}</form>` : inner}
         </div>
     </div>`;
 };
 
-const Field = ({ id, label, control, hint = '' }) => `
+export const Field = ({ id, label, control, hint = '' }) => `
     <div class="az-field">
         <label class="az-field__label" for="${id}">${label}</label>
         ${control}
@@ -384,7 +386,39 @@ export const AdminPage = () => {
             </div>
         </div>`;
 
-    const panels = { overview: moderation, requests: requestList, 'add-resource': addResource, 'all-uploads': allUploads, backup };
+    // Problem reports: New → Reviewing → Resolved / Rejected. Each item says what, where, why and how many people.
+    const rep = getReports();
+    const REPORT_STATUS = [
+        { id: 'new', label: 'Yeni' }, { id: 'reviewing', label: 'Yoxlanılır' }, { id: 'resolved', label: 'Həll olundu' }, { id: 'rejected', label: 'Rədd edildi' }
+    ];
+    const reportActions = (x) => {
+        const id = safeId(x._id);
+        const btn = (label, status, iconName) => Button(label, { onclick: `window.adminSetReport('${id}', '${status}')`, size: 'sm', icon: iconName });
+        return [
+            x.status === 'new' ? btn('Yoxlamağa götür', 'reviewing', 'eye') : '',
+            x.status !== 'resolved' ? btn('Həll olundu', 'resolved', 'check') : '',
+            x.status !== 'rejected' ? btn('Rədd et', 'rejected', 'x') : '',
+            x.status === 'resolved' || x.status === 'rejected' ? btn('Yenidən aç', 'new', 'rotate-ccw') : ''
+        ].join('');
+    };
+    const reportsPanel = `
+        <div class="-mx-5 overflow-x-auto px-5 no-scrollbar sm:mx-0 sm:px-0 [&>div]:flex-nowrap">${Chips(
+            REPORT_STATUS.map((x) => ({ ...x, count: rep.counts?.[x.id] })), rep.status, (id) => `window.adminReportsTab('${id}')`, 'Şikayət statusu'
+        )}</div>
+        ${rep.items === null ? '<p class="t-body mt-6" role="status">Yüklənir…</p>'
+            : rep.error ? `<div class="mt-6">${EmptyState('Şikayətlər yüklənmədi', esc(rep.error), Button('Yenidən cəhd et', { onclick: `window.adminReportsTab('${rep.status}')`, icon: 'rotate-ccw' }))}</div>`
+            : rep.items.length === 0 ? `<div class="mt-6">${EmptyState(rep.status === 'new' ? 'Yeni şikayət yoxdur' : 'Bu statusda şikayət yoxdur', 'Öyrənənlər materialın yanındakı “Problem bildir” ilə xəbər verəndə burada görünəcək.')}</div>`
+            : `<ul class="ln-rows mt-4">${rep.items.map((x) => `
+            <li class="py-5">
+                <p class="text-[13px] font-medium text-text-soft">${esc(reasonLabel(x.reason))}${x.count > 1 ? ` · ${x.count} nəfər bildirib` : ''}</p>
+                <p class="t-item mt-1">${esc(x.title || x.url)}</p>
+                <p class="t-small mt-1 break-all">${safeUrl(x.url) ? ExternalLink(esc(x.url), safeUrl(x.url), 'text-[13px]') : esc(x.url)}</p>
+                ${x.note ? `<p class="mt-2 text-[15px] leading-relaxed text-text-soft">“${esc(x.note)}”</p>` : ''}
+                <p class="t-small mt-2">${[x.where ? `Harada: ${esc(x.where)}` : '', `Göndərən: anonim öyrənən`, esc(String(x.createdAt || '').slice(0, 10)), x.adminNote ? `Qeyd: ${esc(x.adminNote)}` : ''].filter(Boolean).join(' · ')}</p>
+                <div class="mt-3 flex flex-wrap gap-2">${reportActions(x)}</div>
+            </li>`).join('')}</ul>`}`;
+
+    const panels = { overview: moderation, reports: reportsPanel, requests: requestList, 'add-resource': addResource, 'all-uploads': allUploads, backup };
 
     return Page(`
         ${PageTitle({
@@ -396,13 +430,14 @@ export const AdminPage = () => {
         <div class="mt-8">${Stats([
             [pendingSubmissions.length, 'təsdiq gözləyir'],
             [requests.length, 'açıq müraciət'],
-            [allSubmissions.length, 'icma materialı'],
-            [downloadableCheatSheets.length, 'rəsmi konspekt']
+            [getReports().counts?.new ?? '–', 'yeni şikayət'],
+            [allSubmissions.length, 'icma materialı']
         ])}</div>
 
         <div class="mt-10">
             ${Segmented([
                 { id: 'overview', label: 'Moderasiya' },
+                { id: 'reports', label: 'Şikayətlər' },
                 { id: 'requests', label: 'Müraciətlər' },
                 { id: 'add-resource', label: 'Əlavə et' },
                 { id: 'all-uploads', label: 'Bütün materiallar' },

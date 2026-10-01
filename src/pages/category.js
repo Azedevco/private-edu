@@ -9,12 +9,13 @@ import {
     Button, Status, Badge, Chips, EmptyState, esc, ExternalLink, newTabNote,
     PageTitle, Tabs, LearnTabs, TextLink, Section, AreaTile, ResourceCard, PathCard, ProgressLine
 } from '../ui.js'
-import { trackProgress, isStageDone, stagesOf, isItemDone, itemsDone, categoryOfSub, quizResult } from '../progress.js'
+import { trackProgress, isStageDone, stagesOf, isItemDone, itemsDone, categoryOfSub, quizResult, projectsOf, projectState } from '../progress.js'
 import { Hint, Term, isBeginner } from '../onboarding.js'
 import { plainPath, STARTER_PATHS, levelAz } from '../plain.js'
 import { lessonPlan, pathPlan, planSize, pathVideos } from '../curriculum.js'
 import { hasLessonQuiz, hasFinalQuiz, lessonQuizId, finalQuizId, finalSize } from '../quizzes.js'
 import { CertificateRequest } from '../certificates.js'
+import { ReportButton } from './report.js'
 
 const L = getLocalizedContent;
 const pad = (n) => String(n).padStart(2, '0');
@@ -66,8 +67,8 @@ const matchTopic = (stage, text) => {
 // Lesson state as a word with an icon, never colour alone: finished, the one to do now, later.
 const STATE = {
     done: { icon: 'circle-check', word: 'Bitib', cls: 'text-status-live' },
-    current: { icon: 'circle-dot', word: 'İndiki', cls: 'text-text' },
-    next: { icon: 'circle', word: 'Növbəti', cls: 'text-text-mute' }
+    current: { icon: 'circle-dot', word: 'Buradasan', cls: 'text-text' },
+    next: { icon: 'circle', word: 'Sonra', cls: 'text-text-mute' }
 };
 const StateWord = (st) => `<span class="inline-flex items-center gap-1.5"><span class="${STATE[st].cls}">${icon(STATE[st].icon, 'size-3.5')}</span><span class="${st === 'next' ? 'text-text-mute' : 'text-text-soft'}">${STATE[st].word}</span></span>`;
 
@@ -103,28 +104,41 @@ const AltLinks = (alt) => {
 // (the closest language with real materials), English, Turkish and Russian readers get their own.
 const leadLang = () => (state.lang === 'az' ? 'tr' : state.lang);
 
-// Lesson page: one ruled row per step: the number, the verb (İzlə, Oxu, Məşq et), the material as a link, its note.
-const PlanStep = (step, n) => {
+// Lesson page: one ruled row per step: the number, the verb (İzlə, Oxu, Məşq et), the material as a link with what it
+// is (type · level · length · language · source), why it is here, the same step in other languages, and "Problem bildir".
+const PlanStep = (step, n, where) => {
     const res = step.res;
     const type = typeOf(res);
     const host = hostOf(res.url);
+    const meta = [type.label, res.level ? levelAz(res.level) : '', res.duration ? esc(res.duration) : '', langWord(res.lang), res.source ? `<span translate="no">${esc(res.source)}</span>` : (host ? `<span translate="no">${esc(host)}</span>` : '')];
     return `
     <li class="flex gap-3 py-5">
         ${StepNumber(n)}
         <div class="min-w-0 flex-1">
-            <p class="text-[13px] font-medium text-text-soft"><span class="sr-only">Addım ${n}: </span>${step.verb}</p>
-            <a href="${res.url}" target="_blank" rel="noopener noreferrer" class="group mt-1 flex items-start justify-between gap-3 py-1">
+            <a href="${res.url}" target="_blank" rel="noopener noreferrer" class="group flex items-start justify-between gap-3 py-1">
+                <span class="sr-only">Addım ${n}: </span>
                 <span class="min-w-0">
                     <span class="ln-row__title t-item block">${esc(res.title)}</span>
-                    <span class="t-small mt-1 block">${[type.label, langWord(res.lang), res.source ? `<span translate="no">${esc(res.source)}</span>` : '', host ? `<span translate="no">${esc(host)}</span>` : ''].filter(Boolean).join(' · ')}</span>
+                    <span class="t-small mt-1 block">${meta.filter(Boolean).join(' · ')}</span>
                 </span>
-                <span class="inline-flex shrink-0 items-center gap-1 text-[14px] font-medium text-text-soft transition-colors group-hover:text-text">${type.verb}${icon('arrow-up-right', 'size-4')}</span>
+                <span class="inline-flex shrink-0 items-center gap-1 text-[14px] font-medium text-text-soft transition-colors group-hover:text-text">${step.verb || type.verb}${icon('arrow-up-right', 'size-4')}</span>
                 ${newTabNote()}
             </a>
             ${step.note ? `<p class="mt-2 text-[15px] leading-relaxed text-text-soft">${esc(step.note)}</p>` : ''}
             ${AltLinks(step.alt)}
+            <div class="mt-1 -mb-2">${ReportButton(res.url, res.title, where)}</div>
         </div>
     </li>`;
+};
+
+// A project from this path that fits this point of the path: earlier lessons get the easier ones.
+const projectFor = (sub, idx, total) => {
+    const list = projectsOf(sub);
+    if (!list.length) return null;
+    const order = { junior: 0, beginner: 0, mid: 1, intermediate: 1, senior: 2, expert: 2, advanced: 2 };
+    const sorted = [...list].sort((a, b) => (order[String(a.level).toLowerCase()] ?? 1) - (order[String(b.level).toLowerCase()] ?? 1));
+    const pick = sorted[Math.min(sorted.length - 1, Math.floor((idx / Math.max(1, total)) * sorted.length))];
+    return pick;
 };
 
 // Path Materiallar tab: one compact row per step under its lesson; the whole row opens the material.
@@ -281,10 +295,10 @@ export const CategoryDetail = () => {
                         </span>
                         <span class="text-text-mute">${icon('chevron-right')}</span>
                     </button>
-                    <button type="button" onclick="window.toggleStageDone('${sub.id}', ${idx})" aria-pressed="${done}" aria-label="Dərs ${idx + 1}, ${esc(step.title)}: ${done ? 'bitmədi kimi qeyd et' : 'bitdi kimi qeyd et'}"
+                    ${st === 'next' ? '' : `<button type="button" onclick="window.toggleStageDone('${sub.id}', ${idx})" aria-pressed="${done}" aria-label="Dərs ${idx + 1}, ${esc(step.title)}: ${done ? 'bitmədi kimi qeyd et' : 'bitdi kimi qeyd et'}"
                         class="inline-flex min-h-11 min-w-11 shrink-0 items-center justify-center gap-1.5 rounded-full border px-3 text-[13px] font-medium transition-colors ${done ? 'border-status-live-line bg-status-live-wash text-status-live' : 'border-alpha-10 text-text-soft hover:border-alpha-20 hover:text-text'}">
-                        ${icon('check', 'size-3.5')}<span>Bitdi</span>
-                    </button>
+                        ${icon('check', 'size-3.5')}<span>${done ? 'Bitib' : 'Bitdi'}</span>
+                    </button>`}
                 </div>
             </li>`;
             }).join('')}
@@ -531,10 +545,16 @@ export const TopicPage = () => {
 
     ${planSteps.length ? Section({
         id: 'lesson-materials',
-        title: 'Bu ardıcıllıqla öyrən',
-        note: 'Pulsuz, yoxlanmış materiallar. 1-ci addımdan başla.',
+        title: 'Öyrən',
+        note: 'Pulsuz, AZEDEV-in yoxladığı materiallar. 1-ci addımdan başla.',
         link: TextLink('Bütün plan', `window.navigateToCategory('${cat.id}', '${sub.id}', 'resources')`),
-        body: `<ol class="ln-rows">${planSteps.map((step, n) => PlanStep(step, n + 1)).join('')}</ol>`
+        body: `
+        <h3 class="mt-2 text-[13px] font-medium uppercase tracking-[0.08em] text-text-mute">Buradan başla <span class="normal-case tracking-normal">· AZEDEV seçimi</span></h3>
+        <ol class="ln-rows">${PlanStep(planSteps[0], 1, `${sub.id}#${idx}`)}</ol>
+        ${planSteps.length > 1 ? `
+        <h3 class="mt-8 text-[13px] font-medium uppercase tracking-[0.08em] text-text-mute">Daha çox öyrən</h3>
+        <p class="t-small mt-1">Mövzunu möhkəmləndirmək üçün, eyni ardıcıllıqla.</p>
+        <ol class="ln-rows" start="2">${planSteps.slice(1).map((step, n) => PlanStep(step, n + 2, `${sub.id}#${idx}`)).join('')}</ol>` : ''}`
     }) : ''}
 
     ${materials.length ? Section({
@@ -567,6 +587,26 @@ export const TopicPage = () => {
             ? QuizRow(lessonQuizId(sub.id, idx), `Dərs testi: ${esc(stage.title)}`, 3)
             : `${questions.length ? QuestionList(questions) : ''}<div class="${questions.length ? 'mt-4' : ''}">${MorePractice()}</div>`
     })}
+
+    ${(() => {
+        const project = projectFor(sub.id, idx, steps.length);
+        if (!project) return '';
+        const status = projectState(sub.id, project.id).status;
+        return Section({
+            id: 'lesson-build',
+            title: 'Qur',
+            note: 'Öyrəndiyini kiçik real işdə yoxla. Bu dərsdən sonra və ya yolun sonunda başla.',
+            body: `<ul class="ln-rows">${ResourceCard({
+                tag: 'li',
+                title: esc(L(project.title)),
+                icon: 'hammer',
+                meta: ['Layihə', levelAz(project.level), status === 'done' ? 'Tamamlanıb' : status === 'started' ? 'Davam edir' : ''],
+                note: esc(L(project.desc)),
+                onclick: `window.openProjectsFor('${sub.id}')`,
+                action: status ? 'Aç' : 'Bax'
+            })}</ul>`
+        });
+    })()}
 
     ${done ? SupportNote({ lead: 'Bu dərsi bitirdin.' }) : ''}
 

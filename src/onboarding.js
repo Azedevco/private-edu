@@ -102,33 +102,16 @@ export const Hint = (id, { next } = {}) => {
 // ---- First-visit introduction: welcome + six steps, each one message and one visual example ----
 
 const Visual = {
-    choose: () => `
-        <div class="grid grid-cols-1 gap-2">
-            ${[['web-dev', 'Frontend', 'Veb saytların görünən hissəsi'], ['web-dev', 'Backend', 'Server və məlumat bazası'], ['data-ai', 'Data Science', 'Məlumatla işləmək']].map(([cat, name, desc], i) => `
-            <div class="flex items-center gap-3 rounded-md border ${i === 0 ? 'border-alpha-25 bg-alpha-6' : 'border-alpha-8'} p-3">
-                ${AreaTile(cat, 'size-9')}
-                <div class="min-w-0 flex-1"><p class="text-[14px] font-medium text-text">${name}</p><p class="text-[13px] text-text-mute">${desc}</p></div>
-                ${i === 0 ? `<span class="text-text">${icon('circle-check', 'size-5')}</span>` : ''}
-            </div>`).join('')}
-        </div>`,
     path: () => `
         <ol class="ln-stops">
             ${[['HTML', 'done'], ['CSS', 'done'], ['JavaScript', 'current'], ['React', ''], ['Layihələr', '']].map(([name, st]) => `
             <li class="ln-stop"${st ? ` data-state="${st}"` : ''}>
                 <div class="flex min-h-11 items-center justify-between gap-3 rounded-md border border-alpha-8 px-3 py-2">
                     <span class="text-[14px] ${st === 'current' ? 'font-medium text-text' : 'text-text-soft'}">${name}</span>
-                    <span class="inline-flex items-center gap-1 text-[12px] ${st === 'done' ? 'text-status-live' : 'text-text-mute'}">${st === 'done' ? `${icon('check', 'size-3.5')}Tamamlandı` : st === 'current' ? 'Hazırkı' : 'Növbəti'}</span>
+                    <span class="inline-flex items-center gap-1 text-[12px] ${st === 'done' ? 'text-status-live' : 'text-text-mute'}">${st === 'done' ? `${icon('check', 'size-3.5')}Bitib` : st === 'current' ? 'Buradasan' : 'Sonra'}</span>
                 </div>
             </li>`).join('')}
         </ol>`,
-    study: () => `
-        <div class="az-card flex flex-col gap-3 p-4">
-            <div class="flex items-start gap-3">
-                <span class="flex size-10 shrink-0 items-center justify-center rounded-md border border-alpha-8 bg-alpha-3 text-text-soft">${icon('circle-play', 'size-[18px]')}</span>
-                <div><p class="t-item">JavaScript funksiyaları</p><p class="t-small mt-1">Başlanğıc · 35 dəq · Video</p></div>
-            </div>
-            <span class="az-btn az-btn--ghost pointer-events-none w-full" aria-hidden="true">Başla${icon('arrow-right')}</span>
-        </div>`,
     practice: () => `
         <div class="az-card p-4">
             <p class="font-mono text-[12px] tracking-[0.04em] text-text-mute">Sual 1 / 5</p>
@@ -158,12 +141,10 @@ const Visual = {
 };
 
 export const STEPS = [
-    { key: 'choose', title: 'Nə öyrənmək istədiyini seç', text: 'Sənə maraqlı olanı seç: sayt düzəltmək, telefon tətbiqi, məlumatla işləmək və ya sistemləri qorumaq.' },
-    { key: 'path', title: 'Öyrənmə yolunu izlə', text: 'Yol dərsləri düzgün ardıcıllıqla düzür: əvvəl HTML, sonra CSS, sonra JavaScript. Nəyi öyrənəcəyini düşünməyə ehtiyac yoxdur.' },
-    { key: 'study', title: 'Dərsi materiallardan öyrən', text: 'Hər dərsdə nələri öyrənəcəyin yazılıb və seçilmiş pulsuz materiallar var: videolar, məqalələr, təlimatlar.' },
-    { key: 'practice', title: 'Məşq et', text: 'Qısa testlərlə öyrəndiklərini yoxla. Səhv etsən, düzgün cavabı izahı ilə dərhal görürsən.' },
-    { key: 'build', title: 'Kiçik real iş düzəlt', text: 'Öyrəndiklərinlə sadə sayt və ya tətbiq düzəlt. Onu GitHub-da (kodu pulsuz saxladığın saytda) saxla.' },
-    { key: 'track', title: 'Nə qədər irəlilədiyini gör', text: 'Profil səhifəsi neçə dərs bitirdiyini, testlərini və layihələrini göstərir.' }
+    { key: 'path', title: 'Öyrən', text: 'Nə düzəltmək istədiyini seç. Yol dərsləri sıraya düzür: hər dərsdə əvvəl bir əsas video və ya məqalə, sonra əlavələr.' },
+    { key: 'practice', title: 'Məşq et', text: 'Hər dərsin sonunda 3 qısa sual var. Səhv etsən, düzgün cavabı izahı ilə dərhal görürsən.' },
+    { key: 'build', title: 'Qur', text: 'Öyrəndiklərinlə kiçik real iş düzəlt: sayt və ya tətbiq. Kodunu GitHub-da (kodu pulsuz saxladığın saytda) saxla.' },
+    { key: 'track', title: 'İrəliləyişini izlə', text: 'Profil səhifəsi harada qaldığını, testlərini və layihələrini göstərir. Növbəti addım həmişə Ana səhifədədir.' }
 ];
 
 // state.onboardingStep: 0 = welcome, 1..6 = steps.

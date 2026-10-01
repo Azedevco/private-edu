@@ -1,4 +1,4 @@
-import { loadRu, ruLoaded, translateTree, watchRu } from './ru.js'
+import { loadRu, ruLoaded, translateTree, watchRu, ruText } from './ru.js'
 import './style.css'
 import { inject } from '@vercel/analytics'
 import { injectSpeedInsights } from '@vercel/speed-insights'
@@ -22,7 +22,7 @@ import { LandingPage } from './pages/landing.js'
 import { WelcomePage } from './pages/welcome.js'
 import { getQuiz, newQuizSeed } from './quizzes.js'
 import { VerifyPage } from './certificates.js'
-import { apiCall, loadCommunity, loadAdminData, setAdminToken } from './api.js'
+import { apiCall, loadCommunity, loadAdminData, setAdminToken, loadReports, setReportStatus } from './api.js'
 import { ContributePage } from './pages/contribute.js'
 import { hydrateArt } from './art/particles.js'
 import { Onboarding, maybeStartOnboarding, hasEntered } from './onboarding.js'
@@ -31,6 +31,7 @@ import { CoursesPage, BooksPage, VideosPage, DocsPage } from './pages/learn.js'
 import { ChallengesPage, QuizzesPage } from './pages/practice.js'
 import { CareerPathsPage, OpenSourcePage, AboutAzedevPage, GlobalFaqPage, GlossaryPage, HallOfFamePage, LegalPage } from './pages/explore.js'
 import { DownloadsHubPage, UploadResourceModal, ResourcePreviewModal, AdminPage } from './pages/downloads.js'
+import { ReportModal, resetReportTargets } from './pages/report.js'
 import { CategoryDetail, RoadmapsPage, TopicPage } from './pages/category.js'
 import { ProjectsPage } from './pages/projects.js'
 import { JourneyPage } from './pages/journey.js'
@@ -49,6 +50,7 @@ const app = document.querySelector('#app');
 const closeOverlays = () => {
     state.uploadModalOpen = false;
     state.previewResource = null;
+    state.report = null;
 };
 
 window.navigateTo = (view) => {
@@ -394,6 +396,7 @@ window.handleAdminLogin = async (e) => {
         state.adminTab = 'overview';
         render();
         showToast('Admin panelinə daxil oldunuz.', 'success');
+        loadReports('new');
     } else {
         logoutAdmin();
         state.isAdmin = false;
@@ -412,6 +415,7 @@ window.adminLogoutHandler = () => {
 window.setAdminTab = (tab) => {
     state.adminTab = tab;
     render();
+    if (tab === 'reports') loadReports();
 };
 
 const adminAct = async (call, done) => {
@@ -427,6 +431,16 @@ window.adminDelete = (id) => {
     if (confirm('Bu materialı silmək istədiyinizdən əminsiniz?')) adminAct(() => apiCall(`/api/submissions?id=${encodeURIComponent(id)}`, { method: 'DELETE', admin: true }), 'Material silindi.');
 };
 // Closing a request records the mentor's decision; the note is what the learner reads under the project.
+window.adminReportsTab = (status) => { loadReports(status); };
+window.adminSetReport = async (id, status) => {
+    const adminNote = status === 'resolved' || status === 'rejected' ? (prompt(status === 'resolved' ? 'Nə etdin? (məsələn: link dəyişdirildi)' : 'Niyə rədd edildi?') ?? null) : '';
+    if (adminNote === null) return;
+    const r = await setReportStatus(id, status, adminNote);
+    if (!r.ok) return showToast(r.status === 401 ? 'Sessiyanın vaxtı bitib, yenidən daxil ol.' : 'Əməliyyat alınmadı.', 'info');
+    await loadReports();
+    showToast({ reviewing: 'Yoxlanılır kimi qeyd edildi.', resolved: 'Həll olundu.', rejected: 'Rədd edildi.', new: 'Yenidən açıldı.' }[status], 'success');
+};
+
 window.adminCloseRequest = (id, status) => {
     const note = prompt(status === 'done' ? 'Öyrənənə qeyd (nə yaxşıdır, nəyi inkişaf etdirsin):' : 'Nəyi düzəltməlidir? (öyrənən bunu görəcək)');
     if (note === null) return;
@@ -570,7 +584,9 @@ window.addEventListener('keydown', (e) => {
     }
 
     if (e.key === 'Escape') {
-        if (state.previewResource) {
+        if (state.report) {
+            window.closeReport();
+        } else if (state.previewResource) {
             window.closePreviewModal();
         } else if (state.uploadModalOpen) {
             window.closeUploadModal();
@@ -593,6 +609,7 @@ const render = () => {
     // First time inside the app: the short guide opens once.
     maybeStartOnboarding();
     state.hintFoldShown = false;
+    resetReportTargets();
     let content = '';
     content += Navbar();
     content += MobileMenu();
@@ -655,6 +672,7 @@ const render = () => {
     content += CommandPalette();
     content += UploadResourceModal();
     content += ResourcePreviewModal();
+    content += ReportModal();
     content += Onboarding();
 
     app.innerHTML = content;
@@ -685,10 +703,12 @@ const render = () => {
 // Russian: the whole screen is translated after each render (the translations load on first use).
 function applyRussian() {
     if (state.lang !== 'ru') { watchRu(false); return; }
-    if (ruLoaded()) { translateTree(app); watchRu(true); } else loadRu();
+    if (ruLoaded()) { translateTree(app); watchRu(true); document.title = ruText(document.title); } else loadRu();
 }
 
 // Initial Execution. A shared certificate link (learn.azedev.com/verify/<ID>) opens the verification page directly.
+// The admin panel has its own address (learn.azedev.com/admin); it is not in the learner's menus or search.
+if (/^\/admin\/?$/.test(location.pathname)) state.view = 'admin';
 const verifyMatch = location.pathname.match(/^\/verify\/?([\w-]*)/);
 if (verifyMatch) {
     state.view = 'verify';

@@ -190,7 +190,7 @@ const Settings = () => {
             ${BeginnerSwitch()}
             <div class="border-t border-line pt-5">
                 <p class="text-[15px] font-medium text-text">Qısa bələdçi</p>
-                <p class="mt-0.5 text-[13px] leading-snug text-text-mute">Saytın necə işlədiyini 6 addımda yenidən göstərir.</p>
+                <p class="mt-0.5 text-[13px] leading-snug text-text-mute">Saytın necə işlədiyini 4 qısa addımda yenidən göstərir.</p>
                 <div class="mt-3 [&>.az-btn]:w-full sm:[&>.az-btn]:w-auto">${Button('Qısa bələdçini yenidən göstər', { onclick: 'window.openOnboarding()', icon: 'circle-help' })}</div>
             </div>
             <div class="border-t border-line pt-5">

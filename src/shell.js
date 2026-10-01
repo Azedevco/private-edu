@@ -290,13 +290,12 @@ const buildIndex = () => {
     videosData.forEach((v) => idx.push({ group: 'resources', title: v.name || v.title || v.channel, subtitle: `Video · ${v.category || ''}`, iconHtml: icon('circle-play'), action: v.url ? openUrl(v.url) : () => window.navigateTo('videos') }));
     documentationLinks.forEach((d) => idx.push({ group: 'resources', title: d.name || d.title, subtitle: `Sənəd · ${d.category || ''}`, iconHtml: icon('library'), action: d.url ? openUrl(d.url) : () => window.navigateTo('docs') }));
     downloadableCheatSheets.forEach((cs) => idx.push({ group: 'resources', title: cs.title, subtitle: 'Konspekt', iconHtml: icon('file-text'), action: () => { window.navigateTo('downloads'); window.previewCheatSheet(cs.id); } }));
-    allProjects().forEach(({ sub, project }) => idx.push({ group: 'projects', title: L(project.title), subtitle: `${project.level} · ${(project.tech || []).slice(0, 3).join(', ')}`, keywords: sub, iconHtml: icon('hammer'), action: () => window.navigateTo('projects') }));
+    allProjects().forEach(({ sub, project }) => idx.push({ group: 'projects', title: L(project.title), subtitle: `Layihə · ${subTitle(sub)} · ${(project.tech || []).slice(0, 3).join(', ')}`, keywords: sub, iconHtml: icon('hammer'), action: () => window.openProjectsFor(sub) }));
     (globalFaqData || []).forEach((sec) => (sec.questions || sec.items || []).forEach((q) => idx.push({ group: 'questions', title: L(q.q || q.question), subtitle: 'Suallar və cavablar', iconHtml: icon('circle-help'), action: () => window.navigateTo('faq') })));
     (glossary || []).forEach((g) => idx.push({ group: 'questions', title: g.term, subtitle: `Termin · ${L(g.desc) || ''}`, iconHtml: icon('book-marked'), action: () => window.navigateTo('glossary') }));
     [...NAV.flatMap((g) => g.items || [{ ...g, desc: '' }]), ...MORE.flatMap((g) => g.items)].filter((it) => it.go).forEach((it) => idx.push({
         group: 'pages', title: it.label(), subtitle: it.desc || 'Bölmə', iconHtml: icon(it.icon), action: () => new Function(it.go)()
     }));
-    idx.push({ group: 'pages', title: 'Admin paneli', subtitle: 'İdarəetmə və moderasiya', iconHtml: icon('settings'), action: () => window.navigateTo('admin') });
     searchIndex = idx.filter((x) => x.title);
     searchIndexLang = state.lang;
     return searchIndex;
@@ -373,7 +372,11 @@ export const CommandPalette = () => {
             </div>`}
             <div class="flex-1 overflow-y-auto p-2" role="listbox" aria-label="Nəticələr">
                 ${flat.length === 0 ? `
-                    <p class="px-4 py-10 text-center text-[14px] text-text-mute">“${esc(state.searchQuery)}” üçün nəticə tapılmadı. Daha qısa söz yoxlayın.</p>
+                    <div class="px-4 py-10 text-center">
+                        <p class="text-[15px] text-text">“${esc(state.searchQuery)}” üçün nəticə tapılmadı</p>
+                        <p class="t-small mt-1">Daha qısa və ya başqa söz yaz (məsələn: “html”, “python”), ya da bütün yollara bax.</p>
+                        <button type="button" class="az-btn az-btn--ghost mt-4" onclick="window.closeCommandPalette(); window.navigateTo('roadmaps')">Bütün yollar${icon('arrow-right')}</button>
+                    </div>
                 ` : sections.map((s) => `
                     <p class="t-label px-3 pb-1 pt-3">${s.label}</p>
                     <ul>${s.items.map(Item).join('')}</ul>`).join('')}
