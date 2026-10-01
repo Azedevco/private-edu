@@ -1,0 +1,4 @@
+{
+ "about": "Verified AZEDEV Learn certificates. An entry is added by AZEDEV (pull request) only after all three checks: the path's final test at 8/10 or more, a project whose repository passed the automatic check, and a mentor's review of that project. Fields: id (AZL-YYYY-NNNN), name, path (path id), issued (YYYY-MM-DD), projectTitle, project (public GitHub URL), mentor, finalScore.",
+ "certificates": []
+}

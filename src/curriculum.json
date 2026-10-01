@@ -1,0 +1,3236 @@
+{
+ "meta": {
+  "generated": "2026-10-01",
+  "method": "Per-lesson study plans built from the checked material pool; automatic check (every id in the pool, every lesson covered, 1-3 steps, notes in Azerbaijani, additions load) and a manual review."
+ },
+ "paths": {
+  "ios": {
+   "lessons": [
+    [
+     {
+      "url": "https://www.youtube.com/watch?v=CwA1VWP0Ldw",
+      "do": "watch",
+      "note": "Yalnız 'What is Xcode?', 'Apple Developer Program' və 'Tour of Xcode' hissələrinə bax; Swift hissəsi növbəti dərsdədir.",
+      "alt": [
+       "https://gelecegiyazanlar.turkcell.com.tr/egitimler/swift-ile-ios-programlama"
+      ]
+     },
+     {
+      "url": "https://developer.apple.com/tutorials/develop-in-swift/",
+      "do": "practice",
+      "note": "'Welcome' fəslindəki 'Meet Xcode' və 'Create a project' dərslərini et, ilk layihəni öz Mac-ində aç."
+     }
+    ],
+    [
+     {
+      "url": "https://www.youtube.com/watch?v=CwA1VWP0Ldw",
+      "do": "watch",
+      "note": "'Intro to Swift Language'-dən 'Extension'-a qədər izlə: dəyişənlər, kolleksiyalar, optionals, class və struct.",
+      "alt": [
+       "https://metanit.com/swift/tutorial/"
+      ]
+     },
+     {
+      "url": "https://docs.swift.org/swift-book/documentation/the-swift-programming-language/",
+      "do": "read",
+      "note": "'The Basics', 'Collection Types', 'Control Flow' və 'Structures and Classes' fəsillərini oxu."
+     },
+     {
+      "url": "https://www.hackingwithswift.com/100/swiftui",
+      "do": "practice",
+      "note": "1–15-ci günləri et; hər günün qısa dərsi və checkpoint tapşırığı Swift-i möhkəmləndirir."
+     }
+    ],
+    [
+     {
+      "url": "https://www.youtube.com/watch?v=b1oC7sLIgpI",
+      "do": "watch",
+      "note": "Weather tətbiqi hissələrini və 'How SwiftUI Works' bölməsini izlə; @State və @Binding burada izah olunur."
+     },
+     {
+      "url": "https://developer.apple.com/tutorials/develop-in-swift/",
+      "do": "practice",
+      "note": "'Views, structures, and properties'-dən 'Lists and text fields'-ə qədər fəsilləri addım-addım et."
+     },
+     {
+      "url": "https://developer.apple.com/documentation/swiftui",
+      "do": "reference",
+      "note": "Kod yazarkən View və modifikatorların izahı üçün bu sənədi açıq saxla."
+     }
+    ],
+    [
+     {
+      "url": "https://www.youtube.com/watch?v=CwA1VWP0Ldw",
+      "do": "watch",
+      "note": "'What is Auto Layout?', 'What is UIKit?', 'Storyboard vs. Programmatic UI' və UITableView hissələrinə bax.",
+      "alt": [
+       "https://gelecegiyazanlar.turkcell.com.tr/egitimler/swift-ile-ios-programlama"
+      ]
+     }
+    ],
+    [
+     {
+      "url": "https://www.youtube.com/watch?v=b1oC7sLIgpI",
+      "do": "watch",
+      "note": "Appetizers tətbiqinin 'Network Manager' hissəsində API-dən JSON çəkməyi izlə."
+     },
+     {
+      "url": "https://developer.apple.com/tutorials/develop-in-swift/",
+      "do": "practice",
+      "note": "'Models and persistence' fəslindəki 'Save data' dərsində SwiftData ilə məlumat saxlamağı et."
+     },
+     {
+      "url": "https://www.hackingwithswift.com/100/swiftui",
+      "do": "build",
+      "note": "49–61-ci günlərdə ('Focus on data') məlumat göndərmək, almaq və saxlamağı layihələrlə möhkəmlət."
+     }
+    ],
+    [
+     {
+      "url": "https://www.youtube.com/watch?v=b1oC7sLIgpI",
+      "do": "watch",
+      "note": "'Intro to MVVM & Moving Data' hissəsində View ilə ViewModel-i necə ayırmağı izlə."
+     },
+     {
+      "url": "https://cs193p.stanford.edu/",
+      "do": "watch",
+      "note": "3–6-cı mühazirələrə bax: Model və UI ayrılığı və data flow burada real layihədə göstərilir."
+     }
+    ],
+    [
+     {
+      "url": "https://docs.swift.org/swift-book/documentation/the-swift-programming-language/",
+      "do": "read",
+      "note": "'Concurrency' və 'Automatic Reference Counting' fəsillərini oxu: async/await və yaddaşın idarəsi.",
+      "alt": [
+       "https://stepik.org/course/3278"
+      ]
+     },
+     {
+      "url": "https://developer.apple.com/tutorials/develop-in-swift/",
+      "do": "practice",
+      "note": "'Add functionality with Swift Testing' dərsində ilk unit testlərini yaz."
+     }
+    ],
+    [
+     {
+      "url": "https://developer.apple.com/tutorials/develop-in-swift/",
+      "do": "practice",
+      "note": "Son hissədəki 'Get your beta app ready for testing', 'Test your beta app' və 'Submit your app' dərslərini et."
+     },
+     {
+      "url": "https://developer.apple.com/documentation/",
+      "do": "reference",
+      "note": "Sertifikatlar, profillər və Xcode Cloud barədə sualın olanda bu sənədlərdə axtar."
+     }
+    ]
+   ],
+   "tools": [
+    "https://developer.apple.com/xcode/",
+    "https://developer.apple.com/sf-symbols/"
+   ],
+   "more": [
+    "https://youtube.com/@SwiftfulThinking",
+    "https://www.hackingwithswift.com/",
+    "https://developer.apple.com/design/human-interface-guidelines/",
+    "https://youtube.com/@seanallen",
+    "https://roadmap.sh/ios"
+   ]
+  },
+  "android": {
+   "lessons": [
+    [
+     {
+      "url": "https://developer.android.com/courses/android-basics-compose/course",
+      "do": "practice",
+      "note": "1-ci bölmənin 'Setup Android Studio' yolunu keç: quraşdırma, ilk layihə və emulyatorda işə salma.",
+      "alt": [
+       "https://stepik.org/course/4792",
+       "https://www.btkakademi.gov.tr/portal/course/android-programlama-3652"
+      ]
+     }
+    ],
+    [
+     {
+      "url": "https://www.youtube.com/watch?v=5flXf8nuq60",
+      "do": "watch",
+      "note": "Dəyişənlər, null dəyərlər, siniflər və lambda funksiyalar hissələrini diqqətlə izlə.",
+      "alt": [
+       "https://metanit.com/kotlin/tutorial/",
+       "https://developer.android.com/kotlin/learn?hl=tr"
+      ]
+     },
+     {
+      "url": "https://kotlinlang.org/docs/kotlin-tour-welcome.html",
+      "do": "practice",
+      "note": "Başlanğıc turunu 'Hello world'-dən 'Null safety'-yə qədər brauzerdə tapşırıqlarla keç."
+     }
+    ],
+    [
+     {
+      "url": "https://developer.android.com/jetpack/compose/tutorial",
+      "do": "read",
+      "note": "Dörd dərsi ardıcıl et: Composable functions, Layouts, Material Design, Lists and animations.",
+      "alt": [
+       "https://developer.android.com/jetpack/compose/tutorial?hl=tr"
+      ]
+     },
+     {
+      "url": "https://developer.android.com/courses/android-basics-compose/course",
+      "do": "practice",
+      "note": "2-ci bölmədəki 'Interacting with UI and state' və 3-cü bölmədəki 'Build beautiful apps' yollarını et."
+     }
+    ],
+    [
+     {
+      "url": "https://www.youtube.com/watch?v=blKkRoZPxLc",
+      "do": "watch",
+      "note": "'Setting up UI with XML', 'UI Elements', 'Activities and Fragments' və 'Layouts' hissələrinə bax."
+     },
+     {
+      "url": "https://developer.android.com/courses/android-basics-compose/course",
+      "do": "practice",
+      "note": "8-ci bölmədə 'Android Views and Compose in Views' yolunu, sonra 'Stages of the Activity lifecycle' codelab-ını et.",
+      "alt": [
+       "https://gelecegiyazanlar.turkcell.com.tr/egitimler/kotlin-ile-android-programlama"
+      ]
+     }
+    ],
+    [
+     {
+      "url": "https://www.youtube.com/watch?v=blKkRoZPxLc",
+      "do": "watch",
+      "note": "'Threads and Coroutines', 'Room Database' və 'Retrofit' hissələrinə bax; mövzunun məntiqini buradan götür."
+     },
+     {
+      "url": "https://developer.android.com/courses/android-basics-compose/course",
+      "do": "practice",
+      "note": "5-ci ('Connect to the internet') və 6-cı ('Data persistence') bölmələri et: Retrofit, coroutines, Room."
+     }
+    ],
+    [
+     {
+      "url": "https://developer.android.com/courses/android-basics-compose/course",
+      "do": "practice",
+      "note": "4-cü bölmədə 'Architecture Components' yolunu, 5-ci bölmədə 'Add repository and Manual Dependency Injection'-ı et."
+     },
+     {
+      "url": "https://developer.android.com/docs",
+      "do": "reference",
+      "note": "Yuxarı menyudakı 'Architecture' bölməsində tətbiq memarlığı bələdçilərini oxu; UI və data qatları orada izah olunur."
+     }
+    ],
+    [
+     {
+      "url": "https://developer.android.com/courses/android-basics-compose/course",
+      "do": "practice",
+      "note": "7-ci bölmədə ('WorkManager') arxa planda iş planlamağı et və 'Water Me' tətbiqini qur."
+     },
+     {
+      "url": "https://developer.android.com/docs",
+      "do": "reference",
+      "note": "'Background work' bölməsində 'Background tasks' və 'Services' səhifələrini oxu."
+     }
+    ],
+    [
+     {
+      "url": "https://developer.android.com/studio/publish",
+      "do": "read",
+      "note": "'Prepare your app for release' və 'Release your apps on Google Play' hissələrini oxu: imzalama və buraxılış."
+     },
+     {
+      "url": "https://developer.android.com/docs",
+      "do": "reference",
+      "note": "'Publishing' bölməsində 'App bundles' və 'Android vitals' səhifələrinə bax."
+     }
+    ]
+   ],
+   "tools": [
+    "https://developer.android.com/studio",
+    "https://play.kotlinlang.org",
+    "https://firebase.google.com"
+   ],
+   "more": [
+    "https://youtube.com/@PhilippLackner",
+    "https://youtube.com/@StevdzaSan",
+    "https://roadmap.sh/android",
+    "https://books.goalkicker.com/KotlinBook"
+   ]
+  },
+  "cross-platform": {
+   "lessons": [
+    [
+     {
+      "url": "https://reactnative.dev/docs/getting-started",
+      "do": "read",
+      "note": "Girişi və 'Prerequisites' hissəsini oxu: React Native üçün hansı JavaScript biliyi lazım olduğunu gör.",
+      "alt": [
+       "https://contest.yandex.ru/tracks/flutter",
+       "https://www.youtube.com/playlist?list=PL1k5oWAuBhgXdw1BbxVGxxWRmkGB1C11l"
+      ]
+     },
+     {
+      "url": "https://docs.flutter.dev/get-started/codelab",
+      "do": "read",
+      "note": "'How Flutter works' səhifəsini oxu, sonra 'Install Flutter' ilə quraşdırmağı sına.",
+      "alt": [
+       "https://www.youtube.com/watch?v=_lAUEYoLZzc"
+      ]
+     },
+     {
+      "url": "https://learn.microsoft.com/en-us/dotnet/maui/what-is-maui",
+      "do": "read",
+      "note": ".NET MAUI-nin C# və XAML ilə necə işlədiyini oxu, Flutter və React Native ilə müqayisə et."
+     }
+    ],
+    [
+     {
+      "url": "https://www.youtube.com/watch?v=HQ_ytw58tC4",
+      "do": "watch",
+      "note": "Başdakı 'programming fundamentals' hissəsini izlə: dəyişənlər, if, dövrlər, funksiyalar, List və Map.",
+      "alt": [
+       "http://metanit.com/dart/tutorial/",
+       "https://skillshop.exceedlms.com/student/collection/785394-develop-app-flutter"
+      ]
+     },
+     {
+      "url": "https://dart.dev/language",
+      "do": "read",
+      "note": "'Classes' və 'Asynchronous programming' səhifələrini oxu: Dart-da OOP və async/await.",
+      "alt": [
+       "https://metanit.com/dart/tutorial/",
+       "https://www.youtube.com/watch?v=Zo316rPoQlY"
+      ]
+     }
+    ],
+    [
+     {
+      "url": "https://docs.flutter.dev/get-started/codelab",
+      "do": "practice",
+      "note": "'Introduction to Flutter UI' hissəsini et: widget-lər, layout və stateful widget burada.",
+      "alt": [
+       "https://gelecegiyazanlar.turkcell.com.tr/egitimler/react-native"
+      ]
+     },
+     {
+      "url": "https://www.youtube.com/watch?v=0-S5a0eXPoc",
+      "do": "watch",
+      "note": "'Fundamental Concepts'-dən 'Flexbox'-a qədər izlə: View, Text, StyleSheet və layout.",
+      "alt": [
+       "https://gelecegiyazanlar.turkcell.com.tr/egitimler/react-native",
+       "https://www.youtube.com/watch?v=pIjkkwF4jc0"
+      ]
+     }
+    ],
+    [
+     {
+      "url": "https://docs.flutter.dev",
+      "do": "read",
+      "note": "'State management' bölməsində 'Ephemeral vs app state' və 'Simple app state management' səhifələrini oxu.",
+      "alt": [
+       "https://www.youtube.com/watch?v=FI-VshKxDZ0"
+      ]
+     },
+     {
+      "url": "https://docs.flutter.dev/get-started/codelab",
+      "do": "practice",
+      "note": "'State in Flutter Apps' hissəsini et: ChangeNotifier ilə tətbiqin vəziyyətini idarə edirsən."
+     },
+     {
+      "url": "https://reactnative.dev/docs/tutorial",
+      "do": "read",
+      "note": "React Native-də 'Props' və 'State' bölmələrini oxu; komponentlər arasında məlumat axını buradadır.",
+      "alt": [
+       "https://gelecegiyazanlar.turkcell.com.tr/egitimler/react-native"
+      ]
+     }
+    ],
+    [
+     {
+      "url": "https://docs.flutter.dev",
+      "do": "read",
+      "note": "'Navigation and routing' səhifəsində Navigator və Router fərqini oxu; go_router burada tövsiyə olunur."
+     },
+     {
+      "url": "https://docs.flutter.dev/cookbook",
+      "do": "practice",
+      "note": "'Navigate to a new screen and back' və 'Send data to a new screen' reseptlərini et."
+     },
+     {
+      "url": "https://docs.expo.dev/tutorial/introduction/",
+      "do": "practice",
+      "note": "'Add navigation' fəslində Expo Router ilə ekranlar arasında keçidi qur."
+     }
+    ],
+    [
+     {
+      "url": "https://docs.expo.dev/tutorial/introduction/",
+      "do": "practice",
+      "note": "'Use an image picker' fəslində qalereyadan şəkil seçməyi qur.",
+      "alt": [
+       "https://gelecegiyazanlar.turkcell.com.tr/egitimler/react-native"
+      ]
+     },
+     {
+      "url": "https://docs.flutter.dev/cookbook",
+      "do": "practice",
+      "note": "'Plugins' altındakı 'Use the camera' reseptində Flutter-də kameranı işə sal."
+     },
+     {
+      "url": "https://docs.flutter.dev",
+      "do": "read",
+      "note": "'Write platform-specific code' səhifəsində Flutter-dən native koda necə müraciət etməyi oxu."
+     }
+    ],
+    [
+     {
+      "url": "https://docs.flutter.dev/cookbook",
+      "do": "practice",
+      "note": "'Fetch data from the internet' və 'Persist data with SQLite' reseptlərini et: REST və yerli DB."
+     },
+     {
+      "url": "https://docs.flutter.dev",
+      "do": "read",
+      "note": "Firebase icmal səhifəsini oxu; Flutter-i Firebase-ə qoşmağın yolları buradadır."
+     },
+     {
+      "url": "https://www.youtube.com/watch?v=VPvVD8t02U8",
+      "do": "watch",
+      "note": "'Firebase Backend Setup' və 'Writing Notes to Cloud Firestore' hissələrinə bax."
+     }
+    ],
+    [
+     {
+      "url": "https://www.youtube.com/watch?v=VPvVD8t02U8",
+      "do": "watch",
+      "note": "'Final Touches Before App Release'-dən 'Releasing our Android App'-ə qədər izlə: mağazaya göndərmə."
+     },
+     {
+      "url": "https://docs.flutter.dev",
+      "do": "read",
+      "note": "Android və iOS üçün 'Build and release' səhifələrini, sonra 'Set up continuous deployment'-i oxu."
+     }
+    ]
+   ],
+   "tools": [
+    "https://expo.dev"
+   ],
+   "more": [
+    "https://reactnative.dev",
+    "https://youtube.com/@TheFlutterWay",
+    "https://youtube.com/@wcandillon",
+    "https://roadmap.sh/flutter",
+    "https://roadmap.sh/react-native"
+   ]
+  },
+  "game-programming": {
+   "lessons": [
+    [
+     {
+      "url": "https://inventwithpython.com/invent4thed/",
+      "do": "build",
+      "note": "İlk fəsillərdən 'Tic-Tac-Toe'-ya qədər kiçik oyunları yaz, sonra 'The Cartesian Coordinate System' fəslini oxu."
+     },
+     {
+      "url": "https://docs.godotengine.org/en/stable/tutorials/index.html",
+      "do": "read",
+      "note": "'Math' bölməsindən 'Vector math' səhifəsini oxu; oyunda hərəkət və istiqamət vektorla hesablanır."
+     },
+     {
+      "url": "https://gelecegiyazanlar.turkcell.com.tr/egitimler/unity",
+      "do": "watch",
+      "note": "'Unity 101 - Visual Studio ve C#' hissəsində C# dəyişənləri, class və metodları türkcə izlə.",
+      "alt": [
+       "https://metanit.com/sharp/tutorial/"
+      ]
+     }
+    ],
+    [
+     {
+      "url": "https://learn.unity.com/",
+      "do": "practice",
+      "note": "'Unity Essentials' yolunu keç: Unity-ni quraşdırmaq, redaktor, səhnə qurmaq və ilk skript.",
+      "alt": [
+       "https://www.btkakademi.gov.tr/portal/course/unity-ile-dijital-oyun-gelistirmeye-giris-10680"
+      ]
+     },
+     {
+      "url": "https://www.youtube.com/watch?v=LOhfqjmasi0",
+      "do": "watch",
+      "note": "Godot-u da sına: bu videoda redaktorla tanış olub ilk platformer-i sıfırdan qurursan.",
+      "alt": [
+       "https://docs.godotengine.org/ru/stable/index.html"
+      ]
+     }
+    ],
+    [
+     {
+      "url": "https://gameprogrammingpatterns.com",
+      "do": "read",
+      "note": "'Game Loop' və 'Update Method' fəsillərini oxu; hər kadrda nə baş verdiyini burada anlayacaqsan."
+     },
+     {
+      "url": "https://www.youtube.com/watch?v=S8lMTwSRoRg",
+      "do": "build",
+      "note": "Kursla platformer qur: oyunçu personajı, kamera və hərəkəti ekran sərhədində saxlamaq hissələrini et.",
+      "alt": [
+       "https://docs.godotengine.org/ru/stable/getting_started/first_2d_game/index.html"
+      ]
+     },
+     {
+      "url": "https://docs.godotengine.org/en/stable/tutorials/index.html",
+      "do": "reference",
+      "note": "'Physics' (Using RigidBody, Using CharacterBody2D/3D) və 'Input handling' səhifələrini açıq saxla."
+     }
+    ],
+    [
+     {
+      "url": "https://docs.godotengine.org/en/stable/tutorials/index.html",
+      "do": "read",
+      "note": "'2D sprite animation', 'Using AnimationTree', '2D lights and shadows' və 'Audio buses' səhifələrini oxu."
+     },
+     {
+      "url": "https://learn.unity.com/",
+      "do": "practice",
+      "note": "Unity seçmisənsə 'Creative Core' yolunu et: işıq, material, animasiya, səs və VFX."
+     }
+    ],
+    [
+     {
+      "url": "https://gameprogrammingpatterns.com",
+      "do": "read",
+      "note": "'Singleton', 'Observer', 'Object Pool' və 'State' fəsillərini oxu; hər birində oyun nümunəsi var.",
+      "alt": [
+       "https://metanit.com/sharp/patterns/"
+      ]
+     }
+    ],
+    [
+     {
+      "url": "https://docs.godotengine.org/en/stable/tutorials/index.html",
+      "do": "read",
+      "note": "'Your first shader', 'High-level multiplayer' və 'General optimization tips' səhifələrindən başla."
+     },
+     {
+      "url": "https://natureofcode.com/",
+      "do": "read",
+      "note": "'Autonomous Agents' fəslini oxu: düşmənin izləmə və qaçma davranışları buradan gəlir."
+     }
+    ],
+    [
+     {
+      "url": "https://docs.godotengine.org/en/stable/tutorials/index.html",
+      "do": "read",
+      "note": "'Export' bölməsindən 'Exporting for Android', 'Exporting for iOS' və 'Exporting for the Web'-i oxu."
+     },
+     {
+      "url": "https://partner.steamgames.com/doc/gettingstarted",
+      "do": "read",
+      "note": "Steam-ə oyun çıxarmaq üçün hesab, build və mağaza səhifəsi addımlarını buradan oxu."
+     },
+     {
+      "url": "https://gelecegiyazanlar.turkcell.com.tr/egitimler/unity",
+      "do": "watch",
+      "note": "Kursun Bonus modulunda oyunu cihazda işə salmağı və reklam inteqrasiyasını türkcə izlə."
+     }
+    ]
+   ],
+   "tools": [
+    "https://www.blender.org",
+    "https://itch.io"
+   ],
+   "more": [
+    "https://cs50.harvard.edu/games/",
+    "https://youtube.com/@Brackeys",
+    "https://youtube.com/@CodeMonkeyUnity",
+    "https://dev.epicgames.com/documentation/en-us/unreal-engine",
+    "https://youtube.com/@UnrealSensei",
+    "https://youtube.com/@SercanAltun",
+    "https://roadmap.sh/game-developer",
+    "https://www.pygame.org/docs/"
+   ]
+  },
+  "graphics-programming": {
+   "lessons": [
+    [
+     {
+      "url": "https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab",
+      "do": "watch",
+      "note": "İlk videolardan başla: vektor, xətti çevrilmə və matris vurmasını vizual şəkildə anla.",
+      "alt": [
+       "https://metanit.com/cpp/tutorial/"
+      ]
+     },
+     {
+      "url": "https://www.scratchapixel.com/",
+      "do": "read",
+      "note": "'Mathematics for Computer Graphics' altındakı 'Geometry' dərsini oxu: vektor, koordinat sistemi, matris, triqonometriya."
+     }
+    ],
+    [
+     {
+      "url": "https://www.youtube.com/watch?v=W3gAzLwfIP0",
+      "do": "watch",
+      "note": "OpenGL-in nə olduğunu və seriyanın planını bu giriş videosundan götür.",
+      "alt": [
+       "https://www.opengl-tutorial.org/ru/"
+      ]
+     },
+     {
+      "url": "https://learnopengl.com/",
+      "do": "build",
+      "note": "'Getting started'-də 'OpenGL', 'Creating a window', 'Hello Window' və 'Hello Triangle'-ı kodla et.",
+      "alt": [
+       "https://triplepointfive.github.io/ogltutor/"
+      ]
+     }
+    ],
+    [
+     {
+      "url": "https://thebookofshaders.com/",
+      "do": "read",
+      "note": "'Getting started' və 'Algorithmic drawing' hissələrini oxu, nümunələri dəyişərək sına."
+     },
+     {
+      "url": "https://learnopengl.com/",
+      "do": "build",
+      "note": "'Shaders' və 'Textures' fəsillərini et: GLSL, uniform-lar və teksturanı öz proqramına əlavə edirsən."
+     }
+    ],
+    [
+     {
+      "url": "https://www.youtube.com/watch?v=ih20l3pJoeU",
+      "do": "watch",
+      "note": "3D nöqtələrin proyeksiya matrisi ilə ekrana necə düşdüyünü bu videoda addım-addım izlə."
+     },
+     {
+      "url": "https://www.scratchapixel.com/",
+      "do": "read",
+      "note": "'Rasterization' dərsini oxu: üçbucağın piksellərə çevrilməsi və depth buffer burada izah olunur."
+     },
+     {
+      "url": "https://learnopengl.com/",
+      "do": "build",
+      "note": "'Coordinate Systems', 'Depth testing' və 'Blending' fəsillərini kodla et."
+     }
+    ],
+    [
+     {
+      "url": "https://www.scratchapixel.com/",
+      "do": "read",
+      "note": "'Introduction to Shading' və 'Introduction to Lighting' dərslərində işığın riyaziyyatını oxu."
+     },
+     {
+      "url": "https://learnopengl.com/",
+      "do": "build",
+      "note": "'Lighting' bölməsini, sonra 'Shadow Mapping', 'Normal Mapping' və PBR 'Theory' fəsillərini et."
+     }
+    ],
+    [
+     {
+      "url": "https://vulkan-tutorial.com",
+      "do": "build",
+      "note": "'Drawing a triangle' və 'Vertex buffers' hissələrini et; yaddaş ayırmağı 'Staging buffer'-də görəcəksən."
+     },
+     {
+      "url": "https://docs.vulkan.org/",
+      "do": "reference",
+      "note": "Vulkan Tutorial-da ilişəndə funksiya və anlayışları rəsmi sənəddə yoxla."
+     },
+     {
+      "url": "https://developer.apple.com/documentation/metal",
+      "do": "read",
+      "note": "Apple cihazları üçün Metal-ın əsas anlayışlarını oxu və Vulkan-dakı fikirlərlə müqayisə et."
+     }
+    ],
+    [
+     {
+      "url": "https://raytracing.github.io/books/RayTracingInOneWeekend.html",
+      "do": "build",
+      "note": "Kitabı sona qədər addım-addım keç və C++ ilə ilk ray tracer-ini yaz."
+     },
+     {
+      "url": "https://learnopengl.com/",
+      "do": "read",
+      "note": "'Framebuffers', 'Compute Shaders' məqaləsi və 2D Game-dəki 'Particles', 'Postprocessing' fəsillərini oxu."
+     }
+    ],
+    [
+     {
+      "url": "https://youtube.com/@SebastianLague",
+      "do": "watch",
+      "note": "Kanalda 'Coding Adventure: Simulating Fluids' və 'Coding Adventure: Marching Cubes' videolarına bax."
+     },
+     {
+      "url": "https://www.scratchapixel.com/",
+      "do": "read",
+      "note": "'Value Noise and Procedural Patterns' və 'Perlin Noise' dərslərində prosedural generasiyanı oxu."
+     }
+    ]
+   ],
+   "tools": [
+    "https://www.shadertoy.com",
+    "https://renderdoc.org"
+   ],
+   "more": [
+    "https://youtube.com/@TheCherno",
+    "https://webgl2fundamentals.org",
+    "https://paroj.github.io/gltut/",
+    "https://youtube.com/@Acerola_t",
+    "https://youtube.com/@cem_yuksel",
+    "https://roadmap.sh/cpp",
+    "https://threejs.org/manual/",
+    "https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API/Tutorial"
+   ]
+  },
+  "ar-vr": {
+   "lessons": [
+    [
+     {
+      "url": "https://discoverthreejs.com/",
+      "do": "read",
+      "note": "'Transformations and Coordinate Systems' fəslini oxu: mövqe, fırlanma və miqyas 3D-də necə işləyir."
+     },
+     {
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/WebXR_Device_API",
+      "do": "read",
+      "note": "'Matrix math for the web' və 'Geometry and reference spaces in WebXR' bələdçilərini oxu."
+     }
+    ],
+    [
+     {
+      "url": "https://www.youtube.com/watch?v=gGYtahQjmWQ",
+      "do": "watch",
+      "note": "Unity-də VR layihəsinin ilk qurulumunu izlə; yeni Unity versiyalarında menyular bir az fərqli ola bilər."
+     },
+     {
+      "url": "https://aframe.io/docs/",
+      "do": "practice",
+      "note": "HTML ilə ilk VR səhnəni qur; WebXR-ə ən sadə giriş budur."
+     },
+     {
+      "url": "https://docs.godotengine.org/en/stable/tutorials/xr/index.html",
+      "do": "read",
+      "note": "'Basic Tutorial' hissəsində 'Setting up XR' səhifəsini oxu və Godot variantını gör."
+     }
+    ],
+    [
+     {
+      "url": "https://learn.unity.com",
+      "do": "practice",
+      "note": "'Junior Programmer' yolunu et: C# skriptləri, debugging və OOP (inheritance, encapsulation)."
+     }
+    ],
+    [
+     {
+      "url": "https://discoverthreejs.com/",
+      "do": "read",
+      "note": "'Physically Based Rendering and Lighting', 'Load 3D Models in glTF Format' və 'The three.js Animation System'-i oxu."
+     }
+    ],
+    [
+     {
+      "url": "https://docs.unity3d.com/6000.0/Documentation/Manual/XR.html",
+      "do": "read",
+      "note": "'Set up an XR Project' və 'Set up an XR scene' hissələrini oxu."
+     },
+     {
+      "url": "https://developers.meta.com/horizon/documentation/",
+      "do": "read",
+      "note": "Quest üçün 'Unity' platforma bölməsini seç və ilk layihə addımlarını izlə."
+     },
+     {
+      "url": "https://learn.unity.com",
+      "do": "practice",
+      "note": "'VR Development' yolunda XR Interaction Toolkit ilə tətbiq qur; AR üçün 'Mobile AR Development' yolu var."
+     }
+    ],
+    [
+     {
+      "url": "https://doc.babylonjs.com/features/featuresDeepDive/webXR/introToWebXR",
+      "do": "read",
+      "note": "'WebXR Teleportation feature' və 'WebXR Input Sources and Controller Support' səhifələrini oxu."
+     },
+     {
+      "url": "https://threejs.org/manual/",
+      "do": "build",
+      "note": "WebXR bölməsindəki 'VR - Look To Select' və 'VR - Point To Select' ilə raycast seçimini qur."
+     },
+     {
+      "url": "https://learn.unity.com",
+      "do": "practice",
+      "note": "'VR Development' yolunun 'Custom VR Development' missiyasında öz interaksiyalarını proqramlaşdır."
+     }
+    ],
+    [
+     {
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/WebXR_Device_API",
+      "do": "read",
+      "note": "'WebXR performance guide' bələdçisini oxu: kadr sürətini saxlamaq və render yükünü azaltmaq."
+     },
+     {
+      "url": "https://threejs.org/manual/",
+      "do": "build",
+      "note": "'Optimizing Lots of Objects' məqaləsində çoxlu obyekti birləşdirib draw call sayını azaltmağı sına."
+     },
+     {
+      "url": "https://developers.meta.com/horizon/documentation/",
+      "do": "reference",
+      "note": "Quest-də profil çıxarmaq üçün 'Meta Quest Developer Hub' alətini buradan tap."
+     }
+    ],
+    [
+     {
+      "url": "https://docs.unity3d.com/6000.0/Documentation/Manual/XR.html",
+      "do": "read",
+      "note": "'XR audio' hissəsində məkan səsinin Unity-də necə qurulduğunu oxu."
+     },
+     {
+      "url": "https://doc.babylonjs.com/features/featuresDeepDive/webXR/introToWebXR",
+      "do": "read",
+      "note": "'WebXR Hand Tracking Feature' səhifəsində əl izləmə ilə interaksiyanı oxu."
+     }
+    ],
+    [
+     {
+      "url": "https://developers.meta.com/horizon/documentation/",
+      "do": "read",
+      "note": "'Meta Spatial SDK' bölməsini oxu: real və virtual dünyanı birləşdirən qarışıq reallıq tətbiqləri."
+     },
+     {
+      "url": "https://docs.godotengine.org/en/stable/tutorials/xr/index.html",
+      "do": "read",
+      "note": "'AR / Passthrough' və 'OpenXR spatial entities' səhifələrini oxu."
+     },
+     {
+      "url": "https://threejs.org/manual/",
+      "do": "build",
+      "note": "'Custom BufferGeometry' məqaləsi ilə kodla öz 3D mesh-ini yarat."
+     }
+    ]
+   ],
+   "tools": [
+    "https://www.blender.org",
+    "https://www.mixamo.com"
+   ],
+   "more": [
+    "https://youtube.com/@ValemVR",
+    "https://youtube.com/@DilmerV",
+    "https://www.youtube.com/watch?v=UMqNHi1GDAE",
+    "https://threejs.org/docs/",
+    "https://youtube.com/@Brackeys"
+   ]
+  },
+  "data-science": {
+   "lessons": [
+    [
+     {
+      "url": "https://www.youtube.com/playlist?list=PLblh5JKOoLUK0FLuzwntyYI10UQFUhsY9",
+      "do": "watch",
+      "note": "Histogram, mean/median, standart sapma, normal paylanma və p-values videolarından başla; qalanını lazım olduqca izlə.",
+      "alt": [
+       "https://gelecegiyazanlar.turkcell.com.tr/egitimler/veri-okuryazarligi",
+       "https://stepik.org/course/190543"
+      ]
+     },
+     {
+      "url": "https://greenteapress.com/thinkstats/",
+      "do": "read",
+      "note": "Distributions, Probability Mass Functions və Hypothesis Testing fəsillərini kodu işlədərək oxu.",
+      "alt": [
+       "https://stepik.org/course/190542",
+       "https://gelecegiyazanlar.turkcell.com.tr/egitimler/veri-okuryazarligi"
+      ]
+     }
+    ],
+    [
+     {
+      "url": "https://www.youtube.com/watch?v=CMEWVn1uZpQ",
+      "do": "watch",
+      "note": "Videonun Installation and Setup və Python Basics hissələrini izlə; bu dərs üçün o qədəri kifayətdir.",
+      "alt": [
+       "https://www.btkakademi.gov.tr/portal/course/veri-bilimi-icin-python-ve-tensorflow-11705",
+       "https://contest.yandex.ru/tracks/python"
+      ]
+     },
+     {
+      "url": "https://www.kaggle.com/learn/python",
+      "do": "practice",
+      "note": "Kaggle-in Python kursunu brauzerdə keç; hər dərsin sonundakı məşqi mütləq özün həll et.",
+      "alt": [
+       "https://stepik.org/course/63054",
+       "https://www.btkakademi.gov.tr/portal/course/veri-bilimi-icin-python-ve-tensorflow-11705"
+      ]
+     }
+    ],
+    [
+     {
+      "url": "https://www.freecodecamp.org/learn/data-analysis-with-python/",
+      "do": "watch",
+      "note": "Data Analysis with Python Course və Numpy bölmələrinin videolarını izlə, suallarını cavablandır.",
+      "alt": [
+       "https://stepik.org/course/126333",
+       "https://www.btkakademi.gov.tr/portal/course/veri-toplama-ve-analizi-57471"
+      ]
+     },
+     {
+      "url": "https://jakevdp.github.io/PythonDataScienceHandbook/",
+      "do": "read",
+      "note": "Data Manipulation with Pandas və Visualization with Matplotlib fəsillərini oxu; sonda Seaborn bölməsinə bax.",
+      "alt": [
+       "https://stepik.org/course/4852",
+       "https://gelecegiyazanlar.turkcell.com.tr/egitimler/veri-manipulasyonu"
+      ]
+     },
+     {
+      "url": "https://www.kaggle.com/learn/pandas",
+      "do": "practice",
+      "note": "Kaggle-in Pandas kursunda məlumatı oxumağı, seçməyi və təmizləməyi tapşırıqlarla məşq et."
+     }
+    ],
+    [
+     {
+      "url": "https://www.youtube.com/playlist?list=PLUl4u3cNGP619EG1wp0kT-7rDE_Az5TNd",
+      "do": "watch",
+      "note": "11. Introduction to Machine Learning, 12. Clustering və 13. Classification mühazirələrini izlə.",
+      "alt": [
+       "https://stepik.org/course/8057",
+       "https://www.btkakademi.gov.tr/portal/course/python-ile-makine-ogrenmesi-11800"
+      ]
+     },
+     {
+      "url": "https://jakevdp.github.io/PythonDataScienceHandbook/",
+      "do": "read",
+      "note": "Machine Learning fəslindən Introducing Scikit-Learn, Hyperparameters and Model Validation və k-Means bölmələrini oxu.",
+      "alt": [
+       "https://gelecegiyazanlar.turkcell.com.tr/egitimler/uygulama-tabanli-makine-ogrenimi"
+      ]
+     }
+    ],
+    [
+     {
+      "url": "https://youtube.com/@statquest",
+      "do": "watch",
+      "note": "Kanalda The Essential Main Ideas of Neural Networks və CNN videosu ilə başla, sonra Transformer videosuna keç.",
+      "alt": [
+       "https://stepik.org/course/100076"
+      ]
+     },
+     {
+      "url": "https://www.btkakademi.gov.tr/portal/course/veri-bilimi-icin-python-ve-tensorflow-11705",
+      "do": "practice",
+      "note": "Kursun TensorFlow hissəsində model qurmağı, öyrətməyi və Dropout-u türkcə təkrarla.",
+      "alt": [
+       "https://stepik.org/course/50352"
+      ]
+     }
+    ],
+    [
+     {
+      "url": "https://www.youtube.com/watch?v=_C8kWso4ne4",
+      "do": "watch",
+      "note": "Pyspark Introduction və Dataframe hissələrini izlə; Spark-ın böyük cədvəlləri necə emal etdiyini görəcəksən.",
+      "alt": [
+       "https://stepik.org/course/101689",
+       "https://www.btkakademi.gov.tr/portal/course/buyuk-veriye-giris-44056"
+      ]
+     },
+     {
+      "url": "https://github.com/DataTalksClub/mlops-zoomcamp",
+      "do": "build",
+      "note": "Experiment Tracking & Model Management və Model Deployment modullarını keç; modelini xidmət kimi işə sal.",
+      "alt": [
+       "https://stepik.org/course/150",
+       "https://www.youtube.com/watch?v=4XVfmGE1F_w"
+      ]
+     }
+    ]
+   ],
+   "tools": [
+    "https://colab.research.google.com",
+    "https://www.anaconda.com",
+    "https://huggingface.co"
+   ],
+   "more": [
+    "https://numpy.org/doc/stable/user/absolute_beginners.html",
+    "https://pandas.pydata.org/docs/user_guide/index.html",
+    "https://matplotlib.org/stable/tutorials/index.html",
+    "https://roadmap.sh/ai-data-scientist",
+    "https://youtube.com/@VeriBilimiOkulu",
+    "https://youtube.com/@krishnaik06",
+    "https://www.kaggle.com/learn",
+    "https://greenteapress.com/thinkbayes/"
+   ]
+  },
+  "ml": {
+   "lessons": [
+    [
+     {
+      "url": "https://www.youtube.com/playlist?list=PLblh5JKOoLUICTaGLRoHQDuF_7q2GfuJF",
+      "do": "watch",
+      "note": "The Chain Rule və Gradient Descent, Step-by-Step videolarını izlə; modelin necə öyrəndiyini sadə görəcəksən.",
+      "alt": [
+       "https://stepik.org/course/190543",
+       "https://www.btkakademi.gov.tr/portal/course/makine-ogrenmesi-30123"
+      ]
+     },
+     {
+      "url": "https://mml-book.github.io/",
+      "do": "read",
+      "note": "Linear Algebra, Vector Calculus və ehtimal fəsillərinin əsas hissələrini oxu; isbatlara ilişib qalma.",
+      "alt": [
+       "https://stepik.org/course/190542",
+       "https://gelecegiyazanlar.turkcell.com.tr/egitimler/veri-okuryazarligi"
+      ]
+     }
+    ],
+    [
+     {
+      "url": "https://jakevdp.github.io/PythonDataScienceHandbook/",
+      "do": "read",
+      "note": "Introduction to NumPy və Data Manipulation with Pandas fəsillərini oxu; qrafik üçün Matplotlib fəslinə bax.",
+      "alt": [
+       "https://stepik.org/course/126333",
+       "https://www.turkiyeyazilimakademisi.com/kurslar/python-dersleri"
+      ]
+     },
+     {
+      "url": "https://developers.google.com/machine-learning/crash-course",
+      "do": "practice",
+      "note": "Working with Numerical Data və Working with Categorical Data modullarında təmizləmə və feature-ları məşq et.",
+      "alt": [
+       "https://stepik.org/course/4852",
+       "https://docs.python.org/tr/3/tutorial/"
+      ]
+     }
+    ],
+    [
+     {
+      "url": "https://www.youtube.com/watch?v=i_LwzRVP7bg",
+      "do": "watch",
+      "note": "KNN, Naive Bayes, Logistic Regression, SVM və Linear Regression hissələrini izlə, Colab kodunu təkrarla.",
+      "alt": [
+       "https://www.btkakademi.gov.tr/portal/course/python-ile-makine-ogrenmesi-11800",
+       "https://gelecegiyazanlar.turkcell.com.tr/egitimler/uygulama-tabanli-makine-ogrenimi",
+       "https://stepik.org/course/8057"
+      ]
+     },
+     {
+      "url": "https://mlu-explain.github.io/",
+      "do": "read",
+      "note": "Decision Trees və Random Forest məqalələrini oxu; ağacın məlumatı necə böldüyünü vizual görəcəksən.",
+      "alt": [
+       "https://www.btkakademi.gov.tr/portal/course/python-ile-makine-ogrenmesi-11800"
+      ]
+     },
+     {
+      "url": "https://www.kaggle.com/learn/intro-to-machine-learning",
+      "do": "practice",
+      "note": "Kaggle-də ilk modelini qur və yoxla; kursun tapşırıqlarını ardıcıl həll et.",
+      "alt": [
+       "https://gelecegiyazanlar.turkcell.com.tr/egitimler/uygulama-tabanli-makine-ogrenimi"
+      ]
+     }
+    ],
+    [
+     {
+      "url": "https://www.youtube.com/playlist?list=PLblh5JKOoLUICTaGLRoHQDuF_7q2GfuJF",
+      "do": "watch",
+      "note": "The Essential Main Ideas of Neural Networks, Backpropagation Main Ideas və ReLU In Action videolarını izlə.",
+      "alt": [
+       "https://stepik.org/course/100076",
+       "https://www.btkakademi.gov.tr/portal/course/veri-bilimi-icin-python-ve-tensorflow-11705"
+      ]
+     },
+     {
+      "url": "https://developers.google.com/machine-learning/crash-course",
+      "do": "read",
+      "note": "Neural Networks modulunu oxu və içindəki interaktiv məşqləri et.",
+      "alt": [
+       "https://stepik.org/course/50352"
+      ]
+     },
+     {
+      "url": "https://www.fast.ai",
+      "do": "build",
+      "note": "Saytdan Practical Deep Learning for Coders kursunu aç; Getting started dərsində ilk modelini qur."
+     }
+    ],
+    [
+     {
+      "url": "https://www.youtube.com/playlist?list=PLblh5JKOoLUICTaGLRoHQDuF_7q2GfuJF",
+      "do": "watch",
+      "note": "CNN, Transformer və Decoder-Only Transformers videolarını izlə; şəkil və mətn modellərinin fərqini tut."
+     },
+     {
+      "url": "https://developers.google.com/machine-learning/crash-course",
+      "do": "read",
+      "note": "Embeddings və Intro to Large Language Models modullarını oxu.",
+      "alt": [
+       "https://stepik.org/course/243156"
+      ]
+     },
+     {
+      "url": "https://mlu-explain.github.io/",
+      "do": "read",
+      "note": "Reinforcement Learning məqaləsini oxu; agentin mükafatla necə öyrəndiyini vizual görəcəksən."
+     }
+    ],
+    [
+     {
+      "url": "https://developers.google.com/machine-learning/crash-course",
+      "do": "read",
+      "note": "Production ML Systems modulunu oxu; modelin istehsalda necə işlədiyini və izləndiyini anla.",
+      "alt": [
+       "https://www.btkakademi.gov.tr/portal/course/yapay-zeka-ve-bulut-teknolojileri-57978"
+      ]
+     },
+     {
+      "url": "https://github.com/DataTalksClub/mlops-zoomcamp",
+      "do": "build",
+      "note": "Experiment Tracking & Model Management (MLflow), Model Deployment və Model Monitoring modullarını keç.",
+      "alt": [
+       "https://www.youtube.com/watch?v=4XVfmGE1F_w"
+      ]
+     }
+    ]
+   ],
+   "tools": [
+    "https://www.kaggle.com",
+    "https://huggingface.co"
+   ],
+   "more": [
+    "https://www.kaggle.com/learn/intermediate-machine-learning",
+    "https://scikit-learn.org/stable/user_guide.html",
+    "https://roadmap.sh/ai-data-scientist",
+    "https://www.youtube.com/playlist?list=PLD63A284B7615313A",
+    "https://christophm.github.io/interpretable-ml-book/",
+    "https://youtube.com/@TwoMinutePapers",
+    "https://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/"
+   ]
+  },
+  "deep-learning": {
+   "lessons": [
+    [
+     {
+      "url": "https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi",
+      "do": "watch",
+      "note": "İlk dörd videonu izlə: neyron, gradient descent və backpropagation-un məntiqini burada tutacaqsan.",
+      "alt": [
+       "https://stepik.org/course/100076",
+       "https://www.btkakademi.gov.tr/portal/course/yapay-zekaya-giris-29193"
+      ]
+     },
+     {
+      "url": "http://neuralnetworksanddeeplearning.com/",
+      "do": "read",
+      "note": "Using neural nets to recognize handwritten digits və How the backpropagation algorithm works fəsillərini oxu.",
+      "alt": [
+       "https://www.btkakademi.gov.tr/portal/course/makine-ogrenmesi-30123"
+      ]
+     }
+    ],
+    [
+     {
+      "url": "https://docs.pytorch.org/tutorials/",
+      "do": "practice",
+      "note": "Learn the Basics seriyasını ardıcıl keç: Tensors-dan Optimization Loop-a qədər kodu özün yaz."
+     },
+     {
+      "url": "https://d2l.ai/",
+      "do": "read",
+      "note": "Preliminaries fəslindən Data Manipulation, Builders' Guide fəslindən GPUs bölməsini oxu.",
+      "alt": [
+       "https://stepik.org/course/212774",
+       "https://www.btkakademi.gov.tr/portal/course/veri-bilimi-icin-python-ve-tensorflow-11705"
+      ]
+     },
+     {
+      "url": "https://www.tensorflow.org/tutorials",
+      "do": "practice",
+      "note": "Beginner quickstart dərsini Colab-da işlət; Keras ilə eyni işin necə yazıldığını müqayisə et."
+     }
+    ],
+    [
+     {
+      "url": "https://introtodeeplearning.com/",
+      "do": "watch",
+      "note": "Deep Computer Vision mühazirəsini izlə; konvolyusiya şəbəkələrinin ümumi məntiqini burada tut.",
+      "alt": [
+       "https://stepik.org/course/50352"
+      ]
+     },
+     {
+      "url": "https://d2l.ai/",
+      "do": "read",
+      "note": "Convolutional Neural Networks fəslini, sonra Computer Vision-dan Object Detection və Semantic Segmentation-u oxu."
+     },
+     {
+      "url": "https://course.fast.ai/",
+      "do": "build",
+      "note": "Getting started və Convolutions (CNNs) dərslərini izləyib öz şəkil təsnifatçını qur."
+     }
+    ],
+    [
+     {
+      "url": "https://introtodeeplearning.com/",
+      "do": "watch",
+      "note": "Deep Sequence Modeling mühazirəsini izlə; ardıcıllıq modellərinin ümumi mənzərəsini gör.",
+      "alt": [
+       "https://stepik.org/course/110281",
+       "https://www.youtube.com/watch?v=zzAUSYBFfEg"
+      ]
+     },
+     {
+      "url": "https://d2l.ai/",
+      "do": "read",
+      "note": "Modern Recurrent Neural Networks, Word Embedding (word2vec) və Attention Mechanisms and Transformers-i oxu.",
+      "alt": [
+       "https://stepik.org/course/243156"
+      ]
+     },
+     {
+      "url": "https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ",
+      "do": "build",
+      "note": "Əvvəl makemore videolarını, sonra Let's build GPT videosunu izləyib kiçik GPT-ni özün yaz."
+     }
+    ],
+    [
+     {
+      "url": "https://introtodeeplearning.com/",
+      "do": "watch",
+      "note": "Deep Generative Modeling mühazirəsini izlə; generativ modellərin əsas ideyasını tut.",
+      "alt": [
+       "https://gelecegiyazanlar.turkcell.com.tr/egitimler/prompt-muhendisligi"
+      ]
+     },
+     {
+      "url": "https://udlbook.github.io/udlbook/",
+      "do": "read",
+      "note": "GAN və Diffusion models fəsillərini oxu; riyaziyyat ağır gəlsə, şəkillərə və xülasələrə fokuslan."
+     },
+     {
+      "url": "https://huggingface.co/docs/transformers/index",
+      "do": "practice",
+      "note": "Pipeline və generate səhifələri ilə hazır LLM-i işlədib mətn yaratmağı sına."
+     }
+    ],
+    [
+     {
+      "url": "https://introtodeeplearning.com/",
+      "do": "watch",
+      "note": "Deep Reinforcement Learning mühazirəsini izlə; agent, mükafat və siyasət anlayışlarını tut."
+     },
+     {
+      "url": "https://udlbook.github.io/udlbook/",
+      "do": "read",
+      "note": "Graph neural networks və reinforcement learning fəsillərini oxu."
+     },
+     {
+      "url": "https://huggingface.co/docs/transformers/index",
+      "do": "practice",
+      "note": "Trainer səhifəsi ilə hazır modeli öz məlumatınla fine-tune etməyi sına."
+     }
+    ],
+    [
+     {
+      "url": "https://d2l.ai/",
+      "do": "read",
+      "note": "Computational Performance fəslindən Training on Multiple GPUs bölməsini oxu."
+     },
+     {
+      "url": "https://docs.pytorch.org/tutorials/",
+      "do": "practice",
+      "note": "Exporting a PyTorch model to ONNX və PyTorch Distributed Overview dərslərini keç."
+     },
+     {
+      "url": "https://keras.io/guides/",
+      "do": "practice",
+      "note": "Quantization in Keras bələdçisi ilə modeli kiçiltməyi və dəqiqliyi yoxlamağı gör."
+     }
+    ]
+   ],
+   "tools": [
+    "https://colab.research.google.com",
+    "https://huggingface.co"
+   ],
+   "more": [
+    "https://youtube.com/@AndrejKarpathy",
+    "https://youtube.com/@3blue1brown",
+    "https://roadmap.sh/ai-data-scientist"
+   ]
+  },
+  "ai-engineering": {
+   "lessons": [
+    [
+     {
+      "url": "https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab",
+      "do": "watch",
+      "note": "Vectors və Dot products and duality videolarını izlə; embedding-lərin məntiqi buna əsaslanır.",
+      "alt": [
+       "https://contest.yandex.ru/tracks/python",
+       "https://www.turkiyeyazilimakademisi.com/kurslar/python-dersleri"
+      ]
+     },
+     {
+      "url": "https://requests.readthedocs.io/en/latest/user/quickstart/",
+      "do": "practice",
+      "note": "Make a Request, JSON Response Content və Custom Headers hissələrini öz kodunda sına.",
+      "alt": [
+       "https://docs.python.org/tr/3/tutorial/"
+      ]
+     }
+    ],
+    [
+     {
+      "url": "https://www.youtube.com/playlist?list=PLhQjrBD2T381PopUTYtMSstgk-hsTGkVm",
+      "do": "watch",
+      "note": "Language dərsini izlə; tokenləşdirmə, word2vec, attention və transformer ideyasını burada görəcəksən.",
+      "alt": [
+       "https://stepik.org/course/243156",
+       "https://www.btkakademi.gov.tr/portal/course/yapay-zekaya-giris-29193"
+      ]
+     },
+     {
+      "url": "https://huggingface.co/learn/nlp-course",
+      "do": "read",
+      "note": "Transformer models fəslini və növbəti fəsildəki Tokenizers bölməsini oxu.",
+      "alt": [
+       "https://stepik.org/course/215591",
+       "https://gelecegiyazanlar.turkcell.com.tr/egitimler/prompt-muhendisligi"
+      ]
+     },
+     {
+      "url": "https://www.promptingguide.ai/",
+      "do": "reference",
+      "note": "LLM Settings səhifəsində temperature və top_p-nin cavabı necə dəyişdiyini öyrən."
+     }
+    ],
+    [
+     {
+      "url": "https://www.deeplearning.ai/short-courses/",
+      "do": "watch",
+      "note": "Kataloqdan ChatGPT Prompt Engineering for Developers qısa kursunu keç.",
+      "alt": [
+       "https://stepik.org/course/244373"
+      ]
+     },
+     {
+      "url": "https://www.promptingguide.ai/",
+      "do": "read",
+      "note": "Zero-shot, Few-shot və Chain-of-Thought Prompting səhifələrini oxu, nümunələri özün sına.",
+      "alt": [
+       "https://gelecegiyazanlar.turkcell.com.tr/egitimler/prompt-muhendisligi"
+      ]
+     },
+     {
+      "url": "https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview",
+      "do": "practice",
+      "note": "Buradan Prompting best practices səhifəsinə və interaktiv GitHub dərsliyinə keç; rol təlimatını məşq et."
+     }
+    ],
+    [
+     {
+      "url": "https://www.youtube.com/watch?v=sVcwVQRHIc8",
+      "do": "watch",
+      "note": "Overview, Indexing, Retrieval və Generation hissələrini izlə; qabaqcıl hissələri sonraya saxla."
+     },
+     {
+      "url": "https://huggingface.co/learn/nlp-course",
+      "do": "read",
+      "note": "Datasets fəslindəki Semantic search with FAISS bölməsini oxu; embedding ilə axtarışı kodda gör."
+     },
+     {
+      "url": "https://docs.llamaindex.ai/en/stable/",
+      "do": "build",
+      "note": "Starter Tutorial və Building a RAG pipeline bölmələri ilə öz sənədlərin üzərində sadə RAG qur."
+     }
+    ],
+    [
+     {
+      "url": "https://www.promptingguide.ai/",
+      "do": "read",
+      "note": "AI Agents bölməsindən Introduction to Agents və Function Calling səhifələrini oxu."
+     },
+     {
+      "url": "https://docs.langchain.com/",
+      "do": "build",
+      "note": "LangChain-in Agents və Tools səhifələri ilə alət çağıran ilk agentini qur."
+     },
+     {
+      "url": "https://www.deeplearning.ai/short-courses/",
+      "do": "watch",
+      "note": "Çox agentli sistemlər üçün Multi AI Agent Systems with crewAI qısa kursunu izlə."
+     }
+    ],
+    [
+     {
+      "url": "https://web.stanford.edu/~jurafsky/slp3/",
+      "do": "read",
+      "note": "Post-training fəslini oxu; modelin təlimatlara uyğunlaşdırılmasının məntiqini anla."
+     },
+     {
+      "url": "https://huggingface.co/learn/nlp-course",
+      "do": "practice",
+      "note": "Fine-tune Large Language Models fəslində LoRA və SFTTrainer-i, məlumat hazırlığı üçün Datasets fəslini keç."
+     }
+    ],
+    [
+     {
+      "url": "https://docs.ollama.com/quickstart",
+      "do": "practice",
+      "note": "Ollama-nı qur, bir modeli öz kompüterində işlət və API ilə ona sorğu göndər."
+     },
+     {
+      "url": "https://huggingface.co/learn/nlp-course",
+      "do": "read",
+      "note": "İkinci fəsildəki Optimized Inference Deployment bölməsini oxu."
+     },
+     {
+      "url": "https://docs.langchain.com/",
+      "do": "reference",
+      "note": "LangSmith Observability səhifəsi ilə tətbiqinin sorğularını izləməyi və xətaları tapmağı öyrən."
+     }
+    ]
+   ],
+   "tools": [
+    "https://huggingface.co",
+    "https://ollama.com"
+   ],
+   "more": [
+    "https://www.youtube.com/watch?v=ea2W8IogX80",
+    "https://developers.openai.com/cookbook",
+    "https://roadmap.sh/ai-engineer",
+    "https://github.com/microsoft/AI-For-Beginners",
+    "https://youtube.com/@AIJasonZ"
+   ]
+  },
+  "big-data": {
+   "lessons": [
+    [
+     {
+      "url": "https://ubuntu.com/tutorials/command-line-for-beginners",
+      "do": "practice",
+      "note": "Terminalı aç, qovluq və fayllarla işlə; A bit of plumbing hissəsində pipe-ları mütləq sına.",
+      "alt": [
+       "https://contest.yandex.ru/tracks/python",
+       "https://www.btkakademi.gov.tr/portal/course/uygulamalarla-sql-ogreniyorum-8249"
+      ]
+     },
+     {
+      "url": "https://www.youtube.com/watch?v=PHsC_t0j1dU",
+      "do": "watch",
+      "note": "Docker və SQL hissələrini izlə; qalan hissələrə sonrakı dərslərdə qayıdacaqsan.",
+      "alt": [
+       "https://stepik.org/course/63054",
+       "https://gelecegiyazanlar.turkcell.com.tr/egitimler/temel-linux"
+      ]
+     }
+    ],
+    [
+     {
+      "url": "https://www.btkakademi.gov.tr/portal/course/buyuk-veriye-giris-44056",
+      "do": "watch",
+      "note": "Böyük verinin 5V modelini, dağıtık sistemləri və məlumatın toplanıb emal olunma mərhələlərini türkcə izlə.",
+      "alt": [
+       "https://stepik.org/course/101689"
+      ]
+     },
+     {
+      "url": "https://www.youtube.com/watch?v=PHsC_t0j1dU",
+      "do": "watch",
+      "note": "Building a Data Pipeline from Scratch hissəsini izlə; ETL axınının praktikada necə qurulduğunu gör.",
+      "alt": [
+       "https://stepik.org/course/211332",
+       "https://www.btkakademi.gov.tr/portal/course/buyuk-veriye-giris-44056"
+      ]
+     }
+    ],
+    [
+     {
+      "url": "http://www.mmds.org",
+      "do": "read",
+      "note": "Map-Reduce and the New Software Stack fəslini oxu: paylanmış fayl sistemi və MapReduce ideyası buradadır.",
+      "alt": [
+       "https://stepik.org/course/150"
+      ]
+     },
+     {
+      "url": "https://hadoop.apache.org/docs/stable/",
+      "do": "read",
+      "note": "HDFS bölməsindən Architecture və User Guide səhifələrini oxu, sonra Single Node Setup ilə sına."
+     }
+    ],
+    [
+     {
+      "url": "https://www.youtube.com/watch?v=_C8kWso4ne4",
+      "do": "watch",
+      "note": "Pyspark Introduction, Dataframe və Groupby hissələrini izlə; Databricks hissəsi də faydalıdır."
+     },
+     {
+      "url": "https://spark.apache.org/docs/latest/quick-start.html",
+      "do": "practice",
+      "note": "Interactive Analysis with the Spark Shell və Self-Contained Applications bölmələrini özün işlət."
+     },
+     {
+      "url": "https://github.com/DataTalksClub/data-engineering-zoomcamp",
+      "do": "build",
+      "note": "Module 6: Batch Processing modulunu keç; Spark ilə real məlumat üzərində batch iş qur."
+     }
+    ],
+    [
+     {
+      "url": "https://kafka.apache.org/documentation/",
+      "do": "practice",
+      "note": "Quickstart addımları ilə Kafka-nı işə sal, topic yarat, event yaz və oxu."
+     },
+     {
+      "url": "https://nightlies.apache.org/flink/flink-docs-stable/",
+      "do": "read",
+      "note": "Learn Flink bölməsindən Overview və Streaming Analytics səhifələrini oxu; First Steps ilə sına.",
+      "alt": [
+       "https://www.youtube.com/watch?v=ZphPT3r6fnU"
+      ]
+     },
+     {
+      "url": "https://spark.apache.org/docs/latest/",
+      "do": "reference",
+      "note": "Spark-da axın emalı üçün Structured Streaming bələdçisini açıq saxla."
+     }
+    ],
+    [
+     {
+      "url": "https://www.youtube.com/watch?v=xh4gy1lbL2k",
+      "do": "watch",
+      "note": "Tabular, Document, Key-value və Graph Type hissələrini izlə; NoSQL bazalarının növlərini ayırd et."
+     }
+    ],
+    [
+     {
+      "url": "https://github.com/DataTalksClub/data-engineering-zoomcamp",
+      "do": "build",
+      "note": "Module 3: Data Warehousing modulunu keç; BigQuery-də anbar cədvəlləri qurmağı öyrən."
+     }
+    ],
+    [
+     {
+      "url": "https://www.youtube.com/watch?v=PHsC_t0j1dU",
+      "do": "watch",
+      "note": "CRON Job və Airflow hissələrini izlə; işlərin cədvəllə avtomatik işə düşməsini görəcəksən.",
+      "alt": [
+       "https://www.youtube.com/watch?v=4XVfmGE1F_w"
+      ]
+     },
+     {
+      "url": "https://github.com/DataTalksClub/data-engineering-zoomcamp",
+      "do": "build",
+      "note": "Module 2: Workflow Orchestration modulunu keç; orada Kestra istifadə olunur, məntiq Airflow ilə eynidir."
+     }
+    ]
+   ],
+   "tools": [
+    "https://community.cloud.databricks.com",
+    "https://confluent.cloud"
+   ],
+   "more": [
+    "https://dataintensive.net",
+    "https://roadmap.sh/data-engineer",
+    "https://youtube.com/@marclamberti",
+    "https://youtube.com/@SeattleDataGuy",
+    "https://cognitiveclass.ai/"
+   ]
+  },
+  "cyber-security": {
+   "lessons": [
+    [
+     {
+      "url": "https://www.netacad.com/courses/introduction-to-cybersecurity?courseLang=en-US",
+      "do": "read",
+      "note": "Kiber təhlükəsizliyin əsas anlayışlarını və sahədəki rolları bu qısa rəsmi kursla tanı.",
+      "alt": [
+       "https://www.btkakademi.gov.tr/portal/course/siber-guvenlige-giris-27928",
+       "https://stepik.org/course/111512"
+      ]
+     },
+     {
+      "url": "https://tryhackme.com/",
+      "do": "practice",
+      "note": "Pre Security yolunda Network Fundamentals və Linux Fundamentals hissələrini keç: şəbəkə və terminal təməli buradadır.",
+      "alt": [
+       "https://stepik.org/course/215528",
+       "https://www.btkakademi.gov.tr/portal/course/siber-guvenlige-giris-27928"
+      ]
+     },
+     {
+      "url": "https://www.kali.org/docs/",
+      "do": "reference",
+      "note": "Virtualization bölməsinə baxıb Kali-ni VirtualBox və ya VMware-də virtual maşın kimi qur.",
+      "alt": [
+       "https://gelecegiyazanlar.turkcell.com.tr/egitimler/siber-guvenlik"
+      ]
+     }
+    ],
+    [
+     {
+      "url": "https://www.kali.org/docs/general-use/kali-training/",
+      "do": "read",
+      "note": "Pulsuz qeydiyyatla kitabın Linux Fundamentals fəslini oxu: fayl sistemi, proseslər və əsas əmrlər buradadır.",
+      "alt": [
+       "https://gelecegiyazanlar.turkcell.com.tr/egitimler/temel-linux"
+      ]
+     },
+     {
+      "url": "https://tryhackme.com/",
+      "do": "practice",
+      "note": "Pre Security yolundakı Windows Fundamentals otaqlarını keç ki, Windows-un quruluşunu da görəsən."
+     },
+     {
+      "url": "https://overthewire.org/wargames/bandit/",
+      "do": "practice",
+      "note": "Bandit səviyyələrində fayllar, icazələr və proseslərlə terminalda işləməyi möhkəmləndir."
+     }
+    ],
+    [
+     {
+      "url": "https://www.youtube.com/watch?v=3Kq1MIfTWCE",
+      "do": "watch",
+      "note": "Part 5-7 hissələrini (Scanning Tools & Tactics, Enumeration, Exploitation) izlə; qalanı sonrakı dərslərdədir.",
+      "alt": [
+       "https://gelecegiyazanlar.turkcell.com.tr/egitimler/siber-guvenlik",
+       "https://stepik.org/course/227643"
+      ]
+     },
+     {
+      "url": "https://gtfobins.github.io",
+      "do": "reference",
+      "note": "Səlahiyyət yüksəltmə mövzusunda bu siyahını yalnız öz laboratoriyanda istinad kimi istifadə et.",
+      "alt": [
+       "https://gelecegiyazanlar.turkcell.com.tr/egitimler/pentesting"
+      ]
+     },
+     {
+      "url": "https://www.hackthebox.com",
+      "do": "practice",
+      "note": "Starting Point maşınlarından başla: yeni başlayanlar üçün hazırlanmış qanuni məşq hədəfləridir."
+     }
+    ],
+    [
+     {
+      "url": "https://owasp.org/www-project-top-ten/",
+      "do": "read",
+      "note": "Siyahıdakı 10 risk kateqoriyasını oxu və hər birini öz sözlərinlə qısa qeyd et.",
+      "alt": [
+       "https://www.youtube.com/watch?v=-NhHfWKVyYw"
+      ]
+     },
+     {
+      "url": "https://portswigger.net/web-security",
+      "do": "practice",
+      "note": "SQL injection, API testing və HTTP request smuggling mövzularının laboratoriyalarını Burp Suite ilə keç."
+     },
+     {
+      "url": "https://cheatsheetseries.owasp.org/",
+      "do": "reference",
+      "note": "Öyrəndiyin hər zəifliyin müdafiəsini SQL Injection Prevention və REST Security vərəqlərindən oxu."
+     }
+    ],
+    [
+     {
+      "url": "https://www.youtube.com/playlist?list=PLG49S3nxzAnl4QDVqK-hOnoqcSKEIDDuv",
+      "do": "watch",
+      "note": "Security Monitoring, Intrusion Prevention, Firewall Types və Firewalls videoları SIEM və IDS/IPS məntiqini verir.",
+      "alt": [
+       "https://gelecegiyazanlar.turkcell.com.tr/egitimler/siber-guvenlik-analisti"
+      ]
+     },
+     {
+      "url": "https://cheatsheetseries.owasp.org/",
+      "do": "reference",
+      "note": "Logging Cheat Sheet-i oxu: hansı hadisələrin loglanmalı olduğunu və logların necə yoxlanacağını göstərir."
+     }
+    ],
+    [
+     {
+      "url": "https://www.youtube.com/playlist?list=PLG49S3nxzAnl4QDVqK-hOnoqcSKEIDDuv",
+      "do": "watch",
+      "note": "Buffer Overflows və An Overview of Malware videoları ilə bu mövzuları əvvəlcə nəzəri anla."
+     },
+     {
+      "url": "https://www.youtube.com/watch?v=3Kq1MIfTWCE",
+      "do": "watch",
+      "note": "Part 8-10 hissələrində öz Active Directory laboratoriyanı qurub zəifliklərini və müdafiəsini görəcəksən."
+     },
+     {
+      "url": "https://pwn.college/intro-to-cybersecurity/",
+      "do": "practice",
+      "note": "Bu dojo-da Reverse Engineering və Binary Exploitation modullarını ardıcıl keç."
+     }
+    ],
+    [
+     {
+      "url": "https://www.youtube.com/playlist?list=PLG49S3nxzAnl4QDVqK-hOnoqcSKEIDDuv",
+      "do": "watch",
+      "note": "Cloud Infrastructures, Cloud-specific Vulnerabilities və Misconfiguration Vulnerabilities videolarını izlə."
+     },
+     {
+      "url": "https://cheatsheetseries.owasp.org/",
+      "do": "reference",
+      "note": "Konteyner təhlükəsizliyi üçün Docker Security və Kubernetes Security vərəqlərini oxu."
+     },
+     {
+      "url": "https://bigiamchallenge.com/",
+      "do": "practice",
+      "note": "Çağırışlarda S3 və IAM siyasətlərindəki yanlış konfiqurasiyaları tapmağı brauzerdə məşq et."
+     }
+    ],
+    [
+     {
+      "url": "https://www.youtube.com/playlist?list=PLG49S3nxzAnl4QDVqK-hOnoqcSKEIDDuv",
+      "do": "watch",
+      "note": "Security+ kimi giriş sertifikatına bu kursla hazırlaş; ilk video imtahan planını izah edir.",
+      "alt": [
+       "https://www.youtube.com/watch?v=cCqZBBZUkYs"
+      ]
+     },
+     {
+      "url": "https://www.youtube.com/watch?v=3Kq1MIfTWCE",
+      "do": "watch",
+      "note": "Part 11-də hesabat yazmağı və karyera məsləhətlərini izlə; pentestdə hesabat işin yarısıdır."
+     },
+     {
+      "url": "https://www.hackthebox.com",
+      "do": "practice",
+      "note": "OSCP kimi praktik imtahanlara hazırlaşmaq üçün Starting Point-dən sonra adi maşınlara keç."
+     }
+    ]
+   ],
+   "tools": [
+    "https://www.kali.org"
+   ],
+   "more": [
+    "https://roadmap.sh/cyber-security",
+    "https://owasp.org/www-project-web-security-testing-guide/",
+    "https://youtube.com/@LiveOverflow",
+    "https://youtube.com/@_JohnHammond",
+    "https://youtube.com/@NetworkChuck",
+    "https://youtube.com/@CanDeger",
+    "https://www.freecodecamp.org/learn/information-security/"
+   ]
+  },
+  "network": {
+   "lessons": [
+    [
+     {
+      "url": "https://youtu.be/pDn2u65rQbQ",
+      "do": "watch",
+      "note": "Şəbəkənin nə olduğunu və əsas terminləri bu 30 dəqiqəlik türkcə videoda ümumi şəkildə gör.",
+      "alt": [
+       "https://stepik.org/course/208904"
+      ]
+     },
+     {
+      "url": "https://www.netacad.com/courses/networking-basics?courseLang=en-US",
+      "do": "read",
+      "note": "Kursa pulsuz qeydiyyatdan keç və ilk modulları oxu; qalan hissələrə sonrakı dərslərdə qayıdacaqsan.",
+      "alt": [
+       "https://www.btkakademi.gov.tr/portal/course/ag-temelleri-22020",
+       "https://gelecegiyazanlar.turkcell.com.tr/egitimler/temel-network"
+      ]
+     },
+     {
+      "url": "https://www.cloudflare.com/learning/",
+      "do": "read",
+      "note": "What is DNS? və DNS NS record məqalələrində domen, subdomen və name server-in işini oxu.",
+      "alt": [
+       "https://isimkayit.com/index.php/knowledgebase/166/NS-Name-Server-Nedir.html"
+      ]
+     }
+    ],
+    [
+     {
+      "url": "https://www.youtube.com/playlist?list=PLhTW6Fulbw1Tqaa9cTEpAZo86TCO6xfYS",
+      "do": "watch",
+      "note": "Day 1 Network Devices videosunda router, switch, firewall və digər cihazların rolunu izlə."
+     },
+     {
+      "url": "https://www.cloudflare.com/learning/",
+      "do": "read",
+      "note": "What is a router? və What is a network switch? məqalələri ilə bu iki cihazın fərqini möhkəmləndir."
+     }
+    ],
+    [
+     {
+      "url": "https://www.youtube.com/playlist?list=PLG49S3nxzAnl_tQe3kvnmeMid0mjF8Le8",
+      "do": "watch",
+      "note": "Network Topologies və Network Types videolarında LAN, WAN, WLAN kimi şəbəkə növlərini izlə.",
+      "alt": [
+       "https://www.youtube.com/playlist?list=PLtPJ9lKvJ4oiNMvYbOzCmWy6cRzYAh9B1"
+      ]
+     },
+     {
+      "url": "https://www.cloudflare.com/learning/",
+      "do": "read",
+      "note": "What is a LAN? və What is a WAN? məqalələrini oxu, öz ev şəbəkənin hansı növ olduğunu müəyyən et."
+     }
+    ],
+    [
+     {
+      "url": "https://www.youtube.com/playlist?list=PLhTW6Fulbw1Tqaa9cTEpAZo86TCO6xfYS",
+      "do": "watch",
+      "note": "Day 3 OSI Model & TCP/IP Suite videosunu izlə, hər qatda nə baş verdiyini qeyd et.",
+      "alt": [
+       "https://www.youtube.com/playlist?list=PLtPJ9lKvJ4oiNMvYbOzCmWy6cRzYAh9B1"
+      ]
+     },
+     {
+      "url": "http://www.tcpipguide.com/free/",
+      "do": "read",
+      "note": "The Open System Interconnection (OSI) Reference Model və TCP/IP Ports bölmələrini oxu.",
+      "alt": [
+       "https://bidb.itu.edu.tr/seyir-defteri/blog/2013/09/07/osi-katmanlar%C4%B1"
+      ]
+     },
+     {
+      "url": "https://www.wireshark.org/docs/",
+      "do": "practice",
+      "note": "User's Guide ilə Wireshark qur, sayt açarkən DNS sorğusunu və TCP paketlərini öz gözünlə gör."
+     }
+    ],
+    [
+     {
+      "url": "https://www.youtube.com/playlist?list=PLhTW6Fulbw1Tqaa9cTEpAZo86TCO6xfYS",
+      "do": "watch",
+      "note": "IPv4 Addressing (Day 7-8) və Subnetting (Day 13-15) videolarını izlə, nümunələri kağızda özün hesabla.",
+      "alt": [
+       "https://www.youtube.com/playlist?list=PLtPJ9lKvJ4oiNMvYbOzCmWy6cRzYAh9B1"
+      ]
+     },
+     {
+      "url": "http://www.tcpipguide.com/free/",
+      "do": "read",
+      "note": "IP Subnet Addressing (\"Subnetting\") Concepts bölməsini oxu: network ID, host ID və maska burada ətraflıdır.",
+      "alt": [
+       "https://www.firatboyan.com/ip-ve-subnetting-kavrami.aspx"
+      ]
+     },
+     {
+      "url": "https://www.youtube.com/playlist?list=PLG49S3nxzAnl_tQe3kvnmeMid0mjF8Le8",
+      "do": "watch",
+      "note": "Network Communication videosunda unicast, multicast və broadcast fərqini gör."
+     }
+    ],
+    [
+     {
+      "url": "https://www.youtube.com/playlist?list=PLG49S3nxzAnl_tQe3kvnmeMid0mjF8Le8",
+      "do": "watch",
+      "note": "DHCP, Network Address Translation və VPNs videolarını izlə; hər xidmətin hansı problemi həll etdiyini yaz.",
+      "alt": [
+       "https://www.youtube.com/playlist?list=PLtPJ9lKvJ4oiNMvYbOzCmWy6cRzYAh9B1"
+      ]
+     },
+     {
+      "url": "https://www.cloudflare.com/learning/",
+      "do": "read",
+      "note": "What is a VPN? və What is a reverse proxy? məqalələrini oxu, forward və reverse proxy fərqinə diqqət et."
+     }
+    ],
+    [
+     {
+      "url": "https://www.youtube.com/playlist?list=PLhTW6Fulbw1Tqaa9cTEpAZo86TCO6xfYS",
+      "do": "watch",
+      "note": "VLANs (Part 1-3) videolarını (Day 16-18) izlə, lab videolarında konfiqurasiyanı özün təkrarla.",
+      "alt": [
+       "https://www.youtube.com/playlist?list=PLtPJ9lKvJ4oiNMvYbOzCmWy6cRzYAh9B1"
+      ]
+     },
+     {
+      "url": "https://www.cloudflare.com/learning/",
+      "do": "read",
+      "note": "What is SD-WAN? və What is load balancing? məqalələrini oxu."
+     },
+     {
+      "url": "https://www.youtube.com/playlist?list=PLG49S3nxzAnl_tQe3kvnmeMid0mjF8Le8",
+      "do": "watch",
+      "note": "Security Concepts, VLAN Hopping və ARP and DNS Poisoning videoları ilə şəbəkə təhlükəsizliyinə başla."
+     }
+    ]
+   ],
+   "tools": [],
+   "more": [
+    "http://intronetworks.cs.luc.edu/",
+    "https://book.systemsapproach.org/",
+    "https://youtube.com/playlist?list=PLOspHqNVtKAA_5N3pI49wkH4WsTkeZ_iQ",
+    "https://linkmeup.ru/sdsm/",
+    "https://tr.wikipedia.org/wiki/TCP_ve_UDP_ba%C4%9flant%C4%B1_noktas%C4%B1_numaralar%C4%B1_listesi"
+   ]
+  },
+  "embedded": {
+   "lessons": [
+    [
+     {
+      "url": "https://www.youtube.com/watch?v=zJ-LqeX_fLU",
+      "do": "watch",
+      "note": "Section 2: Foundation of Electronics hissəsini izlə: gərginlik, cərəyan, müqavimət və Om qanunu."
+     },
+     {
+      "url": "https://docs.arduino.cc/",
+      "do": "read",
+      "note": "Learn bölməsindəki Multimeter Basics və Transistor Motor Control məqalələrini oxu."
+     }
+    ],
+    [
+     {
+      "url": "https://beej.us/guide/bgc/",
+      "do": "read",
+      "note": "Pointers, Bitwise Operations, Types IV (volatile) və structs II (Padding Bytes) fəsillərini oxu."
+     },
+     {
+      "url": "https://docs.arduino.cc/",
+      "do": "practice",
+      "note": "Bit Math with Arduino və Bit Masks with Arduino məqalələrindəki nümunələri özün yazıb sına."
+     }
+    ],
+    [
+     {
+      "url": "https://users.ece.utexas.edu/~valvano/Volume1/IntroToEmbSys/",
+      "do": "read",
+      "note": "1-ci fəsildə I/O Ports və Registers, 6-cı fəsildə Interrupt Concepts və SysTick hissələrini oxu."
+     },
+     {
+      "url": "https://docs.arduino.cc/",
+      "do": "practice",
+      "note": "Basics of PWM məqaləsini oxu və LED parlaqlığını PWM ilə idarə edən kiçik proqram yaz."
+     }
+    ],
+    [
+     {
+      "url": "https://docs.arduino.cc/",
+      "do": "read",
+      "note": "Communication bölməsindəki UART, I2C, SPI və CAN Bus məqalələrini bu ardıcıllıqla oxu."
+     },
+     {
+      "url": "https://users.ece.utexas.edu/~valvano/Volume1/IntroToEmbSys/",
+      "do": "read",
+      "note": "9-cu fəslin (Serial Communication) UART hissəsində protokolun registr səviyyəsində işini gör."
+     }
+    ],
+    [
+     {
+      "url": "https://www.freertos.org/Documentation/RTOS_book.html",
+      "do": "read",
+      "note": "Kitabın Task Management, Queue Management və Resource Management fəsillərini oxu: task, növbə, mutex."
+     },
+     {
+      "url": "https://docs.espressif.com/projects/esp-idf/en/stable/esp32/get-started/index.html",
+      "do": "practice",
+      "note": "Build Your First Project addımları ilə ESP32-də ilk layihəni yığ; ESP-IDF FreeRTOS üzərində işləyir."
+     }
+    ],
+    [
+     {
+      "url": "https://users.ece.utexas.edu/~valvano/Volume1/IntroToEmbSys/",
+      "do": "read",
+      "note": "9.3.3 UART1 Device Driver bölməsində sadə drayverin C-də necə yazıldığını addım-addım gör."
+     },
+     {
+      "url": "https://doc.rust-lang.org/stable/embedded-book/",
+      "do": "read",
+      "note": "Portability fəsli və HALs bölməsi HAL və drayver ideyasını Rust nümunəsi ilə izah edir."
+     }
+    ],
+    [
+     {
+      "url": "https://docs.arduino.cc/",
+      "do": "read",
+      "note": "Debugging Fundamentals məqaləsində logic analyzer, osiloqraf və digər debug alətlərinin rolunu oxu."
+     },
+     {
+      "url": "https://docs.platformio.org/en/latest/",
+      "do": "reference",
+      "note": "Debugging bölməsində ST-LINK, J-LINK kimi JTAG/SWD problarının necə qoşulduğuna bax."
+     },
+     {
+      "url": "https://doc.rust-lang.org/stable/embedded-book/",
+      "do": "practice",
+      "note": "2.2 Hardware bölməsində OpenOCD və GDB ilə real lövhəni addım-addım debug etməyi sına."
+     }
+    ],
+    [
+     {
+      "url": "https://docs.arduino.cc/",
+      "do": "read",
+      "note": "Edge AI seriyasını (AI Fundamentals for Edge Devices) və FPGA HDL Basics məqaləsini oxu."
+     },
+     {
+      "url": "https://docs.espressif.com/projects/esp-idf/en/stable/esp32/get-started/index.html",
+      "do": "reference",
+      "note": "ESP-IDF sənədlərində Over The Air Updates (OTA) səhifəsini oxu: yeniləmənin necə qurulduğunu göstərir."
+     }
+    ]
+   ],
+   "tools": [
+    "https://www.st.com/en/development-tools/stm32cubeide.html"
+   ],
+   "more": [
+    "https://youtube.com/@PhilsLab",
+    "https://learn.adafruit.com/",
+    "https://docs.micropython.org/en/latest/",
+    "https://www.btkakademi.gov.tr/portal/course/projelerle-arduino-programlama-19045"
+   ]
+  },
+  "iot": {
+   "lessons": [
+    [
+     {
+      "url": "https://youtube.com/@GreatScottLab",
+      "do": "watch",
+      "note": "Electronic Basics seriyasından #16 Resistors, #14 Capacitors və EB#49 (osiloqraf) videolarını izlə.",
+      "alt": [
+       "https://gelecegiyazanlar.turkcell.com.tr/egitimler/arduino"
+      ]
+     },
+     {
+      "url": "https://docs.arduino.cc",
+      "do": "read",
+      "note": "Learn bölməsindəki Multimeter Basics məqaləsi ilə multimetrdən düzgün istifadəni öyrən."
+     },
+     {
+      "url": "https://wokwi.com",
+      "do": "practice",
+      "note": "Wokwi-də LED və rezistorlu sadə dövrə qur, müqaviməti dəyişib nəticəyə bax."
+     }
+    ],
+    [
+     {
+      "url": "https://docs.arduino.cc",
+      "do": "read",
+      "note": "Arduino Sketches, Using Variables in Sketches və Using Functions in a Sketch məqalələrini oxu.",
+      "alt": [
+       "https://gelecegiyazanlar.turkcell.com.tr/egitimler/arduino"
+      ]
+     },
+     {
+      "url": "https://wokwi.com",
+      "do": "practice",
+      "note": "Wokwi-də ilk sketch-ini yaz; eyni işi MicroPython ilə də sınayıb iki dili müqayisə et."
+     },
+     {
+      "url": "https://github.com/microsoft/IoT-For-Beginners",
+      "do": "build",
+      "note": "Introduction to IoT dərsində Arduino (C++) və ya Raspberry Pi (Python) seçib ilk cihazını qur."
+     }
+    ],
+    [
+     {
+      "url": "https://github.com/microsoft/IoT-For-Beginners",
+      "do": "read",
+      "note": "A deeper dive into IoT dərsində mikrokontroller ilə tək lövhəli kompüterin fərqini oxu."
+     },
+     {
+      "url": "https://www.youtube.com/watch?v=xPlN_Tk3VLQ",
+      "do": "watch",
+      "note": "ESP32 Introduction, ESP32 Boards və Blink hissələrini izlə, ESP32-ni Arduino IDE-yə qoş."
+     },
+     {
+      "url": "https://docs.arduino.cc",
+      "do": "read",
+      "note": "Arduino Memory Guide məqaləsində stack, heap və yaddaş növlərini oxu."
+     }
+    ],
+    [
+     {
+      "url": "https://www.hivemq.com/mqtt/",
+      "do": "read",
+      "note": "MQTT Essentials seriyasının ilk hissələrini Quality of Service Levels-ə qədər oxu."
+     },
+     {
+      "url": "https://github.com/microsoft/IoT-For-Beginners",
+      "do": "practice",
+      "note": "Connect your device to the Internet dərsində cihazını MQTT broker-ə qoşub mesaj göndər."
+     },
+     {
+      "url": "https://docs.arduino.cc",
+      "do": "read",
+      "note": "The Arduino Guide to LoRa® and LPWAN Technologies məqaləsi ilə LoRaWAN-ı tanı."
+     }
+    ],
+    [
+     {
+      "url": "https://github.com/microsoft/IoT-For-Beginners",
+      "do": "build",
+      "note": "Sensors and actuators dərsində sensor və aktuatorla gecə lampası qur.",
+      "alt": [
+       "https://gelecegiyazanlar.turkcell.com.tr/egitimler/arduino"
+      ]
+     },
+     {
+      "url": "https://docs.arduino.cc",
+      "do": "reference",
+      "note": "I2C, SPI, UART və Basics of PWM məqalələrini sensor qoşarkən açıq saxla."
+     },
+     {
+      "url": "https://wokwi.com",
+      "do": "practice",
+      "note": "Wokwi-də sensor oxuyan və servo motoru PWM ilə hərəkət etdirən layihə sına."
+     }
+    ],
+    [
+     {
+      "url": "https://docs.arduino.cc/arduino-cloud/",
+      "do": "practice",
+      "note": "Getting Started with Arduino Cloud ilə cihazını buluda qoş, Dashboards & Widgets ilə məlumatı göstər."
+     },
+     {
+      "url": "https://docs.aws.amazon.com/iot/",
+      "do": "practice",
+      "note": "Getting started bölməsindəki interaktiv tutorialla AWS IoT Core-un işini cihazsız sına."
+     },
+     {
+      "url": "https://www.youtube.com/watch?v=eidD14dXW8s",
+      "do": "build",
+      "note": "ESP32, MQTT broker, PostgreSQL və Node.js ilə məlumatı saxlayan ağıllı ev layihəsini qur."
+     }
+    ],
+    [
+     {
+      "url": "https://espressif.github.io/esp32-c3-book-en/",
+      "do": "read",
+      "note": "7-ci fəsli (Wi-Fi Configuration and Connection) oxu: Wi-Fi və Bluetooth əsasları buradadır."
+     },
+     {
+      "url": "https://docs.arduino.cc",
+      "do": "read",
+      "note": "Bluetooth® Low Energy və LPWAN (Low-Power Wide-Area Networks) 101 məqalələrini oxu."
+     },
+     {
+      "url": "https://youtube.com/@GreatScottLab",
+      "do": "watch",
+      "note": "Electronic Basics seriyasındakı EB#40 videosunda RFID və NFC-nin necə işlədiyini izlə."
+     }
+    ],
+    [
+     {
+      "url": "https://espressif.github.io/esp32-c3-book-en/",
+      "do": "read",
+      "note": "11-ci (OTA: Firmware Upgrade and Version Management) və 12-ci (Power Management) fəsilləri oxu."
+     },
+     {
+      "url": "https://github.com/microsoft/IoT-For-Beginners",
+      "do": "read",
+      "note": "Run your fruit detector on the edge dərsində modeli buludda yox, cihazın özündə işlətməyi gör."
+     }
+    ],
+    [
+     {
+      "url": "https://github.com/microsoft/IoT-For-Beginners",
+      "do": "read",
+      "note": "Keep your plant secure dərsində açarlar və sertifikatlarla cihazı necə qoruyacağını oxu."
+     },
+     {
+      "url": "https://espressif.github.io/esp32-c3-book-en/",
+      "do": "read",
+      "note": "13-cü fəsildə (Enhanced Device Security Features) secure boot və flash şifrələməni oxu."
+     },
+     {
+      "url": "https://www.hivemq.com/mqtt/",
+      "do": "read",
+      "note": "MQTT Security Fundamentals seriyasında TLS ilə MQTT bağlantısını qorumağı öyrən."
+     }
+    ]
+   ],
+   "tools": [
+    "https://wokwi.com",
+    "https://mqtt-explorer.com"
+   ],
+   "more": [
+    "https://youtube.com/@AndreasSpiess",
+    "https://www.netacad.com/courses/introduction-iot?courseLang=en-US",
+    "https://www.home-assistant.io/docs/",
+    "https://docs.espressif.com",
+    "https://youtube.com/@LezzetliRobotTarifleri"
+   ]
+  },
+  "blockchain": {
+   "lessons": [
+    [
+     {
+      "url": "https://www.youtube.com/watch?v=gyMwXuJrbJQ",
+      "do": "watch",
+      "note": "Lesson 1-in What is a Blockchain?, How Do Blockchains Work? və High-Level Blockchain Fundamentals hissələrini izlə.",
+      "alt": [
+       "https://gelecegiyazanlar.turkcell.com.tr/egitimler/blockchain-teknolojileri"
+      ]
+     },
+     {
+      "url": "https://ethereum.org/en/developers/",
+      "do": "read",
+      "note": "Intro to Ethereum və Consensus Mechanisms (Proof-of-Work, Proof-of-Stake) səhifələrini oxu."
+     }
+    ],
+    [
+     {
+      "url": "https://www.youtube.com/watch?v=gyMwXuJrbJQ",
+      "do": "watch",
+      "note": "Lesson 1-in Making Your First Transaction, Gas I və Signing Transactions hissələrində test əməliyyatı et."
+     },
+     {
+      "url": "https://ethereum.org/en/developers/",
+      "do": "read",
+      "note": "Accounts, Transactions və Gas səhifələrində açarları, əməliyyatın həyat dövrünü və haqları oxu."
+     }
+    ],
+    [
+     {
+      "url": "https://www.youtube.com/watch?v=gyMwXuJrbJQ",
+      "do": "watch",
+      "note": "Lesson 2-4 (Simple Storage, Storage Factory, Fund Me) hissələrini Remix-də kodu təkrarlayaraq izlə."
+     },
+     {
+      "url": "https://docs.soliditylang.org/",
+      "do": "read",
+      "note": "Introduction to Smart Contracts və Solidity by Example bölmələrini oxu."
+     },
+     {
+      "url": "https://cryptozombies.io/",
+      "do": "practice",
+      "note": "Lesson 1-i bitir: Solidity-nin əsaslarını brauzerdə oyun qurarkən məşq edəcəksən."
+     }
+    ],
+    [
+     {
+      "url": "https://www.youtube.com/watch?v=gyMwXuJrbJQ",
+      "do": "watch",
+      "note": "Lesson 6: Hardhat Simple Storage hissəsini izlə; videodakı Hardhat versiyası köhnədir."
+     },
+     {
+      "url": "https://hardhat.org/docs",
+      "do": "practice",
+      "note": "Getting started with Hardhat 3 addımları ilə layihə yarat və kontraktını lokal test et."
+     },
+     {
+      "url": "https://updraft.cyfrin.io",
+      "do": "watch",
+      "note": "Foundry-ni öyrənmək üçün Foundry Fundamentals kursunu keç; pulsuz qeydiyyat lazımdır."
+     }
+    ],
+    [
+     {
+      "url": "https://www.youtube.com/watch?v=gyMwXuJrbJQ",
+      "do": "watch",
+      "note": "Lesson 5: Ethers.js Simple Storage və Lesson 8: HTML / Javascript Fund Me hissələrini izlə."
+     },
+     {
+      "url": "https://ethereum.org/en/developers/",
+      "do": "read",
+      "note": "JavaScript APIs səhifəsində əsas JS kitabxanalarının nə etdiyini və fərqlərini oxu."
+     }
+    ],
+    [
+     {
+      "url": "https://ethereum.org/en/developers/",
+      "do": "read",
+      "note": "Storage və Oracles səhifələrində mərkəzləşdirilməmiş saxlama və oracle məntiqini oxu."
+     },
+     {
+      "url": "https://www.youtube.com/watch?v=gyMwXuJrbJQ",
+      "do": "watch",
+      "note": "Lesson 9-da Chainlink VRF, Lesson 10-da IPFS, Lesson 15-də What is The Graph? hissələrini izlə."
+     },
+     {
+      "url": "https://speedrunethereum.com/",
+      "do": "build",
+      "note": "Oracles çağırışını həll et, kontraktın xarici məlumatı necə aldığını praktikada gör."
+     }
+    ],
+    [
+     {
+      "url": "https://www.youtube.com/watch?v=gyMwXuJrbJQ",
+      "do": "watch",
+      "note": "Lesson 12: Hardhat ERC20s, Lesson 13: Hardhat DeFi & Aave və Lesson 14: Hardhat NFTs hissələrini izlə."
+     },
+     {
+      "url": "https://ethereum.org/en/developers/",
+      "do": "read",
+      "note": "Token Standards altında ERC-20, ERC-721 və ERC-1155 səhifələrini oxu."
+     },
+     {
+      "url": "https://speedrunethereum.com/",
+      "do": "build",
+      "note": "Tokenization, Token Vendor və Build a DEX çağırışlarında token və likvidlik hovuzunu özün qur."
+     }
+    ],
+    [
+     {
+      "url": "https://ethereum.org/en/developers/",
+      "do": "read",
+      "note": "Scaling altındakı Optimistic Rollups, Zero-Knowledge Rollups, Sidechains və Bridges səhifələrini oxu."
+     },
+     {
+      "url": "https://github.com/ethereumbook/ethereumbook",
+      "do": "read",
+      "note": "Chapter 16: Scaling Ethereum fəslini oxu; Layer 2 həllərini daha dərindən müqayisə edir."
+     }
+    ],
+    [
+     {
+      "url": "https://docs.soliditylang.org/",
+      "do": "read",
+      "note": "Security Considerations bölməsində reentrancy və digər tipik səhvləri nümunələrlə oxu."
+     },
+     {
+      "url": "https://updraft.cyfrin.io",
+      "do": "watch",
+      "note": "Smart Contract Security kursunu keç: audit prosesini və əsas hücum növlərini praktik öyrədir."
+     },
+     {
+      "url": "https://ethereum.org/en/developers/",
+      "do": "read",
+      "note": "Smart Contract Formal Verification səhifəsi ilə formal verifikasiyanın nə olduğunu anla."
+     }
+    ]
+   ],
+   "tools": [
+    "https://remix.ethereum.org",
+    "https://openzeppelin.com/contracts/"
+   ],
+   "more": [
+    "https://github.com/bitcoinbook/bitcoinbook",
+    "https://youtube.com/@PatrickAlphaC",
+    "https://youtube.com/@SmartContractProgrammer",
+    "https://university.alchemy.com",
+    "https://solana.com/docs",
+    "https://developer.bitcoin.org/",
+    "https://roadmap.sh/blockchain",
+    "https://youtube.com/@EatTheBlocks"
+   ]
+  },
+  "frontend": {
+   "lessons": [
+    [
+     {
+      "url": "https://www.theodinproject.com/paths/foundations/courses/foundations",
+      "do": "read",
+      "note": "Prerequisites bölməsindəki 'How Does the Web Work?' dərsi ilə başla: internetin necə işlədiyini sadə dillə görəcəksən.",
+      "alt": [
+       "https://www.youtube.com/watch?v=XaTwnKLQi4A"
+      ]
+     },
+     {
+      "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development",
+      "do": "read",
+      "note": "'Web standards' modulunda 'How the web works' və 'How browsers load websites' dərslərini oxu: DNS, HTTP və brauzer buradadır."
+     }
+    ],
+    [
+     {
+      "url": "https://www.youtube.com/watch?v=UB1O30fR-EE",
+      "do": "watch",
+      "note": "HTML teqlərini və semantik strukturu bu bir saatlıq videoda gör; kodu özün də yazaraq izlə.",
+      "alt": [
+       "https://gelecegiyazanlar.turkcell.com.tr/egitimler/frontend-hiz-kampi-html-css-js-ai-araclari",
+       "https://metanit.com/web/html5/"
+      ]
+     },
+     {
+      "url": "https://www.youtube.com/watch?v=OXGznpKZ_sA",
+      "do": "watch",
+      "note": "Hamısını birdən izləmə: 'Box Model', 'Flexbox', 'Grid Layout' və 'Media Queries' fəsillərinə fokuslan."
+     },
+     {
+      "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/",
+      "do": "practice",
+      "note": "Kursdakı layihələri sırayla qur; hər layihə HTML və CSS biliyini praktikada möhkəmləndirir.",
+      "alt": [
+       "https://htmlacademy.ru/courses"
+      ]
+     }
+    ],
+    [
+     {
+      "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development",
+      "do": "read",
+      "note": "'Version control' modulunda Git, GitHub və pull request anlayışlarının nə üçün lazım olduğunu oxu.",
+      "alt": [
+       "https://ru.hexlet.io/courses/intro_to_git"
+      ]
+     },
+     {
+      "url": "https://www.theodinproject.com/paths/foundations/courses/foundations",
+      "do": "practice",
+      "note": "'Setting up Git' və 'Git Basics' dərslərində əmrləri öz kompüterində icra et, ilk repo-nu GitHub-a göndər.",
+      "alt": [
+       "https://www.youtube.com/watch?v=zZBiln_2FhM"
+      ]
+     }
+    ],
+    [
+     {
+      "url": "https://tailwindcss.com/docs/styling-with-utility-classes",
+      "do": "read",
+      "note": "Utility class yanaşmasını, hover, breakpoint və dark mode yazılışını burada öyrən; nümunələri özün təkrarla.",
+      "alt": [
+       "https://www.youtube.com/watch?v=3bbfisTVMcE"
+      ]
+     },
+     {
+      "url": "https://sass-lang.com/guide/",
+      "do": "read",
+      "note": "Variables, Nesting, Partials və Mixins bölmələrini oxu; SCSS kodunun CSS-ə necə çevrildiyini gör.",
+      "alt": [
+       "https://itproger.com/course/sass"
+      ]
+     }
+    ],
+    [
+     {
+      "url": "https://www.youtube.com/watch?v=PkZNo7MFNFg",
+      "do": "watch",
+      "note": "JS əsaslarını izlə, sonda arrow function, destructuring və spread kimi ES6 mövzularını buraxma.",
+      "alt": [
+       "https://learn.javascript.ru/"
+      ]
+     },
+     {
+      "url": "https://javascript.info/",
+      "do": "read",
+      "note": "'Promises, async/await', 'Document', 'Introduction to Events', 'Network requests' və 'Storing data in the browser' bölmələrini oxu.",
+      "alt": [
+       "https://learn.javascript.ru/"
+      ]
+     },
+     {
+      "url": "https://www.theodinproject.com/paths/foundations/courses/foundations",
+      "do": "build",
+      "note": "'JavaScript Basics' bölməsində 'Etch-a-Sketch' və 'Calculator' layihələrini qur: DOM və hadisələri praktikada işlət.",
+      "alt": [
+       "https://code-basics.com/ru/languages/javascript"
+      ]
+     }
+    ],
+    [
+     {
+      "url": "https://react.dev/learn",
+      "do": "build",
+      "note": "'Quick Start' və 'Tutorial: Tic-Tac-Toe' ilə başla, sonra 'Describing the UI' və 'Adding Interactivity' bölmələrini keç.",
+      "alt": [
+       "https://ru.vuejs.org/"
+      ]
+     },
+     {
+      "url": "https://vuejs.org/guide/introduction.html",
+      "do": "read",
+      "note": "React-dan sonra Vue-nun giriş səhifəsini oxu ki, iki freymvorkun yanaşma fərqini görəsən.",
+      "alt": [
+       "https://metanit.com/web/react/"
+      ]
+     }
+    ],
+    [
+     {
+      "url": "https://react.dev/learn",
+      "do": "read",
+      "note": "'Managing State' bölməsini oxu; reducer və Context dərsləri Redux və Zustand-ı anlamağa zəmin yaradır.",
+      "alt": [
+       "https://www.youtube.com/playlist?list=PL6DxKON1uLOHsBCJ_vVuvRsW84VnqmPp6"
+      ]
+     }
+    ],
+    [
+     {
+      "url": "https://web.dev/learn/",
+      "do": "read",
+      "note": "'Learn Testing' kursunda 'Types of automated testing' və 'Component testing in practice' modullarını oxu.",
+      "alt": [
+       "https://www.youtube.com/watch?v=IEDe8jl5efU"
+      ]
+     }
+    ],
+    [
+     {
+      "url": "https://web.dev/learn/",
+      "do": "read",
+      "note": "'Learn Performance' kursunda 'Code-split JavaScript' və 'Lazy load images and iframe elements' modullarını oxu.",
+      "alt": [
+       "https://selectel.ru/blog/tutorials/deploy-with-nginx/"
+      ]
+     }
+    ]
+   ],
+   "tools": [
+    "https://caniuse.com",
+    "https://realtimecolors.com",
+    "https://uiverse.io"
+   ],
+   "more": [
+    "https://youtube.com/@kevinpowell",
+    "https://developer.mozilla.org",
+    "https://eloquentjavascript.net/",
+    "https://www.typescriptlang.org/docs/handbook/intro.html",
+    "https://youtube.com/@prototurk",
+    "https://youtube.com/@arinyazilim",
+    "https://roadmap.sh/frontend",
+    "https://github.com/getify/You-Dont-Know-JS",
+    "https://youtube.com/@Fireship",
+    "https://resilientwebdesign.com/"
+   ]
+  },
+  "backend": {
+   "lessons": [
+    [
+     {
+      "url": "https://fullstackopen.com",
+      "do": "read",
+      "note": "Part 0-da 'Fundamentals of Web apps' bölməsini oxu: HTTP GET və POST sorğularını brauzerin Network tabında izləyəcəksən.",
+      "alt": [
+       "https://ru.hexlet.io/courses/cli-basics"
+      ]
+     },
+     {
+      "url": "https://linuxcommand.org/tlcl.php",
+      "do": "read",
+      "note": "'Learning the Shell' hissəsini, xüsusilə 'Processes' fəslini oxu və hər əmri terminalda özün yaz."
+     }
+    ],
+    [
+     {
+      "url": "https://www.youtube.com/watch?v=nLRL_NcnK-4",
+      "do": "watch",
+      "note": "Lecture 0-dan 8-ə qədər izlə və hər mövzudan sonra kiçik proqram yaz; OOP sonra çox lazım olacaq.",
+      "alt": [
+       "https://www.youtube.com/playlist?list=PLIHume2cwmHehcxQE1XZieL21syR3m3tR",
+       "https://contest.yandex.ru/tracks/python"
+      ]
+     },
+     {
+      "url": "https://docs.python.org/3/tutorial/",
+      "do": "reference",
+      "note": "'Data Structures', 'Modules' və 'Classes' fəsillərini açıq saxla, çaşdığın yerdə buradan yoxla.",
+      "alt": [
+       "https://metanit.com/python/tutorial/"
+      ]
+     }
+    ],
+    [
+     {
+      "url": "https://cs50.harvard.edu/web/",
+      "do": "watch",
+      "note": "'SQL, Models, and Migrations' mühazirəsinin yalnız SQL hissəsini izlə; Django hissəsinə ORM dərsində qayıdacaqsan.",
+      "alt": [
+       "https://stepik.org/course/63054/promo"
+      ]
+     },
+     {
+      "url": "https://www.postgresql.org/docs/",
+      "do": "read",
+      "note": "Sənəddə 'Tutorial' hissəsini aç: 'The SQL Language' fəslində sorğular və join, 'Advanced Features'-də transaction var.",
+      "alt": [
+       "https://metanit.com/sql/tutorial/"
+      ]
+     }
+    ],
+    [
+     {
+      "url": "https://redis.io/docs/",
+      "do": "reference",
+      "note": "Redis-in data tiplərini (string, hash, list) oxu və key-value bazanın SQL-dən fərqini özün sına.",
+      "alt": [
+       "https://metanit.com/nosql/mongodb/"
+      ]
+     }
+    ],
+    [
+     {
+      "url": "https://www.youtube.com/watch?v=fBNz5xF-Kx4",
+      "do": "watch",
+      "note": "Express-siz HTTP server qurulmasını və fs, path, events modullarını izlə; Heroku hissəsini keçə bilərsən.",
+      "alt": [
+       "https://metanit.com/web/nodejs/"
+      ]
+     },
+     {
+      "url": "https://fullstackopen.com",
+      "do": "build",
+      "note": "Part 3-də 'Node.js and Express' və 'Saving data to MongoDB', Part 4-də 'Token authentication' bölmələrini et.",
+      "alt": [
+       "https://www.youtube.com/watch?v=XaTwnKLQi4A"
+      ]
+     },
+     {
+      "url": "https://www.freecodecamp.org/learn/back-end-development-and-apis/",
+      "do": "practice",
+      "note": "Sertifikatın layihələrini sırayla qur; hər biri kiçik bir API tapşırığıdır."
+     }
+    ],
+    [
+     {
+      "url": "https://docs.djangoproject.com/en/stable/intro/tutorial01/",
+      "do": "build",
+      "note": "1-ci və 2-ci hissələri et: 'Creating models' və 'Activating models' bölmələrində model və miqrasiya yaradırsan.",
+      "alt": [
+       "https://tutorial.djangogirls.org/ru/"
+      ]
+     },
+     {
+      "url": "https://cs50.harvard.edu/web/",
+      "do": "watch",
+      "note": "'SQL, Models, and Migrations' mühazirəsinin 'SQL Vulnerabilities', 'Django Models' və 'Migrations' hissələrini izlə.",
+      "alt": [
+       "https://metanit.com/sharp/efcore/"
+      ]
+     }
+    ],
+    [
+     {
+      "url": "https://cs50.harvard.edu/web/",
+      "do": "watch",
+      "note": "'Testing, CI/CD' mühazirəsinin 'CI/CD', 'GitHub Actions' və 'Docker' hissələrini izlə.",
+      "alt": [
+       "https://www.youtube.com/watch?v=aZTL2zRmOnA"
+      ]
+     },
+     {
+      "url": "https://fullstackopen.com",
+      "do": "build",
+      "note": "Part 3-dəki 'Deploying app to internet' bölməsi ilə API-ni real serverə yerləşdir.",
+      "alt": [
+       "https://nginx.org/ru/docs/beginners_guide.html"
+      ]
+     }
+    ],
+    [
+     {
+      "url": "https://cs50.harvard.edu/web/",
+      "do": "watch",
+      "note": "'Scalability and Security' mühazirəsinin 'Load Balancing', 'Autoscaling' və 'Caching' hissələrini izlə.",
+      "alt": [
+       "https://yandex.cloud/ru/docs/managed-kafka/quickstart"
+      ]
+     },
+     {
+      "url": "https://redis.io/docs/",
+      "do": "reference",
+      "note": "Keşləməni Redis ilə sına: tez-tez oxunan sorğunun nəticəsini Redis-də saxla və ona bitmə müddəti ver."
+     }
+    ],
+    [
+     {
+      "url": "https://fullstackopen.com",
+      "do": "build",
+      "note": "Part 4-də 'Structure of backend application, introduction to testing' və 'Testing the backend' bölmələrini et.",
+      "alt": [
+       "https://stepik.org/course/123935/promo"
+      ]
+     },
+     {
+      "url": "https://cs50.harvard.edu/web/",
+      "do": "watch",
+      "note": "'Scalability and Security' mühazirəsinin 'Security' hissəsini izlə: HTTPS, API və CSRF riskləri buradadır.",
+      "alt": [
+       "https://www.youtube.com/watch?v=IEDe8jl5efU"
+      ]
+     },
+     {
+      "url": "https://expressjs.com/",
+      "do": "reference",
+      "note": "'Advanced topics' altında 'Security best practices' səhifəsini oxu və öz API-nə tətbiq et."
+     }
+    ]
+   ],
+   "tools": [
+    "https://www.postman.com",
+    "https://hub.docker.com"
+   ],
+   "more": [
+    "https://youtube.com/@hnasr",
+    "https://www.skillcamp.dev/",
+    "https://tutorial.djangogirls.org/en/",
+    "https://greenteapress.com/wp/think-python-2e/",
+    "https://nodejs.org/en/learn",
+    "https://go.dev/doc/tutorial/getting-started",
+    "https://roadmap.sh/backend",
+    "https://youtube.com/@GencayYildiz",
+    "https://youtube.com/@TraversyMedia"
+   ]
+  },
+  "fullstack": {
+   "lessons": [
+    [
+     {
+      "url": "https://www.youtube.com/watch?v=GZvSYJDk-us",
+      "do": "watch",
+      "note": "'Unit 1 - What is an API' və 'Unit 2 - Exploring APIs' hissələrini izlə: HTTP və REST məntiqi buradadır.",
+      "alt": [
+       "https://learn.javascript.ru/"
+      ]
+     },
+     {
+      "url": "https://fullstackopen.com/en/",
+      "do": "read",
+      "note": "Part 0-da 'Fundamentals of Web apps' bölməsini oxu: HTTP GET/POST, AJAX və SPA-nı brauzerdə izləyəcəksən.",
+      "alt": [
+       "https://git-scm.com/book/ru/v2"
+      ]
+     },
+     {
+      "url": "https://git-scm.com/book/en/v2",
+      "do": "practice",
+      "note": "'Git Basics' və 'Git Branching' fəsillərindəki əmrləri et, sonra 'GitHub' fəslində pull request axınını oxu."
+     }
+    ],
+    [
+     {
+      "url": "https://fullstackopen.com/en/",
+      "do": "build",
+      "note": "Part 1 və Part 2-ni et: React komponentləri, state və serverdən məlumat almaq burada öyrədilir.",
+      "alt": [
+       "https://metanit.com/web/react/"
+      ]
+     },
+     {
+      "url": "https://www.theodinproject.com/paths/full-stack-javascript",
+      "do": "build",
+      "note": "'React' kursunun layihələrini qur; FSO-da öyrəndiyini burada öz başına tətbiq edəcəksən.",
+      "alt": [
+       "https://www.youtube.com/watch?v=3bbfisTVMcE"
+      ]
+     }
+    ],
+    [
+     {
+      "url": "https://www.youtube.com/watch?v=nu_pCVPKzTk",
+      "do": "watch",
+      "note": "Videonun 'Create Backend Reviews API' hissəsini izlə: Express ilə API-nin qurulmasını başdan sona görəcəksən.",
+      "alt": [
+       "https://metanit.com/web/nodejs/"
+      ]
+     },
+     {
+      "url": "https://fullstackopen.com/en/",
+      "do": "build",
+      "note": "Part 3-də 'Node.js and Express' bölməsini et: REST route-lar və middleware yazmağı burada öyrənirsən.",
+      "alt": [
+       "https://code-basics.com/ru/languages/python"
+      ]
+     }
+    ],
+    [
+     {
+      "url": "https://www.youtube.com/watch?v=HXV3zeQKqGY",
+      "do": "watch",
+      "note": "'Joins', 'ER Diagrams Intro' və 'Designing an ER Diagram' hissələrinə xüsusi diqqət et: modelləmə buradadır."
+     },
+     {
+      "url": "https://www.postgresql.org/docs/current/tutorial.html",
+      "do": "read",
+      "note": "'The SQL Language' fəslini PostgreSQL-də təkrarla; 'Advanced Features'-dən 'Foreign Keys' və 'Transactions'-ı da oxu.",
+      "alt": [
+       "https://metanit.com/nosql/mongodb/"
+      ]
+     },
+     {
+      "url": "https://fullstackopen.com/en/",
+      "do": "build",
+      "note": "Part 3-də 'Saving data to MongoDB' bölməsi ilə Express API-ni MongoDB-yə qoş.",
+      "alt": [
+       "https://stepik.org/course/63054/promo"
+      ]
+     }
+    ],
+    [
+     {
+      "url": "https://nextjs.org/learn",
+      "do": "build",
+      "note": "'Learn Next.js' kursunu fəsil-fəsil et; 'Static and Dynamic Rendering' və 'Streaming' fəsilləri SSR-i izah edir.",
+      "alt": [
+       "https://itproger.com/course/next-js"
+      ]
+     },
+     {
+      "url": "https://nextjs.org/docs",
+      "do": "reference",
+      "note": "'Getting Started' altında 'Server and Client Components' və 'Fetching Data' səhifələrini açıq saxla."
+     }
+    ],
+    [
+     {
+      "url": "https://fullstackopen.com/en/",
+      "do": "read",
+      "note": "Part 4-də 'User administration' və 'Token authentication' bölmələrini et: JWT ilə girişi özün qurursan."
+     },
+     {
+      "url": "https://nextjs.org/learn",
+      "do": "build",
+      "note": "'Adding Authentication' fəslində NextAuth.js ilə giriş, route qoruması və parol hash-lənməsini et.",
+      "alt": [
+       "https://www.youtube.com/watch?v=fN25fMQZ2v0"
+      ]
+     }
+    ],
+    [
+     {
+      "url": "https://fullstackopen.com/en/",
+      "do": "build",
+      "note": "Part 3-dəki 'Deploying app to internet' bölməsi ilə backend-i internetə çıxar.",
+      "alt": [
+       "https://www.youtube.com/watch?v=aZTL2zRmOnA"
+      ]
+     },
+     {
+      "url": "https://nextjs.org/docs",
+      "do": "reference",
+      "note": "'Deploying' səhifəsində Node.js server, Docker container və Vercel kimi seçimləri müqayisə et.",
+      "alt": [
+       "https://yandex.cloud/ru/docs"
+      ]
+     }
+    ],
+    [
+     {
+      "url": "https://docs.expo.dev/tutorial/introduction/",
+      "do": "build",
+      "note": "Dərsliyi ilk fəsildən sona qədər et; Expo ilə Android, iOS və vebdə işləyən bir tətbiq quracaqsan.",
+      "alt": [
+       "https://www.youtube.com/watch?v=j9nVVIq9eSQ"
+      ]
+     }
+    ]
+   ],
+   "tools": [
+    "https://neon.tech",
+    "https://vercel.com"
+   ],
+   "more": [
+    "https://www.freecodecamp.org/learn/full-stack-developer/",
+    "https://cs50.harvard.edu/x/",
+    "https://www.fullstackpython.com/",
+    "https://roadmap.sh/full-stack",
+    "https://youtube.com/@WebDevSimplified",
+    "https://youtube.com/@Codevolution",
+    "https://create.t3.gg"
+   ]
+  },
+  "qa-automation": {
+   "lessons": [
+    [
+     {
+      "url": "https://istqb.org/certifications/certified-tester-foundation-level-ctfl-v4-0/",
+      "do": "read",
+      "note": "1, 2, 4 və 5-ci fəsilləri oxu: SDLC-də test, test case texnikaları, test planı və defekt idarəsi buradadır.",
+      "alt": [
+       "https://www.youtube.com/playlist?list=PLKbJd47Kcbjs0MsaWIBkrKqb_Gy9uvqdk"
+      ]
+     }
+    ],
+    [
+     {
+      "url": "https://testautomationu.applitools.com/",
+      "do": "watch",
+      "note": "'Java Programming' kursunu keç; 'Inheritance', 'Polymorphism', 'Interfaces' və 'Java for Test Automation' fəsilləri vacibdir.",
+      "alt": [
+       "https://metanit.com/java/tutorial/"
+      ]
+     }
+    ],
+    [
+     {
+      "url": "https://testautomationu.applitools.com/",
+      "do": "watch",
+      "note": "'Selenium WebDriver with Java' kursunu izlə; 'Finding Web Elements' və 'Wait Strategies' fəsillərini diqqətlə keç.",
+      "alt": [
+       "https://www.btkakademi.gov.tr/portal/course/yazilim-test-otomasyonu-12117",
+       "https://stepik.org/course/575/promo"
+      ]
+     },
+     {
+      "url": "https://www.selenium.dev/documentation/",
+      "do": "reference",
+      "note": "WebDriver bölməsindəki 'Locators' səhifəsini açıq saxla və hər locator növünü öz testində sına.",
+      "alt": [
+       "https://learn.microsoft.com/ru-ru/shows/getting-started-with-end-to-end-testing-with-playwright/get-started-with-end-to-end-testing-with-playwright"
+      ]
+     },
+     {
+      "url": "https://playwright.dev/docs/intro",
+      "do": "practice",
+      "note": "'Installation' və 'Writing tests' ilə ilk Playwright testini yaz, sonra 'Locators' bələdçisini oxu."
+     }
+    ],
+    [
+     {
+      "url": "https://www.youtube.com/watch?v=VywxIQ2ZXw4",
+      "do": "watch",
+      "note": "Unit 1-də sorğu növlərini, Unit 2-də Postman ilə test yazmağı və Newman ilə avtomatlaşdırmanı izlə.",
+      "alt": [
+       "https://stepik.org/course/120679/promo"
+      ]
+     },
+     {
+      "url": "https://learning.postman.com/docs/tests-and-scripts/write-scripts/test-scripts/",
+      "do": "read",
+      "note": "Status kodu və JSON cavabını yoxlayan skriptləri bu sənədə baxaraq özün yaz.",
+      "alt": [
+       "https://www.youtube.com/watch?v=VqjaDULOYOM"
+      ]
+     },
+     {
+      "url": "https://testautomationu.applitools.com/",
+      "do": "build",
+      "note": "'Automating your API tests with REST Assured' kursu ilə eyni yoxlamaları Java kodu ilə yaz."
+     }
+    ],
+    [
+     {
+      "url": "https://testautomationu.applitools.com/",
+      "do": "watch",
+      "note": "Əvvəl 'Introduction to TestNG', sonra 'Cucumber with Java' kursunu keç: test strukturu və BDD buradadır."
+     },
+     {
+      "url": "https://www.selenium.dev/documentation/",
+      "do": "read",
+      "note": "'Test Practices' bölməsində 'Page object models' səhifəsini oxu və Selenium testlərini POM-a keçir."
+     }
+    ],
+    [
+     {
+      "url": "https://testautomationu.applitools.com/",
+      "do": "watch",
+      "note": "'Mobile Automation with Appium in Java' kursunu keç; Java və Selenium biliyin burada birbaşa işə yarayacaq.",
+      "alt": [
+       "https://www.youtube.com/watch?v=Tj_1DavX8cI"
+      ]
+     }
+    ],
+    [
+     {
+      "url": "https://testautomationu.applitools.com/",
+      "do": "watch",
+      "note": "'Continuous Integration with Jenkins', sonra 'Scaling Tests with Docker' kursunu keç.",
+      "alt": [
+       "https://docs.github.com/ru/actions"
+      ]
+     },
+     {
+      "url": "https://playwright.dev/docs/intro",
+      "do": "read",
+      "note": "'Setting up CI' səhifəsində testləri GitHub Actions-da işlətməyi və HTML hesabatı almağı öyrən.",
+      "alt": [
+       "https://www.youtube.com/watch?v=aZTL2zRmOnA"
+      ]
+     }
+    ],
+    [
+     {
+      "url": "https://testautomationu.applitools.com/",
+      "do": "watch",
+      "note": "'Tools and Techniques for Performance and Load Testing' kursu ilə performans və yük testinin əsaslarını gör.",
+      "alt": [
+       "https://www.youtube.com/watch?v=yYhdCOCpGyE"
+      ]
+     },
+     {
+      "url": "https://jmeter.apache.org",
+      "do": "practice",
+      "note": "User's Manual-da 'Building a Web Test Plan' və 'Building a Database Test Plan' fəsillərini addım-addım et."
+     }
+    ],
+    [
+     {
+      "url": "https://abseil.io/resources/swe-book",
+      "do": "read",
+      "note": "'Testing Overview', 'Unit Testing', 'Test Doubles' və 'Larger Testing' fəsillərini oxu; flaky testlər də burada var."
+     },
+     {
+      "url": "https://playwright.dev/docs/intro",
+      "do": "reference",
+      "note": "'Parallelism', 'Retries' və 'Sharding' səhifələri ilə testləri paralel işlət və qeyri-sabit testləri tut."
+     }
+    ]
+   ],
+   "tools": [
+    "https://www.postman.com",
+    "https://jmeter.apache.org"
+   ],
+   "more": [
+    "https://www.youtube.com/watch?v=u8vMu7viCm8",
+    "https://docs.cypress.io/",
+    "https://www.obeythetestinggoat.com/book/preface.html",
+    "https://youtube.com/@sdetpavan",
+    "https://youtube.com/@NaveenAutomationLabs",
+    "https://jestjs.io/docs/getting-started",
+    "https://www.freecodecamp.org/learn/quality-assurance/",
+    "https://www.thetesteye.com/papers/TheLittleBlackBookOnTestDesign.pdf"
+   ]
+  },
+  "devops": {
+   "lessons": [
+    [
+     {
+      "url": "https://linuxcommand.org/tlcl.php",
+      "do": "read",
+      "note": "'Learning the Shell' hissəsini və 'A Gentle Introduction to vi(m)' fəslini oxu; hər əmri terminalda sına.",
+      "alt": [
+       "https://gelecegiyazanlar.turkcell.com.tr/egitimler/temel-linux",
+       "https://ru.hexlet.io/courses/cli-basics"
+      ]
+     },
+     {
+      "url": "https://git-scm.com/book/en/v2",
+      "do": "practice",
+      "note": "'Git Basics' və 'Git Branching' fəsillərindəki əmrləri öz kiçik layihəndə et.",
+      "alt": [
+       "https://ru.hexlet.io/courses/intro_to_git"
+      ]
+     }
+    ],
+    [
+     {
+      "url": "https://linuxcommand.org/tlcl.php",
+      "do": "read",
+      "note": "'Writing Shell Scripts' hissəsini oxu və hər fəsildəki skripti özün yazıb işlət.",
+      "alt": [
+       "https://metanit.com/go/tutorial/"
+      ]
+     }
+    ],
+    [
+     {
+      "url": "https://linuxcommand.org/tlcl.php",
+      "do": "read",
+      "note": "'Processes', 'Package Management' və 'Networking' fəsillərini oxu; ssh ilə uzaq serverə qoşulmağı burada görəcəksən.",
+      "alt": [
+       "https://nginx.org/ru/docs/beginners_guide.html"
+      ]
+     }
+    ],
+    [
+     {
+      "url": "https://www.youtube.com/watch?v=3c-iBn73dDE",
+      "do": "watch",
+      "note": "Kursu izlə, 'Dockerfile', 'Docker Compose' və 'Docker Volumes' hissələrini isə əllə təkrarla.",
+      "alt": [
+       "https://www.youtube.com/watch?v=aZTL2zRmOnA"
+      ]
+     },
+     {
+      "url": "https://docs.docker.com/get-started/",
+      "do": "practice",
+      "note": "'Build and share a containerized application' dərsliyini et: image qurub registry-yə göndərəcəksən."
+     }
+    ],
+    [
+     {
+      "url": "https://www.youtube.com/watch?v=X48VuDVv0do",
+      "do": "watch",
+      "note": "'Main K8s Components', 'K8s Ingress explained' və 'Helm - Package Manager' hissələrini izlə, minikube-da təkrarla.",
+      "alt": [
+       "https://www.youtube.com/watch?v=yVIrhcv9Toc"
+      ]
+     },
+     {
+      "url": "https://kubernetes.io/docs/tutorials/",
+      "do": "practice",
+      "note": "'Kubernetes Basics' interaktiv dərsliyini başdan sona et.",
+      "alt": [
+       "https://kubernetes.io/ru/docs/home/"
+      ]
+     }
+    ],
+    [
+     {
+      "url": "https://www.youtube.com/watch?v=j5Zsa_eOXeY",
+      "do": "watch",
+      "note": "'What is Continuous Integration (CI)?' dərsini və 'Deployment Strategies' hissəsini izlə: CI/CD məntiqi buradadır.",
+      "alt": [
+       "https://www.btkakademi.gov.tr/portal/course/microsoft-azure-devops-12930",
+       "https://docs.github.com/ru/actions"
+      ]
+     },
+     {
+      "url": "https://docs.github.com/en/actions",
+      "do": "read",
+      "note": "'Quickstart for GitHub Actions' ilə ilk workflow-u qur, sonra 'Understanding GitHub Actions'-ı oxu.",
+      "alt": [
+       "https://stepik.org/course/227851/promo"
+      ]
+     },
+     {
+      "url": "https://www.jenkins.io/doc/book/",
+      "do": "read",
+      "note": "'Pipeline' fəslində 'Getting started with Pipeline' və 'Using a Jenkinsfile' səhifələrini oxu."
+     }
+    ],
+    [
+     {
+      "url": "https://developer.hashicorp.com/terraform/docs",
+      "do": "read",
+      "note": "'What is Terraform?' ilə başla, sonra 'Configuration Language' bölməsində resurs yazmağı öyrən.",
+      "alt": [
+       "https://yandex.cloud/ru/docs/tutorials/infrastructure-management/terraform-quickstart"
+      ]
+     }
+    ],
+    [
+     {
+      "url": "https://sre.google/sre-book/table-of-contents/",
+      "do": "read",
+      "note": "'Monitoring Distributed Systems' və 'Service Level Objectives' fəsillərini oxu: nəyi niyə izləməli olduğunu anlayacaqsan.",
+      "alt": [
+       "https://yandex.cloud/ru/docs/monitoring/quickstart"
+      ]
+     }
+    ]
+   ],
+   "tools": [
+    "https://registry.terraform.io"
+   ],
+   "more": [
+    "https://roadmap.sh/devops",
+    "https://youtube.com/@TechWorldwithNana",
+    "https://youtube.com/@NetworkChuck",
+    "https://youtube.com/@JeffGeerling",
+    "https://kubernetes.io/docs/",
+    "https://youtube.com/@DevOpsToolkit"
+   ]
+  },
+  "cloud": {
+   "lessons": [
+    [
+     {
+      "url": "https://www.youtube.com/watch?v=7HKot-brXFE",
+      "do": "watch",
+      "note": "Hələlik yalnız 'Cloud Concepts' hissəsini izlə; qalan hissələrə sonrakı dərslərdə qayıdacaqsan.",
+      "alt": [
+       "https://www.btkakademi.gov.tr/portal/course/yapay-zeka-ve-bulut-teknolojileri-57978",
+       "https://stepik.org/course/239535/promo"
+      ]
+     },
+     {
+      "url": "https://learn.microsoft.com/en-us/training/paths/microsoft-azure-fundamentals-describe-cloud-concepts/",
+      "do": "read",
+      "note": "Üç modulu oxu; 'Describe cloud service types' IaaS, PaaS və SaaS fərqini aydın göstərir.",
+      "alt": [
+       "https://yandex.cloud/ru/docs"
+      ]
+     }
+    ],
+    [
+     {
+      "url": "https://www.youtube.com/watch?v=7HKot-brXFE",
+      "do": "watch",
+      "note": "'Getting Started' və 'AWS Global Infrastructure' hissələrini izlə: hesab açmağı və region anlayışını görəcəksən.",
+      "alt": [
+       "https://yandex.cloud/ru/docs/compute/quickstart/quick-create-linux"
+      ]
+     },
+     {
+      "url": "https://docs.aws.amazon.com/whitepapers/latest/aws-overview/introduction.html",
+      "do": "read",
+      "note": "AWS-in xidmət qruplarına ümumi baxış üçün oxu; hər xidməti əzbərləməyə çalışma."
+     },
+     {
+      "url": "https://aws.amazon.com/getting-started/",
+      "do": "practice",
+      "note": "'Onboarding to AWS' addımları ilə hesab aç və onu təhlükəsiz qur; Free Tier limitlərini yadda saxla."
+     }
+    ],
+    [
+     {
+      "url": "https://www.youtube.com/watch?v=7HKot-brXFE",
+      "do": "watch",
+      "note": "'Compute', 'EC2', 'Storage', 'Networking' və 'Identity' hissələrini izlə: EC2, S3, VPC və IAM buradadır.",
+      "alt": [
+       "https://yandex.cloud/ru/docs/storage/quickstart"
+      ]
+     },
+     {
+      "url": "https://docs.aws.amazon.com",
+      "do": "reference",
+      "note": "EC2, S3, VPC və IAM sənədlərini açıq saxla; videoda gördüyünü konsolda sınayanda buradan yoxla."
+     }
+    ],
+    [
+     {
+      "url": "https://www.youtube.com/watch?v=7HKot-brXFE",
+      "do": "watch",
+      "note": "'Databases' hissəsini izlə: RDS və DynamoDB-nin hansı işə uyğun olduğunu burada görəcəksən.",
+      "alt": [
+       "https://yandex.cloud/ru/docs/managed-postgresql/quickstart"
+      ]
+     },
+     {
+      "url": "https://docs.aws.amazon.com",
+      "do": "reference",
+      "note": "RDS və ya DynamoDB sənədinə baxıb kiçik bir baza yarat, sonra xərc yaranmasın deyə onu sil."
+     }
+    ],
+    [
+     {
+      "url": "https://www.youtube.com/watch?v=7HKot-brXFE",
+      "do": "watch",
+      "note": "'Provisioning' hissəsini izlə: infrastrukturu kodla yaratmaq ideyasını burada görəcəksən."
+     },
+     {
+      "url": "https://developer.hashicorp.com/terraform/tutorials/aws-get-started",
+      "do": "build",
+      "note": "'Install Terraform', 'Create infrastructure', 'Manage infrastructure' və 'Destroy infrastructure' dərslərini et.",
+      "alt": [
+       "https://yandex.cloud/ru/docs/tutorials/infrastructure-management/terraform-quickstart"
+      ]
+     }
+    ],
+    [
+     {
+      "url": "https://www.youtube.com/watch?v=7HKot-brXFE",
+      "do": "watch",
+      "note": "'Containers', 'Serverless Services' və 'Application Integration' hissələrini izlə: Lambda və hadisə əsaslı servislər buradadır.",
+      "alt": [
+       "https://yandex.cloud/ru/docs/functions/quickstart"
+      ]
+     },
+     {
+      "url": "https://azure.microsoft.com/mediahandler/files/resourcefiles/designing-distributed-systems/Designing_Distributed_Systems.pdf",
+      "do": "read",
+      "note": "'Functions and Event-Driven Processing' və 'Work Queue Systems' fəsillərini oxu; qalanı sonraya qalsın.",
+      "alt": [
+       "https://yandex.cloud/ru/docs/managed-kafka/quickstart"
+      ]
+     }
+    ],
+    [
+     {
+      "url": "https://www.youtube.com/watch?v=7HKot-brXFE",
+      "do": "watch",
+      "note": "'AWS Well Architected Framework', 'Billing Pricing and Support' və 'Security' hissələrini izlə."
+     }
+    ],
+    [
+     {
+      "url": "https://www.youtube.com/watch?v=7HKot-brXFE",
+      "do": "watch",
+      "note": "Sertifikat addımı üçün kursu tam bitir və CLF-C02 imtahanına hazırlaş."
+     },
+     {
+      "url": "https://cloudresumechallenge.dev",
+      "do": "build",
+      "note": "'The Challenge' bölməsindəki AWS versiyasının 16 addımını sırayla et; hər addımı GitHub-da qeyd et.",
+      "alt": [
+       "https://yandex.cloud/ru/docs/tutorials/web/static/console"
+      ]
+     }
+    ]
+   ],
+   "tools": [
+    "https://aws.amazon.com/free",
+    "https://registry.terraform.io"
+   ],
+   "more": [
+    "https://roadmap.sh/aws",
+    "https://www.youtube.com/watch?v=5abffC-K40c",
+    "https://cloud.google.com/docs/get-started",
+    "https://www.skills.google/",
+    "https://youtube.com/@TechWithLucy",
+    "https://youtube.com/@NetworkChuck"
+   ]
+  }
+ }
+}

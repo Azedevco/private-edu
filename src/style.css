@@ -1,119 +1,312 @@
 @import "tailwindcss";
+@import "./styles/tokens.css";
+@import "./styles/az.css" layer(components);
+
+/* Tailwind reads the AZEDEV tokens. The default palette is switched off so only design-system colours exist:
+   bg, card, card-2, card-3, text, text-soft, text-mute, text-dim, line*, alpha-*, status-*, danger, label-*. */
+@theme inline {
+  --color-*: initial;
+  --color-bg: var(--bg);
+  --color-card: var(--card);
+  --color-card-2: var(--card-2);
+  --color-card-3: var(--card-3);
+  --color-text: var(--text);
+  --color-text-soft: var(--text-soft);
+  --color-text-mute: var(--text-mute);
+  --color-text-dim: var(--text-dim);
+  --color-ink: var(--ink);
+  --color-line: var(--line);
+  --color-line-subtle: var(--line-subtle);
+  --color-line-strong: var(--line-strong);
+  --color-alpha-2: var(--alpha-2);
+  --color-alpha-3: var(--alpha-3);
+  --color-alpha-4: var(--alpha-4);
+  --color-alpha-5: var(--alpha-5);
+  --color-alpha-6: var(--alpha-6);
+  --color-alpha-8: var(--alpha-8);
+  --color-alpha-10: var(--alpha-10);
+  --color-alpha-15: var(--alpha-15);
+  --color-alpha-20: var(--alpha-20);
+  --color-alpha-25: var(--alpha-25);
+  --color-alpha-40: var(--alpha-40);
+  --color-status-live: var(--status-live);
+  --color-status-beta: var(--status-beta);
+  --color-status-dev: var(--status-dev);
+  --color-status-live-tint: var(--status-live-tint);
+  --color-status-live-wash: var(--status-live-wash);
+  --color-status-live-line: var(--status-live-line);
+  --color-danger: var(--danger);
+  --color-label-violet: var(--label-violet);
+  --color-label-red: var(--label-red);
+  --color-label-orange: var(--label-orange);
+  --color-label-green: var(--label-green);
+  --color-code-keyword: var(--code-keyword);
+  --color-code-string: var(--code-string);
+  --color-code-meta: var(--code-meta);
+  --color-accent: var(--accent);
+  --color-accent-text: var(--accent-text);
+  --color-accent-soft: var(--accent-soft);
+  --color-accent-line: var(--accent-line);
+}
 
 @theme {
-  --color-dark-900: #0a0a0a;
-  --color-dark-800: #171717;
-  --color-dark-700: #262626;
+  --font-serif: "Literata", Georgia, "Times New Roman", serif;
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "Geist Mono", ui-monospace, SFMono-Regular, monospace;
+  --radius-xs: 4px;
+  --radius-md: 8px;
+  --radius-card: 12px;
+  --radius-window: 16px;
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --animate-rise: rise 0.5s cubic-bezier(0.16, 1, 0.3, 1) both;
 
-  --color-brand-blue: #60a5fa;   /* Daha açıq göy (blue-400) */
-  --color-brand-purple: #a78bfa; /* Daha açıq bənövşəyi (purple-400) */
-  --color-brand-cyan: #22d3ee;   /* Daha parlaq cyan (cyan-400) */
-
-  --font-sans: 'Inter', 'system-ui', 'sans-serif';
-
-  --animate-blob: blob 7s infinite;
-  --animate-fade-in: fadeIn 0.5s ease-out forwards;
-
-  @keyframes blob {
-    0% {
-      transform: translate(0px, 0px) scale(1);
+  /* Entrances rise and scale; text is never faded (design system: Borders, shadows and motion). */
+  @keyframes rise {
+    from {
+      transform: translateY(14px) scale(0.97);
     }
-
-    33% {
-      transform: translate(30px, -50px) scale(1.1);
-    }
-
-    66% {
-      transform: translate(-20px, 20px) scale(0.9);
-    }
-
-    100% {
-      transform: translate(0px, 0px) scale(1);
+    to {
+      transform: none;
     }
   }
+}
 
-  @keyframes fadeIn {
-    0% {
-      opacity: 0;
-      transform: translateY(10px);
-    }
-
-    100% {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
+/* AZEDEV Learn's own identity inside the AZEDEV family (the design system: products keep their own mark and colour).
+   Learn reads like a good textbook on a dark desk: warm ink and paper instead of AZEDEV's cool greys, a book serif
+   (Literata) for titles, ruled lists instead of boxes. No chromatic accent: "paper" fills the one primary action and
+   marks the current place. Paper on ink ≈ 16:1; --text-mute on --bg ≈ 6.4:1. */
+:root,
+[data-theme="dark"] {
+  --bg: #0b0a09;
+  --card: #121110;
+  --card-2: #171614;
+  --card-3: #1f1d1a;
+  --text: #f3eee5;
+  --text-soft: #c9c1b3;
+  --text-mute: #979084;
+  --text-dim: #6b665d;
+  --accent: #efe6d4;
+  --accent-hover: #fbf4e6;
+  --accent-ink: #15120e;
+  --accent-text: #efe6d4;
+  --accent-soft: rgba(239, 230, 212, 0.08);
+  --accent-line: rgba(239, 230, 212, 0.32);
+  --font-serif: "Literata", Georgia, "Times New Roman", serif;
 }
 
 @layer base {
   html {
-    font-family: var(--font-sans);
     scroll-behavior: smooth;
+    scroll-padding-top: 72px;
+    -webkit-tap-highlight-color: transparent;
   }
 
   body {
-    @apply bg-dark-900 text-white overflow-x-hidden;
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--font-sans);
+    font-size: 15px;
+    line-height: 1.6;
+    font-feature-settings: "cv01", "ss03";
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
   }
 
-  /* Custom Scrollbar */
-  ::-webkit-scrollbar {
-    width: 8px;
+  /* A border with no colour is a hairline (azedevhub's borderColor DEFAULT), never currentColor. */
+  *, ::before, ::after { border-color: var(--line); }
+
+  h1, h2, h3, h4 { text-wrap: balance; }
+  p, li { text-wrap: pretty; }
+  a, button { touch-action: manipulation; }
+  code, kbd, samp, pre { font-family: var(--font-mono); }
+  ::selection { background: var(--alpha-20); color: var(--text); }
+
+  :focus-visible {
+    outline: 2px solid var(--focus);
+    outline-offset: 3px;
+  }
+  input:focus-visible, textarea:focus-visible, select:focus-visible { outline-offset: 1px; }
+  input[type="search"]::-webkit-search-cancel-button { -webkit-appearance: none; appearance: none; }
+
+  ::-webkit-scrollbar { width: 8px; height: 8px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+  ::-webkit-scrollbar-thumb { background: var(--alpha-10); border-radius: 9999px; }
+  ::-webkit-scrollbar-thumb:hover { background: var(--alpha-20); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Type scale from the design system (Type). Headings are Inter 500 with tight tracking; mono only for labels, IDs and code. */
+@layer components {
+  .t-display { font-size: clamp(2.5rem, 1.6rem + 3.6vw, 4.5rem); font-weight: 500; line-height: 1.04; letter-spacing: -0.045em; color: var(--text); }
+  .t-heading { font-size: clamp(2rem, 1.5rem + 2vw, 3.25rem); font-weight: 500; line-height: 1.08; letter-spacing: -0.04em; color: var(--text); }
+  .t-statement { font-size: clamp(1.5rem, 1.1rem + 1.6vw, 2.5rem); font-weight: 500; line-height: 1.2; letter-spacing: -0.03em; color: var(--text); }
+  .t-title-lg { font-size: 24px; font-weight: 500; line-height: 1.25; letter-spacing: -0.02em; color: var(--text); }
+  .t-title { font-size: 17px; font-weight: 500; line-height: 1.375; letter-spacing: -0.01em; color: var(--text); }
+  .t-lead { font-size: 17px; line-height: 1.6; color: var(--text-mute); }
+  .t-body { font-size: 15px; line-height: 1.6; color: var(--text-mute); }
+  .t-item { font-size: 15px; font-weight: 500; line-height: 1.375; color: var(--text); }
+  .t-ui { font-size: 14px; line-height: 1.4; }
+  .t-small { font-size: 13px; line-height: 1.5; color: var(--text-mute); }
+  .t-label { font-family: var(--font-mono); font-size: 13px; line-height: 1.4; letter-spacing: 0.04em; text-transform: uppercase; color: var(--text-mute); }
+  .t-caption { font-family: var(--font-mono); font-size: 12px; line-height: 1.4; letter-spacing: 0.04em; color: var(--text-mute); }
+  .t-code { font-family: var(--font-mono); font-size: 14px; line-height: 1.6; }
+  @media (min-width: 640px) { .t-lead { font-size: 18px; } }
+
+  /* Grid children may shrink below their content, so long code lines scroll inside az-code instead of widening the page. */
+  .grid > * { min-width: 0; }
+
+  /* Stepper: sequential content on a vertical dotted line, a ring at every step (path topics, career levels, how-tos). */
+  .ln-stops { position: relative; display: grid; gap: 8px; margin: 0; padding: 0 0 0 40px; list-style: none; }
+  .ln-stops::before { content: ""; position: absolute; left: 11px; top: 20px; bottom: 20px; border-left: 1.5px dotted var(--alpha-20); }
+  .ln-stop { position: relative; }
+  .ln-stop::before { content: ""; position: absolute; left: -36px; top: 16px; width: 16px; height: 16px; border: 1.5px solid var(--alpha-25); border-radius: 9999px; background: var(--bg); box-shadow: inset 0 0 0 3px var(--bg), inset 0 0 0 8px var(--alpha-25); }
+  .ln-stop[data-lit]::before { border-color: var(--text); box-shadow: inset 0 0 0 3px var(--bg), inset 0 0 0 8px var(--text); }
+  .ln-stop__n { font: 400 12px/1.4 var(--font-mono); letter-spacing: .04em; color: var(--text-dim); }
+
+  /* ---- AZEDEV EDU product frame (mobile first) ----
+     Every view is one column of content in .ln-page: 20px gutters on phones, a 1080px column on desktop (720px for
+     reading). Page title, then sections; one primary action per screen. */
+  .ln-page { width: 100%; max-width: 1080px; margin-inline: auto; padding: 24px 20px 56px; }
+  .ln-page--narrow { max-width: 760px; }
+  .ln-page--footer { padding-top: 16px; padding-bottom: 16px; }
+  @media (min-width: 640px) { .ln-page { padding: 32px 32px 72px; } .ln-page--footer { padding-top: 16px; padding-bottom: 16px; } }
+  @media (min-width: 1024px) { .ln-page { padding: 48px 48px 96px; } .ln-page--footer { padding-top: 20px; padding-bottom: 20px; } }
+
+  /* Underline tabs: a section's own views (Learn: paths, courses, books…). Scroll sideways inside themselves on phones. */
+  .ln-tabs { display: flex; gap: 4px; margin-top: 24px; overflow-x: auto; border-bottom: 1px solid var(--line); scrollbar-width: none; }
+  .ln-tabs::-webkit-scrollbar { display: none; }
+  .ln-tab { position: relative; display: inline-flex; flex: none; align-items: center; gap: 8px; min-height: 44px; padding: 0 12px; color: var(--text-mute); font: 500 14px/1 var(--font-sans); white-space: nowrap; transition: color .15s; }
+  .ln-tab:hover { color: var(--text); }
+  .ln-tab[aria-selected="true"], .ln-tab[aria-current] { color: var(--text); }
+  .ln-tab[aria-selected="true"]::after, .ln-tab[aria-current]::after { content: ""; position: absolute; left: 12px; right: 12px; bottom: -1px; height: 2px; border-radius: 2px; background: var(--text); }
+  .ln-tab__count { font: 400 12px/1 var(--font-mono); color: var(--text-mute); font-variant-numeric: tabular-nums; }
+
+  /* ---- Mobile first: one hand, one column, one action at a time ---- */
+
+  /* Phones and tablets have the bottom navigation (64px + the home indicator); content never hides under it. */
+  @media (max-width: 1023px) {
+    body { padding-bottom: calc(64px + env(safe-area-inset-bottom)); }
   }
 
-  ::-webkit-scrollbar-track {
-    @apply bg-dark-900;
-  }
+  /* Sticky action bar: the view's main action stays within thumb reach above the bottom navigation.
+     <div class="ln-actionbar">…buttons…</div>, placed at the end of the content it acts on. */
+  .ln-actionbar { position: sticky; z-index: 20; bottom: calc(72px + env(safe-area-inset-bottom)); display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-top: 24px; padding: 8px; border: 1px solid var(--alpha-10); border-radius: var(--radius-full); background: color-mix(in oklab, var(--card-2) 92%, transparent); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); box-shadow: var(--shadow-window); }
+  .ln-actionbar > .az-btn { flex: 1 1 auto; }
+  @media (min-width: 1024px) { .ln-actionbar { bottom: 16px; } }
 
-  ::-webkit-scrollbar-thumb {
-    @apply bg-dark-700 rounded-full;
-  }
+  /* Status of a stage on the path stepper: done (check), current (filled ring), next (hollow). */
+  .ln-stop[data-state="done"]::before { border-color: var(--status-live); box-shadow: inset 0 0 0 3px var(--bg), inset 0 0 0 8px var(--status-live); }
+  .ln-stop[data-state="current"]::before { border-color: var(--text); box-shadow: inset 0 0 0 3px var(--bg), inset 0 0 0 8px var(--text), 0 0 0 4px var(--alpha-10); }
 
-  ::-webkit-scrollbar-thumb:hover {
-    @apply bg-dark-800;
-  }
+  /* Contextual hint (beginner mode): where you are, what this is, what to do next. Dismissible, never a popup. */
+
+  /* Term with a short definition (beginner mode): dotted underline, tooltip on hover or keyboard focus. */
+  .ln-term { position: relative; cursor: help; text-decoration: underline dotted var(--alpha-40); text-underline-offset: 3px; }
+  .ln-term__tip { position: absolute; left: 50%; bottom: calc(100% + 8px); z-index: 60; width: max-content; max-width: min(260px, 80vw); padding: 8px 10px; border: 1px solid var(--alpha-10); border-radius: var(--radius-md); background: var(--card-3); color: var(--text); font: 400 13px/1.45 var(--font-sans); text-align: left; text-decoration: none; white-space: normal; transform: translateX(-50%); display: none; box-shadow: var(--shadow-window); }
+  /* display: none while hidden, so a tip near the screen edge never widens the page. */
+  .ln-term:hover .ln-term__tip, .ln-term:focus .ln-term__tip, .ln-term:focus-within .ln-term__tip { display: block; }
+
+  /* Çarx, the companion: a slow blink now and then (off under reduced motion via the global rule). */
+  .ln-mascot__eyes { transform-box: fill-box; transform-origin: center; animation: ln-blink 5.5s infinite; }
+  @keyframes ln-blink { 0%, 94%, 100% { transform: scaleY(1); } 96% { transform: scaleY(0.1); } }
+
+  /* ---- Learn identity over the AZEDEV components ----
+     Paper means two things only: "do this" (the one primary action) and "you are here" (current tab, lesson, nav
+     item, progress). Choices, labels and hints stay in the ink greys, so the page reads calm and the next step is
+     always the brightest thing on it. */
+  .az-btn--primary { background: var(--accent); color: var(--accent-ink); }
+  .az-btn--primary:hover { background: var(--accent-hover); }
+  .az-meter__fill { background: var(--accent); }
+  .az-chip.az-chip[aria-pressed="true"] { border-color: var(--alpha-40); background: var(--alpha-6); color: var(--text); }
+  .az-seg__item[aria-selected="true"], .az-seg__item[aria-current] { background: var(--alpha-10); color: var(--text); }
+  .ln-tab[aria-selected="true"]::after, .ln-tab[aria-current]::after { background: var(--accent-text); }
+  .ln-stop[data-state="current"]::before { border-color: var(--accent-text); box-shadow: inset 0 0 0 3px var(--bg), inset 0 0 0 8px var(--accent-text), 0 0 0 4px var(--accent-soft); }
+  /* Friendlier labels than AZEDEV's mono capitals: sentence case, Inter, a quiet grey. */
+  .t-label { font-family: var(--font-sans); font-size: 13px; font-weight: 500; letter-spacing: 0; text-transform: none; color: var(--text-soft); }
+  .az-status { font-family: var(--font-sans); font-size: 13px; letter-spacing: 0; text-transform: none; }
+  .ln-mascot { color: var(--accent-text); }
+
+  /* Titles in the book serif, like chapter headings; the interface itself stays Inter. */
+  .t-title { font-family: var(--font-serif); font-size: 21px; font-weight: 500; line-height: 1.3; letter-spacing: -0.01em; font-optical-sizing: auto; }
+  .ln-h1 { font-family: var(--font-serif); font-size: 30px; font-weight: 500; line-height: 1.15; letter-spacing: -0.015em; color: var(--text); font-optical-sizing: auto; }
+  .ln-h1--home { font-size: 34px; line-height: 1.1; }
+  @media (min-width: 640px) { .ln-h1 { font-size: 38px; } .ln-h1--home { font-size: 48px; } }
+  .ln-display { font-family: var(--font-serif); font-size: 34px; overflow-wrap: anywhere; hyphens: manual; font-weight: 500; line-height: 1.04; letter-spacing: -0.02em; color: var(--text); font-optical-sizing: auto; }
+  @media (min-width: 400px) { .ln-display { font-size: 38px; } }
+  @media (min-width: 640px) { .ln-display { font-size: 58px; } }
+  @media (min-width: 1024px) { .ln-display { font-size: 68px; } }
+  .ln-chapter { font-family: var(--font-serif); font-size: 18px; font-weight: 500; line-height: 1.3; letter-spacing: -0.005em; color: var(--text); }
+  .ln-num { font-family: var(--font-serif); font-size: 22px; font-weight: 400; line-height: 1; color: var(--text-mute); font-variant-numeric: lining-nums tabular-nums; }
+
+  /* The lesson list as a table of contents: the same dotted line and rings, ruled rows instead of boxes. */
+  .ln-stops--rows { gap: 0; }
+  .ln-stops--rows > .ln-stop { border-bottom: 1px solid var(--line); }
+  .ln-stops--rows .ln-stop::before { top: 18px; }
+
+  /* Ruled lists, like a table of contents: one hairline between rows, no boxes. */
+  .ln-rows { margin: 0; padding: 0; list-style: none; border-top: 1px solid var(--line); }
+  .ln-rows > * { border-bottom: 1px solid var(--line); }
+  .ln-row__title { transition: color .15s ease-out; }
+  .group:hover .ln-row__title { text-decoration: underline; text-decoration-color: var(--alpha-25); text-underline-offset: 4px; }
+
+  /* A hint is a margin note from Çarx: a rule on the left, one short paragraph, two quiet actions. */
+  .ln-hint { display: flex; gap: 12px; margin-top: 20px; padding: 2px 0 2px 14px; border-left: 2px solid var(--alpha-15); border-radius: 0; background: none; }
+
+  /* A small press on buttons and link cards: felt, not seen (off under reduced motion via the global rule). */
+  .az-btn { transition-property: background-color, border-color, color, transform; transition-duration: .15s; transition-timing-function: ease-out; }
+  .az-btn:active { transform: scale(.97); }
+  .az-card--link:active { transform: scale(.99); }
+  @media (prefers-reduced-motion: reduce) { .az-btn:active, .az-card--link:active { transform: none; } }
+
+  /* Station names over the route drawing: mono captions that light up as the learner reaches them. */
+  .az-station { font: 400 12px/1.4 var(--font-mono); letter-spacing: .04em; color: var(--text-mute); transition: color .3s cubic-bezier(.16,1,.3,1); pointer-events: none; }
+  .az-station[data-lit] { color: var(--text); }
+  @media (max-width: 480px) { .az-station { font-size: 11px; } }
+
+  /* Page container: at most 1200px, 20px gutters on phones and 32px from 640px. */
+  .az-container { width: 100%; max-width: 1200px; margin-inline: auto; padding-inline: 20px; }
+  @media (min-width: 640px) { .az-container { padding-inline: 32px; } }
+
+  /* A clickable card: the hairline rises one alpha step on hover (design system: Borders). */
+  .az-card--link { display: block; width: 100%; text-align: left; color: inherit; cursor: pointer; transition: border-color .15s ease-out, background-color .15s ease-out, transform .15s ease-out; }
+  .az-card--link:hover { border-color: var(--alpha-20); background: var(--card-2); }
+
+  /* Menus and popovers sit on card with a hairline and the window shadow; no glows. */
+  .az-menu { border: 1px solid var(--alpha-10); border-radius: var(--radius-card); background: var(--card); padding: 6px; box-shadow: var(--shadow-window); }
+  .az-menu__item { display: flex; width: 100%; align-items: flex-start; gap: 12px; padding: 10px 12px; border-radius: var(--radius-md); color: var(--text-mute); text-align: left; transition: background-color .15s, color .15s; }
+  .az-menu__item:hover, .az-menu__item[aria-current] { background: var(--alpha-4); color: var(--text); }
+  .az-menu__item svg { width: 16px; height: 16px; margin-top: 2px; flex: none; }
+
+  /* Long text inside previews and legal pages. */
+  .az-prose { color: var(--text-mute); font-size: 15px; line-height: 1.7; }
+  .az-prose h2, .az-prose h3 { color: var(--text); font-weight: 500; letter-spacing: -0.01em; margin: 1.6em 0 .5em; }
+  .az-prose p + p { margin-top: .8em; }
+  .az-prose b, .az-prose strong { color: var(--text); font-weight: 500; }
+
+  .az-kbd { display: inline-flex; align-items: center; justify-content: center; min-width: 20px; height: 20px; padding: 0 6px; border: 1px solid var(--alpha-10); border-radius: var(--radius-xs); background: var(--alpha-4); font: 400 12px/1 var(--font-mono); color: var(--text-mute); }
+
+  /* Textareas and selects share the input look. */
+  textarea.az-input { min-height: 120px; padding: 10px 12px; resize: vertical; }
+  select.az-input { appearance: none; padding-right: 36px; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238a8f98' stroke-width='1.75' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: right 12px center; background-size: 16px; }
+
+  /* Filter chip: a ghost pill; pressed = filled with text colour, like the segmented control's selected item. */
+  .az-chip { display: inline-flex; align-items: center; gap: 8px; min-height: 36px; padding: 0 14px; border: 1px solid var(--alpha-10); border-radius: var(--radius-full); background: var(--alpha-3); color: var(--text-mute); font: 500 13px/1 var(--font-sans); white-space: nowrap; cursor: pointer; transition: background-color .3s cubic-bezier(.16,1,.3,1), color .15s, border-color .15s; }
+  .az-chip:hover { border-color: var(--alpha-20); color: var(--text); }
+  .az-chip[aria-pressed="true"] { border-color: transparent; background: var(--text); color: var(--bg); }
+  .az-chip__count { font: 400 12px/1 var(--font-mono); color: inherit; font-variant-numeric: tabular-nums; }
 }
 
 @layer utilities {
-  .glass {
-    @apply bg-white/5 backdrop-blur-lg border border-white/10;
-  }
-
-  .glass-card {
-    @apply bg-white/5 backdrop-blur-lg border border-white/10 rounded-xl p-6 transition-all duration-300 hover:bg-white/10 hover:border-white/20 hover:shadow-xl;
-    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
-    /* placeholder for clean overwrite */
-  }
-
-  .glass-card:hover {
-    @apply shadow-brand-blue/10;
-  }
-
-  .text-gradient {
-    @apply bg-clip-text text-transparent bg-gradient-to-r from-brand-cyan via-brand-blue to-brand-purple;
-  }
-}
-
-/* Background Animation Shapes */
-.blob-cont {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100vh;
-  z-index: -1;
-  overflow: hidden;
-  background: #000;
-}
-
-.blob {
-  position: absolute;
-  filter: blur(80px);
-  opacity: 0.4;
-  border-radius: 50%;
-  animation: blob 10s infinite alternate;
-}
-
-/* JS-dən gələn rəngi tətbiq etmək üçün custom klas */
-.group:hover .custom-hover-text {
-    color: var(--hover-color);
+  .no-scrollbar::-webkit-scrollbar { display: none; }
+  .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
 }
