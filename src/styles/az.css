@@ -1,0 +1,157 @@
+/* AZEDEV components (az- prefix), copied from the AZEDEV design system bundle.css. Do not edit by hand. */
+/* AZEDEV components: plain CSS on this system's tokens (tokens.css), class prefix az-.
+   Motion: colour 150ms, selection 500ms, easing cubic-bezier(0.16, 1, 0.3, 1). */
+
+.az-root{font-family:var(--font-sans);font-size:15px;line-height:1.6;color:var(--text);background:var(--bg);font-feature-settings:"cv01","ss03";-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+.az-root *,.az-root *::before,.az-root *::after{box-sizing:border-box}
+.az-root :focus-visible{outline:2px solid var(--focus);outline-offset:3px}
+.az-root p{margin:0}
+.az-mono{font-family:var(--font-mono)}
+.az-muted{color:var(--text-mute)}
+@media (prefers-reduced-motion:reduce){.az-root *,.az-root *::before,.az-root *::after{transition-duration:.01ms!important;animation-duration:.01ms!important}}
+
+/* Button: the white pill is the one filled control; ghost for everything secondary. */
+.az-btn{display:inline-flex;align-items:center;justify-content:center;gap:var(--space-6);min-height:var(--control-md);padding:0 var(--space-20);border:1px solid transparent;border-radius:var(--radius-full);font:500 15px/1.2 var(--font-sans);text-decoration:none;white-space:nowrap;cursor:pointer;transition:background-color .15s,border-color .15s,color .15s}
+.az-btn svg{width:16px;height:16px;flex:none;transition:transform .15s cubic-bezier(.16,1,.3,1)}
+.az-btn:hover svg{transform:translateX(2px)}
+.az-btn--primary{background:var(--text);color:var(--bg)}
+.az-btn--primary:hover{background:var(--primary-hover)}
+.az-btn--ghost{border-color:var(--alpha-10);background:var(--alpha-3);color:var(--text)}
+.az-btn--ghost:hover{border-color:var(--alpha-20);background:var(--alpha-6)}
+.az-btn--sm{min-height:var(--control-sm);padding:0 var(--space-12);font-size:13px}
+.az-btn:disabled,.az-btn[aria-disabled="true"]{opacity:.45;cursor:not-allowed}
+.az-icon-btn{display:inline-flex;align-items:center;justify-content:center;width:var(--control-sm);height:var(--control-sm);padding:0;border:0;border-radius:var(--radius-full);background:transparent;color:var(--text-mute);cursor:pointer;transition:background-color .15s,color .15s}
+.az-icon-btn:hover{background:var(--alpha-5);color:var(--text)}
+.az-icon-btn svg{width:16px;height:16px}
+
+/* Segmented control: Expa's pill nav; the selected item is filled with text colour. */
+.az-seg{display:inline-grid;grid-auto-flow:column;grid-auto-columns:1fr;padding:var(--space-2);border:1px solid var(--alpha-8);border-radius:var(--radius-full);background:var(--card)}
+.az-seg__item{display:flex;align-items:center;justify-content:center;height:var(--control-md);padding:0 var(--space-16);border:0;border-radius:var(--radius-full);background:transparent;color:var(--text-mute);font:500 14px/1 var(--font-sans);white-space:nowrap;cursor:pointer;transition:background-color .5s cubic-bezier(.16,1,.3,1),color .3s}
+.az-seg__item:hover{color:var(--text)}
+.az-seg__item[aria-selected="true"],.az-seg__item[aria-current]{background:var(--text);color:var(--bg)}
+
+/* Status: a dot and a mono label. The dot carries the state; the word is always there too. */
+.az-status{display:inline-flex;align-items:center;gap:var(--space-8);font:400 13px/1.4 var(--font-mono);letter-spacing:.04em;text-transform:uppercase;color:var(--text-mute)}
+.az-status::before{content:"";width:6px;height:6px;flex:none;border-radius:var(--radius-full);background:var(--status-dev)}
+.az-status--live::before{background:var(--status-live)}
+.az-status--beta::before{background:var(--status-beta)}
+
+/* Badge: an outlined pill with a state dot, or the tinted success badge. */
+.az-badge{display:inline-flex;align-items:center;gap:var(--space-6);padding:var(--space-4) var(--space-10);border:1px solid var(--alpha-10);border-radius:var(--radius-full);font:400 12px/1.2 var(--font-sans);color:var(--text-soft);white-space:nowrap}
+.az-badge__dot{width:8px;height:8px;flex:none;border-radius:var(--radius-full);background:var(--status-dev)}
+.az-badge__dot--live{background:var(--status-live)}
+.az-badge__dot--beta{background:var(--status-beta)}
+.az-badge svg{width:14px;height:14px;flex:none}
+.az-badge--success{border-color:transparent;padding:var(--space-2) var(--space-8);background:var(--status-live-tint);color:var(--status-live);font-weight:500}
+.az-badge--mono{border-color:transparent;padding:var(--space-2) var(--space-10);background:var(--alpha-6);font-family:var(--font-mono)}
+
+/* Label: a category tag; the dot colour names the category. */
+.az-label{display:inline-flex;align-items:center;gap:var(--space-6);min-width:0;padding:var(--space-2) var(--space-8);border:1px solid var(--alpha-10);border-radius:var(--radius-full);font:400 12px/1.4 var(--font-sans);color:var(--text-soft);white-space:nowrap}
+.az-label::before{content:"";width:6px;height:6px;flex:none;border-radius:var(--radius-full);background:var(--label-dot,var(--text-mute))}
+.az-label--violet{--label-dot:var(--label-violet)}
+.az-label--red{--label-dot:var(--label-red)}
+.az-label--orange{--label-dot:var(--label-orange)}
+.az-label--green{--label-dot:var(--label-green)}
+
+/* Avatar: initials until there is a photo. */
+.az-avatar{position:relative;display:inline-flex;align-items:center;justify-content:center;flex:none;width:36px;height:36px;border-radius:var(--radius-full);background:var(--alpha-6);font:400 12px/1 var(--font-mono);color:var(--text-soft)}
+.az-avatar--sm{width:24px;height:24px;font:500 12px/1 var(--font-sans);color:var(--ink)}
+.az-avatar--lavender{background:var(--avatar-lavender)}
+.az-avatar--mint{background:var(--avatar-mint)}
+.az-avatar--peach{background:var(--avatar-peach)}
+.az-avatar--ring{width:80px;height:80px;background:none;font:500 20px/1 var(--font-sans);color:var(--text-soft)}
+.az-avatar--ring svg{position:absolute;inset:0;width:100%;height:100%;color:var(--alpha-40)}
+.az-avatar img{width:100%;height:100%;border-radius:inherit;object-fit:cover}
+
+/* Card and inset panel. */
+.az-card{padding:var(--space-24);border:1px solid var(--alpha-6);border-radius:var(--radius-card);background:var(--card)}
+.az-card--inset{padding:var(--space-20);border-color:var(--alpha-8);background:var(--alpha-2)}
+
+/* List rows: records in a list (documents, candidates). */
+.az-list{display:grid;gap:var(--space-8);margin:0;padding:0;list-style:none}
+.az-row{display:flex;align-items:center;gap:var(--space-12);padding:var(--space-12);border:1px solid var(--alpha-6);border-radius:var(--radius-md);background:var(--alpha-2)}
+.az-row--highlight{border-color:var(--status-live-line);background:var(--status-live-wash)}
+.az-row__main{min-width:0;flex:1}
+.az-row__title{display:block;font:500 14px/1.4 var(--font-sans);color:var(--text)}
+.az-row__meta{display:block;overflow:hidden;font-size:13px;line-height:1.5;color:var(--text-mute);text-overflow:ellipsis;white-space:nowrap}
+.az-row__end{flex:none;text-align:right}
+.az-score{display:block;font:500 18px/1.2 var(--font-sans);font-variant-numeric:tabular-nums}
+.az-score--lead{color:var(--status-live)}
+
+/* Meter: a 4px bar for a score or progress. */
+.az-meter{display:block;height:4px;overflow:hidden;border-radius:var(--radius-full);background:var(--alpha-6)}
+.az-meter__fill{display:block;height:100%;border-radius:inherit;background:var(--alpha-40)}
+.az-meter--success .az-meter__fill{background:var(--status-live)}
+
+/* Steps: an audit log or a checklist of a record's history. */
+.az-steps{display:grid;gap:var(--space-12);margin:0;padding:0;list-style:none}
+.az-step{display:flex;align-items:center;gap:var(--space-12);font-size:14px;line-height:1.4;color:var(--text-mute);transition:color .3s}
+.az-step__mark{display:flex;align-items:center;justify-content:center;width:24px;height:24px;flex:none;border-radius:var(--radius-full);background:var(--alpha-5);color:transparent;transition:background-color .3s,color .3s}
+.az-step__mark svg{width:14px;height:14px}
+.az-step__text{flex:1}
+.az-step--done{color:var(--text)}
+.az-step--done .az-step__mark{background:var(--status-live-tint);color:var(--status-live)}
+
+/* Table (addition): hairline rows, mono uppercase headers. */
+.az-table-wrap{overflow-x:auto;border:1px solid var(--alpha-6);border-radius:var(--radius-md)}
+.az-table{width:100%;border-collapse:collapse;font-size:14px;line-height:1.4}
+.az-table th{padding:var(--space-8) var(--space-12);border-bottom:1px solid var(--alpha-8);background:var(--alpha-2);font:400 12px/1.4 var(--font-mono);letter-spacing:.04em;text-transform:uppercase;color:var(--text-mute);text-align:left;white-space:nowrap}
+.az-table td{padding:var(--space-10) var(--space-12);border-bottom:1px solid var(--alpha-6);vertical-align:middle}
+.az-table tbody tr:last-child td{border-bottom:0}
+.az-table tbody tr:hover{background:var(--alpha-3)}
+.az-table tbody tr[aria-selected="true"]{background:var(--alpha-4)}
+.az-table .az-num{text-align:right;font-variant-numeric:tabular-nums}
+.az-cell-sub{display:block;font-size:13px;color:var(--text-mute)}
+
+/* Board: column heads and kanban cards (Bordaz). */
+.az-column-head{display:flex;align-items:center;gap:var(--space-8);margin:0 0 var(--space-12);padding:0 var(--space-4);font:500 13px/1.4 var(--font-sans)}
+.az-column-count{font-weight:400;color:var(--text-mute);font-variant-numeric:tabular-nums}
+.az-kanban-card{padding:var(--space-12);border:1px solid var(--alpha-6);border-radius:var(--radius-md);background:var(--alpha-2);transition:border-color .5s,background-color .5s}
+.az-kanban-card--active{border-color:var(--alpha-25);background:var(--alpha-6)}
+.az-kanban-card__id{font:400 12px/1.4 var(--font-mono);color:var(--text-mute)}
+.az-kanban-card__title{margin-top:var(--space-4);font:500 13px/1.375 var(--font-sans);color:var(--text)}
+.az-kanban-card--done .az-kanban-card__title{color:var(--text-soft)}
+.az-kanban-card__foot{display:flex;align-items:center;gap:var(--space-8);margin-top:var(--space-10)}
+.az-kanban-card__foot .az-avatar{margin-left:auto}
+.az-urgent{display:flex;align-items:center;justify-content:center;width:16px;height:16px;flex:none;border-radius:var(--radius-xs);background:var(--label-orange);font:700 12px/1 var(--font-sans);color:var(--ink)}
+
+/* App window: the frame a product view sits in. */
+.az-window{overflow:hidden;border:1px solid var(--alpha-10);border-radius:var(--radius-window);background:var(--card);box-shadow:var(--shadow-window)}
+.az-window__bar{display:flex;align-items:center;gap:var(--space-12);height:44px;padding:0 var(--space-16);border-bottom:1px solid var(--alpha-8)}
+.az-window__dots{display:flex;gap:var(--space-6)}
+.az-window__dots i{width:10px;height:10px;border-radius:var(--radius-full);background:var(--alpha-15)}
+.az-window__path{min-width:0;overflow:hidden;font:400 13px/1 var(--font-mono);color:var(--text-mute);text-overflow:ellipsis;white-space:nowrap}
+.az-window__bar .az-icon-btn{margin-left:auto}
+.az-window__body{padding:var(--space-24)}
+
+/* Tabs: large tabs with a status, a name, a caption and a progress hairline on top. */
+.az-tabs{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:var(--space-8)}
+.az-tab{position:relative;display:flex;flex-direction:column;align-items:flex-start;gap:var(--space-4);padding:var(--space-20) var(--space-16) var(--space-16);border:0;border-radius:var(--radius-card);background:transparent;color:var(--text-mute);font-family:var(--font-sans);text-align:left;cursor:pointer;transition:background-color .15s}
+.az-tab::before{content:"";position:absolute;top:0;left:var(--space-16);right:var(--space-16);height:1px;background:var(--alpha-10)}
+.az-tab:hover{background:var(--alpha-2)}
+.az-tab[aria-selected="true"]{background:var(--alpha-4)}
+.az-tab__progress{position:absolute;top:0;left:var(--space-16);right:var(--space-16);height:1px;background:var(--text);transform:scaleX(var(--progress,0));transform-origin:left}
+.az-tab__name{font-size:15px;font-weight:500;line-height:1.4}
+.az-tab[aria-selected="true"] .az-tab__name{color:var(--text)}
+.az-tab__caption{font-size:14px;line-height:1.375;color:var(--text-mute)}
+
+/* Text field (addition). */
+.az-field{display:grid;gap:var(--space-6)}
+.az-field__label{font:500 13px/1.4 var(--font-sans);color:var(--text-soft)}
+.az-input{width:100%;min-height:var(--control-md);padding:0 var(--space-12);border:1px solid var(--alpha-10);border-radius:var(--radius-md);background:var(--alpha-3);color:var(--text);font:400 15px/1.4 var(--font-sans);transition:border-color .15s,background-color .15s}
+.az-input::placeholder{color:var(--text-mute)}
+.az-input:hover{border-color:var(--alpha-20)}
+.az-root .az-input:focus-visible{outline:2px solid var(--focus);outline-offset:1px}
+.az-field__hint{font-size:13px;line-height:1.5;color:var(--text-mute)}
+.az-field--error .az-input{border-color:var(--danger)}
+.az-field--error .az-field__hint{color:var(--danger)}
+
+/* Code block: file bar, line numbers, AzLang-style highlighting. */
+.az-code{overflow:hidden;border:1px solid var(--alpha-8);border-radius:var(--radius-card);background:var(--alpha-2)}
+.az-code__bar{display:flex;align-items:center;justify-content:space-between;gap:var(--space-12);padding:var(--space-10) var(--space-16);border-bottom:1px solid var(--alpha-6);font:400 13px/1 var(--font-mono);color:var(--text-mute)}
+.az-code pre{margin:0;padding:var(--space-16);overflow-x:auto;font:400 14px/1.6 var(--font-mono);color:var(--text)}
+.az-code__ln{display:inline-block;width:32px;color:var(--text-dim);user-select:none}
+.tok-kw{color:var(--code-keyword)}
+.tok-str{color:var(--code-string)}
+.tok-meta{color:var(--code-meta)}
+.tok-id{color:var(--text-soft)}

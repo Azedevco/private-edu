@@ -1,3 +1,4 @@
+import curatedResources from './curated-resources.json' with { type: 'json' }
 // Languages
 export const languages = [
     { code: 'en', name: 'English', flag: '🇬🇧' },
@@ -15,55 +16,139 @@ export const countries = [
 // UI Hello World! Hello Devs! Hello mello sello
 export const ui = {
     en: {
-        welcome: "Welcome",
-        heroTitle: "What do you want to learn today?",
-        heroSubtitle: "Your ultimate guide to the tech world.",
-        searchPlaceholder: "Search for Python, Cyber Security, Jobs...",
-        tabs: { roadmap: "Roadmap", resources: "Resources", jobs: "Jobs", faq: "FAQ", interview: "Interview Prep", projects: "Projects" },
-        comingSoon: "Content coming soon...",
-        globalFaq: "Global FAQ",
-        globalResources: "Global Resources",
-        faqTitle: "Frequently Asked Questions",
-        faqSubtitle: "Common questions about software development and security.",
-        hallOfFame: "Hall of Fame",
-        glossary: "Dev Glossary",
-        toolOfTheWeek: "Tool of the Week",
-        viewTool: "View Tool",
-        back: "Back"
+        welcome: "AZEDEV Learn",
+        heroTag: "AZEDEV ecosystem · Open learning platform",
+        heroTitle: "Learn. Build. Contribute.",
+        heroSubtitle: "An open, practical learning and career platform for developers. From first fundamentals to verified open-source contributions.",
+        searchPlaceholder: "Search roadmaps, courses, cheat sheets or interview questions",
+        tabs: { roadmap: "Roadmap", resources: "Resources", jobs: "Career and jobs", faq: "FAQ", interview: "Interview prep", projects: "Projects", contribution: "Contribute" },
+        nav: {
+            learn: "Learn",
+            practice: "Practice",
+            explore: "Explore",
+            ecosystem: "AZEDEV",
+            roadmaps: "Roadmaps",
+            courses: "Courses",
+            resources: "Resources",
+            books: "Books",
+            videos: "Videos",
+            docs: "Documentation",
+            interview: "Interview questions",
+            challenges: "Coding challenges",
+            projects: "Project ideas",
+            quizzes: "Interactive quizzes",
+            techRadar: "Technologies",
+            careerPaths: "Career paths",
+            openSource: "Open-source projects",
+            community: "Community and IT Club",
+            downloads: "Resources and cheat sheets",
+            upload: "Submit a resource",
+            admin: "Admin",
+            aboutAzedev: "About AZEDEV",
+            itClub: "AZEDEV IT Club"
+        },
+        comingSoon: "Content in preparation",
+        globalFaq: "Questions and answers",
+        globalResources: "Global resources",
+        faqTitle: "Frequently asked questions",
+        faqSubtitle: "Common questions about software engineering, careers, and security.",
+        hallOfFame: "Hall of fame",
+        glossary: "Developer glossary",
+        toolOfTheWeek: "Tool of the week",
+        viewTool: "View the tool",
+        back: "Back",
+        stepGuideTitle: "The AZEDEV five-step learning system",
+        stepGuideSubtitle: "Roadmap → Resources → Practice → Real project → Open-source contribution"
     },
     tr: {
-        welcome: "Hoş Geldiniz",
-        heroTitle: "Bugün ne öğrenmek istiyorsun?",
-        heroSubtitle: "Teknoloji dünyasındaki nihai rehberiniz.",
-        searchPlaceholder: "Örn: Python, Siber Güvenlik...",
-        tabs: { roadmap: "Yol Haritası", resources: "Kaynaklar", jobs: "İş İlanları", faq: "SSS", interview: "Mülakat Hazırlık", projects: "Proje Fikirleri" },
-        comingSoon: "İçerik yakında eklenecek...",
-        globalFaq: "Genel SSS",
-        globalResources: "Genel Kaynaklar",
-        faqTitle: "Sıkça Sorulan Sorular",
-        faqSubtitle: "Yazılım dünyası ve güvenlik hakkında genel sorular.",
-        hallOfFame: "Onur Listesi",
-        glossary: "Yazılım Sözlüğü",
-        toolOfTheWeek: "Haftanın Aracı",
-        viewTool: "Aracı İncele",
-        back: "Geri"
+        welcome: "AZEDEV Learn",
+        heroTag: "AZEDEV ekosistemi · Açık öğrenme platformu",
+        heroTitle: "Learn. Build. Contribute.",
+        heroSubtitle: "Yazılımcılar için açık ve pratik teknoloji platformu. Sıfırdan öğrenmeden gerçek açık kaynak projelere uzanan yolculuk.",
+        searchPlaceholder: "Yol haritası, kurs, not veya mülakat sorusu arayın",
+        tabs: { roadmap: "Yol haritası", resources: "Kaynaklar", jobs: "Kariyer ve ilanlar", faq: "SSS", interview: "Mülakat hazırlığı", projects: "Projeler", contribution: "Katkı" },
+        nav: {
+            learn: "Öğren",
+            practice: "Pratik",
+            explore: "Keşfet",
+            ecosystem: "AZEDEV",
+            roadmaps: "Yol haritaları",
+            courses: "Kurslar",
+            resources: "Kaynaklar",
+            books: "Kitaplar",
+            videos: "Videolar",
+            docs: "Dokümantasyon",
+            interview: "Mülakat soruları",
+            challenges: "Kodlama görevleri",
+            projects: "Proje fikirleri",
+            quizzes: "Etkileşimli testler",
+            techRadar: "Teknolojiler",
+            careerPaths: "Kariyer yolları",
+            openSource: "Açık kaynak projeler",
+            community: "Topluluk ve IT Club",
+            downloads: "Kaynaklar ve notlar",
+            upload: "Kaynak gönder",
+            admin: "Yönetici",
+            aboutAzedev: "Hakkımızda",
+            itClub: "AZEDEV IT Club"
+        },
+        comingSoon: "İçerik hazırlanıyor",
+        globalFaq: "Sorular ve cevaplar",
+        globalResources: "Genel kaynaklar",
+        faqTitle: "Sıkça sorulan sorular",
+        faqSubtitle: "Yazılım dünyası, kariyer ve güvenlik hakkında genel sorular.",
+        hallOfFame: "Onur listesi",
+        glossary: "Yazılım sözlüğü",
+        toolOfTheWeek: "Haftanın aracı",
+        viewTool: "Aracı incele",
+        back: "Geri",
+        stepGuideTitle: "AZEDEV 5 aşamalı öğrenme sistemi",
+        stepGuideSubtitle: "Yol haritası → Kaynaklar → Pratik → Gerçek proje → Açık kaynak katkısı"
     },
     az: {
-        welcome: "Xoş Gəlmisiniz",
-        heroTitle: "Bu gün nə öyrənmək istəyirsən?",
-        heroSubtitle: "Texnologiya dünyasında əsas bələdçiniz.",
-        searchPlaceholder: "Məsələn: Python, Kiber Təhlükəsizlik...",
-        tabs: { roadmap: "Yol Xəritəsi", resources: "Resurslar", jobs: "İş Elanları", faq: "Suallar", interview: "Müsahibə Hazırlığı", projects: "Layihə Fikirləri" },
-        comingSoon: "Məzmun tezliklə əlavə olunacaq...",
-        globalFaq: "Ümumi SSS",
-        globalResources: "Ümumi Resurslar",
-        faqTitle: "Tez-tez Verilən Suallar",
-        faqSubtitle: "Proqramlaşdırma və təhlükəsizlik haqqında ümumi suallar.",
-        hallOfFame: "Şərəf Siyahısı",
-        glossary: "Terminlər Sözlüyü",
-        toolOfTheWeek: "Həftənin Aləti",
-        viewTool: "Alətə Bax",
-        back: "Geri"
+        welcome: "AZEDEV Learn",
+        heroTag: "AZEDEV ekosistemi · Açıq təhsil platforması",
+        heroTitle: "Learn. Build. Contribute.",
+        heroSubtitle: "Azərbaycanlı developer-lər üçün açıq və praktik texnologiya platforması. Sıfırdan öyrənmədən real open-source layihələrə və qlobal karyeraya qədər.",
+        searchPlaceholder: "Yol xəritəsi, kurs, konspekt və ya sual axtarın",
+        tabs: { roadmap: "Dərslər", resources: "Materiallar", jobs: "Karyera və bazar", faq: "Suallar", interview: "Müsahibə hazırlığı", projects: "Layihələr", contribution: "Töhfə ver" },
+        nav: {
+            learn: "Öyrən",
+            practice: "Məşq",
+            explore: "Kəşf et",
+            ecosystem: "AZEDEV",
+            roadmaps: "Öyrənmə yolları",
+            courses: "Kurslar",
+            resources: "Materiallar",
+            books: "Kitablar",
+            videos: "Videolar",
+            docs: "Texniki təlimatlar",
+            interview: "Müsahibə sualları",
+            challenges: "Kod tapşırıqları",
+            projects: "Layihə fikirləri",
+            quizzes: "Testlər",
+            techRadar: "Texnologiyalar",
+            careerPaths: "Karyera yolları",
+            openSource: "Open-source layihələr",
+            community: "İcma",
+            downloads: "Konspektlər",
+            upload: "Material göndər",
+            admin: "Admin",
+            aboutAzedev: "Haqqımızda",
+            itClub: "İcma"
+        },
+        comingSoon: "Məzmun hazırlanır",
+        globalFaq: "Suallar və cavablar",
+        globalResources: "Ümumi resurslar",
+        faqTitle: "Tez-tez verilən suallar",
+        faqSubtitle: "Proqramlaşdırma, karyera və texnologiya haqqında ümumi suallar.",
+        hallOfFame: "Töhfəçilər",
+        glossary: "Terminlər lüğəti",
+        toolOfTheWeek: "Həftənin aləti",
+        viewTool: "Alətə baxın",
+        back: "Geri",
+        stepGuideTitle: "AZEDEV-in 5 mərhələli öyrənmə sistemi",
+        stepGuideSubtitle: "Yol xəritəsi → Resurslar → Praktika → Real layihə → Open-source töhfə"
     }
 };
 
@@ -8931,3 +9016,17 @@ export const toolOfTheWeek = {
     },
     url: "https://www.postman.com"
 };
+// Curated, checked materials (src/curated-resources.json) go first in each path's list; duplicates by URL are dropped.
+// The older items get the manual review's fixes: dead, paid or mislabeled links go, wrong titles are corrected.
+const legacy = curatedResources.legacy || { drop: [], fix: {} };
+const legacyDrop = new Set(legacy.drop);
+for (const [sub, items] of Object.entries(curatedResources.paths)) {
+    const entry = contentData[sub];
+    if (!entry) continue;
+    entry.resources = entry.resources || { items: [] };
+    const seen = new Set(items.map((r) => r.url.replace(/\/$/, '')));
+    const rest = (entry.resources.items || [])
+        .filter((r) => !legacyDrop.has(r.url) && !seen.has(String(r.url || '').replace(/\/$/, '')))
+        .map((r) => (legacy.fix[r.url] ? { ...r, ...legacy.fix[r.url] } : r));
+    entry.resources.items = [...items, ...rest];
+}

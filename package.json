@@ -1,7 +1,8 @@
 {
-  "name": "developersss",
+  "name": "azedev-learn",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "AZEDEV Learn - Open Learning & Career Platform for Developers. Learn. Build. Contribute.",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -17,6 +18,7 @@
   },
   "dependencies": {
     "@vercel/analytics": "^1.6.1",
-    "@vercel/speed-insights": "^1.2.0"
+    "@vercel/speed-insights": "^1.2.0",
+    "mongodb": "^6.21.0"
   }
 }

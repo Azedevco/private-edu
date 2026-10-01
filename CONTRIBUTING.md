@@ -1,63 +1,61 @@
-# Contributing Guide
-Hello World
-Thank you for your interest in contributing to DeveloperSSS! 🎉
-This project is community-driven and grows with contributions from developers like you.
+# AZEDEV Learn — Töhfə Vermək Bələdçisi (Contributing Guide)
 
-## 🚀 How Can I Contribute?
-
-We use the **"Fork & Pull Request"** workflow to add resources, fix translations, or implement new features. Here are the steps:
-
-### 1. Fork the Project
-Click the **"Fork"** button at the top right of the GitHub page to copy the project to your own account.
-
-### 2. Clone to Your Machine
-```bash
-git clone https://github.com/TunarJamalov/DeveloperSSS.git
-cd DeveloperSSS
-```
-
-### 3. Create a New Branch
-Always work on a clean branch:
-```bash
-git checkout -b add-new-resource
-```
-
-### 4. Make Your Changes
-For example, if you want to add a new YouTube channel:
-1.  Open `src/data.js`.
-2.  Find the relevant category (e.g., `cyber-security`).
-3.  Add the new item to the `resources` array in the correct format.
-
-**Example Data Format:**
-```javascript
-{ 
-    type: 'youtube', 
-    title: 'Channel Name', 
-    url: 'https://youtube.com/...', 
-    desc: 'Short description.', 
-    lang: 'tr' // or 'en', 'global'
-}
-```
-
-### 5. Commit and Push
-```bash
-git add .
-git commit -m "Added a new resource to Cyber Security"
-git push origin add-new-resource
-```
-
-### 6. Open a Pull Request (PR)
-1.  Go to your forked repository on GitHub.
-2.  Click the **"Compare & pull request"** button.
-3.  Describe your changes and submit.
+**AZEDEV Learn** platformasına maraq göstərdiyiniz üçün təşəkkür edirik! 🎉  
+Bu layihə Azərbaycan texnoloji icması tərəfindən açıq və könüllü şəkildə inkişaf etdirilir.
 
 ---
 
-## ⚠️ Important Notes
+## 🚀 Necə Töhfə Verə Bilərəm?
 
-*   **Format:** Be careful not to break the JSON/Object structure in `data.js`. A single missing comma can crash the app.
-*   **Language:** Keep descriptions short and clear.
-*   **Ads:** Only add genuinely useful, educational resources. Promotional content will not be accepted.
+Biz standart **"Fork & Pull Request"** modelindən istifadə edirik:
 
-Thank you! 💙
-The DeveloperSSS Team
+### 1. Repozitoriyanı Fork Edin
+GitHub-da sağ yuxarıdakı **"Fork"** düyməsini sıxaraq layihəni öz profilinizə kopyalayın.
+
+### 2. Kompüterinizə Klonlayın
+```bash
+git clone https://github.com/<GITHUB_USERINIZ>/private-edu.git
+cd private-edu
+npm install
+```
+
+### 3. Təmiz Budaq (Branch) Yaradın
+Hər bir yenilik üçün ayrıca budaq açın:
+```bash
+git checkout -b feat/add-new-resource
+# və ya
+git checkout -b fix/translation-update
+```
+
+### 4. Dəyişikliklərinizi Edin
+Məsələn:
+* Yeni bir yol xəritəsi addımı və ya mövzu əlavə etmək üçün: `src/data.js` və ya `src/azedev-data.js`
+* Yeni bir şparqalka (cheat sheet) əlavə etmək üçün: `downloadableCheatSheets` massivinə yeni bənd daxil edin.
+* UI və ya dizayn təkmilləşdirməsi: `src/style.css` və ya `src/main.js`
+
+### 5. Dəyişiklikləri Yoxlayın və Build Edin
+```bash
+npm run build
+```
+Build prosesinin xətasız başa çatdığına əmin olun.
+
+### 6. Commit və Push
+```bash
+git add .
+git commit -m "feat(roadmap): add Go microservices track"
+git push origin feat/add-new-resource
+```
+
+### 7. Pull Request (PR) Açın
+GitHub-da forkladığınız repoya keçin və **"Compare & pull request"** düyməsini sıxın. Dəyişikliyinizi təsvir edin. AZEDEV komandası ən qısa zamanda baxış keçirəcək!
+
+---
+
+## ⚠️ Qaydalar & Tövsiyələr
+
+1. **Stil və Format:** AZEDEV minimal dark-first dizayn sisteminə və təmiz kod standartlarına sadiq qalın.
+2. **Reklam Xarakterli Olmayan Resurslar:** Yalnız həqiqətən tələbələrə və developer-lərə faydalı olan pulsuz və keyfiyyətli materiallar qəbul edilir.
+3. **Multilingual Dəstək:** Mümkün olduqda Azərbaycan dilində izahlara üstünlük verin.
+
+Təşəkkür edirik! 💙  
+**AZEDEV Komandası** • [https://github.com/Azedevco](https://github.com/Azedevco)
