@@ -1,3 +1,4 @@
+import { loadRu, ruLoaded, translateTree, watchRu } from './ru.js'
 import './style.css'
 import { inject } from '@vercel/analytics'
 import { injectSpeedInsights } from '@vercel/speed-insights'
@@ -153,11 +154,12 @@ window.switchTab = (tab) => {
 
 window.setLanguage = (langCode) => {
     state.lang = langCode;
+    if (langCode === 'ru') loadRu();
     localStorage.setItem('azedev_lang', langCode);
     localStorage.setItem('dsss_lang', langCode);
     render();
     updateMeta();
-    showToast(`Dil dəyişdirildi: ${langCode.toUpperCase()}`, 'info');
+    showToast(langCode === 'ru' ? 'Язык изменён: RU' : `Dil dəyişdirildi: ${langCode.toUpperCase()}`, 'info');
 };
 
 window.toggleMobileMenu = () => {
@@ -585,6 +587,7 @@ const render = () => {
     if (state.view === 'welcome' || (state.view === 'home' && !hasProgress() && !hasEntered())) {
         app.innerHTML = WelcomePage() + CommandPalette() + Onboarding();
         hydrateArt();
+        applyRussian();
         return;
     }
     // First time inside the app: the short guide opens once.
@@ -655,6 +658,7 @@ const render = () => {
     content += Onboarding();
 
     app.innerHTML = content;
+    applyRussian();
 
     // The route drawing (home, onboarding) comes alive after render.
     hydrateArt();
@@ -677,6 +681,12 @@ const render = () => {
         } catch { /* storage unavailable: the link is a convenience */ }
     }
 };
+
+// Russian: the whole screen is translated after each render (the translations load on first use).
+function applyRussian() {
+    if (state.lang !== 'ru') { watchRu(false); return; }
+    if (ruLoaded()) { translateTree(app); watchRu(true); } else loadRu();
+}
 
 // Initial Execution. A shared certificate link (learn.azedev.com/verify/<ID>) opens the verification page directly.
 const verifyMatch = location.pathname.match(/^\/verify\/?([\w-]*)/);

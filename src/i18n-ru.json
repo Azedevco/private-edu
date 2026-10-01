@@ -1,0 +1,2595 @@
+{
+"strings": {
+"categories[0].title": "Веб-разработка",
+"categories[0].desc": "Frontend, Backend, Full Stack",
+"categories[0].subCategories[0].title": "Frontend",
+"categories[0].subCategories[1].title": "Backend",
+"categories[0].subCategories[2].title": "Full Stack",
+"categories[1].title": "Мобильная разработка",
+"categories[1].desc": "iOS, Android, кроссплатформенная разработка",
+"categories[1].subCategories[0].title": "Нативная iOS-разработка",
+"categories[1].subCategories[1].title": "Нативная Android-разработка",
+"categories[1].subCategories[2].title": "Кроссплатформенная разработка",
+"categories[2].title": "Данные и ИИ",
+"categories[2].desc": "Data Science, ML, ИИ",
+"categories[2].subCategories[0].title": "Data Science",
+"categories[2].subCategories[1].title": "Машинное обучение",
+"categories[2].subCategories[2].title": "Глубокое обучение и ИИ",
+"categories[2].subCategories[3].title": "AI-инжиниринг",
+"categories[2].subCategories[4].title": "Big Data",
+"categories[3].title": "Инфраструктура и безопасность",
+"categories[3].desc": "Кибербезопасность, DevOps, облака",
+"categories[3].subCategories[0].title": "Кибербезопасность",
+"categories[3].subCategories[1].title": "Сетевая инженерия",
+"categories[3].subCategories[2].title": "DevOps-инжиниринг",
+"categories[3].subCategories[3].title": "Облачные вычисления",
+"categories[4].title": "Разработка игр",
+"categories[4].desc": "Программирование игр, графика",
+"categories[4].subCategories[0].title": "Программирование игр",
+"categories[4].subCategories[1].title": "Программирование графики",
+"categories[5].title": "Встраиваемые системы и IoT",
+"categories[5].desc": "Микроконтроллеры, IoT",
+"categories[5].subCategories[0].title": "Встраиваемые системы",
+"categories[5].subCategories[1].title": "IoT",
+"categories[6].title": "Новые технологии",
+"categories[6].desc": "Блокчейн, Web3, AR/VR",
+"categories[6].subCategories[0].title": "Блокчейн и Web3",
+"categories[6].subCategories[1].title": "AR / VR",
+"categories[7].title": "QA и тестирование",
+"categories[7].desc": "Автоматизация, ручное тестирование",
+"categories[7].subCategories[0].title": "Автоматизация тестирования (QA Automation)",
+"contentData.frontend.faq[0].q": "Какой фреймворк выбрать?",
+"contentData.frontend.faq[0].a": "React — если важен спрос на рынке труда. Vue — если нужен более пологий порог входа. Angular — для крупных корпоративных проектов.",
+"contentData.frontend.faq[1].q": "Нужен ли английский?",
+"contentData.frontend.faq[1].a": "Да. Материалы на родном языке найти можно, но технический английский необходим для отладки и чтения официальной документации.",
+"contentData.frontend.faq[2].q": "Frontend или Backend?",
+"contentData.frontend.faq[2].a": "Frontend — если вам нравятся визуальная часть, дизайн и взаимодействие с пользователем. Backend — если ближе базы данных, серверная архитектура и логика.",
+"contentData.frontend.faq[3].q": "Обязательна ли математика?",
+"contentData.frontend.faq[3].a": "Для обычной веб-разработки — нет, достаточно базовой логики. Но если вы работаете с Canvas, WebGL или разработкой игр, математика нужна.",
+"contentData.frontend.faq[4].q": "Заменит ли ИИ разработчиков?",
+"contentData.frontend.faq[4].a": "Нет, ИИ — это инструмент. Он ускоряет написание кода, но не принимает архитектурных решений. Разработчики, использующие ИИ, заменят тех, кто его не использует.",
+"contentData.frontend.faq[5].q": "Нужен ли диплом вуза?",
+"contentData.frontend.faq[5].a": "Для большинства частных IT-компаний — нет. Портфолио и GitHub важнее. Однако некоторые корпорации всё ещё могут его требовать.",
+"contentData.frontend.faq[6].q": "Mac или Windows?",
+"contentData.frontend.faq[6].a": "Для Frontend подойдёт и то и другое. Но если планируете разрабатывать ещё и iOS-приложения, Mac обязателен. В целом Mac — отраслевой стандарт.",
+"contentData.frontend.faq[7].q": "Стоит ли учить TypeScript?",
+"contentData.frontend.faq[7].a": "Однозначно да! 80% современных вакансий требуют TypeScript вместо чистого JavaScript.",
+"contentData.frontend.interview[0].q": "Чем отличаются Real DOM и Virtual DOM?",
+"contentData.frontend.interview[0].a": "Real DOM медленный, так как обновляет всё дерево. Virtual DOM — лёгкая копия в памяти: он находит изменения (Diffing) и обновляет только эти части (Reconciliation).",
+"contentData.frontend.interview[1].q": "Чем отличаются var, let и const?",
+"contentData.frontend.interview[1].a": "var: область видимости — функция, можно объявить повторно. let: блочная область видимости, можно переприсвоить. const: блочная область видимости, нельзя переприсвоить (константа).",
+"contentData.frontend.interview[2].q": "Что такое блочная модель CSS (Box Model)?",
+"contentData.frontend.interview[2].a": "Каждый HTML-элемент — это прямоугольник. Он состоит из 4 слоёв изнутри наружу: Content, Padding, Border и Margin.",
+"contentData.frontend.interview[3].q": "Что такое замыкание (Closure)?",
+"contentData.frontend.interview[3].a": "Способность функции обращаться к переменным внешней области видимости даже после того, как внешняя функция завершила выполнение.",
+"contentData.frontend.interview[4].q": "Чем отличаются SSR и CSR?",
+"contentData.frontend.interview[4].a": "При CSR браузер строит контент через JS (слабое SEO). При SSR сервер отправляет полностью отрендеренный HTML (сильное SEO, быстрая первая загрузка).",
+"contentData.frontend.interview[5].q": "Что такое ошибка CORS?",
+"contentData.frontend.interview[5].a": "Механизм безопасности браузера, блокирующий запросы к другому домену. Сервер должен явно разрешить их через заголовки.",
+"contentData.frontend.interview[6].q": "Чем отличаются Promise и Async/Await?",
+"contentData.frontend.interview[6].a": "Оба служат для асинхронных операций. Async/Await — синтаксический сахар над Promise: код выглядит синхронным и читается проще.",
+"contentData.frontend.interview[7].q": "LocalStorage, SessionStorage или Cookie?",
+"contentData.frontend.interview[7].a": "LocalStorage: хранится постоянно. SessionStorage: очищается при закрытии вкладки. Cookie: маленький объём, отправляется на сервер с каждым запросом, имеет срок действия.",
+"contentData.frontend.interview[8].q": "Что такое всплытие (Bubbling) и перехват (Capturing) событий?",
+"contentData.frontend.interview[8].a": "Bubbling: событие идёт от целевого элемента вверх к родителям (по умолчанию). Capturing: событие идёт от корня вниз к целевому элементу.",
+"contentData.frontend.interview[9].q": "Почему важен семантический HTML?",
+"contentData.frontend.interview[9].a": "Использование осмысленных тегов (`header`, `article`) вместо одних `div`. Критически важно для SEO (поисковых систем) и доступности (экранных дикторов).",
+"contentData.frontend.interview[10].q": "Что такое 'prop drilling' в React и как его решить?",
+"contentData.frontend.interview[10].a": "Передача данных через множество уровней компонентов лишь для того, чтобы добраться до глубоко вложенного дочернего. Решается через Context API, Redux или Zustand.",
+"contentData.frontend.interview[11].q": "В чём преимущество TypeScript?",
+"contentData.frontend.interview[11].a": "Добавляет в JS статическую типизацию. Ловит ошибки на этапе компиляции, улучшает автодополнение и упрощает работу с крупными проектами.",
+"contentData.frontend.interview[12].q": "Что такое Critical Rendering Path?",
+"contentData.frontend.interview[12].a": "Последовательность шагов, которые браузер выполняет, чтобы превратить HTML, CSS и JS в реальные пиксели на экране.",
+"contentData.frontend.interview[13].q": "Что такое одностраничное приложение (SPA)?",
+"contentData.frontend.interview[13].a": "Веб-приложение, которое загружает один HTML-файл и динамически обновляет контент по мере действий пользователя, без перезагрузки страницы.",
+"contentData.frontend.interview[14].q": "Что такое поднятие (Hoisting)?",
+"contentData.frontend.interview[14].a": "Механизм JS, при котором объявления переменных и функций переносятся в начало их области видимости до выполнения кода.",
+"contentData.frontend.interview[15].q": "Чем отличаются Debounce и Throttle?",
+"contentData.frontend.interview[15].a": "Debounce: вызывает функцию только спустя задержку после последнего вызова (например, поиск). Throttle: вызывает функцию через равные интервалы (например, скролл).",
+"contentData.frontend.interview[16].q": "Главное отличие Flexbox от Grid?",
+"contentData.frontend.interview[16].a": "Flexbox одномерный (строка ИЛИ столбец). Grid двумерный (строка И столбец). Grid подходит для сложных макетов.",
+"contentData.frontend.interview[17].q": "Как реализовать адаптивный дизайн?",
+"contentData.frontend.interview[17].a": "С помощью мета-тега viewport, CSS Media Queries, резиновых изображений и гибких единиц (rem, %, vh/vw).",
+"contentData.frontend.interview[18].q": "Что такое веб-доступность (a11y)?",
+"contentData.frontend.interview[18].a": "Проектирование сайтов так, чтобы ими могли пользоваться люди с ограниченными возможностями (Alt-текст, ARIA-метки, навигация с клавиатуры).",
+"contentData.frontend.interview[19].q": "HTTP/2 и HTTP/1.1 (с точки зрения Frontend)?",
+"contentData.frontend.interview[19].a": "HTTP/1.1 открывает новое соединение для каждого файла. HTTP/2 передаёт несколько файлов по одному соединению (Multiplexing), ускоряя сайт.",
+"contentData.frontend.projects[0].title": "Погодный дашборд",
+"contentData.frontend.projects[0].desc": "Дашборд с погодой в реальном времени на основе публичного API.",
+"contentData.frontend.projects[1].title": "Фильтр товаров интернет-магазина",
+"contentData.frontend.projects[1].desc": "Интерфейс для фильтрации товаров по категории, цене и рейтингу.",
+"contentData.frontend.projects[2].title": "Трекер криптопортфеля",
+"contentData.frontend.projects[2].desc": "Дашборд с графиками в реальном времени на живых данных (WebSockets).",
+"contentData.backend.faq[0].q": "Какой язык выбрать для Backend?",
+"contentData.backend.faq[0].a": "Node.js — для быстрого прототипирования и веба. Java или C# — для enterprise. Python — для data science и простоты. Go — для высокой производительности и современных систем.",
+"contentData.backend.faq[1].q": "Что сложнее: Frontend или Backend?",
+"contentData.backend.faq[1].a": "Backend сложнее логически (безопасность, согласованность данных, масштабирование). Frontend требователен к визуалу и кроссбраузерности. Если у вас аналитический склад ума, Backend может подойти лучше.",
+"contentData.backend.faq[2].q": "Учить SQL или NoSQL?",
+"contentData.backend.faq[2].a": "Однозначно сначала SQL (PostgreSQL/MySQL). Понимание связей между данными — это фундамент. NoSQL можно освоить позже, по мере необходимости.",
+"contentData.backend.faq[3].q": "Нужна ли математика для Backend?",
+"contentData.backend.faq[3].a": "Чуть больше, чем для Frontend. Особенно при работе с большими данными, оптимизацией или интеграциями ИИ нужны алгоритмическое мышление и базовая математика.",
+"contentData.backend.faq[4].q": "Что такое Serverless и микросервисы?",
+"contentData.backend.faq[4].a": "Микросервисы разбивают приложение на небольшие части. Serverless запускает код в облаке без управления серверами. Это продвинутые темы — джуну о них можно пока не беспокоиться.",
+"contentData.backend.faq[5].q": "Стоит ли поднять свой сервер?",
+"contentData.backend.faq[5].a": "Для обучения — однозначно да! Настройка Linux, подключение по SSH и запуск Nginx/БД показывают, как на самом деле работает бэкенд.",
+"contentData.backend.interview[0].q": "Чем отличаются REST API и GraphQL?",
+"contentData.backend.interview[0].a": "REST использует несколько эндпоинтов и может отдавать лишние или недостаточные данные (over/under-fetching). GraphQL использует один эндпоинт и позволяет получить ровно то, что нужно, снижая сетевой трафик.",
+"contentData.backend.interview[1].q": "Что такое свойства ACID?",
+"contentData.backend.interview[1].a": "Atomicity, Consistency, Isolation, Durability (атомарность, согласованность, изолированность, долговечность). Стандартные свойства, гарантирующие надёжную обработку транзакций в базе данных.",
+"contentData.backend.interview[2].q": "Чем отличаются процесс и поток?",
+"contentData.backend.interview[2].a": "Процесс — выполняющаяся программа со своей памятью. Поток — более лёгкая единица внутри процесса, разделяющая его память.",
+"contentData.backend.interview[3].q": "Вертикальное или горизонтальное масштабирование?",
+"contentData.backend.interview[3].a": "Вертикальное: добавление мощности (RAM/CPU) существующему серверу. Горизонтальное: добавление новых серверов в пул. Горизонтальное масштабируется лучше.",
+"contentData.backend.interview[4].q": "Что такое проблема N+1?",
+"contentData.backend.interview[4].a": "Распространённая проблема производительности: код получает одну родительскую запись (1 запрос), а затем выполняет N дополнительных запросов для связанных дочерних записей.",
+"contentData.backend.interview[5].q": "Чем отличаются TCP и UDP?",
+"contentData.backend.interview[5].a": "TCP надёжен, гарантирует доставку и порядок (веб). UDP быстрый, но без установки соединения и не гарантирует доставку (игры/стриминг).",
+"contentData.backend.interview[6].q": "Зачем нужны принципы SOLID?",
+"contentData.backend.interview[6].a": "5 принципов проектирования, которые делают архитектуру ПО понятнее, гибче и проще в сопровождении.",
+"contentData.backend.interview[7].q": "Что такое взаимная блокировка (Deadlock)?",
+"contentData.backend.interview[7].a": "Ситуация, когда два или более процесса не могут продолжить работу, потому что каждый ждёт, пока другой освободит ресурс.",
+"contentData.backend.interview[8].q": "Что такое индекс и зачем он в БД?",
+"contentData.backend.interview[8].a": "Как предметный указатель в книге. Значительно ускоряет выборку данных (SELECT), но немного замедляет их изменение (INSERT/UPDATE).",
+"contentData.backend.interview[9].q": "Docker-контейнер или виртуальная машина?",
+"contentData.backend.interview[9].a": "VM — тяжёлый виртуальный компьютер со своей ОС. Контейнер лёгкий, использует ядро ОС хоста и запускается гораздо быстрее.",
+"contentData.backend.interview[10].q": "Чем отличаются сессия и JWT?",
+"contentData.backend.interview[10].a": "Сессии хранятся на сервере и являются stateful. JWT хранятся на стороне клиента, подписаны и являются stateless, что снижает нагрузку на сервер.",
+"contentData.backend.interview[11].q": "Монолит или микросервисная архитектура?",
+"contentData.backend.interview[11].a": "Монолит — единое целое приложение. Микросервисы разбивают приложение на небольшие независимые сервисы, взаимодействующие друг с другом.",
+"contentData.backend.interview[12].q": "Когда выбирать SQL, а когда NoSQL?",
+"contentData.backend.interview[12].a": "SQL — для структурированных данных и сложных связей (JOIN). NoSQL — для неструктурированных данных, скорости и горизонтального масштабирования.",
+"contentData.backend.interview[13].q": "Что такое теорема CAP?",
+"contentData.backend.interview[13].a": "Гласит, что распределённая система может обеспечить только две из трёх гарантий: согласованность (Consistency), доступность (Availability) и устойчивость к разделению (Partition Tolerance).",
+"contentData.backend.interview[14].q": "Что делает балансировщик нагрузки?",
+"contentData.backend.interview[14].a": "Распределяет входящий сетевой трафик между несколькими серверами, чтобы не перегружать один сервер и повысить надёжность.",
+"contentData.backend.interview[15].q": "Что такое CI/CD?",
+"contentData.backend.interview[15].a": "Практика автоматизации интеграции изменений кода (CI) и их развёртывания в продакшен-среды (CD).",
+"contentData.backend.interview[16].q": "Чем отличаются HTTP 401 и 403?",
+"contentData.backend.interview[16].a": "401 означает, что вы не аутентифицированы (войдите в систему). 403 означает, что вы аутентифицированы, но не авторизованы (у вас нет прав на этот ресурс).",
+"contentData.backend.interview[17].q": "Зачем нужна очередь сообщений?",
+"contentData.backend.interview[17].a": "Для асинхронной обработки тяжёлых задач (письма, обработка файлов) в фоне. Основное приложение не заставляет пользователя ждать.",
+"contentData.backend.interview[18].q": "Главное отличие WebSocket от HTTP?",
+"contentData.backend.interview[18].a": "HTTP однонаправленный (Request -> Response -> Close). WebSocket — двунаправленный постоянный канал для передачи данных в реальном времени.",
+"contentData.backend.interview[19].q": "Что такое SQL-инъекция и как её предотвратить?",
+"contentData.backend.interview[19].a": "Атака, при которой вредоносный SQL внедряется в запросы. Предотвращается с помощью 'Prepared Statements' или ORM.",
+"contentData.backend.projects[0].title": "API для сокращения ссылок",
+"contentData.backend.projects[0].desc": "RESTful-сервис, который принимает длинные URL и генерирует короткие уникальные коды.",
+"contentData.backend.projects[1].title": "Чат в реальном времени",
+"contentData.backend.projects[1].desc": "Платформа, где пользователи переписываются друг с другом в комнатах в реальном времени.",
+"contentData.backend.projects[2].title": "Интернет-магазин на микросервисах",
+"contentData.backend.projects[2].desc": "Архитектура, в которой сервисы оплаты, склада и заказов работают независимо.",
+"contentData.fullstack.faq[0].q": "Что такое Full Stack? Нужно ли знать всё?",
+"contentData.fullstack.faq[0].a": "Нет. Full Stack — это умение в одиночку сделать проект от А до Я (Front и Back). Быть экспертом во всём невозможно, но вы должны уверенно работать на каждом уровне.",
+"contentData.fullstack.faq[1].q": "Какой стек изучать?",
+"contentData.fullstack.faq[1].a": "Самый популярный — MERN (Mongo, Express, React, Node). Однако по состоянию на 2024 год самая востребованная связка — Next.js + PostgreSQL + TypeScript.",
+"contentData.fullstack.faq[2].q": "Что учить сначала: Frontend или Backend?",
+"contentData.fullstack.faq[2].a": "Как правило, начинать с Frontend проще: результат виден сразу. Это повышает мотивацию. Затем переходите к Backend, чтобы получать данные для этого UI.",
+"contentData.fullstack.faq[3].q": "Буду ли я получать вдвое больше?",
+"contentData.fullstack.faq[3].a": "Нет :) Full-stack-разработчики могут зарабатывать немного больше узких FE/BE-специалистов, но не вдвое. Ваше преимущество — гораздо более высокие шансы на трудоустройство.",
+"contentData.fullstack.faq[4].q": "Нужно ли знать дизайн (UI/UX)?",
+"contentData.fullstack.faq[4].a": "Не на уровне дизайнера, но базовые принципы дизайна и Figma знать стоит. Красивые приложения продаются. Инструменты вроде Tailwind CSS сильно упрощают задачу.",
+"contentData.fullstack.faq[5].q": "Сложен ли деплой?",
+"contentData.fullstack.faq[5].a": "Раньше был сложным. Теперь с Vercel, Netlify или Railway сайт оказывается онлайн в момент пуша на GitHub. DevOps — это плюс, но на старте не обязателен.",
+"contentData.fullstack.interview[0].q": "Чем отличаются RESTful API и GraphQL?",
+"contentData.fullstack.interview[0].a": "REST возвращает фиксированные данные через несколько эндпоинтов. GraphQL через один эндпоинт возвращает только запрошенные данные, предотвращая over-fetching.",
+"contentData.fullstack.interview[1].q": "Главные отличия SQL- и NoSQL-баз данных?",
+"contentData.fullstack.interview[1].a": "SQL (реляционные) используют таблицы/схемы и соответствуют ACID. NoSQL (документные и др.) гибкие и отлично масштабируются горизонтально на больших объёмах данных.",
+"contentData.fullstack.interview[2].q": "Чем отличаются аутентификация и авторизация?",
+"contentData.fullstack.interview[2].a": "Аутентификация проверяет, кто пользователь (вход в систему). Авторизация определяет, к каким ресурсам у пользователя есть доступ (права).",
+"contentData.fullstack.interview[3].q": "Чем отличаются микросервисная и монолитная архитектура?",
+"contentData.fullstack.interview[3].a": "В монолите приложение — единое целое. В микросервисах приложение разделено на небольшие независимые сервисы, взаимодействующие друг с другом.",
+"contentData.fullstack.interview[4].q": "Что такое ORM (Object-Relational Mapping)?",
+"contentData.fullstack.interview[4].a": "Подход, позволяющий запрашивать и изменять данные в базе в объектно-ориентированной парадигме (например, Sequelize, Entity Framework) вместо чистого SQL.",
+"contentData.fullstack.projects[0].title": "Личное портфолио и блог",
+"contentData.fullstack.projects[0].desc": "Динамический сайт-портфолио с админ-панелью для управления записями блога.",
+"contentData.fullstack.projects[1].title": "Платформа интернет-магазина (MVP)",
+"contentData.fullstack.projects[1].desc": "Полноценное приложение с каталогом товаров, корзиной и интеграцией платежей.",
+"contentData.fullstack.projects[2].title": "SaaS-инструмент для управления проектами",
+"contentData.fullstack.projects[2].desc": "Платформа в духе Trello/Jira для командной работы в реальном времени.",
+"contentData.ios.faq[0].q": "Обязателен ли Mac?",
+"contentData.ios.faq[0].a": "Да. Xcode работает только на macOS. Учиться можно на VM/Hackintosh, но для профессиональной работы и публикации в App Store нужен настоящий Mac.",
+"contentData.ios.faq[1].q": "SwiftUI или UIKit?",
+"contentData.ios.faq[1].a": "Однозначно начинайте со SwiftUI — это будущее. Но для поиска работы нужно уметь «читать» и знать основы UIKit: legacy-проекты полны им.",
+"contentData.ios.faq[2].q": "Бесплатна ли публикация приложений?",
+"contentData.ios.faq[2].a": "Нет. Для публикации в App Store нужно платить ежегодный взнос разработчика $99. (В Google Play — разовый взнос $25.)",
+"contentData.ios.faq[3].q": "Стоит ли учить Objective-C?",
+"contentData.ios.faq[3].a": "Нет. Swift — стандарт с 2014 года. Objective-C нужен только для поддержки очень старых legacy-приложений; новичку это пустая трата времени.",
+"contentData.ios.faq[4].q": "Нужен ли iPhone?",
+"contentData.ios.faq[4].a": "Для большинства задач достаточно «Симулятора» в Xcode. Однако для тестирования датчиков вроде камеры, GPS или гироскопа нужно реальное устройство.",
+"contentData.ios.faq[5].q": "Почему нативная iOS, а не Flutter/RN?",
+"contentData.ios.faq[5].a": "Нативную разработку выбирают ради максимальной производительности, мгновенного доступа к новым возможностям Apple (например, Dynamic Island) и стабильных приложений «премиального» уровня.",
+"contentData.ios.interview[0].q": "Что такое Optional в Swift?",
+"contentData.ios.interview[0].a": "Тип, который представляет либо обёрнутое значение, либо отсутствие значения (nil). Обеспечивает типобезопасность.",
+"contentData.ios.interview[1].q": "Чем отличаются Strong, Weak и Unowned?",
+"contentData.ios.interview[1].a": "Strong: крепко удерживает экземпляр. Weak: не удерживает его и становится nil, когда экземпляр освобождается. Unowned: не удерживает, но ожидает, что экземпляр никогда не будет nil.",
+"contentData.ios.interview[2].q": "Что такое ARC?",
+"contentData.ios.interview[2].a": "Система управления памятью в Swift. Отслеживает и управляет использованием памяти приложения, подсчитывая ссылки на экземпляры классов.",
+"contentData.ios.interview[3].q": "Главные отличия Struct от Class?",
+"contentData.ios.interview[3].a": "Структуры — типы-значения (копируются), хранятся в стеке. Классы — ссылочные типы (разделяются), хранятся в куче и поддерживают наследование.",
+"contentData.ios.interview[4].q": "Что такое протокол (Protocol)?",
+"contentData.ios.interview[4].a": "Шаблон методов, свойств и других требований, подходящих для определённой задачи или части функциональности.",
+"contentData.ios.interview[5].q": "Что такое замыкание (Closure)?",
+"contentData.ios.interview[5].a": "Самодостаточные блоки функциональности, которые можно передавать и использовать в коде.",
+"contentData.ios.interview[6].q": "Escaping и non-escaping замыкания?",
+"contentData.ios.interview[6].a": "Escaping: замыкание, которое живёт дольше функции, в которую его передали. Non-escaping: выполняется в пределах области видимости функции.",
+"contentData.ios.interview[7].q": "Чем отличаются MVC и MVVM?",
+"contentData.ios.interview[7].a": "В MVC контроллер сильно связан с остальными частями. В MVVM ViewModel не зависит от View и для обновлений часто использует привязку данных (data binding).",
+"contentData.ios.interview[8].q": "Что такое паттерн делегирования (Delegation)?",
+"contentData.ios.interview[8].a": "Паттерн проектирования, позволяющий классу передать (делегировать) часть своих обязанностей экземпляру другого класса.",
+"contentData.ios.interview[9].q": "SwiftUI или UIKit?",
+"contentData.ios.interview[9].a": "UIKit — императивный фреймворк. SwiftUI — современный декларативный фреймворк для создания интерфейсов на всех платформах Apple.",
+"contentData.ios.interview[10].q": "Что такое GCD?",
+"contentData.ios.interview[10].a": "Низкоуровневый API Apple для управления параллельными операциями и многопоточностью с помощью очередей задач.",
+"contentData.ios.interview[11].q": "Почему главный поток используется только для UI?",
+"contentData.ios.interview[11].a": "Чтобы интерфейс оставался отзывчивым. Тяжёлые задачи в главном потоке замораживают интерфейс и ухудшают пользовательский опыт.",
+"contentData.ios.interview[12].q": "Чем отличаются Frame и Bounds?",
+"contentData.ios.interview[12].a": "Frame: положение и размер относительно родительского view (superview). Bounds: положение и размер относительно собственной системы координат.",
+"contentData.ios.interview[13].q": "Какие состояния есть в жизненном цикле приложения?",
+"contentData.ios.interview[13].a": "Основные состояния: Not Running, Inactive, Active, Background и Suspended.",
+"contentData.ios.interview[14].q": "Что такое фреймворк Combine?",
+"contentData.ios.interview[14].a": "Декларативный Swift API для обработки значений во времени, построенный на издателях (publishers) и подписчиках (subscribers).",
+"contentData.ios.interview[15].q": "Что делает ключевое слово 'final'?",
+"contentData.ios.interview[15].a": "Запрещает наследование класса или переопределение метода в подклассах. Также даёт оптимизацию производительности.",
+"contentData.ios.interview[16].q": "Что такое внедрение зависимостей (Dependency Injection)?",
+"contentData.ios.interview[16].a": "Подход, при котором объект получает свои зависимости извне, а не создаёт их сам.",
+"contentData.ios.interview[17].q": "Чем отличаются Guard и If Let?",
+"contentData.ios.interview[17].a": "If Let создаёт область видимости для развёрнутого значения. Guard разворачивает значение и оставляет его доступным в оставшейся части области видимости.",
+"contentData.ios.interview[18].q": "Что такое дженерики (Generics)?",
+"contentData.ios.interview[18].a": "Обобщённый код позволяет писать гибкие, переиспользуемые функции и типы, работающие с любым типом.",
+"contentData.ios.interview[19].q": "В чём недостаток Singleton?",
+"contentData.ios.interview[19].a": "Из-за глобального состояния он может усложнять модульное тестирование и скрывать зависимости между компонентами.",
+"contentData.ios.projects[0].title": "Трекер личных финансов",
+"contentData.ios.projects[0].desc": "Стильное приложение для категоризации расходов и контроля дневных лимитов трат.",
+"contentData.ios.projects[1].title": "Прогноз погоды и маршрутов",
+"contentData.ios.projects[1].desc": "Приложение, показывающее погоду по местоположению с интеграцией маршрутов на карте.",
+"contentData.ios.projects[2].title": "Фитнес-ассистент на базе ИИ",
+"contentData.ios.projects[2].desc": "Высокопроизводительное приложение, анализирующее технику упражнений с помощью камеры устройства.",
+"contentData.android.faq[0].q": "Java или Kotlin?",
+"contentData.android.faq[0].a": "Однозначно Kotlin. В 2019 году Google объявила его предпочтительным языком. 95% современных вакансий требуют Kotlin. Java нужна только для поддержки legacy-кода.",
+"contentData.android.faq[1].q": "Потянет ли мой компьютер Android Studio?",
+"contentData.android.faq[1].a": "Android Studio — настоящий пожиратель RAM. Для комфортной работы рекомендуется минимум 16 ГБ RAM. На 8 ГБ работать можно, но с эмулятором сильно тормозит. SSD обязателен.",
+"contentData.android.faq[2].q": "XML или Jetpack Compose?",
+"contentData.android.faq[2].a": "Если начинаете с нуля — Jetpack Compose. Это будущее. Однако знание XML всё ещё требуется во многих вакансиях из-за legacy-кода.",
+"contentData.android.faq[3].q": "Сколько стоит публикация приложения?",
+"contentData.android.faq[3].a": "Вы платите разовый взнос $25 за аккаунт разработчика Google Play, действующий бессрочно. (В отличие от $99 в год у Apple.)",
+"contentData.android.faq[4].q": "Можно ли найти работу, зная только Android?",
+"contentData.android.faq[4].a": "Да. Особенно в таких регионах, как TR/AZ, доля Android на рынке огромна (70%+). Это означает много вакансий на местном рынке.",
+"contentData.android.faq[5].q": "Что такое Kotlin Multiplatform (KMP)?",
+"contentData.android.faq[5].a": "KMP позволяет делить код на Kotlin (бизнес-логику) между Android и iOS. У него очень светлое будущее, и его стоит освоить на продвинутом уровне.",
+"contentData.android.interview[0].q": "Как работает Null Safety в Kotlin?",
+"contentData.android.interview[0].a": "Переменные по умолчанию не допускают null. Nullable-переменные объявляются с '?'. Это предотвращает NullPointerException на этапе компиляции.",
+"contentData.android.interview[1].q": "Какие этапы жизненного цикла Activity?",
+"contentData.android.interview[1].a": "Этапы: onCreate, onStart, onResume, onPause, onStop, onDestroy и onRestart.",
+"contentData.android.interview[2].q": "Что такое Fragment и зачем он нужен?",
+"contentData.android.interview[2].a": "Модульная часть пользовательского интерфейса внутри Activity. Позволяет создавать переиспользуемые UI-компоненты и многопанельные макеты.",
+"contentData.android.interview[3].q": "Зачем нужна ViewModel?",
+"contentData.android.interview[3].a": "Предназначена для хранения и управления данными UI с учётом жизненного цикла, позволяя данным переживать изменения конфигурации, например поворот экрана.",
+"contentData.android.interview[4].q": "Что такое корутины (Coroutines)?",
+"contentData.android.interview[4].a": "Лёгкие потоки для асинхронного программирования, упрощающие длительные задачи без блокировки главного потока.",
+"contentData.android.interview[5].q": "Jetpack Compose или XML?",
+"contentData.android.interview[5].a": "XML — императивный подход к UI. Jetpack Compose — современный декларативный инструментарий, строящий UI через вызов composable-функций.",
+"contentData.android.interview[6].q": "Чем отличаются LiveData и StateFlow?",
+"contentData.android.interview[6].a": "LiveData учитывает жизненный цикл, но привязана к Android. StateFlow — чистый Kotlin Flow, требующий начального состояния и предлагающий более удобные операторы.",
+"contentData.android.interview[7].q": "Зачем нужно внедрение зависимостей?",
+"contentData.android.interview[7].a": "Оно снижает связанность, повышает переиспользуемость кода и сильно упрощает модульное тестирование за счёт подстановки mock-зависимостей.",
+"contentData.android.interview[8].q": "Что такое Intent и какие бывают типы?",
+"contentData.android.interview[8].a": "Абстрактное описание операции, которую нужно выполнить. Explicit нацелен на конкретный компонент; Implicit просит систему найти приложение для действия.",
+"contentData.android.interview[9].q": "Что такое Room Database?",
+"contentData.android.interview[9].a": "Библиотека хранения данных, предоставляющая слой абстракции над SQLite для удобного доступа к базе с сохранением всей мощи SQLite.",
+"contentData.android.interview[10].q": "Когда использовать WorkManager?",
+"contentData.android.interview[10].a": "Для фоновых задач, которые должны надёжно выполняться, даже если приложение закрыто или устройство перезагружено, например синхронизация данных или загрузка логов.",
+"contentData.android.interview[11].q": "Что такое Service?",
+"contentData.android.interview[11].a": "Компонент приложения, способный выполнять длительные операции в фоне без пользовательского интерфейса.",
+"contentData.android.interview[12].q": "Что такое Retrofit?",
+"contentData.android.interview[12].a": "Типобезопасный HTTP-клиент для Android и Java, используемый для взаимодействия с веб-сервисами и простой обработки API-запросов.",
+"contentData.android.interview[13].q": "Чем отличаются ViewBinding и DataBinding?",
+"contentData.android.interview[13].a": "ViewBinding служит только для замены findViewById. DataBinding позволяет привязывать данные напрямую к UI-компонентам внутри XML-файлов.",
+"contentData.android.interview[14].q": "Что такое LazyColumn в Compose?",
+"contentData.android.interview[14].a": "Вертикально прокручиваемый список, который компонует и размещает только видимые на экране элементы, аналог RecyclerView.",
+"contentData.android.interview[15].q": "Что такое Companion Object?",
+"contentData.android.interview[15].a": "Объект, привязанный к классу, который позволяет обращаться к его членам без создания экземпляра класса, аналог статических членов в Java.",
+"contentData.android.interview[16].q": "Что такое Context в Android?",
+"contentData.android.interview[16].a": "Интерфейс к глобальной информации об окружении приложения; используется для доступа к ресурсам, базам данных и системным сервисам.",
+"contentData.android.interview[17].q": "Что такое Proguard/R8?",
+"contentData.android.interview[17].a": "Инструменты, которые сжимают, оптимизируют и обфусцируют код, уменьшая размер приложения и затрудняя реверс-инжиниринг.",
+"contentData.android.interview[18].q": "Какие слои есть в Clean Architecture?",
+"contentData.android.interview[18].a": "Обычно делится на: Presentation (UI), Domain (бизнес-логика) и Data (источники данных, такие как API и БД).",
+"contentData.android.interview[19].q": "Что такое Sealed Class?",
+"contentData.android.interview[19].a": "Используется для описания ограниченных иерархий классов. Каждый подкласс может иметь свои свойства, что делает его мощнее Enum для работы с состояниями.",
+"contentData.android.projects[0].title": "Умное приложение для заметок",
+"contentData.android.projects[0].desc": "Приложение, в котором пользователи могут распределять заметки по категориям и хранить их локально.",
+"contentData.android.projects[1].title": "Приложение для поиска фильмов",
+"contentData.android.projects[1].desc": "Медиаприложение со списком популярных фильмов и подробной информацией о них.",
+"contentData.android.projects[2].title": "Трекер криптокошелька",
+"contentData.android.projects[2].desc": "Сложное приложение с отслеживанием цен в реальном времени и поддержкой виджета на главном экране.",
+"contentData.cross-platform.faq[0].q": "Flutter или React Native?",
+"contentData.cross-platform.faq[0].a": "Если у вас опыт в вебе (JS/React), выбирайте React Native. Если начинаете с нуля или в приоритете производительность и единообразие, Flutter часто лучше.",
+"contentData.cross-platform.faq[1].q": "Умирает ли нативная разработка (Swift/Kotlin)?",
+"contentData.cross-platform.faq[1].a": "Нет. Нативная разработка по-прежнему нужна для высокопроизводительных игр, AR/VR и приложений, активно работающих с железом. Но для типовых бизнес-приложений стандартом сейчас стала кроссплатформа.",
+"contentData.cross-platform.faq[2].q": "Нужен ли Mac для iOS-сборок?",
+"contentData.cross-platform.faq[2].a": "Да, для сборки и публикации в App Store нужен Mac. (Облачные решения вроде EAS позволяют собирать без Mac, но в итоге Mac всё же рекомендуется.)",
+"contentData.cross-platform.faq[3].q": "Можно ли превратить сайт в мобильное приложение?",
+"contentData.cross-platform.faq[3].a": "С React Native можно переиспользовать много логики из веба. Flutter тоже поддерживает Web. Но просто обернуть сайт в 'WebView' — непрофессионально.",
+"contentData.cross-platform.faq[4].q": "Какой нужен компьютер?",
+"contentData.cross-platform.faq[4].a": "Flutter и RN потребляют много RAM из-за эмуляторов. Подойдёт любой ПК с минимум 16 ГБ RAM и SSD. Лучшую производительность дают Mac (M1/M2).",
+"contentData.cross-platform.interview[0].q": "Чем отличаются кроссплатформенная и нативная разработка?",
+"contentData.cross-platform.interview[0].a": "Нативное приложение создаётся под одну платформу. Кроссплатформенное использует одну кодовую базу для iOS и Android, экономя время и ресурсы.",
+"contentData.cross-platform.interview[1].q": "Что такое виджет во Flutter?",
+"contentData.cross-platform.interview[1].a": "Во Flutter всё — виджет. От UI-элементов вроде кнопок до параметров разметки вроде padding — каждый строительный блок является виджетом.",
+"contentData.cross-platform.interview[2].q": "Stateless или Stateful Widget?",
+"contentData.cross-platform.interview[2].a": "Stateless-виджеты неизменяемы и не меняются. Stateful-виджеты могут хранить и обновлять своё состояние со временем.",
+"contentData.cross-platform.interview[3].q": "Что такое Bridge в React Native?",
+"contentData.cross-platform.interview[3].a": "Механизм, позволяющий JavaScript и нативным модулям общаться, обмениваясь JSON-сообщениями.",
+"contentData.cross-platform.interview[4].q": "Hot Reload или Hot Restart?",
+"contentData.cross-platform.interview[4].a": "Hot Reload внедряет изменения кода, сохраняя состояние приложения. Hot Restart сбрасывает состояние и перезапускает приложение с новым кодом.",
+"contentData.cross-platform.interview[5].q": "Чем отличаются Props и State?",
+"contentData.cross-platform.interview[5].a": "Props — данные только для чтения, передаваемые от родителя к дочернему компоненту. State — локальные данные внутри компонента, которые могут меняться со временем.",
+"contentData.cross-platform.interview[6].q": "Что такое InheritedWidget во Flutter?",
+"contentData.cross-platform.interview[6].a": "Базовый класс, позволяющий эффективно передавать данные вниз по дереву виджетов любому потомку.",
+"contentData.cross-platform.interview[7].q": "Что такое Redux?",
+"contentData.cross-platform.interview[7].a": "Предсказуемый контейнер состояния для JavaScript-приложений, управляющий глобальным состоянием в центральном хранилище (store).",
+"contentData.cross-platform.interview[8].q": "Что такое файл pubspec.yaml?",
+"contentData.cross-platform.interview[8].a": "Конфигурационный файл, в котором управляются зависимости, ассеты и версии Flutter-проекта.",
+"contentData.cross-platform.interview[9].q": "Что такое Flexbox в React Native?",
+"contentData.cross-platform.interview[9].a": "Движок разметки, обеспечивающий единообразное выравнивание и распределение UI-элементов внутри контейнера на экранах разных размеров.",
+"contentData.cross-platform.interview[10].q": "Что такое Main Isolate во Flutter?",
+"contentData.cross-platform.interview[10].a": "Основной поток выполнения кода Dart, в котором отрисовывается UI и обрабатываются события.",
+"contentData.cross-platform.interview[11].q": "Expo или React Native CLI?",
+"contentData.cross-platform.interview[11].a": "Expo — набор инструментов, который упрощает разработку, но имеет ограничения. CLI даёт полный контроль и доступ к нативному слою.",
+"contentData.cross-platform.interview[12].q": "Future и Stream во Flutter: в чём разница?",
+"contentData.cross-platform.interview[12].a": "Future представляет одно асинхронное значение. Stream — последовательность асинхронных значений, поступающих со временем.",
+"contentData.cross-platform.interview[13].q": "Для чего нужен useEffect?",
+"contentData.cross-platform.interview[13].a": "Хук для работы с побочными эффектами в функциональных компонентах: загрузкой данных, подписками или ручным изменением DOM.",
+"contentData.cross-platform.interview[14].q": "Что такое Navigator во Flutter?",
+"contentData.cross-platform.interview[14].a": "Виджет, который управляет набором дочерних виджетов по принципу стека и используется для навигации между экранами.",
+"contentData.cross-platform.interview[15].q": "Что такое движок Hermes?",
+"contentData.cross-platform.interview[15].a": "JavaScript-движок с открытым исходным кодом, оптимизированный для React Native: ускоряет запуск приложения и снижает потребление памяти.",
+"contentData.cross-platform.interview[16].q": "Что такое Mixin в Dart?",
+"contentData.cross-platform.interview[16].a": "Способ повторно использовать код класса в нескольких иерархиях классов без наследования.",
+"contentData.cross-platform.interview[17].q": "Почему важен FlatList?",
+"contentData.cross-platform.interview[17].a": "Производительный компонент для отрисовки простых плоских списков с поддержкой бесконечной прокрутки и оптимизацией памяти.",
+"contentData.cross-platform.interview[18].q": "Что такое паттерн BLoC?",
+"contentData.cross-platform.interview[18].a": "Подход к управлению состоянием во Flutter, который отделяет бизнес-логику от UI и основан на Stream и Sink.",
+"contentData.cross-platform.interview[19].q": "Что такое Platform Channels?",
+"contentData.cross-platform.interview[19].a": "Мост, через который код Flutter взаимодействует с платформой (iOS и Android) для доступа к нативным API.",
+"contentData.cross-platform.projects[0].title": "Общий список покупок",
+"contentData.cross-platform.projects[0].desc": "Стильное приложение для списка покупок с синхронизацией между устройствами.",
+"contentData.cross-platform.projects[1].title": "Фитнес-соцсеть",
+"contentData.cross-platform.projects[1].desc": "Платформа, где пользователи делятся тренировками и подписываются друг на друга.",
+"contentData.cross-platform.projects[2].title": "Суперприложение для e-commerce",
+"contentData.cross-platform.projects[2].desc": "Полноценный магазин с интеграцией платежей и сложной анимацией.",
+"contentData.data-science.faq[0].q": "Нужно ли знать математику?",
+"contentData.data-science.faq[0].a": "Да. В отличие от веб-разработки, Data Science строится на статистике, теории вероятностей и линейной алгебре. Без них не понять, как работают модели.",
+"contentData.data-science.faq[1].q": "Учить Python или R?",
+"contentData.data-science.faq[1].a": "Однозначно Python. Им пользуются 90% индустрии. R применяется в основном в академических исследованиях и чистом статистическом анализе.",
+"contentData.data-science.faq[2].q": "Чем Data Analyst отличается от Data Scientist?",
+"contentData.data-science.faq[2].a": "Data Analyst готовит отчёты, чтобы понять, «что произошло» (SQL, Excel). Data Scientist строит модели, чтобы предсказать, «что произойдёт» (Python, ML, AI).",
+"contentData.data-science.faq[3].q": "Нужен ли мощный компьютер?",
+"contentData.data-science.faq[3].a": "Для Deep Learning пригодится GPU NVIDIA. Но на старте можно бесплатно пользоваться мощными облачными машинами в «Google Colab» или «Kaggle Kernels».",
+"contentData.data-science.faq[4].q": "Нужны ли Data Scientist'ы, если есть ChatGPT?",
+"contentData.data-science.faq[4].a": "Да. ChatGPT умеет писать код, но не может очистить грязные данные, получить доступ к закрытым данным компании для стратегии или гарантировать математическую точность. AI — лишь помощник.",
+"contentData.data-science.interview[0].q": "Чем обучение с учителем отличается от обучения без учителя?",
+"contentData.data-science.interview[0].a": "Обучение с учителем (supervised) использует размеченные данные. Обучение без учителя (unsupervised) находит скрытые закономерности и структуры в неразмеченных данных.",
+"contentData.data-science.interview[1].q": "Что такое переобучение (overfitting)?",
+"contentData.data-science.interview[1].a": "Ошибка моделирования, при которой модель слишком точно подгоняется под ограниченный набор данных и плохо обобщается на новые данные.",
+"contentData.data-science.interview[2].q": "Что такое компромисс смещения и дисперсии (Bias-Variance Tradeoff)?",
+"contentData.data-science.interview[2].a": "Баланс между ошибками из-за неверных допущений модели (смещение) и чувствительностью к колебаниям в обучающей выборке (дисперсия).",
+"contentData.data-science.interview[3].q": "Что такое p-value?",
+"contentData.data-science.interview[3].a": "Статистическая мера, помогающая определить значимость результатов. Значение меньше 0,05 обычно говорит о веских основаниях отвергнуть нулевую гипотезу.",
+"contentData.data-science.interview[4].q": "Что такое матрица ошибок (Confusion Matrix)?",
+"contentData.data-science.interview[4].a": "Таблица для оценки качества модели классификации: в ней предсказанные значения сравниваются с фактическими метками.",
+"contentData.data-science.interview[5].q": "Чем нормализация отличается от стандартизации?",
+"contentData.data-science.interview[5].a": "Нормализация приводит данные к диапазону [0, 1]. Стандартизация приводит их к среднему 0 и стандартному отклонению 1.",
+"contentData.data-science.interview[6].q": "Как работает Random Forest?",
+"contentData.data-science.interview[6].a": "Ансамблевый метод, который строит множество деревьев решений и выдаёт класс, чаще всего предсказанный деревьями (моду).",
+"contentData.data-science.interview[7].q": "Какие допущения лежат в основе линейной регрессии?",
+"contentData.data-science.interview[7].a": "Линейность, независимость, нормальность остатков и гомоскедастичность (постоянная дисперсия ошибок).",
+"contentData.data-science.interview[8].q": "Как работать с пропущенными данными?",
+"contentData.data-science.interview[8].a": "Удалить строки, заполнить значения средним/медианой/модой или использовать алгоритмы, которые сами обрабатывают пропуски.",
+"contentData.data-science.interview[9].q": "Что такое A/B-тестирование?",
+"contentData.data-science.interview[9].a": "Статистический способ сравнить два варианта и определить, какой из них работает лучше.",
+"contentData.data-science.interview[10].q": "Что такое градиентный спуск?",
+"contentData.data-science.interview[10].a": "Алгоритм оптимизации, который минимизирует функцию потерь, итеративно двигаясь в направлении наискорейшего спуска.",
+"contentData.data-science.interview[11].q": "Что такое проклятие размерности?",
+"contentData.data-science.interview[11].a": "Проблемы, которые возникают при анализе данных в пространствах высокой размерности и не встречаются в низкоразмерных.",
+"contentData.data-science.interview[12].q": "Что показывает кривая ROC-AUC?",
+"contentData.data-science.interview[12].a": "График качества модели классификации при всех порогах. AUC — это вся двумерная площадь под ROC-кривой.",
+"contentData.data-science.interview[13].q": "Deep Learning или Machine Learning?",
+"contentData.data-science.interview[13].a": "В ML признаки выделяются вручную, а DL (Deep Learning) с помощью нейросетей автоматически извлекает признаки из больших объёмов данных.",
+"contentData.data-science.interview[14].q": "Как обнаружить выбросы?",
+"contentData.data-science.interview[14].a": "Выбросы можно найти с помощью Z-оценки, метода IQR или визуализаций вроде диаграмм размаха (box plot).",
+"contentData.data-science.interview[15].q": "Зачем нужна кросс-валидация?",
+"contentData.data-science.interview[15].a": "Чтобы оценить, насколько результаты анализа обобщаются на независимый набор данных, и предотвратить переобучение.",
+"contentData.data-science.interview[16].q": "Чем Precision отличается от Recall?",
+"contentData.data-science.interview[16].a": "Precision — доля верно предсказанных положительных среди всех предсказанных положительных. Recall — доля верно предсказанных среди всех фактически положительных.",
+"contentData.data-science.interview[17].q": "Корреляция или причинно-следственная связь?",
+"contentData.data-science.interview[17].a": "Корреляция означает, что переменные меняются вместе, а причинность — что одна переменная непосредственно вызывает изменение другой.",
+"contentData.data-science.interview[18].q": "Как работает кластеризация K-Means?",
+"contentData.data-science.interview[18].a": "Алгоритм обучения без учителя, который делит точки на K кластеров, минимизируя расстояние между точками и центроидом их кластера.",
+"contentData.data-science.interview[19].q": "Чем Bagging отличается от Boosting?",
+"contentData.data-science.interview[19].a": "Bagging строит независимые модели параллельно. Boosting строит модели последовательно, и каждая учится на ошибках предыдущей.",
+"contentData.data-science.projects[0].title": "Анализ оттока клиентов",
+"contentData.data-science.projects[0].desc": "Модель, которая предсказывает вероятность ухода клиентов от телеком-оператора.",
+"contentData.data-science.projects[1].title": "Классификация изображений с интеграцией API",
+"contentData.data-science.projects[1].desc": "Проект, который распознаёт объекты с помощью глубокого обучения и отдаёт модель через веб-API.",
+"contentData.data-science.projects[2].title": "Сквозной MLOps-пайплайн",
+"contentData.data-science.projects[2].desc": "Полностью автоматизированная система, в которой модели непрерывно обучаются, тестируются и развёртываются.",
+"contentData.ml.faq[0].q": "Чем отличаются AI, ML и Deep Learning?",
+"contentData.ml.faq[0].a": "AI — широкое понятие. ML — его подмножество, которое учится на данных. DL — подмножество ML, использующее нейросети, имитирующие человеческий мозг.",
+"contentData.ml.faq[1].q": "PyTorch или TensorFlow?",
+"contentData.ml.faq[1].a": "На 2024 год PyTorch лидирует и в исследованиях, и в индустрии (Tesla, OpenAI). Его проще освоить, и он более «питоничный». TensorFlow старше и громоздче.",
+"contentData.ml.faq[2].q": "Нужна ли степень PhD?",
+"contentData.ml.faq[2].a": "Если хотите быть «исследователем» в местах вроде DeepMind — да. Но для работы «ML-инженером», применяющим модели, достаточно бакалавриата и сильного портфолио.",
+"contentData.ml.faq[3].q": "Насколько важен GPU?",
+"contentData.ml.faq[3].a": "Очень важен. Моделям Deep Learning нужны мощности для параллельных вычислений. Карты NVIDIA (ради CUDA) обязательны. Чипы Mac серии M сейчас тоже хорошо поддерживаются.",
+"contentData.ml.faq[4].q": "Что такое MLOps и зачем его учить?",
+"contentData.ml.faq[4].a": "Обучение модели — 20% работы. Развёртывание, мониторинг и обновление — 80%. Компаниям нужны инженеры, которые умеют выводить модели в продакшен, а не только строить их.",
+"contentData.ml.interview[0].q": "Чем параметрические модели отличаются от непараметрических?",
+"contentData.ml.interview[0].a": "Параметрические модели предполагают определённую функциональную форму данных (например, линейная регрессия). Непараметрические не делают сильных допущений (например, KNN).",
+"contentData.ml.interview[1].q": "Чем регуляризация L1 отличается от L2?",
+"contentData.ml.interview[1].a": "L1 может обнулять коэффициенты (выполняя отбор признаков). L2 уменьшает их к нулю, но никогда не до нуля. Обе предотвращают переобучение.",
+"contentData.ml.interview[2].q": "Как выбрать «K» в KNN?",
+"contentData.ml.interview[2].a": "Обычно K подбирают с помощью кросс-валидации. Малое K чувствительно к шуму (переобучение), а большое делает модель слишком простой (недообучение).",
+"contentData.ml.interview[3].q": "Что такое ансамблевое обучение?",
+"contentData.ml.interview[3].a": "Подход, при котором несколько слабых моделей объединяются в более сильную и точную модель прогнозирования.",
+"contentData.ml.interview[4].q": "Что такое Kernel Trick в SVM?",
+"contentData.ml.interview[4].a": "Метод, который переводит нелинейные данные в пространство более высокой размерности, где они становятся линейно разделимыми.",
+"contentData.ml.interview[5].q": "Как работает градиентный бустинг?",
+"contentData.ml.interview[5].a": "Он строит модели последовательно, и каждая новая модель пытается исправить ошибки (остатки) предыдущих.",
+"contentData.ml.interview[6].q": "Что такое PCA?",
+"contentData.ml.interview[6].a": "Метод снижения размерности, который преобразует большой набор переменных в меньший, сохраняя большую часть информации.",
+"contentData.ml.interview[7].q": "Как работать с несбалансированными данными?",
+"contentData.ml.interview[7].a": "Использовать оверсэмплинг (SMOTE), андерсэмплинг или подходящие метрики, например F1-Score вместо Accuracy.",
+"contentData.ml.interview[8].q": "Что такое функция потерь?",
+"contentData.ml.interview[8].a": "Функция, которая оценивает качество модели, вычисляя ошибку между предсказанными и фактическими значениями.",
+"contentData.ml.interview[9].q": "Что такое обучение с подкреплением?",
+"contentData.ml.interview[9].a": "Вид машинного обучения, при котором агент учится принимать решения, выполняя действия в среде, чтобы максимизировать вознаграждение.",
+"contentData.ml.projects[0].title": "Прогноз цен на недвижимость",
+"contentData.ml.projects[0].desc": "Регрессионная модель, которая предсказывает рыночную стоимость недвижимости по различным признакам.",
+"contentData.ml.projects[1].title": "Классификатор новостных текстов (NLP)",
+"contentData.ml.projects[1].desc": "Система обработки естественного языка, которая распределяет новости по темам, например спорт или политика.",
+"contentData.ml.projects[2].title": "Гибридная рекомендательная система",
+"contentData.ml.projects[2].desc": "Движок, который анализирует поведение пользователей и выдаёт персональные рекомендации товаров.",
+"contentData.deep-learning.faq[0].q": "Чем ML отличается от Deep Learning?",
+"contentData.deep-learning.faq[0].a": "ML — общее понятие: всё, что учится на данных. Deep Learning — подмножество ML, использующее «нейронные сети» для обработки сложных данных вроде изображений и звука.",
+"contentData.deep-learning.faq[1].q": "Можно ли учиться без GPU?",
+"contentData.deep-learning.faq[1].a": "Теорию изучить можно, а вот обучать модели — нет. Deep Learning требует огромных вычислений. Если компьютер слабый, используйте облачные сервисы вроде Google Colab или Kaggle.",
+"contentData.deep-learning.faq[2].q": "Какие разделы математики нужно знать?",
+"contentData.deep-learning.faq[2].a": "Матанализ (производные), линейную алгебру (операции с матрицами) и статистику. Фреймворки (PyTorch) это автоматизируют, но математика нужна, чтобы понимать «почему».",
+"contentData.deep-learning.faq[3].q": "Какой фреймворк чаще всего используют в индустрии?",
+"contentData.deep-learning.faq[3].a": "PyTorch. Он лидирует в исследованиях (OpenAI, Meta) и в современном продакшене. TensorFlow ещё используется, но теряет популярность.",
+"contentData.deep-learning.faq[4].q": "Что такое проблема «чёрного ящика»?",
+"contentData.deep-learning.faq[4].a": "Это невозможность до конца понять, как модели DL принимают решения. Объяснить, «почему» принято решение при миллиардах параметров, сложно.",
+"contentData.deep-learning.interview[0].q": "Как работают искусственные нейронные сети (ANN)?",
+"contentData.deep-learning.interview[0].a": "Состоят из входного, скрытых и выходного слоёв. Данные проходят прямым распространением, а веса обновляются обратным распространением ошибки, чтобы минимизировать её.",
+"contentData.deep-learning.interview[1].q": "Зачем нужны функции активации?",
+"contentData.deep-learning.interview[1].a": "Они вносят в сеть нелинейность, позволяя ей усваивать сложные закономерности, недоступные простой линейной модели.",
+"contentData.deep-learning.interview[2].q": "Что такое обратное распространение ошибки (Backpropagation)?",
+"contentData.deep-learning.interview[2].a": "Ключевой алгоритм обучения нейросетей, вычисляющий градиент функции потерь по весам.",
+"contentData.deep-learning.interview[3].q": "Где применяются CNN?",
+"contentData.deep-learning.interview[3].a": "В основном в задачах компьютерного зрения — классификации изображений, детекции объектов и распознавании лиц, — благодаря способности улавливать пространственные признаки.",
+"contentData.deep-learning.interview[4].q": "Чем RNN отличается от LSTM?",
+"contentData.deep-learning.interview[4].a": "RNN плохо справляются с долгосрочными зависимостями (затухающий градиент). LSTM решают это с помощью «вентилей», регулирующих поток информации в длинных последовательностях.",
+"contentData.deep-learning.interview[5].q": "Что такое проблема затухающего градиента?",
+"contentData.deep-learning.interview[5].a": "Возникает, когда при обратном распространении градиенты становятся крайне малыми: веса перестают меняться, и обучение останавливается.",
+"contentData.deep-learning.interview[6].q": "Что такое Transfer Learning?",
+"contentData.deep-learning.interview[6].a": "Повторное использование предобученной модели для новой смежной задачи, что значительно сокращает объём данных и время на обучение.",
+"contentData.deep-learning.interview[7].q": "Для чего нужен слой Dropout?",
+"contentData.deep-learning.interview[7].a": "Метод регуляризации, при котором случайно выбранные нейроны игнорируются во время обучения, чтобы предотвратить переобучение.",
+"contentData.deep-learning.interview[8].q": "Что такое архитектура Transformer и механизм внимания (Attention)?",
+"contentData.deep-learning.interview[8].a": "Основа современного NLP. Использует self-attention, чтобы взвешивать значимость разных частей входных данных независимо от расстояния между ними.",
+"contentData.deep-learning.interview[9].q": "Что такое генеративный AI?",
+"contentData.deep-learning.interview[9].a": "AI-системы, которые создают новый контент — текст, изображения или звук, — усваивая закономерности из существующих данных.",
+"contentData.deep-learning.projects[0].title": "Система распознавания дорожных знаков",
+"contentData.deep-learning.projects[0].desc": "Модель, которая классифицирует дорожные знаки в реальном времени с помощью компьютерного зрения.",
+"contentData.deep-learning.projects[1].title": "Модель машинного перевода",
+"contentData.deep-learning.projects[1].desc": "Модель sequence-to-sequence, выполняющая нейронный машинный перевод между двумя языками.",
+"contentData.deep-learning.projects[2].title": "Генерация лиц с помощью GAN",
+"contentData.deep-learning.projects[2].desc": "Генеративная модель, создающая синтетические лица людей в высоком разрешении, которых не существует в реальности.",
+"contentData.ai-engineering.faq[0].q": "Чем AI Engineer отличается от Data Scientist?",
+"contentData.ai-engineering.faq[0].a": "Data Scientist'ы **обучают** модели и занимаются математикой. AI-инженеры **создают приложения** на основе предобученных моделей (LLM), например чат-ботов.",
+"contentData.ai-engineering.faq[1].q": "Нужна ли математика?",
+"contentData.ai-engineering.faq[1].a": "Для обучения моделей — да. Но для простого использования моделей (промптинг/API) — нет. Достаточно хороших навыков программирования.",
+"contentData.ai-engineering.faq[2].q": "Что такое RAG?",
+"contentData.ai-engineering.faq[2].a": "Подход, при котором вы передаёте LLM свои закрытые данные (PDF, документы компании), чтобы она отвечала на вопросы именно по ним.",
+"contentData.ai-engineering.interview[0].q": "Что такое RAG (Retrieval-Augmented Generation)?",
+"contentData.ai-engineering.interview[0].a": "Подход к улучшению ответов LLM: перед генерацией ответа из внешних источников извлекается релевантная информация.",
+"contentData.ai-engineering.interview[1].q": "Для чего нужна векторная база данных?",
+"contentData.ai-engineering.interview[1].a": "Она предназначена для хранения и поиска многомерных векторных эмбеддингов и обеспечивает быстрый поиск по сходству в AI-приложениях.",
+"contentData.ai-engineering.interview[2].q": "Что такое MLOps?",
+"contentData.ai-engineering.interview[2].a": "Практика, объединяющая машинное обучение и DevOps для автоматизации полного жизненного цикла ML-моделей.",
+"contentData.ai-engineering.interview[3].q": "Чем Fine-tuning отличается от Prompt Engineering?",
+"contentData.ai-engineering.interview[3].a": "Fine-tuning обновляет веса модели на специфичных данных. Prompt Engineering оптимизирует инструкции, чтобы получить лучший результат без изменения модели.",
+"contentData.ai-engineering.interview[4].q": "Что такое квантизация модели?",
+"contentData.ai-engineering.interview[4].a": "Снижение точности весов модели (например, с FP32 до INT8), чтобы уменьшить её размер и ускорить инференс.",
+"contentData.ai-engineering.interview[5].q": "Как оптимизировать инференс AI-модели?",
+"contentData.ai-engineering.interview[5].a": "С помощью квантизации, прунинга, дистилляции знаний и оптимизированных сред выполнения вроде ONNX или TensorRT.",
+"contentData.ai-engineering.interview[6].q": "Что такое галлюцинации AI и как их уменьшить?",
+"contentData.ai-engineering.interview[6].a": "Это когда AI генерирует ложную или нелогичную информацию. Снизить их помогают RAG, достоверные эталонные данные и более низкая температура.",
+"contentData.ai-engineering.interview[7].q": "Что такое AI-агент?",
+"contentData.ai-engineering.interview[7].a": "Автономная система, которая с помощью LLM рассуждает, использует инструменты и выполняет действия для достижения конкретной цели.",
+"contentData.ai-engineering.interview[8].q": "Что такое векторный эмбеддинг?",
+"contentData.ai-engineering.interview[8].a": "Числовое представление данных (например, текста или изображений), отражающее их смысл в многомерном пространстве.",
+"contentData.ai-engineering.interview[9].q": "Что такое токенизация?",
+"contentData.ai-engineering.interview[9].a": "Процесс разбиения текста на более мелкие единицы (токены) — слова или части слов, — которые может обработать AI-модель.",
+"contentData.ai-engineering.projects[0].title": "Бот вопросов и ответов по PDF (RAG)",
+"contentData.ai-engineering.projects[0].desc": "AI-приложение, которое анализирует загруженные PDF-файлы и отвечает на вопросы по их содержанию.",
+"contentData.ai-engineering.projects[1].title": "Автономный AI-агент",
+"contentData.ai-engineering.projects[1].desc": "Агент, который может использовать внешние инструменты (Google Search, интерпретатор Python) для автономного выполнения сложных задач.",
+"contentData.ai-engineering.projects[2].title": "Масштабируемый пайплайн инференса LLM",
+"contentData.ai-engineering.projects[2].desc": "Инфраструктура, которая с высокой производительностью обслуживает open-source модели и отслеживает метрики использования.",
+"contentData.big-data.faq[0].q": "Чем Data Scientist отличается от Data Engineer?",
+"contentData.big-data.faq[0].a": "Data Engineer — «сантехник»: строит пайплайны и очищает данные. Data Scientist анализирует уже чистые данные. Без инженеров учёные работать не могут.",
+"contentData.big-data.faq[1].q": "Hadoop умер?",
+"contentData.big-data.faq[1].a": "Вычислительная часть Hadoop (MapReduce) умерла — её заменил Spark. Но хранилище (HDFS) всё ещё используется в крупных on-premise системах. В облаке его заменили S3/GCS.",
+"contentData.big-data.faq[2].q": "Учить Python или Scala?",
+"contentData.big-data.faq[2].a": "Python (PySpark) — для новичков и общих задач. Однако Scala — родной язык Spark/Kafka; её знание делает вас «сеньором» в высокопроизводительных системах.",
+"contentData.big-data.faq[3].q": "Что такое ETL?",
+"contentData.big-data.faq[3].a": "Extract, Transform, Load. Процесс, при котором данные берутся из источника, меняют формат и сохраняются в целевую базу данных.",
+"contentData.big-data.faq[4].q": "Что делает Kafka?",
+"contentData.big-data.faq[4].a": "Kafka — пайплайн данных в реальном времени. Она мгновенно и без потерь передаёт миллионы событий (логи, клики). Это нервная система Big Data.",
+"contentData.big-data.interview[0].q": "Что такое 5V Big Data?",
+"contentData.big-data.interview[0].a": "Volume (объём), Velocity (скорость), Variety (разнообразие), Veracity (достоверность) и Value (ценность).",
+"contentData.big-data.interview[1].q": "Что такое экосистема Hadoop?",
+"contentData.big-data.interview[1].a": "Фреймворк с открытым исходным кодом для распределённой обработки больших наборов данных на кластерах компьютеров.",
+"contentData.big-data.interview[2].q": "Как работает HDFS?",
+"contentData.big-data.interview[2].a": "Разбивает данные на блоки и распределяет их по кластеру. Использует архитектуру Master-Slave с NameNode и DataNode.",
+"contentData.big-data.interview[3].q": "Чем Apache Spark отличается от MapReduce?",
+"contentData.big-data.interview[3].a": "Spark обрабатывает данные в памяти, поэтому он значительно быстрее MapReduce, работающего с диском.",
+"contentData.big-data.interview[4].q": "Что такое RDD?",
+"contentData.big-data.interview[4].a": "Базовая структура данных Spark — неизменяемая отказоустойчивая коллекция объектов, распределённая по кластеру.",
+"contentData.big-data.interview[5].q": "Что такое Apache Kafka?",
+"contentData.big-data.interview[5].a": "Распределённая стриминговая платформа для построения пайплайнов данных и потоковых приложений в реальном времени.",
+"contentData.big-data.interview[6].q": "Какие бывают типы NoSQL-баз данных?",
+"contentData.big-data.interview[6].a": "Key-Value, документоориентированные, колоночные (Column-family) и графовые базы данных.",
+"contentData.big-data.interview[7].q": "Чем Data Lake отличается от Data Warehouse?",
+"contentData.big-data.interview[7].a": "Data Lake хранит сырые неструктурированные данные. Data Warehouse хранит обработанные структурированные данные для отчётности и анализа.",
+"contentData.big-data.interview[8].q": "Что такое процесс ETL?",
+"contentData.big-data.interview[8].a": "Процесс извлечения данных из источников, преобразования их в удобный формат и загрузки в целевую систему.",
+"contentData.big-data.interview[9].q": "Чем партиционирование отличается от шардирования?",
+"contentData.big-data.interview[9].a": "Партиционирование разделяет данные в пределах одного сервера. Шардирование распределяет данные по нескольким физическим машинам.",
+"contentData.big-data.projects[0].title": "Анализ логов интернет-магазина",
+"contentData.big-data.projects[0].desc": "Система, которая анализирует миллионы записей логов веб-сервера, чтобы найти самые популярные товары.",
+"contentData.big-data.projects[1].title": "Система обнаружения мошенничества в реальном времени",
+"contentData.big-data.projects[1].desc": "Пайплайн, который отслеживает банковские транзакции в реальном времени и за секунды выявляет подозрительную активность.",
+"contentData.big-data.projects[2].title": "Современная архитектура Data Lakehouse",
+"contentData.big-data.projects[2].desc": "Единая платформа данных для структурированных и неструктурированных больших данных с поддержкой ACID-транзакций.",
+"contentData.cyber-security.faq[0].q": "Что такое Red Team и Blue Team?",
+"contentData.cyber-security.faq[0].a": "Red Team занимается наступательной безопасностью (атакой). Blue Team — оборонительной (защитой и мониторингом). Purple Team сочетает оба подхода.",
+"contentData.cyber-security.faq[1].q": "Нужно ли уметь программировать?",
+"contentData.cyber-security.faq[1].a": "На старте — нет. Но чтобы вырасти из «скрипт-кидди» и писать собственные эксплойты и инструменты, Python и Bash обязательны.",
+"contentData.cyber-security.faq[2].q": "Какую сертификацию получить?",
+"contentData.cyber-security.faq[2].a": "Начните с CompTIA Security+ или eJPT. Для уважения в индустрии и трудоустройства золотой стандарт — «OSCP».",
+"contentData.cyber-security.faq[3].q": "Ставить ли Kali Linux основной ОС?",
+"contentData.cyber-security.faq[3].a": "Нет! Kali небезопасна и нестабильна для повседневного использования. Лучше запускать её в виртуальной машине (VM) или с Live USB.",
+"contentData.cyber-security.faq[4].q": "Можно ли зарабатывать на Bug Bounty?",
+"contentData.cyber-security.faq[4].a": "Да, но это непросто. Платформы вроде HackerOne платят за найденные баги. Конкуренция высокая, нужны сильные навыки. Отличный вариант для дополнительного дохода.",
+"contentData.cyber-security.faq[5].q": "Какой адаптер нужен для взлома Wi-Fi?",
+"contentData.cyber-security.faq[5].a": "Смотрите на «чипсет», а не на бренд. Нужна поддержка «режима мониторинга» (Monitor Mode) и «инъекции пакетов» (Packet Injection). (Например, Atheros AR9271.)",
+"contentData.cyber-security.interview[0].q": "Что такое триада CIA?",
+"contentData.cyber-security.interview[0].a": "Три основы информационной безопасности: конфиденциальность (защита от несанкционированного доступа), целостность (данные не изменены) и доступность (данные доступны, когда нужны).",
+"contentData.cyber-security.interview[1].q": "Что такое фишинговая атака?",
+"contentData.cyber-security.interview[1].a": "Атака социальной инженерии, при которой злоумышленник выдаёт себя за доверенное лицо, чтобы украсть конфиденциальные данные — логины или номера кредитных карт.",
+"contentData.cyber-security.interview[2].q": "Чем IDS отличается от IPS?",
+"contentData.cyber-security.interview[2].a": "IDS (система обнаружения вторжений) только отслеживает угрозы и оповещает о них. IPS (система предотвращения вторжений) отслеживает, оповещает и активно блокирует угрозу.",
+"contentData.cyber-security.interview[3].q": "Что такое соль (salting)?",
+"contentData.cyber-security.interview[3].a": "Добавление уникальных случайных символов к паролю перед хешированием для защиты от атак по заранее вычисленным хешам, например радужных таблиц.",
+"contentData.cyber-security.interview[4].q": "Что такое атака перебором (Brute Force)?",
+"contentData.cyber-security.interview[4].a": "Метод проб и ошибок для подбора учётных данных или ключей шифрования путём перебора всех возможных комбинаций.",
+"contentData.cyber-security.interview[5].q": "Что такое XSS?",
+"contentData.cyber-security.interview[5].a": "Уязвимость, при которой злоумышленник внедряет вредоносные скрипты в доверенный сайт, и они выполняются в браузере жертвы.",
+"contentData.cyber-security.interview[6].q": "Что такое повышение привилегий?",
+"contentData.cyber-security.interview[6].a": "Получение несанкционированного доступа к расширенным правам, разрешениям или привилегиям сверх тех, что назначены пользователю.",
+"contentData.cyber-security.interview[7].q": "Что такое Honeypot?",
+"contentData.cyber-security.interview[7].a": "Система-приманка, которая заманивает атакующих в контролируемую среду, чтобы собирать о них информацию.",
+"contentData.cyber-security.interview[8].q": "Что такое DDoS-атака?",
+"contentData.cyber-security.interview[8].a": "Distributed Denial of Service — попытка вывести из строя сервер или сеть, перегрузив их потоком интернет-трафика.",
+"contentData.cyber-security.interview[9].q": "Что такое VPN и как он работает?",
+"contentData.cyber-security.interview[9].a": "Virtual Private Network — создаёт зашифрованное соединение поверх менее защищённой сети, скрывая ваш IP и защищая данные.",
+"contentData.cyber-security.interview[10].q": "Что такое уязвимость нулевого дня (Zero-Day)?",
+"contentData.cyber-security.interview[10].a": "Уязвимость в ПО, о которой не знает производитель и для которой ещё не выпущен патч.",
+"contentData.cyber-security.interview[11].q": "Что такое тест на проникновение?",
+"contentData.cyber-security.interview[11].a": "Санкционированная имитация кибератаки на компьютерную систему для оценки её защищённости.",
+"contentData.cyber-security.interview[12].q": "Что такое Ransomware?",
+"contentData.cyber-security.interview[12].a": "Вредоносное ПО, которое шифрует файлы жертвы, а злоумышленник требует выкуп за восстановление доступа.",
+"contentData.cyber-security.interview[13].q": "Что такое SOC?",
+"contentData.cyber-security.interview[13].a": "Централизованное подразделение, которое круглосуточно отслеживает состояние безопасности организации, выявляет инциденты и реагирует на них.",
+"contentData.cyber-security.interview[14].q": "Red Team или Blue Team?",
+"contentData.cyber-security.interview[14].a": "Red Team играет роль противника (атакует), а Blue Team отвечает за защиту и реагирование на атаки.",
+"contentData.cyber-security.interview[15].q": "Почему важна 2FA?",
+"contentData.cyber-security.interview[15].a": "Она добавляет дополнительный уровень защиты: злоумышленнику гораздо сложнее получить доступ, даже если у него есть ваш пароль.",
+"contentData.cyber-security.interview[16].q": "Что такое атака MitM?",
+"contentData.cyber-security.interview[16].a": "Атака, при которой злоумышленник встраивается между двумя сторонами, чтобы прослушивать или изменять их обмен данными.",
+"contentData.cyber-security.interview[17].q": "Симметричное или асимметричное шифрование?",
+"contentData.cyber-security.interview[17].a": "Симметричное использует один ключ для шифрования и расшифровки. Асимметричное шифрует открытым ключом, а расшифровывает закрытым.",
+"contentData.cyber-security.interview[18].q": "Что такое DMZ?",
+"contentData.cyber-security.interview[18].a": "Подсеть, через которую внешние сервисы организации доступны из интернета, а остальная сеть остаётся закрытой.",
+"contentData.cyber-security.interview[19].q": "Чем хеширование отличается от шифрования?",
+"contentData.cyber-security.interview[19].a": "Шифрование двустороннее (данные можно расшифровать). Хеширование одностороннее: после хеширования данные нельзя вернуть в исходный вид.",
+"contentData.cyber-security.projects[0].title": "Анализатор логов на брутфорс",
+"contentData.cyber-security.projects[0].desc": "Скрипт, который сканирует системные логи и выявляет подозрительные попытки входа.",
+"contentData.cyber-security.projects[1].title": "Сканер уязвимостей",
+"contentData.cyber-security.projects[1].desc": "Инструмент, который проверяет целевые сайты на открытые порты и распространённые уязвимости вроде XSS и SQLi.",
+"contentData.cyber-security.projects[2].title": "Система Honeypot и IDS",
+"contentData.cyber-security.projects[2].desc": "Продвинутая система, которая разворачивает сервисы-приманки, чтобы вводить атакующих в заблуждение и отслеживать их активность.",
+"contentData.network.faq[0].q": "Чем Switch отличается от Hub?",
+"contentData.network.faq[0].a": "Hub «глупый»: рассылает данные всем. Switch «умный»: запоминает MAC-адреса и отправляет данные только нужному устройству.",
+"contentData.network.faq[1].q": "Что такое модель OSI и зачем её учить?",
+"contentData.network.faq[1].a": "Это стандарт, разделяющий сетевое взаимодействие на 7 уровней. Он помогает диагностировать проблемы: дело в кабеле (L1), IP (L3) или браузере (L7)?",
+"contentData.network.faq[2].q": "Что такое DNS и DHCP?",
+"contentData.network.faq[2].a": "DNS — «телефонная книга»: переводит имена в IP-адреса. DHCP автоматически назначает IP-адреса устройствам, подключающимся к сети.",
+"contentData.network.faq[3].q": "Что делает NAT?",
+"contentData.network.faq[3].a": "Позволяет нескольким локальным устройствам выходить в интернет через один публичный IP. Сопоставляет частные IP-адреса с публичными.",
+"contentData.network.faq[4].q": "Как работает Firewall?",
+"contentData.network.faq[4].a": "Проверяет входящие и исходящие пакеты. Блокирует их, если они содержат угрозы или нарушают правила (например, закрытые порты).",
+"contentData.network.interview[0].q": "Какие уровни есть в модели OSI?",
+"contentData.network.interview[0].a": "Она состоит из 7 уровней: физический, канальный, сетевой, транспортный, сеансовый, представления и прикладной. Модель стандартизирует функции связи.",
+"contentData.network.interview[1].q": "Чем Switch отличается от Router?",
+"contentData.network.interview[1].a": "Switch соединяет устройства в пределах одной LAN по MAC-адресам. Router соединяет разные сети между собой по IP-адресам.",
+"contentData.network.interview[2].q": "Что такое VLAN и зачем он нужен?",
+"contentData.network.interview[2].a": "Virtual Local Area Network. Логически делит физическую сеть на подсети, чтобы повысить безопасность, сократить широковещательный трафик и упростить управление.",
+"contentData.network.interview[3].q": "Основные различия TCP и UDP?",
+"contentData.network.interview[3].a": "TCP ориентирован на соединение и надёжен (гарантирует доставку). UDP работает без установления соединения и быстрее, но доставку не гарантирует.",
+"contentData.network.interview[4].q": "Как работает DNS?",
+"contentData.network.interview[4].a": "Он преобразует понятные человеку доменные имена (например, google.com) в понятные машине IP-адреса.",
+"contentData.network.interview[5].q": "Что такое разбиение на подсети (Subnetting)?",
+"contentData.network.interview[5].a": "Процесс деления большой IP-сети на меньшие управляемые подсети для оптимального использования IP-адресов.",
+"contentData.network.interview[6].q": "Что такое шлюз по умолчанию (Default Gateway)?",
+"contentData.network.interview[6].a": "Точка доступа или IP-адрес, через который устройство отправляет данные получателю за пределами своей локальной сети.",
+"contentData.network.interview[7].q": "Что такое DHCP?",
+"contentData.network.interview[7].a": "Протокол, который автоматически назначает устройствам в сети IP-адреса и другие сетевые параметры.",
+"contentData.network.interview[8].q": "Зачем используется NAT?",
+"contentData.network.interview[8].a": "Он преобразует частные IP-адреса в публичные, позволяя нескольким устройствам использовать один публичный IP и повышая безопасность.",
+"contentData.network.interview[9].q": "Для чего нужен протокол ICMP?",
+"contentData.network.interview[9].a": "Используется сетевыми устройствами для отправки сообщений об ошибках и служебной информации. На ICMP основаны «Ping» и «Traceroute».",
+"contentData.network.interview[10].q": "Чем MAC-адрес отличается от IP-адреса?",
+"contentData.network.interview[10].a": "MAC-адрес — постоянный аппаратный идентификатор (уровень 2). IP-адрес — логический адрес (уровень 3), назначаемый в зависимости от расположения в сети.",
+"contentData.network.interview[11].q": "Что такое ARP?",
+"contentData.network.interview[11].a": "Он сопоставляет известный IP-адрес с физическим MAC-адресом в локальной сети.",
+"contentData.network.interview[12].q": "Как работает VPN?",
+"contentData.network.interview[12].a": "Он создаёт зашифрованный защищённый туннель через публичный интернет, устанавливая частное сетевое соединение между узлами.",
+"contentData.network.interview[13].q": "Что такое Firewall?",
+"contentData.network.interview[13].a": "Система безопасности, которая отслеживает и фильтрует входящий и исходящий сетевой трафик по заданным правилам безопасности.",
+"contentData.network.interview[14].q": "Чем статическая маршрутизация отличается от динамической?",
+"contentData.network.interview[14].a": "Статические маршруты настраиваются вручную. Динамические (например, OSPF или BGP) с помощью протоколов автоматически подстраиваются под изменения в сети.",
+"contentData.network.interview[15].q": "Почему важен STP?",
+"contentData.network.interview[15].a": "Он предотвращает петли в сети при резервных соединениях коммутаторов, блокируя отдельные пути и обеспечивая топологию без петель.",
+"contentData.network.interview[16].q": "Что такое BGP?",
+"contentData.network.interview[16].a": "Протокол маршрутизации интернета. Он обменивается маршрутной информацией между разными автономными системами (AS).",
+"contentData.network.interview[17].q": "Чем Ping отличается от Traceroute?",
+"contentData.network.interview[17].a": "Ping проверяет доступность и задержку. Traceroute показывает весь путь (хопы), который пакет проходит до получателя.",
+"contentData.network.interview[18].q": "Что такое MTU?",
+"contentData.network.interview[18].a": "Размер наибольшего блока данных протокола (PDU), который можно передать за одну операцию на сетевом уровне.",
+"contentData.network.interview[19].q": "Что такое DoS- и DDoS-атаки?",
+"contentData.network.interview[19].a": "Попытка сделать систему недоступной, заваливая её трафиком. При DDoS атака ведётся с множества скомпрометированных источников.",
+"contentData.network.projects[0].title": "Проект сети малого офиса (SOHO)",
+"contentData.network.projects[0].desc": "Симуляция защищённой и масштабируемой офисной инфраструктуры в Cisco Packet Tracer.",
+"contentData.network.projects[1].title": "Корпоративная кампусная сеть",
+"contentData.network.projects[1].desc": "Распределённая отказоустойчивая корпоративная сеть с несколькими площадками на GNS3 или EVE-NG.",
+"contentData.network.projects[2].title": "SDN и автоматизация сетей",
+"contentData.network.projects[2].desc": "Система автоматизации, которая управляет конфигурациями сотен устройств и отслеживает их с помощью кода.",
+"contentData.devops.faq[0].q": "Обязательно ли уметь программировать?",
+"contentData.devops.faq[0].a": "Не так глубоко, как разработчику, но для автоматизации нужно владеть скриптингом (Python, Bash, Go). DevOps-инженер, который не умеет читать код, работает вслепую.",
+"contentData.devops.faq[1].q": "Можно ли сразу начать с DevOps?",
+"contentData.devops.faq[1].a": "Это сложно. Вакансий Junior DevOps мало. Большинство начинают как системные администраторы или бэкенд-разработчики, а затем переходят в DevOps.",
+"contentData.devops.faq[2].q": "Что такое CI/CD?",
+"contentData.devops.faq[2].a": "CI (Continuous Integration): частое слияние и тестирование кода. CD (Continuous Deployment): автоматическое развёртывание протестированного кода на серверы.",
+"contentData.devops.faq[3].q": "Какого облачного провайдера стоит изучать?",
+"contentData.devops.faq[3].a": "Начните с AWS (Amazon Web Services), так как у него самая большая доля рынка. Зная AWS, легко освоить Azure или GCP.",
+"contentData.devops.faq[4].q": "Важны ли сертификаты? (AWS, CKA)",
+"contentData.devops.faq[4].a": "Да! Особенно в DevOps сертификаты (CKA, AWS Solutions Architect) подтверждают ваши навыки и напрямую повышают зарплату.",
+"contentData.devops.faq[5].q": "Kubernetes действительно настолько сложен?",
+"contentData.devops.faq[5].a": "Да, порог входа высокий. В нём много движущихся частей. Но когда вы поймёте его логику, в ваших руках окажется самый мощный инструмент индустрии.",
+"contentData.devops.interview[0].q": "Что такое DevOps?",
+"contentData.devops.interview[0].a": "Набор практик и культура, объединяющие разработку ПО (Dev) и IT-эксплуатацию (Ops), чтобы сократить жизненный цикл разработки систем и обеспечить высокое качество.",
+"contentData.devops.interview[1].q": "Из каких компонентов состоит CI/CD-пайплайн?",
+"contentData.devops.interview[1].a": "Он состоит из этапов Source (код), Build (сборка), Test (автоматическое тестирование) и Deploy (выпуск в продакшен).",
+"contentData.devops.interview[2].q": "Что такое Infrastructure as Code (IaC)?",
+"contentData.devops.interview[2].a": "Управление инфраструктурой и её развёртывание с помощью кода (Terraform, Ansible) вместо ручных процессов. Это обеспечивает единообразие и скорость.",
+"contentData.devops.interview[3].q": "Чем отличаются Docker-образ и контейнер?",
+"contentData.devops.interview[3].a": "Образ — это шаблон только для чтения, содержащий приложение и его зависимости. Контейнер — это запущенный экземпляр этого образа.",
+"contentData.devops.interview[4].q": "Что такое Kubernetes (K8s)?",
+"contentData.devops.interview[4].a": "Платформа оркестрации контейнеров с открытым исходным кодом для автоматизации развёртывания, масштабирования и управления контейнеризированными приложениями.",
+"contentData.devops.interview[5].q": "Что такое Blue-Green Deployment?",
+"contentData.devops.interview[5].a": "Стратегия развёртывания с двумя идентичными окружениями (Blue и Green). Трафик переключается на Green после того, как там протестирована новая версия.",
+"contentData.devops.interview[6].q": "Что такое GitOps?",
+"contentData.devops.interview[6].a": "Операционная модель, в которой Git служит единственным источником истины для конфигураций инфраструктуры и приложений.",
+"contentData.devops.interview[7].q": "Микросервисы или монолит?",
+"contentData.devops.interview[7].a": "Монолит — это единое целое. Микросервисы разбивают приложение на независимые сервисы для лучшей изоляции сбоев и масштабируемости.",
+"contentData.devops.interview[8].q": "Что такое Rolling Update?",
+"contentData.devops.interview[8].a": "Стратегия развёртывания, при которой экземпляры приложения поочерёдно заменяются новой версией, чтобы обеспечить нулевой простой.",
+"contentData.devops.interview[9].q": "Изменяемая или неизменяемая инфраструктура?",
+"contentData.devops.interview[9].a": "Изменяемую (mutable) инфраструктуру модифицируют на месте. Неизменяемую (immutable) никогда не модифицируют: при необходимости изменений её заменяют новым экземпляром.",
+"contentData.devops.interview[10].q": "Каковы столпы наблюдаемости (Observability)?",
+"contentData.devops.interview[10].a": "Три столпа: метрики, логирование и трассировка.",
+"contentData.devops.interview[11].q": "Для чего используется управление конфигурациями?",
+"contentData.devops.interview[11].a": "Для автоматического и единообразного управления конфигурацией сотен серверов из одной точки.",
+"contentData.devops.interview[12].q": "Что такое Canary Deployment?",
+"contentData.devops.interview[12].a": "Стратегия развёртывания, при которой новую версию сначала получает небольшой процент пользователей, чтобы проверить стабильность перед полным выпуском.",
+"contentData.devops.interview[13].q": "Что такое Helm?",
+"contentData.devops.interview[13].a": "Пакетный менеджер для Kubernetes. Упрощает описание, установку и обновление сложных K8s-приложений.",
+"contentData.devops.interview[14].q": "Что такое Site Reliability Engineering (SRE)?",
+"contentData.devops.interview[14].a": "Дисциплина, которая переносит подходы программной инженерии на задачи инфраструктуры и эксплуатации.",
+"contentData.devops.interview[15].q": "Что такое самовосстановление (Self-healing)?",
+"contentData.devops.interview[15].a": "Способность системы (например, K8s) автоматически обнаруживать сбои и перезапускать или заменять отказавшие компоненты.",
+"contentData.devops.interview[16].q": "Stateful или Stateless?",
+"contentData.devops.interview[16].a": "Stateless-приложения не хранят данные между сессиями. Stateful-приложения (например, БД) требуют постоянного хранилища и отслеживания сессий.",
+"contentData.devops.interview[17].q": "Что такое Zero Downtime Deployment?",
+"contentData.devops.interview[17].a": "Процесс развёртывания, при котором приложение остаётся доступным пользователям без каких-либо перерывов во время обновления.",
+"contentData.devops.interview[18].q": "Для чего используется Docker Compose?",
+"contentData.devops.interview[18].a": "Инструмент для описания и запуска многоконтейнерных Docker-приложений с помощью одного YAML-файла.",
+"contentData.devops.interview[19].q": "Что такое HPA (Horizontal Pod Autoscaler)?",
+"contentData.devops.interview[19].a": "Функция Kubernetes, которая автоматически масштабирует количество подов в деплойменте на основе наблюдаемой загрузки CPU/RAM.",
+"contentData.devops.devops_projects[0].title": "CI/CD-пайплайн для статического сайта",
+"contentData.devops.devops_projects[0].desc": "Система, которая автоматически развёртывает код в AWS S3 или Netlify при каждом пуше изменений в GitHub.",
+"contentData.devops.devops_projects[1].title": "Docker-приложение с мониторингом",
+"contentData.devops.devops_projects[1].desc": "Инфраструктура, которая отслеживает и логирует производительность приложения, работающего в контейнерах.",
+"contentData.devops.devops_projects[2].title": "GitOps и IaC в Kubernetes",
+"contentData.devops.devops_projects[2].desc": "Продвинутая конфигурация, в которой вся инфраструктура разворачивается через Terraform, а обновления приложений управляются через ArgoCD.",
+"contentData.cloud.faq[0].q": "Какого облачного провайдера выбрать? (AWS, Azure или GCP)",
+"contentData.cloud.faq[0].a": "AWS — лидер рынка с огромным количеством ресурсов. Azure предпочитают в корпоративных Windows-средах. GCP силён в данных и AI. Начинающим рекомендуется AWS.",
+"contentData.cloud.faq[1].q": "В чём разница между IaaS, PaaS и SaaS?",
+"contentData.cloud.faq[1].a": "IaaS: вы арендуете инфраструктуру и управляете ОС (EC2). PaaS: вы развёртываете код, ОС управляет провайдер (Heroku). SaaS: вы просто пользуетесь программой (Gmail).",
+"contentData.cloud.faq[2].q": "Дорого ли изучать облака? Не придёт ли шокирующий счёт?",
+"contentData.cloud.faq[2].a": "Если не быть осторожным — да! Используйте Free Tier. Всегда настраивайте Budget Alarms. Забытый запущенный сервер может обернуться огромным счётом.",
+"contentData.cloud.faq[3].q": "Обязательно ли уметь программировать?",
+"contentData.cloud.faq[3].a": "Не так, как разработчику, но Python/Bash нужны для автоматизации и IaC. Стать профи, просто кликая в консоли, не получится.",
+"contentData.cloud.faq[4].q": "Стоит ли получать сертификаты?",
+"contentData.cloud.faq[4].a": "Безусловно, да. В облаках сертификаты (особенно AWS Solutions Architect Associate) — серьёзный фильтр при найме и напрямую влияют на зарплату.",
+"contentData.cloud.faq[5].q": "Что такое Serverless-архитектура?",
+"contentData.cloud.faq[5].a": "Модель, в которой вы не управляете серверами и платите только за время выполнения кода (в миллисекундах), например AWS Lambda. Это будущее.",
+"contentData.cloud.interview[0].q": "Чем отличаются SaaS, PaaS и IaaS?",
+"contentData.cloud.interview[0].a": "IaaS предоставляет инфраструктуру, PaaS — платформу для разработчиков, а SaaS — программное обеспечение как услугу. Уровень контроля снижается от IaaS к SaaS.",
+"contentData.cloud.interview[1].q": "Публичное, частное или гибридное облако?",
+"contentData.cloud.interview[1].a": "Публичное облако используется совместно через интернет. Частное выделено одной организации. Гибридное сочетает оба варианта.",
+"contentData.cloud.interview[2].q": "Что такое Serverless Computing?",
+"contentData.cloud.interview[2].a": "Запуск кода без управления серверами. Масштабированием и выполнением занимается облачный провайдер (например, AWS Lambda).",
+"contentData.cloud.interview[3].q": "Что значит Cloud Agnostic?",
+"contentData.cloud.interview[3].a": "Подход к проектированию, позволяющий запускать приложения у любого облачного провайдера без привязки к одному (например, с помощью Terraform/K8s).",
+"contentData.cloud.interview[4].q": "Что такое высокая доступность (HA)?",
+"contentData.cloud.interview[4].a": "Способность системы оставаться работоспособной и доступной с минимальным простоем даже при сбоях.",
+"contentData.cloud.interview[5].q": "Что такое Auto Scaling?",
+"contentData.cloud.interview[5].a": "Автоматическая подстройка количества вычислительных ресурсов под фактический спрос или трафик.",
+"contentData.cloud.interview[6].q": "Region или Availability Zone (AZ)?",
+"contentData.cloud.interview[6].a": "Region — это географическая область. AZ — изолированный дата-центр внутри этого региона.",
+"contentData.cloud.interview[7].q": "Объектное или блочное хранилище?",
+"contentData.cloud.interview[7].a": "Объектное хранилище предназначено для файлов (S3). Блочное — для высокопроизводительных дисковых томов (EBS).",
+"contentData.cloud.interview[8].q": "Что такое модель разделённой ответственности (Shared Responsibility Model)?",
+"contentData.cloud.interview[8].a": "Провайдер отвечает за безопасность самого облака, а клиент — за безопасность того, что находится в облаке.",
+"contentData.cloud.interview[9].q": "Что такое Cloud-Native?",
+"contentData.cloud.interview[9].a": "Проектирование и разработка приложений специально с расчётом на преимущества облачных вычислений, такие как масштабируемость и контейнеры.",
+"contentData.cloud.interview[10].q": "Эластичность или масштабируемость?",
+"contentData.cloud.interview[10].a": "Масштабируемость — это способность справляться с ростом. Эластичность — способность подстраиваться под изменения спроса в реальном времени.",
+"contentData.cloud.interview[11].q": "Что такое CDN?",
+"contentData.cloud.interview[11].a": "Сеть распределённых серверов, доставляющих веб-контент ближе к пользователям в зависимости от их географического положения.",
+"contentData.cloud.interview[12].q": "Что такое Disaster Recovery?",
+"contentData.cloud.interview[12].a": "Набор политик и инструментов для восстановления инфраструктуры и систем после катастрофы.",
+"contentData.cloud.interview[13].q": "Что такое VPC?",
+"contentData.cloud.interview[13].a": "Частный изолированный сегмент облака, в котором можно запускать ресурсы в заданной вами виртуальной сети.",
+"contentData.cloud.interview[14].q": "Почему микросервисы популярны в облаке?",
+"contentData.cloud.interview[14].a": "Они позволяют масштабировать сервисы независимо и быстро развёртывать их, что идеально сочетается с эластичным управлением ресурсами в облаке.",
+"contentData.cloud.interview[15].q": "Что такое Edge Computing?",
+"contentData.cloud.interview[15].a": "Обработка данных ближе к месту их возникновения (на «периферии»), а не в централизованном облачном дата-центре.",
+"contentData.cloud.interview[16].q": "Что такое холодное хранилище (Cold Storage)?",
+"contentData.cloud.interview[16].a": "Хранилище для редко используемых данных (архивов) по более низкой цене, но с более долгим временем извлечения.",
+"contentData.cloud.interview[17].q": "Что такое мультиоблачная стратегия?",
+"contentData.cloud.interview[17].a": "Использование облачных сервисов от разных провайдеров, чтобы избежать привязки к вендору и повысить надёжность.",
+"contentData.cloud.interview[18].q": "Что такое IAM?",
+"contentData.cloud.interview[18].a": "Система для управления цифровыми идентификаторами и контроля доступа к облачным ресурсам.",
+"contentData.cloud.interview[19].q": "Какие существуют стратегии миграции в облако?",
+"contentData.cloud.interview[19].a": "Распространённые стратегии: Rehost (Lift and Shift), Replatform, Refactor, Retire и Retain.",
+"contentData.cloud.projects[0].title": "Serverless веб-приложение",
+"contentData.cloud.projects[0].desc": "Масштабируемое приложение, построенное только на облачных сервисах без управления серверами.",
+"contentData.cloud.projects[1].title": "Многоуровневая отказоустойчивая архитектура",
+"contentData.cloud.projects[1].desc": "Резервированная система, работающая в нескольких Availability Zones для высокой доступности.",
+"contentData.cloud.projects[2].title": "Управление затратами и безопасностью в облаке",
+"contentData.cloud.projects[2].desc": "Дашборд и набор средств автоматизации, которые отслеживают расходы и автоматически устраняют пробелы в безопасности в крупных средах.",
+"contentData.game-programming.faq[0].q": "Unity или Unreal Engine?",
+"contentData.game-programming.faq[0].a": "Для мобильных (2D/3D) и инди-проектов стандартом является Unity (C#). Для высококачественных игр на ПК и консоли лидирует Unreal Engine (C++/Blueprints).",
+"contentData.game-programming.faq[1].q": "Обязательно ли знать математику?",
+"contentData.game-programming.faq[1].a": "По сравнению с веб-разработкой — да. Векторы, системы координат и базовая тригонометрия — основа геймдева. Тяжёлую работу берут на себя движки, но логику знать нужно.",
+"contentData.game-programming.faq[2].q": "Можно ли сделать игру в одиночку?",
+"contentData.game-programming.faq[2].a": "Да (инди-разработчик). Но в одиночку заниматься кодом, графикой и звуком тяжело. Начните с простой графики (пиксель-арт) или используйте готовые ассеты.",
+"contentData.game-programming.faq[3].q": "Как игры зарабатывают деньги?",
+"contentData.game-programming.faq[3].a": "1. Реклама. 2. Внутриигровые покупки (IAP — скины, кристаллы). 3. Премиум-продажи (продажа в Steam). Для мобильных игр самая распространённая модель — реклама/IAP.",
+"contentData.game-programming.faq[4].q": "C++ слишком сложен?",
+"contentData.game-programming.faq[4].a": "Он сложнее C# или Python из-за ручного управления памятью. Однако в Unreal Engine можно начать с Blueprints (визуальный скриптинг), не написав ни строчки кода.",
+"contentData.game-programming.faq[5].q": "Геймдизайн и программирование игр — это одно и то же?",
+"contentData.game-programming.faq[5].a": "Нет. Дизайнер продумывает правила, сюжет и то, насколько игра увлекательна. Программист воплощает этот план в коде. В небольших командах один человек часто совмещает обе роли.",
+"contentData.game-programming.interview[0].q": "Что такое игровой цикл (Game Loop)?",
+"contentData.game-programming.interview[0].a": "Центральный механизм любой игры, который в непрерывном цикле обрабатывает ввод, обновляет состояние игры и отрисовывает кадр.",
+"contentData.game-programming.interview[1].q": "Что такое Delta Time и зачем он нужен?",
+"contentData.game-programming.interview[1].a": "Время, прошедшее с предыдущего кадра. Он обеспечивает одинаковое движение и логику независимо от частоты кадров.",
+"contentData.game-programming.interview[2].q": "Что такое компонентная архитектура?",
+"contentData.game-programming.interview[2].a": "Паттерн проектирования, при котором игровые объекты собираются из модульных компонентов, а не из сложных иерархий наследования.",
+"contentData.game-programming.interview[3].q": "Что такое Draw Call и как он влияет на производительность?",
+"contentData.game-programming.interview[3].a": "Команда, которую CPU отправляет GPU для отрисовки объекта. Большое количество draw call может привести к упору в CPU.",
+"contentData.game-programming.interview[4].q": "Что такое Object Pooling?",
+"contentData.game-programming.interview[4].a": "Техника оптимизации производительности, при которой объекты переиспользуются из заранее выделенного пула вместо постоянного создания и уничтожения.",
+"contentData.game-programming.interview[5].q": "Что такое Raycasting?",
+"contentData.game-programming.interview[5].a": "Испускание невидимого луча из точки в заданном направлении для обнаружения столкновений с игровыми объектами.",
+"contentData.game-programming.interview[6].q": "Что такое шейдеры?",
+"contentData.game-programming.interview[6].a": "Небольшие программы, которые выполняются на GPU и вычисляют цвет пикселей и визуальные эффекты поверхностей.",
+"contentData.game-programming.interview[7].q": "Как используется скалярное произведение (Dot Product) в геймдеве?",
+"contentData.game-programming.interview[7].a": "Для нахождения угла между двумя векторами. Обычно применяется, чтобы определить, повёрнут ли объект лицом к другому.",
+"contentData.game-programming.interview[8].q": "Чем отличаются RigidBody и Kinematic?",
+"contentData.game-programming.interview[8].a": "RigidBody управляется физическим движком. Kinematic-тело управляется вручную из кода и игнорирует внешние силы.",
+"contentData.game-programming.interview[9].q": "Что такое Frustum Culling?",
+"contentData.game-programming.interview[9].a": "Процесс, при котором объекты вне пирамиды видимости камеры не отрисовываются, чтобы экономить ресурсы.",
+"contentData.game-programming.interview[10].q": "Что такое LOD (Level of Detail)?",
+"contentData.game-programming.interview[10].a": "Отображение версий 3D-моделей с меньшим числом полигонов, когда они находятся далеко от камеры.",
+"contentData.game-programming.interview[11].q": "Что такое конечный автомат (FSM)?",
+"contentData.game-programming.interview[11].a": "Паттерн проектирования для управления поведением AI путём переключения между состояниями, например Idle, Walking или Attacking.",
+"contentData.game-programming.interview[12].q": "Что такое NavMesh?",
+"contentData.game-programming.interview[12].a": "Упрощённая сетчатая структура данных для поиска пути, определяющая проходимые области для AI-агентов.",
+"contentData.game-programming.interview[13].q": "Зачем использовать паттерн Singleton в играх?",
+"contentData.game-programming.interview[13].a": "Чтобы у класса был только один экземпляр и глобальная точка доступа к нему (например, ScoreManager).",
+"contentData.game-programming.interview[14].q": "Чем отличаются вершинный и фрагментный шейдеры?",
+"contentData.game-programming.interview[14].a": "Вершинные шейдеры обрабатывают геометрию и позиции. Фрагментные (пиксельные) шейдеры отвечают за цвет и освещение каждого пикселя.",
+"contentData.game-programming.interview[15].q": "Почему сборка мусора — проблема в играх?",
+"contentData.game-programming.interview[15].a": "Паузы GC могут вызывать просадки частоты кадров или «фризы», поэтому разработчики игр стараются минимизировать выделение памяти во время игрового процесса.",
+"contentData.game-programming.interview[16].q": "Что такое Occlusion Culling?",
+"contentData.game-programming.interview[16].a": "Функция рендеринга, которая отключает отрисовку объектов, скрытых за другими непрозрачными объектами.",
+"contentData.game-programming.interview[17].q": "Что такое префаб (или Blueprint)?",
+"contentData.game-programming.interview[17].a": "Переиспользуемый шаблон игрового объекта, хранящий его компоненты и свойства для удобного создания экземпляров.",
+"contentData.game-programming.interview[18].q": "Что такое пространственное разбиение (Spatial Partitioning)?",
+"contentData.game-programming.interview[18].a": "Техника организации игровых объектов в пространстве (с помощью Quadtree или Octree) для оптимизации обнаружения столкновений и рендеринга.",
+"contentData.game-programming.interview[19].q": "Что такое сглаживание (Anti-Aliasing)?",
+"contentData.game-programming.interview[19].a": "Техника сглаживания зубчатых краёв объектов на цифровых изображениях путём смешивания цветов пикселей.",
+"contentData.game-programming.projects[0].title": "2D-платформер с физикой",
+"contentData.game-programming.projects[0].desc": "Игра с перемещением персонажа, механикой прыжков и простым AI врагов.",
+"contentData.game-programming.projects[1].title": "3D-система выживания и крафта",
+"contentData.game-programming.projects[1].desc": "3D-фреймворк с управлением инвентарём, сбором ресурсов и механикой крафта предметов.",
+"contentData.game-programming.projects[2].title": "Многопользовательские танковые бои (ECS и сеть)",
+"contentData.game-programming.projects[2].desc": "Высокопроизводительный многопользовательский движок с Data-Oriented архитектурой и компенсацией лагов.",
+"contentData.graphics-programming.faq[0].q": "Чем отличаются геймдев и графическое программирование?",
+"contentData.graphics-programming.faq[0].a": "Геймдев использует движки вроде Unity/Unreal для создания игр. Графический программист пишет рендерер этих движков. Один водит машину, другой строит двигатель.",
+"contentData.graphics-programming.faq[1].q": "Действительно ли нужна математика (линейная алгебра)?",
+"contentData.graphics-programming.faq[1].a": "Безусловно. На 100%. Без понимания умножения матриц, скалярного и векторного произведений и векторных пространств нельзя даже нарисовать куб. Математика здесь — это язык.",
+"contentData.graphics-programming.faq[2].q": "С какого API начать? OpenGL или Vulkan?",
+"contentData.graphics-programming.faq[2].a": "Начните с OpenGL. Vulkan мощный, но требует 1000 строк кода только для того, чтобы нарисовать треугольник. OpenGL учит логике, Vulkan — производительности.",
+"contentData.graphics-programming.faq[3].q": "Что такое трассировка лучей (Ray Tracing)?",
+"contentData.graphics-programming.faq[3].a": "В отличие от традиционной растеризации (отрисовки треугольников), она моделирует физические лучи света и их отражения, создавая максимально фотореалистичные изображения.",
+"contentData.graphics-programming.faq[4].q": "Что такое шейдер?",
+"contentData.graphics-programming.faq[4].a": "Шейдер — это небольшая программа, которая выполняется непосредственно на GPU. Шейдеры определяют цвет каждого пикселя или положение каждой вершины.",
+"contentData.graphics-programming.interview[0].q": "Из каких этапов состоит графический конвейер?",
+"contentData.graphics-programming.interview[0].a": "Этапы включают обработку вершин, растеризацию, обработку фрагментов/пикселей и слияние вывода (Output Merging). Конвейер преобразует 3D-данные в 2D-пиксели.",
+"contentData.graphics-programming.interview[1].q": "Что такое растеризация?",
+"contentData.graphics-programming.interview[1].a": "Процесс преобразования векторных фигур в сетку пикселей для вывода на экран.",
+"contentData.graphics-programming.interview[2].q": "Чем отличаются трассировка лучей и растеризация?",
+"contentData.graphics-programming.interview[2].a": "Растеризация быстрее и используется в реальном времени. Трассировка лучей моделирует физическое поведение света для высокого реализма, но требует больших вычислений.",
+"contentData.graphics-programming.interview[3].q": "Что такое Vertex Buffer Object (VBO)?",
+"contentData.graphics-programming.interview[3].a": "Буфер, хранящий данные вершин в памяти GPU, чтобы минимизировать передачу данных между CPU и GPU.",
+"contentData.graphics-programming.interview[4].q": "Что такое Z-буфер?",
+"contentData.graphics-programming.interview[4].a": "Буфер, хранящий значение глубины каждого пикселя для удаления невидимых поверхностей (окклюзии).",
+"contentData.graphics-programming.interview[5].q": "Зачем нужны однородные координаты?",
+"contentData.graphics-programming.interview[5].a": "Они позволяют представить перенос, вращение и масштабирование одним умножением матриц в 4D-пространстве.",
+"contentData.graphics-programming.interview[6].q": "Что такое двойная буферизация?",
+"contentData.graphics-programming.interview[6].a": "Техника с двумя буферами для предотвращения разрывов изображения: один выводится на экран, пока во втором идёт отрисовка.",
+"contentData.graphics-programming.interview[7].q": "Что такое Alpha Blending?",
+"contentData.graphics-programming.interview[7].a": "Процесс смешивания полупрозрачного цвета переднего плана с цветом фона для создания эффектов прозрачности.",
+"contentData.graphics-programming.interview[8].q": "Что такое мипмаппинг?",
+"contentData.graphics-programming.interview[8].a": "Заранее рассчитанные оптимизированные последовательности изображений для представления текстур на разных расстояниях, что экономит память и повышает качество.",
+"contentData.graphics-programming.interview[9].q": "Что такое PBR?",
+"contentData.graphics-programming.interview[9].a": "Модель затенения, следующая физическим законам света и свойствам материалов для достижения высокого реализма.",
+"contentData.graphics-programming.interview[10].q": "Что такое Normal Mapping?",
+"contentData.graphics-programming.interview[10].a": "Техника имитации освещения выпуклостей и вмятин — дополнение к low-poly моделям для добавления деталей.",
+"contentData.graphics-programming.interview[11].q": "Что такое барицентрические координаты?",
+"contentData.graphics-programming.interview[11].a": "Система координат для выражения положения точки внутри треугольника, необходимая для интерполяции фрагментов.",
+"contentData.graphics-programming.interview[12].q": "Как работает MSAA?",
+"contentData.graphics-programming.interview[12].a": "Он уменьшает алиасинг, беря несколько сэмплов на пиксель на краях геометрии.",
+"contentData.graphics-programming.interview[13].q": "Что такое Compute Shader?",
+"contentData.graphics-programming.interview[13].a": "Стадия шейдера для вычислений общего назначения на GPU вне обычного графического конвейера.",
+"contentData.graphics-programming.interview[14].q": "Затенение по Фонгу или по Гуро?",
+"contentData.graphics-programming.interview[14].a": "Гуро вычисляет освещение в вершинах, Фонг — для каждого пикселя, что даёт более качественные зеркальные блики.",
+"contentData.graphics-programming.interview[15].q": "Что такое тесселяция?",
+"contentData.graphics-programming.interview[15].a": "Техника разбиения геометрии на более мелкие примитивы для динамического увеличения детализации на GPU.",
+"contentData.graphics-programming.interview[16].q": "Чем отличаются Vulkan и OpenGL?",
+"contentData.graphics-programming.interview[16].a": "OpenGL — высокоуровневый API. Vulkan — низкоуровневый, дающий явный контроль над ресурсами GPU и многопоточностью.",
+"contentData.graphics-programming.interview[17].q": "Что такое SSAO?",
+"contentData.graphics-programming.interview[17].a": "Эффект постобработки, имитирующий реалистичные тени в складках и углах на основе данных о глубине экрана.",
+"contentData.graphics-programming.interview[18].q": "Управление памятью GPU (сжатие текстур)?",
+"contentData.graphics-programming.interview[18].a": "Упаковка текстур в форматы, читаемые аппаратно, для экономии VRAM и повышения эффективности пропускной способности.",
+"contentData.graphics-programming.interview[19].q": "Что такое постобработка?",
+"contentData.graphics-programming.interview[19].a": "Эффекты, применяемые к 2D-изображению сцены после её рендеринга (например, Bloom, Depth of Field).",
+"contentData.graphics-programming.projects[0].title": "Программный растеризатор",
+"contentData.graphics-programming.projects[0].desc": "Рендерер, который выводит пиксели на экран только с помощью CPU, без каких-либо графических API.",
+"contentData.graphics-programming.projects[1].title": "Продвинутый шейдерный движок на OpenGL/Vulkan",
+"contentData.graphics-programming.projects[1].desc": "Движок рендеринга в реальном времени с поддержкой современных моделей освещения и теней.",
+"contentData.graphics-programming.projects[2].title": "GPU-трассировщик лучей в реальном времени",
+"contentData.graphics-programming.projects[2].desc": "Высокопроизводительный движок, моделирующий физическое поведение света с помощью трассировки лучей на GPU.",
+"contentData.embedded.faq[0].q": "Стоит ли начинать с Arduino?",
+"contentData.embedded.faq[0].a": "Для хобби — да; но для инженерной карьеры профессиональнее сразу изучать регистровую структуру таких чипов, как STM32 или ESP32.",
+"contentData.embedded.faq[1].q": "Используется ли C++ во встраиваемых системах?",
+"contentData.embedded.faq[1].a": "Да, благодаря объектно-ориентированности C++ стал очень распространён в современных встраиваемых системах (RTOS и Embedded Linux).",
+"contentData.embedded.interview[0].q": "Для чего нужно ключевое слово 'volatile'?",
+"contentData.embedded.interview[0].a": "Оно сообщает компилятору, что переменная может быть изменена внешними факторами (например, прерыванием или аппаратным регистром) в любой момент, поэтому компилятор не должен её оптимизировать.",
+"contentData.embedded.interview[1].q": "Что нужно учитывать при написании обработчика прерывания (ISR)?",
+"contentData.embedded.interview[1].a": "ISR должен быть как можно короче; в нём следует избегать функций вроде 'printf' или 'delay', и он не должен содержать блокирующих операций.",
+"contentData.embedded.projects[0].title": "Умный домашний термостат",
+"contentData.embedded.projects[0].desc": "Система, которая считывает данные датчиков, отображает их и управляет реле.",
+"contentData.embedded.projects[1].title": "Метеостанция на FreeRTOS",
+"contentData.embedded.projects[1].desc": "Многозадачная система, отправляющая погодные данные в облако.",
+"contentData.embedded.projects[2].title": "Автономный робот (Bare-Metal)",
+"contentData.embedded.projects[2].desc": "Быстродействующая система управления с собственными драйверами или RTOS.",
+"contentData.iot.faq[0].q": "Какой язык выбрать для IoT?",
+"contentData.iot.faq[0].a": "C и C++ для аппаратного уровня. Python для прототипирования и обработки данных.",
+"contentData.iot.faq[1].q": "Используется ли Arduino в профессиональных проектах?",
+"contentData.iot.faq[1].a": "Arduino отлично подходит для прототипирования. Для промышленных продуктов предпочитают «чистые» микроконтроллеры, такие как STM32 или ESP32.",
+"contentData.iot.interview[0].q": "Чем отличаются I2C и SPI?",
+"contentData.iot.interview[0].a": "I2C использует 2 провода (SDA/SCL) и работает медленнее. SPI использует 4 провода и намного быстрее.",
+"contentData.iot.interview[1].q": "Что такое Watchdog Timer?",
+"contentData.iot.interview[1].a": "Аппаратный таймер, который автоматически перезагружает систему, если программа зависла.",
+"contentData.iot.projects[0].title": "Умный домашний термостат",
+"contentData.iot.projects[0].desc": "Система, которая измеряет температуру, отправляет её в облако и управляется через веб.",
+"contentData.iot.projects[1].title": "Агротех на базе LoRa",
+"contentData.iot.projects[1].desc": "Система, передающая данные о влажности почвы с полей за много километров без интернета.",
+"contentData.blockchain.faq[0].q": "Что нужно знать для Web3?",
+"contentData.blockchain.faq[0].a": "Ключевое значение имеет прочная база JavaScript. Знание JS и React делает изучение Web3 на 70% проще.",
+"contentData.blockchain.faq[1].q": "Solidity или Rust?",
+"contentData.blockchain.faq[1].a": "Solidity для Ethereum; Rust для Solana/Near. Для начинающих по Solidity больше материалов.",
+"contentData.blockchain.interview[0].q": "Что такое смарт-контракт?",
+"contentData.blockchain.interview[0].a": "Неизменяемые фрагменты кода, которые автоматически выполняются в блокчейне при выполнении условий.",
+"contentData.blockchain.interview[1].q": "Gas Limit или Gas Price?",
+"contentData.blockchain.interview[1].a": "Gas Limit — максимальное количество единиц газа, которое вы готовы потратить. Gas Price — стоимость одной единицы газа (Gwei).",
+"contentData.blockchain.projects[0].title": "DApp для минтинга NFT",
+"contentData.blockchain.projects[0].desc": "Платформа, где пользователи подключают кошельки и минтят собственные NFT.",
+"contentData.blockchain.projects[1].title": "Создайте собственную DEX",
+"contentData.blockchain.projects[1].desc": "Простой клон Uniswap: обмен токенов и пулы ликвидности.",
+"contentData.ar-vr.faq[0].q": "Можно ли начать без дорогого VR-шлема?",
+"contentData.ar-vr.faq[0].a": "Да. Можно использовать симуляторы в Unity или начать с мобильного AR на своём телефоне.",
+"contentData.ar-vr.faq[1].q": "Очень ли важна математика?",
+"contentData.ar-vr.faq[1].a": "Для простых приложений — нет, но для продвинутых механик и оптимизации она необходима.",
+"contentData.ar-vr.interview[0].q": "Что такое Draw Call?",
+"contentData.ar-vr.interview[0].a": "Команда, которую CPU отправляет GPU для отрисовки объекта. Большое их количество снижает производительность; для оптимизации используется батчинг.",
+"contentData.ar-vr.interview[1].q": "Чем отличаются ARCore и ARKit?",
+"contentData.ar-vr.interview[1].a": "ARCore — от Google (Android), ARKit — от Apple (iOS). Оба используют технологию SLAM.",
+"contentData.ar-vr.projects[0].title": "AR-расстановка мебели",
+"contentData.ar-vr.projects[0].desc": "Приложение для размещения 3D-моделей мебели в реальной комнате с помощью камеры телефона.",
+"contentData.ar-vr.projects[1].title": "VR-тир",
+"contentData.ar-vr.projects[1].desc": "VR-приложение с физическим взаимодействием с оружием.",
+"contentData.ar-vr.projects[2].title": "Многопользовательская MR-симуляция для обучения",
+"contentData.ar-vr.projects[2].desc": "Система, в которой несколько пользователей работают с виртуальными объектами в одном физическом пространстве.",
+"contentData.qa-automation.faq[0].q": "Нужно ли программировать в QA Automation?",
+"contentData.qa-automation.faq[0].a": "Да. Помимо основ ручного тестирования, нужно уверенно владеть хотя бы одним языком программирования.",
+"contentData.qa-automation.faq[1].q": "Что такое SDET?",
+"contentData.qa-automation.faq[1].a": "Software Development Engineer in Test. Инженер, который создаёт тестовые инструменты и фреймворки, а не просто запускает тесты.",
+"contentData.qa-automation.interview[0].q": "Implicit или Explicit Wait?",
+"contentData.qa-automation.interview[0].a": "Implicit — глобальное ожидание для всех элементов. Explicit — ожидание по условию для конкретного элемента.",
+"contentData.qa-automation.interview[1].q": "Что такое регрессионное тестирование?",
+"contentData.qa-automation.interview[1].a": "Тестирование, которое проверяет, что новые изменения кода не нарушили существующую функциональность.",
+"contentData.qa-automation.projects[0].title": "UI-автоматизация интернет-магазина",
+"contentData.qa-automation.projects[0].desc": "Автоматизация поиска товара, добавления в корзину и оформления заказа на сайте.",
+"contentData.qa-automation.projects[1].title": "Гибридный фреймворк для API и UI",
+"contentData.qa-automation.projects[1].desc": "Фреймворк, который готовит данные через API и выполняет проверки через UI.",
+"contentData.qa-automation.projects[2].title": "Полный CI/CD и нагрузочное тестирование",
+"contentData.qa-automation.projects[2].desc": "Автоматизированный пайплайн, запускающийся на каждый коммит, со встроенным тестированием производительности.",
+"faq[0].category": "Разработка ПО и карьера",
+"faq[0].questions[0].q": "Хочу начать программировать с нуля. С чего начать?",
+"faq[0].questions[0].a": "Сначала разберитесь в логике алгоритмов. Выберите роадмап на \"Roadmap.sh\". Начинающим рекомендуется Python, а для веба — HTML/CSS/JS. \"FreeCodeCamp\" — отличный бесплатный ресурс.",
+"faq[0].questions[1].q": "Какой компьютер купить? (советы по железу)",
+"faq[0].questions[1].a": "Главное — мобильность и время работы от батареи. Минимум 16 ГБ RAM и SSD обязательны. Если используете виртуальные машины, критична мощность CPU (Mac на M1/M2/M3 или Ryzen 7/Intel i7). Игровые ноутбуки тяжёлые; для работы лучше ультрабуки или MacBook.",
+"faq[0].questions[2].q": "Какие ресурсы лучше всего подходят для изучения Python?",
+"faq[0].questions[2].a": "Для документации на турецком — \"YazBel\", для видео — \"BTK Akademi\". На английском очень рекомендуются легендарный курс Гарварда \"CS50 Python\" и YouTube-канал \"Tech With Tim\".",
+"faq[0].questions[3].q": "Хочу разрабатывать мобильные приложения: Flutter или React Native?",
+"faq[0].questions[3].a": "Если у вас есть опыт в вебе (JS/React), вы быстро освоитесь в \"React Native\". Для высокой производительности на iOS/Android с единой кодовой базой сейчас очень популярен \"Flutter\" от Google.",
+"faq[0].questions[4].q": "Заберёт ли AI нашу работу?",
+"faq[0].questions[4].a": "AI превращает программирование из «рутины» в «архитектуру». AI — скорее «сверхумный стажёр», чем соперник. Разработчики, использующие AI, заменят тех, кто его не использует. Видение и архитектурные навыки по-прежнему остаются за человеком.",
+"faq[0].questions[5].q": "Что такое Cursor, Copilot и \"Vibe Coding\"?",
+"faq[0].questions[5].a": "Copilot — ваш ассистент, подсказывающий код, Cursor — редактор на базе AI, который пишет код. \"Vibe Coding\" — это быстрое прототипирование, когда вы описываете AI свой замысел, а не пишете код строка за строкой.",
+"faq[0].questions[6].q": "Почему все говорят о Rust и Go?",
+"faq[0].questions[6].a": "Rust считают системным языком будущего: он обеспечивает безопасность памяти при скорости C++. Go (Golang) популярен благодаря простоте и статусу стандарта в мире Cloud/DevOps (Docker/Kubernetes).",
+"faq[0].questions[7].q": "В чём разница между фреймворком и библиотекой?",
+"faq[0].questions[7].a": "Библиотека (например, React) — как ящик с инструментами: вы вызываете её, когда нужно. Фреймворк (например, Angular) — как каркас дома: он задаёт правила и сам вызывает ваш код. Фреймворки строже, но упорядоченнее.",
+"faq[0].questions[8].q": "Как найти работу фриланс-разработчиком?",
+"faq[0].questions[8].a": "Upwork, Fiverr и Bionluk — хорошая отправная точка. Однако высокооплачиваемые заказы приходят через нетворкинг и сильный профиль на GitHub/LinkedIn. Нужно стать тем, кого ищут, а не просто откликаться.",
+"faq[0].questions[9].q": "Что такое SDLC (жизненный цикл разработки ПО)?",
+"faq[0].questions[9].a": "Это путь программы от рождения до вывода из эксплуатации: планирование -> анализ -> проектирование -> разработка -> тестирование -> сопровождение. Этот цикл лежит в основе профессиональных проектов.",
+"faq[1].category": "Кибербезопасность",
+"faq[1].questions[0].q": "Нужно ли высшее образование для кибербезопасности?",
+"faq[1].questions[0].a": "Есть талантливые специалисты и без диплома. Однако инженерное образование учит аналитическому мышлению, а диплом по-прежнему служит «визой» в крупные компании и для работы за рубежом. Если не учитесь в вузе, работайте вдвое усерднее.",
+"faq[1].questions[1].q": "Какой Wi-Fi-адаптер купить для Kali Linux?",
+"faq[1].questions[1].a": "Смотрите на чипсет, а не на бренд. Адаптер должен поддерживать \"Monitor Mode\" и \"Packet Injection\". Чтобы найти актуальный список чипсетов, поищите в Google \"wifi adapters support kali monitoring\".",
+"faq[1].questions[2].q": "Лучшие ресурсы по безопасности веб-приложений?",
+"faq[1].questions[2].a": "Библия этой области — \"PortSwigger Academy\" (бесплатно). Также нужно назубок знать \"OWASP Top 10\". Для практики очень полезны комнаты \"TryHackMe OWASP\" и чтение отчётов на \"HackerOne\".",
+"faq[1].questions[3].q": "С чего начать изучение сетей?",
+"faq[1].questions[3].a": "Ориентируйтесь на подготовку к CCNA. Для основ отлично подходят \"NetworkChuck\" на YouTube (очень увлекательно) и \"Turkcell Geleceği Yazanlar\" (контент на турецком). Без знания сетей хакером не стать.",
+"faq[1].questions[4].q": "Где можно легально практиковаться в тестировании на проникновение?",
+"faq[1].questions[4].a": "Можно собрать собственную лабораторию или использовать платформы вроде \"TryHackMe\" и \"HackTheBox\". Никогда не трогайте реальные сайты без разрешения! Для практики на турецком загляните на \"CyberExam\".",
+"faq[1].questions[5].q": "Kali Linux или Parrot OS?",
+"faq[1].questions[5].a": "Это исключительно дело вкуса. Kali — индустриальный стандарт с огромным количеством материалов. Parrot легче и удобнее для повседневного использования. Для начала рекомендуем установить Kali в виртуальную машину (VirtualBox)."
+},
+"roadmap": {
+"frontend": [
+{
+"title": "Основы интернета",
+"items": [
+"Как работает DNS",
+"HTTP/HTTPS и SSL",
+"Движки браузеров",
+"Управление доменами"
+]
+},
+{
+"title": "HTML и CSS",
+"items": [
+"Семантический HTML5",
+"Основы SEO",
+"Flexbox и Grid",
+"Адаптивный дизайн",
+"Методология BEM"
+]
+},
+{
+"title": "Git и контроль версий",
+"items": [
+"Команды Git",
+"GitHub/GitLab",
+"PR и код-ревью",
+"Семантическое версионирование"
+]
+},
+{
+"title": "Современный CSS и UI",
+"items": [
+"Tailwind CSS",
+"Sass/SCSS",
+"CSS Modules",
+"Styled Components",
+"ShadCN UI"
+]
+},
+{
+"title": "Глубокое изучение JavaScript",
+"items": [
+"Синтаксис ES6+",
+"DOM и Event Loop",
+"Async/Await и промисы",
+"Fetch и Axios",
+"Web Storage"
+]
+},
+{
+"title": "Современные фреймворки",
+"items": [
+"React.js",
+"Next.js (App Router)",
+"Vue.js 3"
+]
+},
+{
+"title": "Управление состоянием",
+"items": [
+"Redux Toolkit",
+"Zustand",
+"Context API",
+"TanStack Query"
+]
+},
+{
+"title": "Тестирование и безопасность",
+"items": [
+"Jest и RTL",
+"Cypress/Playwright",
+"Основы веб-безопасности",
+"JWT и аутентификация"
+]
+},
+{
+"title": "Производительность и деплой",
+"items": [
+"Ленивая загрузка",
+"Разделение кода",
+"Vercel/Netlify",
+"CI/CD-пайплайны"
+]
+}
+],
+"backend": [
+{
+"title": "Основы интернета и ОС",
+"items": [
+"Как работают HTTP и DNS",
+"Основы терминала Linux",
+"Управление процессами",
+"Конкурентность и потоки"
+]
+},
+{
+"title": "Выбор языка",
+"items": [
+"JavaScript (Node.js)",
+"Python",
+"Go (Golang)",
+"Java",
+"C# (.NET)"
+]
+},
+{
+"title": "Реляционные базы данных (SQL)",
+"items": [
+"PostgreSQL",
+"MySQL/MariaDB",
+"SQL-запросы и JOIN",
+"Свойства ACID",
+"Нормализация"
+]
+},
+{
+"title": "NoSQL базы данных",
+"items": [
+"MongoDB",
+"Redis",
+"Cassandra"
+]
+},
+{
+"title": "Разработка API",
+"items": [
+"Стандарты REST",
+"GraphQL",
+"Аутентификация (JWT, OAuth2)",
+"JSON и XML"
+]
+},
+{
+"title": "ORM и работа с данными",
+"items": [
+"Prisma / TypeORM",
+"Entity Framework",
+"Защита от SQL-инъекций",
+"Управление миграциями"
+]
+},
+{
+"title": "DevOps и деплой",
+"items": [
+"Docker и контейнеры",
+"CI/CD-пайплайны",
+"Основы облаков (AWS/DO)",
+"Обратные прокси (Nginx)"
+]
+},
+{
+"title": "Продвинутые темы",
+"items": [
+"Микросервисная архитектура",
+"Брокеры сообщений (RabbitMQ/Kafka)",
+"Стратегии кеширования",
+"WebSockets"
+]
+},
+{
+"title": "Тестирование и безопасность",
+"items": [
+"Модульное и интеграционное тестирование",
+"Риски бэкенда по OWASP",
+"Ограничение частоты запросов",
+"Наблюдаемость"
+]
+}
+],
+"fullstack": [
+{
+"title": "Общая база",
+"items": [
+"Продвинутые HTML/CSS/JS",
+"Логика HTTP и REST",
+"Рабочий процесс Git и GitHub"
+]
+},
+{
+"title": "Глубокое изучение фронтенда",
+"items": [
+"React.js или Vue.js",
+"Управление состоянием",
+"Tailwind CSS",
+"Адаптивный UI"
+]
+},
+{
+"title": "Основы бэкенда",
+"items": [
+"Node.js (Express/NestJS)",
+"или Python",
+"Обработчики маршрутов API",
+"Middleware"
+]
+},
+{
+"title": "Интеграция с базой данных",
+"items": [
+"PostgreSQL (SQL)",
+"MongoDB (NoSQL)",
+"Работа с ORM (Prisma)",
+"Моделирование данных"
+]
+},
+{
+"title": "Фулстек-фреймворки",
+"items": [
+"Next.js (App Router)",
+"Nuxt.js",
+"Серверный рендеринг (SSR)"
+]
+},
+{
+"title": "Аутентификация и безопасность",
+"items": [
+"NextAuth.js",
+"JWT и сессии",
+"Защита CORS и CSRF"
+]
+},
+{
+"title": "DevOps и облако",
+"items": [
+"Docker",
+"Vercel/Netlify",
+"Основы AWS/VPS",
+"CI/CD-пайплайны"
+]
+},
+{
+"title": "Мобильная разработка (по желанию)",
+"items": [
+"React Native (Expo)",
+"Дизайн мобильного UI",
+"Публикация в App Store"
+]
+}
+],
+"ios": [
+{
+"title": "Основы экосистемы",
+"items": [
+"Основы macOS",
+"Установка и интерфейс Xcode",
+"Apple Developer Program"
+]
+},
+{
+"title": "Язык Swift",
+"items": [
+"Переменные (let/var)",
+"Optionals (?) и извлечение значений",
+"Struct и Class",
+"Управление потоком"
+]
+},
+{
+"title": "Современный UI: SwiftUI",
+"items": [
+"Views и модификаторы",
+"Управление состоянием",
+"NavigationStack",
+"Списки и сетки"
+]
+},
+{
+"title": "Классический UI: UIKit",
+"items": [
+"UI в коде",
+"Auto Layout",
+"Делегаты и протоколы",
+"Жизненный цикл View Controller"
+]
+},
+{
+"title": "Данные и сеть",
+"items": [
+"URLSession и Async/Await",
+"Парсинг JSON (Codable)",
+"SwiftData (современный)",
+"Core Data (классический)"
+]
+},
+{
+"title": "Архитектура",
+"items": [
+"MVVM (отраслевой стандарт)",
+"MVC",
+"TCA (The Composable Architecture)",
+"Clean Architecture"
+]
+},
+{
+"title": "Продвинутые темы",
+"items": [
+"Структурированная конкурентность",
+"Управление памятью (ARC)",
+"Фреймворк Combine",
+"Модульные и UI-тесты"
+]
+},
+{
+"title": "Публикация",
+"items": [
+"App Store Connect",
+"TestFlight",
+"Сертификаты и provisioning",
+"CI/CD-процессы"
+]
+}
+],
+"android": [
+{
+"title": "Введение и настройка",
+"items": [
+"Установка Android Studio",
+"JDK и SDK Manager",
+"Настройка эмулятора (AVD)"
+]
+},
+{
+"title": "Язык Kotlin",
+"items": [
+"Переменные (val/var)",
+"Null-безопасность",
+"Data-классы",
+"Функции высшего порядка"
+]
+},
+{
+"title": "Современный UI: Jetpack Compose",
+"items": [
+"Composable-функции",
+"Поднятие состояния",
+"Scaffold и модификаторы",
+"Material Design 3"
+]
+},
+{
+"title": "Классический UI: XML",
+"items": [
+"View Binding",
+"ConstraintLayout",
+"RecyclerView и адаптеры",
+"Жизненный цикл Activity/Fragment"
+]
+},
+{
+"title": "Данные и сеть",
+"items": [
+"Retrofit (REST API)",
+"Корутины и Flow",
+"База данных Room (SQL)",
+"Сериализация (Moshi)"
+]
+},
+{
+"title": "Архитектура",
+"items": [
+"Паттерн MVVM",
+"Clean Architecture",
+"Внедрение зависимостей (Hilt)",
+"Паттерн Repository"
+]
+},
+{
+"title": "Фоновые задачи",
+"items": [
+"WorkManager",
+"Broadcast Receivers",
+"Push-уведомления",
+"Сервисы"
+]
+},
+{
+"title": "Публикация",
+"items": [
+"Google Play Console",
+"App Bundles (.aab)",
+"Подпись и Keystore",
+"CI/CD (Bitrise/GitHub)"
+]
+}
+],
+"cross-platform": [
+{
+"title": "Выбор фреймворка",
+"items": [
+"Flutter (Dart)",
+"React Native (JS/TS)",
+".NET MAUI"
+]
+},
+{
+"title": "Основы языка",
+"items": [
+"Dart: ООП, Futures",
+"JS/TS: ES6+, Async/Await"
+]
+},
+{
+"title": "UI и вёрстка",
+"items": [
+"Flutter: дерево виджетов",
+"RN: Flexbox, JSX, StyleSheet"
+]
+},
+{
+"title": "Управление состоянием",
+"items": [
+"Flutter: Riverpod, Bloc",
+"RN: Redux Toolkit, Zustand"
+]
+},
+{
+"title": "Навигация",
+"items": [
+"Flutter: GoRouter",
+"RN: React Navigation, Expo Router"
+]
+},
+{
+"title": "Нативная интеграция",
+"items": [
+"Камера и разрешения",
+"Карты и геолокация",
+"Bridge / JSI"
+]
+},
+{
+"title": "Данные и хранение",
+"items": [
+"Экосистема Firebase",
+"Supabase",
+"Локальная БД (SQLite)",
+"Работа с API"
+]
+},
+{
+"title": "Публикация и CI/CD",
+"items": [
+"Правила магазинов приложений",
+"Fastlane",
+"Codemagic / EAS Build"
+]
+}
+],
+"data-science": [
+{
+"title": "Математика и статистика",
+"items": [
+"Линейная алгебра",
+"Теория вероятностей и статистика",
+"Основы матанализа",
+"Проверка гипотез"
+]
+},
+{
+"title": "Программирование (Python)",
+"items": [
+"Основы Python",
+"Структуры данных",
+"SQL (запросы)",
+"Очистка данных"
+]
+},
+{
+"title": "Анализ и визуализация данных",
+"items": [
+"NumPy",
+"Pandas (обработка данных)",
+"Matplotlib и Seaborn",
+"Tableau / PowerBI"
+]
+},
+{
+"title": "Машинное обучение (ML)",
+"items": [
+"Scikit-Learn",
+"Обучение с учителем",
+"Обучение без учителя",
+"Оценка моделей"
+]
+},
+{
+"title": "Глубокое обучение (DL)",
+"items": [
+"Нейронные сети",
+"TensorFlow или PyTorch",
+"Компьютерное зрение (CNN)",
+"NLP (RNN/трансформеры)"
+]
+},
+{
+"title": "Big Data и MLOps",
+"items": [
+"Apache Spark",
+"Hadoop",
+"Развёртывание моделей (Streamlit)",
+"Docker для DS"
+]
+}
+],
+"ml": [
+{
+"title": "Математическая база",
+"items": [
+"Линейная алгебра",
+"Матанализ (градиентный спуск)",
+"Вероятность и статистика",
+"Векторные пространства"
+]
+},
+{
+"title": "Python и подготовка данных",
+"items": [
+"NumPy и Pandas",
+"Предобработка данных",
+"Feature engineering",
+"Визуализация"
+]
+},
+{
+"title": "Классическое ML",
+"items": [
+"Scikit-Learn",
+"Регрессия",
+"Деревья решений и случайный лес",
+"SVM и K-Means"
+]
+},
+{
+"title": "Глубокое обучение",
+"items": [
+"Нейронные сети (ANN)",
+"PyTorch или TensorFlow",
+"Обратное распространение ошибки",
+"Функции активации"
+]
+},
+{
+"title": "Продвинутые области",
+"items": [
+"Компьютерное зрение (CNN)",
+"NLP (трансформеры/LLM)",
+"Генеративный ИИ",
+"Обучение с подкреплением"
+]
+},
+{
+"title": "MLOps и развёртывание",
+"items": [
+"Сервинг моделей (FastAPI)",
+"Docker и K8s",
+"MLflow/WandB",
+"Облачный ИИ (AWS/Azure)"
+]
+}
+],
+"deep-learning": [
+{
+"title": "Основы нейронных сетей",
+"items": [
+"Нейроны и перцептроны",
+"Функции активации",
+"Обратное распространение и функция потерь",
+"Оптимизаторы (Adam, SGD)"
+]
+},
+{
+"title": "Освоение фреймворков",
+"items": [
+"PyTorch (отраслевой стандарт)",
+"TensorFlow / Keras",
+"Операции с тензорами",
+"Работа с GPU/CUDA"
+]
+},
+{
+"title": "Компьютерное зрение",
+"items": [
+"CNN (свёрточные сети)",
+"Детекция объектов (YOLO)",
+"Сегментация изображений",
+"OpenCV"
+]
+},
+{
+"title": "Глубокое изучение NLP",
+"items": [
+"RNN и LSTM",
+"Векторные представления слов",
+"Механизм внимания",
+"Архитектура трансформеров"
+]
+},
+{
+"title": "Генеративный ИИ",
+"items": [
+"GAN",
+"Диффузионные модели",
+"Большие языковые модели (LLM)",
+"Дообучение (fine-tuning)"
+]
+},
+{
+"title": "Продвинутые темы",
+"items": [
+"Обучение с подкреплением (RL)",
+"Графовые нейронные сети",
+"Объяснимый ИИ (XAI)",
+"Самообучение (self-supervised)"
+]
+},
+{
+"title": "Развёртывание и масштабирование",
+"items": [
+"Квантование моделей",
+"ONNX Runtime",
+"Сервинг (TorchServe)",
+"Распределённое обучение"
+]
+}
+],
+"ai-engineering": [
+{
+"title": "Основы",
+"items": [
+"Продвинутый Python",
+"REST API",
+"Основы векторной математики"
+]
+},
+{
+"title": "Основы LLM",
+"items": [
+"Архитектура трансформеров",
+"Токенизация",
+"Температура и параметры",
+"API для LLM"
+]
+},
+{
+"title": "Промпт-инжиниринг",
+"items": [
+"Zero-shot и few-shot",
+"Chain of Thought (CoT)",
+"Системные промпты"
+]
+},
+{
+"title": "RAG (генерация с дополненным поиском)",
+"items": [
+"Векторные БД (Pinecone)",
+"Эмбеддинги",
+"LangChain и LlamaIndex",
+"Управление контекстом"
+]
+},
+{
+"title": "Разработка ИИ-агентов",
+"items": [
+"Логика AutoGPT",
+"Function Calling",
+"Фреймворк ReAct",
+"Мультиагентные системы"
+]
+},
+{
+"title": "Дообучение (fine-tuning)",
+"items": [
+"LoRA / QLoRA",
+"HuggingFace",
+"Подготовка датасета",
+"Оптимизация затрат"
+]
+},
+{
+"title": "LLMOps и развёртывание",
+"items": [
+"Ollama (локально)",
+"Vercel AI SDK",
+"Оценка моделей (Evals)",
+"Безопасность и guardrails"
+]
+}
+],
+"big-data": [
+{
+"title": "Основы",
+"items": [
+"Linux CLI и Bash",
+"Продвинутый SQL",
+"Программирование (Python/Scala)",
+"Устройство JVM"
+]
+},
+{
+"title": "Архитектурные концепции",
+"items": [
+"Теорема CAP",
+"ETL и ELT",
+"Data Warehouse и Data Lake",
+"Пакетная и потоковая обработка"
+]
+},
+{
+"title": "Хранение",
+"items": [
+"Hadoop (HDFS)",
+"Amazon S3 / GCS",
+"Форматы файлов (Parquet/Avro)"
+]
+},
+{
+"title": "Обработка",
+"items": [
+"Apache Spark (стандарт)",
+"Hadoop MapReduce",
+"Databricks"
+]
+},
+{
+"title": "Потоковая обработка",
+"items": [
+"Apache Kafka",
+"Apache Flink",
+"Spark Streaming"
+]
+},
+{
+"title": "NoSQL и современные БД",
+"items": [
+"Apache Cassandra",
+"HBase",
+"Elasticsearch",
+"Neo4j"
+]
+},
+{
+"title": "Хранилища данных и SQL-движки",
+"items": [
+"Snowflake",
+"BigQuery",
+"Apache Hive",
+"Trino / Presto"
+]
+},
+{
+"title": "Оркестрация и эксплуатация",
+"items": [
+"Apache Airflow",
+"Docker и Kubernetes",
+"Управление данными (Data Governance)"
+]
+}
+],
+"cyber-security": [
+{
+"title": "Основы",
+"items": [
+"Сети (OSI, TCP/IP)",
+"Основы Linux CLI",
+"Скрипты на Python/Bash",
+"Виртуализация (VM)"
+]
+},
+{
+"title": "Архитектура ОС",
+"items": [
+"Устройство Windows/Linux",
+"Файловые системы",
+"Управление памятью",
+"Процессы"
+]
+},
+{
+"title": "Тестирование на проникновение",
+"items": [
+"Разведка (Nmap)",
+"Сканирование уязвимостей",
+"Metasploit Framework",
+"Повышение привилегий"
+]
+},
+{
+"title": "Безопасность веб-приложений",
+"items": [
+"OWASP Top 10",
+"Глубокое изучение Burp Suite",
+"Безопасность API",
+"Request Smuggling"
+]
+},
+{
+"title": "Blue Team (защита)",
+"items": [
+"SIEM (Splunk, Wazuh)",
+"Анализ логов",
+"Реагирование на инциденты",
+"Firewall и IPS/IDS"
+]
+},
+{
+"title": "Продвинутые атаки",
+"items": [
+"Реверс-инжиниринг",
+"Анализ вредоносного ПО",
+"Переполнение буфера",
+"Атаки на Active Directory"
+]
+},
+{
+"title": "Облачная безопасность",
+"items": [
+"Безопасность AWS/Azure",
+"Безопасность контейнеров",
+"IAM и соответствие требованиям",
+"Пентест облаков"
+]
+},
+{
+"title": "Сертификаты и карьера",
+"items": [
+"eJPT (начальный)",
+"OSCP (золотой стандарт)",
+"CISSP (менеджмент)",
+"Bug Bounty"
+]
+}
+],
+"network": [
+{
+"title": "Введение и термины",
+"items": [
+"Что такое сеть?",
+"Домен и хостинг",
+"Поддомен",
+"Сервер имён (NS)"
+]
+},
+{
+"title": "Сетевое оборудование",
+"items": [
+"NIC (сетевая карта)",
+"Коммутатор (Switch)",
+"Модем и маршрутизатор",
+"Концентратор (Hub) и мост (Bridge)",
+"Межсетевой экран (Firewall)"
+]
+},
+{
+"title": "Типы сетей",
+"items": [
+"LAN (локальная сеть)",
+"MAN (городская сеть)",
+"WAN (глобальная сеть)",
+"WLAN (беспроводная сеть)"
+]
+},
+{
+"title": "Протоколы и модели",
+"items": [
+"Модель OSI (7 уровней)",
+"Архитектура TCP/IP",
+"Логика DNS",
+"Порты"
+]
+},
+{
+"title": "Передача и адресация",
+"items": [
+"IP-адресация",
+"Network ID и Host ID",
+"Unicast / Multicast",
+"Разбиение на подсети"
+]
+},
+{
+"title": "Сетевые службы",
+"items": [
+"DHCP",
+"NAT",
+"VPN",
+"Прокси"
+]
+},
+{
+"title": "Продвинутые темы",
+"items": [
+"VLAN",
+"SD-WAN",
+"Балансировка нагрузки",
+"Сетевая безопасность"
+]
+}
+],
+"devops": [
+{
+"title": "Подготовка",
+"items": [
+"Терминал Linux (Bash)",
+"Сети (DNS, OSI, HTTP)",
+"Git и контроль версий",
+"Vim/Nano"
+]
+},
+{
+"title": "Язык программирования",
+"items": [
+"Python (для скриптов)",
+"Go (Golang, cloud native)",
+"Скрипты на Bash"
+]
+},
+{
+"title": "Администрирование серверов",
+"items": [
+"Администрирование Linux (Ubuntu/RHEL)",
+"Веб-серверы (Nginx)",
+"Безопасность SSH",
+"Задачи Cron"
+]
+},
+{
+"title": "Контейнеризация",
+"items": [
+"Основы Docker",
+"Написание Dockerfile",
+"Docker Compose",
+"Реестр контейнеров"
+]
+},
+{
+"title": "Оркестрация",
+"items": [
+"Архитектура Kubernetes (K8s)",
+"Pod/Service/Ingress",
+"Helm-чарты",
+"Эксплуатация кластера"
+]
+},
+{
+"title": "CI/CD-пайплайны",
+"items": [
+"Jenkins (классический)",
+"GitHub Actions / GitLab CI",
+"Синтаксис пайплайнов",
+"Автоматизированное тестирование"
+]
+},
+{
+"title": "IaC (инфраструктура как код)",
+"items": [
+"Terraform (создание ресурсов)",
+"Ansible (управление конфигурацией)",
+"Управление состоянием"
+]
+},
+{
+"title": "Облако и мониторинг",
+"items": [
+"AWS / Azure / GCP",
+"Prometheus и Grafana",
+"ELK Stack (логирование)",
+"DevSecOps"
+]
+}
+],
+"cloud": [
+{
+"title": "Основы",
+"items": [
+"Что такое облако? (IaaS, PaaS, SaaS)",
+"Виртуализация",
+"Сети (IP, DNS, CIDR)",
+"Linux CLI"
+]
+},
+{
+"title": "Провайдер и настройка",
+"items": [
+"AWS (лидер рынка)",
+"Azure (корпоративный сегмент)",
+"GCP (данные/ИИ)",
+"Настройка Free Tier"
+]
+},
+{
+"title": "Основные сервисы",
+"items": [
+"Вычисления (EC2 / VM)",
+"Хранилище (S3 / Blob)",
+"Сети (VPC / VNet)",
+"IAM (управление доступом)"
+]
+},
+{
+"title": "Управление базами данных",
+"items": [
+"Реляционные (RDS / SQL)",
+"NoSQL (DynamoDB / Cosmos)",
+"Кеширование (Redis)"
+]
+},
+{
+"title": "IaC (инфраструктура как код)",
+"items": [
+"Terraform (отраслевой стандарт)",
+"CloudFormation",
+"Ansible",
+"Принципы GitOps"
+]
+},
+{
+"title": "Современные архитектуры",
+"items": [
+"Serverless (Lambda)",
+"Контейнеры (K8s / ECS)",
+"Микросервисы",
+"Событийно-ориентированная архитектура"
+]
+},
+{
+"title": "Затраты и безопасность (FinOps)",
+"items": [
+"Управление затратами",
+"WAF и защита от DDoS",
+"Соответствие требованиям",
+"Well-Architected Framework"
+]
+},
+{
+"title": "ПРОЕКТ: Cloud Resume Challenge",
+"items": [
+"1. Сертификация (AWS CP/AZ-900)",
+"2. Резюме на HTML/CSS",
+"3. Статический хостинг (S3/CDN)",
+"4. Счётчик посетителей (JS+DB+API)",
+"5. Бэкенд (Python Lambda)",
+"6. Автоматизация (IaC и CI/CD)",
+"7. Пост в блоге"
+]
+}
+],
+"game-programming": [
+{
+"title": "Основы",
+"items": [
+"Логика программирования",
+"Математика (векторы/тригонометрия)",
+"Основы C# или C++",
+"Контроль версий Git"
+]
+},
+{
+"title": "Выбор движка",
+"items": [
+"Unity (мобильные/инди)",
+"Unreal Engine (AAA)",
+"Godot (open source)",
+"Основы редактора"
+]
+},
+{
+"title": "Игровой цикл и физика",
+"items": [
+"Методы Update/Start",
+"Обнаружение столкновений",
+"Системы ввода",
+"Механики движения"
+]
+},
+{
+"title": "Графика и звук",
+"items": [
+"Спрайты и меши",
+"Контроллеры анимации",
+"Освещение и тени",
+"Управление звуком"
+]
+},
+{
+"title": "Паттерны проектирования",
+"items": [
+"Singleton",
+"Observer",
+"Пул объектов",
+"Конечные автоматы"
+]
+},
+{
+"title": "Продвинутые темы",
+"items": [
+"Программирование шейдеров",
+"Сетевая игра (мультиплеер)",
+"Игровой ИИ (NavMesh)",
+"Оптимизация"
+]
+},
+{
+"title": "Публикация и бизнес",
+"items": [
+"App Store/Play Store",
+"Публикация в Steam",
+"Монетизация (реклама/IAP)",
+"Аналитика"
+]
+}
+],
+"graphics-programming": [
+{
+"title": "Подготовка",
+"items": [
+"C++ (продвинутый)",
+"Линейная алгебра (матрицы/векторы)",
+"Тригонометрия",
+"Архитектура GPU"
+]
+},
+{
+"title": "Введение в графические API",
+"items": [
+"OpenGL (лучший для обучения)",
+"Окна (GLFW/SDL)",
+"Рисование треугольника",
+"Буферы (VBO, VAO)"
+]
+},
+{
+"title": "Программирование шейдеров",
+"items": [
+"GLSL или HLSL",
+"Вершинные и фрагментные шейдеры",
+"Uniform-переменные и атрибуты",
+"Наложение текстур"
+]
+},
+{
+"title": "Конвейер рендеринга",
+"items": [
+"Логика растеризации",
+"Тест глубины (Z-буфер)",
+"Альфа-смешивание",
+"Системы координат"
+]
+},
+{
+"title": "Освещение и тени",
+"items": [
+"Освещение по Фонгу",
+"PBR (физически корректный рендеринг)",
+"Shadow Mapping",
+"Карты нормалей"
+]
+},
+{
+"title": "Современные низкоуровневые API",
+"items": [
+"Vulkan (высокая производительность)",
+"DirectX 12",
+"Metal (Apple)",
+"Ручное управление памятью"
+]
+},
+{
+"title": "Продвинутые техники",
+"items": [
+"Трассировка лучей",
+"Вычислительные шейдеры",
+"Системы частиц",
+"Эффекты постобработки"
+]
+},
+{
+"title": "Математика и симуляция",
+"items": [
+"Динамика жидкостей",
+"Разработка физического движка",
+"Воксельный рендеринг",
+"Процедурная генерация"
+]
+}
+],
+"embedded": [
+{
+"title": "Основы электроники",
+"items": [
+"Закон Ома",
+"Пассивные компоненты",
+"Транзисторы",
+"Осциллограф и мультиметр"
+]
+},
+{
+"title": "Программирование на C и C++",
+"items": [
+"Указатели и управление памятью",
+"Битовые операции",
+"Ключевое слово volatile",
+"Выравнивание структур"
+]
+},
+{
+"title": "Архитектура микроконтроллеров",
+"items": [
+"Программирование на уровне регистров",
+"Прерывания и ISR",
+"Таймеры и PWM",
+"DMA"
+]
+},
+{
+"title": "Протоколы связи",
+"items": [
+"UART",
+"I2C",
+"SPI",
+"CAN Bus"
+]
+},
+{
+"title": "Встраиваемые ОС",
+"items": [
+"RTOS (FreeRTOS)",
+"Планирование задач",
+"Мьютексы и семафоры",
+"Embedded Linux"
+]
+},
+{
+"title": "Разработка драйверов",
+"items": [
+"HAL",
+"Драйверы устройств",
+"BSP"
+]
+},
+{
+"title": "Отладка и инструменты",
+"items": [
+"Отладка через JTAG/SWD",
+"GDB",
+"Логический анализатор",
+"MISRA C"
+]
+},
+{
+"title": "Продвинутые темы",
+"items": [
+"DSP",
+"FPGA и VHDL/Verilog",
+"Edge AI",
+"OTA-обновления"
+]
+}
+],
+"iot": [
+{
+"title": "Основы электроники",
+"items": [
+"Базовые элементы схем (резистор, конденсатор)",
+"Анализ цепей (закон Ома)",
+"Работа с мультиметром и осциллографом",
+"Проектирование печатных плат (Altium, KiCad)"
+]
+},
+{
+"title": "Языки встраиваемого программирования",
+"items": [
+"C (основа embedded)",
+"C++ (ООП и библиотеки)",
+"Python (Raspberry Pi и прототипирование)",
+"Rust (современный и безопасный embedded)"
+]
+},
+{
+"title": "Микроконтроллеры и архитектура",
+"items": [
+"Arduino (Atmega)",
+"ESP32 и ESP8266 (Wi-Fi/BT)",
+"STM32 (ARM Cortex-M)",
+"Raspberry Pi (SBC)",
+"Управление памятью (стек/куча)"
+]
+},
+{
+"title": "Протоколы связи IoT",
+"items": [
+"MQTT (лёгкий и популярный)",
+"HTTP/REST",
+"WebSockets",
+"CoAP",
+"LoRaWAN (дальний радиус, низкое энергопотребление)"
+]
+},
+{
+"title": "Датчики и исполнительные устройства",
+"items": [
+"Обмен по I2C, SPI, UART",
+"Чтение аналоговых и цифровых датчиков",
+"Управление моторами через PWM",
+"Прерывания и таймеры"
+]
+},
+{
+"title": "Облако IoT и управление данными",
+"items": [
+"AWS IoT Core",
+"Google Cloud IoT",
+"ThingsBoard",
+"InfluxDB (временные ряды)"
+]
+},
+{
+"title": "Технологии связи",
+"items": [
+"Wi-Fi и Bluetooth (BLE)",
+"Zigbee и Z-Wave",
+"Сотовая связь (NB-IoT, 5G)",
+"NFC/RFID"
+]
+},
+{
+"title": "Продвинутые темы",
+"items": [
+"RTOS (FreeRTOS, Zephyr)",
+"Граничные вычисления (Edge Computing)",
+"OTA-обновления (по воздуху)",
+"Энергосбережение (Deep Sleep)"
+]
+},
+{
+"title": "Безопасность IoT",
+"items": [
+"Сертификаты TLS/SSL",
+"Secure Boot",
+"Шифрование (AES, RSA)",
+"Безопасность прошивки"
+]
+}
+],
+"blockchain": [
+{
+"title": "Основы блокчейна",
+"items": [
+"Как работает блокчейн",
+"Криптография (хеширование, цифровые подписи)",
+"Механизмы консенсуса (PoW, PoS)",
+"Публичные и приватные блокчейны"
+]
+},
+{
+"title": "Кошельки и транзакции",
+"items": [
+"Metamask и интеграция кошельков",
+"Публичные и приватные ключи",
+"Комиссии за газ и жизненный цикл транзакции",
+"Мнемонические фразы"
+]
+},
+{
+"title": "Разработка смарт-контрактов",
+"items": [
+"Solidity (EVM)",
+"Rust (Solana/Near)",
+"Vyper",
+"Жизненный цикл смарт-контракта"
+]
+},
+{
+"title": "Фреймворки разработки",
+"items": [
+"Hardhat / Foundry",
+"Truffle",
+"Ganache (локальный блокчейн)",
+"Remix IDE"
+]
+},
+{
+"title": "Библиотеки Web3",
+"items": [
+"Ethers.js",
+"Web3.js",
+"Viem",
+"WalletConnect SDK"
+]
+},
+{
+"title": "Децентрализованное хранение и индексация",
+"items": [
+"IPFS",
+"Arweave",
+"The Graph (сабграфы)",
+"Chainlink (оракулы)"
+]
+},
+{
+"title": "DeFi и стандарты токенов",
+"items": [
+"ERC-20, ERC-721 (NFT), ERC-1155",
+"Механика DEX (Uniswap)",
+"Пулы ликвидности",
+"Стейкинг и фарминг доходности"
+]
+},
+{
+"title": "Layer 2 и масштабирование",
+"items": [
+"Optimistic Rollups (Arbitrum/Optimism)",
+"ZK-Rollups (zkSync/Polygon)",
+"Сайдчейны",
+"Мосты"
+]
+},
+{
+"title": "Безопасность и аудит",
+"items": [
+"Атаки повторного входа (reentrancy)",
+"Атаки с флеш-займами",
+"Аудит смарт-контрактов",
+"Формальная верификация"
+]
+}
+],
+"ar-vr": [
+{
+"title": "Основы и математика",
+"items": [
+"3D-системы координат",
+"Векторы и кватернионы",
+"Линейная алгебра",
+"Концепции конвейера рендеринга"
+]
+},
+{
+"title": "Выбор движка",
+"items": [
+"Unity (C#)",
+"Unreal Engine (C++)",
+"Godot",
+"WebXR (Three.js/A-Frame)"
+]
+},
+{
+"title": "Разработка на C# или C++",
+"items": [
+"Основы скриптинга",
+"Принципы ООП",
+"Управление памятью",
+"События и делегаты"
+]
+},
+{
+"title": "Работа с ассетами",
+"items": [
+"3D-модели (FBX/GLB)",
+"PBR-материалы и текстуры",
+"Анимация и риггинг",
+"Освещение и постобработка"
+]
+},
+{
+"title": "SDK для AR и VR",
+"items": [
+"Meta Quest SDK",
+"ARCore (Android) и ARKit (iOS)",
+"Vuforia",
+"Unity XR Interaction Toolkit"
+]
+},
+{
+"title": "Дизайн взаимодействия",
+"items": [
+"Raycasting",
+"Захват и бросок объектов",
+"Перемещение (телепорт/плавное движение)",
+"UI в мировом пространстве"
+]
+},
+{
+"title": "Оптимизация и производительность",
+"items": [
+"Draw calls и батчинг",
+"Occlusion Culling",
+"LOD (уровни детализации)",
+"Инструменты профилирования VR"
+]
+},
+{
+"title": "Продвинутые темы",
+"items": [
+"Собственные шейдеры (HLSL/GLSL)",
+"Пространственный звук",
+"Отслеживание рук и глаз",
+"Мультиплеер в XR (Photon/Mirror)"
+]
+},
+{
+"title": "Промышленное применение",
+"items": [
+"Цифровые двойники",
+"Телеприсутствие",
+"Смешанная реальность (MR)",
+"Процедурная генерация мешей"
+]
+}
+],
+"qa-automation": [
+{
+"title": "Основы тестирования",
+"items": [
+"SDLC и STLC",
+"Жизненный цикл бага",
+"Проектирование тест-кейсов",
+"Тестирование чёрного и белого ящика"
+]
+},
+{
+"title": "Языки программирования",
+"items": [
+"Java",
+"Python",
+"JavaScript/TypeScript",
+"ООП для автоматизации"
+]
+},
+{
+"title": "Автоматизация веба",
+"items": [
+"Selenium WebDriver",
+"Playwright",
+"Cypress",
+"Стратегии локаторов (XPath/CSS)"
+]
+},
+{
+"title": "Тестирование API",
+"items": [
+"REST Assured",
+"Postman и Newman",
+"Контрактное тестирование",
+"Валидация JSON/XML"
+]
+},
+{
+"title": "Архитектура фреймворка",
+"items": [
+"Page Object Model (POM)",
+"BDD (Cucumber/Gherkin)",
+"Data-Driven Testing",
+"Тест-раннеры (JUnit/Pytest)"
+]
+},
+{
+"title": "Мобильная автоматизация",
+"items": [
+"Appium",
+"Эмуляторы Android и iOS",
+"Мобильные жесты и контексты"
+]
+},
+{
+"title": "CI/CD и DevOps",
+"items": [
+"Jenkins / GitHub Actions",
+"Docker для тестов",
+"Отчёты о тестах (Allure)",
+"Облачные гриды (BrowserStack/SauceLabs)"
+]
+},
+{
+"title": "Продвинутые темы",
+"items": [
+"Нагрузочное тестирование (JMeter/K6)",
+"Основы безопасности",
+"Визуальное регрессионное тестирование",
+"Тестирование баз данных"
+]
+},
+{
+"title": "Качество кода и паттерны",
+"items": [
+"Чистый код для тестировщиков",
+"Паттерны проектирования в автоматизации",
+"Работа с нестабильными тестами",
+"Разработка собственного фреймворка"
+]
+}
+]
+}
+}

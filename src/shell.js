@@ -190,7 +190,7 @@ export const Navbar = () => {
             </details>
             <p class="mt-2 px-3 font-mono text-[12px] tracking-[0.04em] text-text-mute" id="content-lang-label">Məzmun dili</p>
             <div class="mt-1 flex items-center gap-1 px-1" role="group" aria-labelledby="content-lang-label">
-                ${languages.map((l) => `<button type="button" onclick="window.setLanguage('${l.code}')" aria-pressed="${state.lang === l.code}" aria-label="${l.name}" class="flex h-11 flex-1 items-center justify-center rounded-md font-mono text-[12px] uppercase transition-colors ${state.lang === l.code ? 'bg-alpha-6 text-text' : 'text-text-mute hover:text-text'}">${l.code}</button>`).join('')}
+                ${languages.map((l) => `<button type="button" onclick="window.setLanguage('${l.code}')" translate="no" aria-pressed="${state.lang === l.code}" aria-label="${l.name}" class="flex h-11 flex-1 items-center justify-center rounded-md font-mono text-[12px] uppercase transition-colors ${state.lang === l.code ? 'bg-alpha-6 text-text' : 'text-text-mute hover:text-text'}">${l.code}</button>`).join('')}
             </div>
         </div>
     </aside>
@@ -241,7 +241,7 @@ export const MobileMenu = () => {
         <section class="mt-8">
             <h2 class="t-label">Məzmun dili</h2>
             <p class="mt-1 text-[13px] text-text-mute">Dərslər və izahlar bu dildə göstərilir. Menyular Azərbaycan dilində qalır.</p>
-            <div class="mt-3 flex flex-wrap gap-2">${languages.map((l) => `<button type="button" onclick="window.setLanguage('${l.code}')" class="az-chip" aria-pressed="${state.lang === l.code}">${l.name}</button>`).join('')}</div>
+            <div class="mt-3 flex flex-wrap gap-2">${languages.map((l) => `<button type="button" onclick="window.setLanguage('${l.code}')" class="az-chip" translate="no" aria-pressed="${state.lang === l.code}">${l.name}</button>`).join('')}</div>
         </section>
         <div class="mt-8 grid gap-3">
             ${SupportNote({ compact: true })}

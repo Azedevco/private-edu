@@ -197,7 +197,7 @@ const Settings = () => {
                 <p class="text-[15px] font-medium text-text" id="profile-lang-label">Məzmun dili</p>
                 <p class="mt-0.5 text-[13px] leading-snug text-text-mute">Dərslər bu dildə göstərilir, menyular Azərbaycan dilində qalır.</p>
                 <div class="mt-3 flex flex-wrap gap-2" role="group" aria-labelledby="profile-lang-label">
-                    ${languages.map((l) => `<button type="button" class="az-chip min-h-11" aria-pressed="${state.lang === l.code}" onclick="window.setLanguage('${l.code}')">${l.name}</button>`).join('')}
+                    ${languages.map((l) => `<button type="button" class="az-chip min-h-11" translate="no" aria-pressed="${state.lang === l.code}" onclick="window.setLanguage('${l.code}')">${l.name}</button>`).join('')}
                 </div>
             </div>
             <div class="border-t border-line pt-5">

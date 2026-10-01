@@ -12,7 +12,8 @@
       "do": "watch",
       "note": "Yalnız 'What is Xcode?', 'Apple Developer Program' və 'Tour of Xcode' hissələrinə bax; Swift hissəsi növbəti dərsdədir.",
       "alt": [
-       "https://gelecegiyazanlar.turkcell.com.tr/egitimler/swift-ile-ios-programlama"
+       "https://gelecegiyazanlar.turkcell.com.tr/egitimler/swift-ile-ios-programlama",
+       "https://www.youtube.com/watch?v=iAdn9Eb6Q5I"
       ]
      },
      {
@@ -49,7 +50,11 @@
      {
       "url": "https://www.youtube.com/watch?v=b1oC7sLIgpI",
       "do": "watch",
-      "note": "Weather tətbiqi hissələrini və 'How SwiftUI Works' bölməsini izlə; @State və @Binding burada izah olunur."
+      "note": "Weather tətbiqi hissələrini və 'How SwiftUI Works' bölməsini izlə; @State və @Binding burada izah olunur.",
+      "alt": [
+       "https://www.youtube.com/watch?v=lxYLRepi5yk",
+       "https://www.youtube.com/watch?v=LaTIxxsYU38"
+      ]
      },
      {
       "url": "https://developer.apple.com/tutorials/develop-in-swift/",
@@ -68,7 +73,8 @@
       "do": "watch",
       "note": "'What is Auto Layout?', 'What is UIKit?', 'Storyboard vs. Programmatic UI' və UITableView hissələrinə bax.",
       "alt": [
-       "https://gelecegiyazanlar.turkcell.com.tr/egitimler/swift-ile-ios-programlama"
+       "https://gelecegiyazanlar.turkcell.com.tr/egitimler/swift-ile-ios-programlama",
+       "https://www.youtube.com/watch?v=8sFjltNgM_s"
       ]
      }
     ],
@@ -76,7 +82,11 @@
      {
       "url": "https://www.youtube.com/watch?v=b1oC7sLIgpI",
       "do": "watch",
-      "note": "Appetizers tətbiqinin 'Network Manager' hissəsində API-dən JSON çəkməyi izlə."
+      "note": "Appetizers tətbiqinin 'Network Manager' hissəsində API-dən JSON çəkməyi izlə.",
+      "alt": [
+       "https://www.youtube.com/watch?v=k0x9zxnk120",
+       "https://www.youtube.com/watch?v=K497c13YAg4"
+      ]
      },
      {
       "url": "https://developer.apple.com/tutorials/develop-in-swift/",
@@ -93,7 +103,11 @@
      {
       "url": "https://www.youtube.com/watch?v=b1oC7sLIgpI",
       "do": "watch",
-      "note": "'Intro to MVVM & Moving Data' hissəsində View ilə ViewModel-i necə ayırmağı izlə."
+      "note": "'Intro to MVVM & Moving Data' hissəsində View ilə ViewModel-i necə ayırmağı izlə.",
+      "alt": [
+       "https://www.youtube.com/watch?v=KnSsJm6xEHE",
+       "https://www.youtube.com/watch?v=X85soC5evw0"
+      ]
      },
      {
       "url": "https://cs193p.stanford.edu/",
@@ -107,7 +121,8 @@
       "do": "read",
       "note": "'Concurrency' və 'Automatic Reference Counting' fəsillərini oxu: async/await və yaddaşın idarəsi.",
       "alt": [
-       "https://stepik.org/course/3278"
+       "https://stepik.org/course/3278",
+       "https://www.youtube.com/watch?v=pPD_VKbT3yE"
       ]
      },
      {
@@ -120,7 +135,11 @@
      {
       "url": "https://developer.apple.com/tutorials/develop-in-swift/",
       "do": "practice",
-      "note": "Son hissədəki 'Get your beta app ready for testing', 'Test your beta app' və 'Submit your app' dərslərini et."
+      "note": "Son hissədəki 'Get your beta app ready for testing', 'Test your beta app' və 'Submit your app' dərslərini et.",
+      "alt": [
+       "https://www.youtube.com/watch?v=IthuOQ12J_w",
+       "https://www.youtube.com/watch?v=9KHOxmNLLKU"
+      ]
      },
      {
       "url": "https://developer.apple.com/documentation/",
@@ -181,7 +200,8 @@
       "do": "read",
       "note": "Dörd dərsi ardıcıl et: Composable functions, Layouts, Material Design, Lists and animations.",
       "alt": [
-       "https://developer.android.com/jetpack/compose/tutorial?hl=tr"
+       "https://developer.android.com/jetpack/compose/tutorial?hl=tr",
+       "https://www.youtube.com/watch?v=wgXW7zST0lE"
       ]
      },
      {
@@ -194,7 +214,10 @@
      {
       "url": "https://www.youtube.com/watch?v=blKkRoZPxLc",
       "do": "watch",
-      "note": "'Setting up UI with XML', 'UI Elements', 'Activities and Fragments' və 'Layouts' hissələrinə bax."
+      "note": "'Setting up UI with XML', 'UI Elements', 'Activities and Fragments' və 'Layouts' hissələrinə bax.",
+      "alt": [
+       "https://www.youtube.com/watch?v=2-TIYJRkypk"
+      ]
      },
      {
       "url": "https://developer.android.com/courses/android-basics-compose/course",
@@ -209,7 +232,11 @@
      {
       "url": "https://www.youtube.com/watch?v=blKkRoZPxLc",
       "do": "watch",
-      "note": "'Threads and Coroutines', 'Room Database' və 'Retrofit' hissələrinə bax; mövzunun məntiqini buradan götür."
+      "note": "'Threads and Coroutines', 'Room Database' və 'Retrofit' hissələrinə bax; mövzunun məntiqini buradan götür.",
+      "alt": [
+       "https://www.youtube.com/watch?v=RpLSzVcNw-8",
+       "https://www.youtube.com/watch?v=Dy1i8anKZdM"
+      ]
      },
      {
       "url": "https://developer.android.com/courses/android-basics-compose/course",
@@ -221,7 +248,11 @@
      {
       "url": "https://developer.android.com/courses/android-basics-compose/course",
       "do": "practice",
-      "note": "4-cü bölmədə 'Architecture Components' yolunu, 5-ci bölmədə 'Add repository and Manual Dependency Injection'-ı et."
+      "note": "4-cü bölmədə 'Architecture Components' yolunu, 5-ci bölmədə 'Add repository and Manual Dependency Injection'-ı et.",
+      "alt": [
+       "https://www.youtube.com/watch?v=uKlstDh_wLA",
+       "https://www.youtube.com/watch?v=WNSalUae5nk"
+      ]
      },
      {
       "url": "https://developer.android.com/docs",
@@ -233,7 +264,10 @@
      {
       "url": "https://developer.android.com/courses/android-basics-compose/course",
       "do": "practice",
-      "note": "7-ci bölmədə ('WorkManager') arxa planda iş planlamağı et və 'Water Me' tətbiqini qur."
+      "note": "7-ci bölmədə ('WorkManager') arxa planda iş planlamağı et və 'Water Me' tətbiqini qur.",
+      "alt": [
+       "https://www.youtube.com/watch?v=2ckGbPeAvGY"
+      ]
      },
      {
       "url": "https://developer.android.com/docs",
@@ -248,7 +282,10 @@
      {
       "url": "https://developer.android.com/studio/publish",
       "do": "read",
-      "note": "'Prepare your app for release' və 'Release your apps on Google Play' hissələrini oxu: imzalama və buraxılış."
+      "note": "'Prepare your app for release' və 'Release your apps on Google Play' hissələrini oxu: imzalama və buraxılış.",
+      "alt": [
+       "https://www.youtube.com/watch?v=-9BPtwL_Km4"
+      ]
      },
      {
       "url": "https://developer.android.com/docs",
@@ -369,7 +406,11 @@
      {
       "url": "https://docs.flutter.dev",
       "do": "read",
-      "note": "'Navigation and routing' səhifəsində Navigator və Router fərqini oxu; go_router burada tövsiyə olunur."
+      "note": "'Navigation and routing' səhifəsində Navigator və Router fərqini oxu; go_router burada tövsiyə olunur.",
+      "alt": [
+       "https://www.youtube.com/watch?v=_yFUC2mro-Y",
+       "https://www.youtube.com/watch?v=nn9gmFcEFM0"
+      ]
      },
      {
       "url": "https://docs.flutter.dev/cookbook",
@@ -399,7 +440,10 @@
      {
       "url": "https://docs.flutter.dev",
       "do": "read",
-      "note": "'Write platform-specific code' səhifəsində Flutter-dən native koda necə müraciət etməyi oxu."
+      "note": "'Write platform-specific code' səhifəsində Flutter-dən native koda necə müraciət etməyi oxu.",
+      "alt": [
+       "https://www.youtube.com/watch?v=eJ0AcgiJsZw"
+      ]
      }
     ],
     [
@@ -416,14 +460,22 @@
      {
       "url": "https://www.youtube.com/watch?v=VPvVD8t02U8",
       "do": "watch",
-      "note": "'Firebase Backend Setup' və 'Writing Notes to Cloud Firestore' hissələrinə bax."
+      "note": "'Firebase Backend Setup' və 'Writing Notes to Cloud Firestore' hissələrinə bax.",
+      "alt": [
+       "https://www.youtube.com/watch?v=3gyip7m8ubE",
+       "https://www.youtube.com/watch?v=CHGnIoU_55U"
+      ]
      }
     ],
     [
      {
       "url": "https://www.youtube.com/watch?v=VPvVD8t02U8",
       "do": "watch",
-      "note": "'Final Touches Before App Release'-dən 'Releasing our Android App'-ə qədər izlə: mağazaya göndərmə."
+      "note": "'Final Touches Before App Release'-dən 'Releasing our Android App'-ə qədər izlə: mağazaya göndərmə.",
+      "alt": [
+       "https://www.youtube.com/watch?v=8BxgBF-Y1wA",
+       "https://www.youtube.com/watch?v=o0BLBMkTiXI"
+      ]
      },
      {
       "url": "https://docs.flutter.dev",
@@ -492,7 +544,10 @@
      {
       "url": "https://gameprogrammingpatterns.com",
       "do": "read",
-      "note": "'Game Loop' və 'Update Method' fəsillərini oxu; hər kadrda nə baş verdiyini burada anlayacaqsan."
+      "note": "'Game Loop' və 'Update Method' fəsillərini oxu; hər kadrda nə baş verdiyini burada anlayacaqsan.",
+      "alt": [
+       "https://www.youtube.com/watch?v=EkHrscg74lc"
+      ]
      },
      {
       "url": "https://www.youtube.com/watch?v=S8lMTwSRoRg",
@@ -512,7 +567,11 @@
      {
       "url": "https://docs.godotengine.org/en/stable/tutorials/index.html",
       "do": "read",
-      "note": "'2D sprite animation', 'Using AnimationTree', '2D lights and shadows' və 'Audio buses' səhifələrini oxu."
+      "note": "'2D sprite animation', 'Using AnimationTree', '2D lights and shadows' və 'Audio buses' səhifələrini oxu.",
+      "alt": [
+       "https://www.youtube.com/watch?v=Td3WCHnZzeM",
+       "https://www.youtube.com/watch?v=cLBRcWRP4V0"
+      ]
      },
      {
       "url": "https://learn.unity.com/",
@@ -526,7 +585,8 @@
       "do": "read",
       "note": "'Singleton', 'Observer', 'Object Pool' və 'State' fəsillərini oxu; hər birində oyun nümunəsi var.",
       "alt": [
-       "https://metanit.com/sharp/patterns/"
+       "https://metanit.com/sharp/patterns/",
+       "https://www.youtube.com/watch?v=CNtL73EdA4A"
       ]
      }
     ],
@@ -534,7 +594,11 @@
      {
       "url": "https://docs.godotengine.org/en/stable/tutorials/index.html",
       "do": "read",
-      "note": "'Your first shader', 'High-level multiplayer' və 'General optimization tips' səhifələrindən başla."
+      "note": "'Your first shader', 'High-level multiplayer' və 'General optimization tips' səhifələrindən başla.",
+      "alt": [
+       "https://www.youtube.com/watch?v=H_rgF2a978Y",
+       "https://www.youtube.com/watch?v=rmidcOOhFII"
+      ]
      },
      {
       "url": "https://natureofcode.com/",
@@ -556,7 +620,10 @@
      {
       "url": "https://gelecegiyazanlar.turkcell.com.tr/egitimler/unity",
       "do": "watch",
-      "note": "Kursun Bonus modulunda oyunu cihazda işə salmağı və reklam inteqrasiyasını türkcə izlə."
+      "note": "Kursun Bonus modulunda oyunu cihazda işə salmağı və reklam inteqrasiyasını türkcə izlə.",
+      "alt": [
+       "https://www.youtube.com/watch?v=nuKU9ofeQqg"
+      ]
      }
     ]
    ],
@@ -607,7 +674,8 @@
       "do": "watch",
       "note": "OpenGL-in nə olduğunu və seriyanın planını bu giriş videosundan götür.",
       "alt": [
-       "https://www.opengl-tutorial.org/ru/"
+       "https://www.opengl-tutorial.org/ru/",
+       "https://www.youtube.com/watch?v=4dzoYaEsUHo"
       ]
      },
      {
@@ -623,7 +691,11 @@
      {
       "url": "https://thebookofshaders.com/",
       "do": "read",
-      "note": "'Getting started' və 'Algorithmic drawing' hissələrini oxu, nümunələri dəyişərək sına."
+      "note": "'Getting started' və 'Algorithmic drawing' hissələrini oxu, nümunələri dəyişərək sına.",
+      "alt": [
+       "https://www.youtube.com/watch?v=oSxfsfUeP3U",
+       "https://www.youtube.com/watch?v=yTwhQvCkq_Q"
+      ]
      },
      {
       "url": "https://learnopengl.com/",
@@ -635,7 +707,11 @@
      {
       "url": "https://www.youtube.com/watch?v=ih20l3pJoeU",
       "do": "watch",
-      "note": "3D nöqtələrin proyeksiya matrisi ilə ekrana necə düşdüyünü bu videoda addım-addım izlə."
+      "note": "3D nöqtələrin proyeksiya matrisi ilə ekrana necə düşdüyünü bu videoda addım-addım izlə.",
+      "alt": [
+       "https://www.youtube.com/watch?v=gfxza6dpPUs",
+       "https://www.youtube.com/watch?v=lG75rBTcesk"
+      ]
      },
      {
       "url": "https://www.scratchapixel.com/",
@@ -652,7 +728,11 @@
      {
       "url": "https://www.scratchapixel.com/",
       "do": "read",
-      "note": "'Introduction to Shading' və 'Introduction to Lighting' dərslərində işığın riyaziyyatını oxu."
+      "note": "'Introduction to Shading' və 'Introduction to Lighting' dərslərində işığın riyaziyyatını oxu.",
+      "alt": [
+       "https://www.youtube.com/watch?v=pfnmBTKfiQ8",
+       "https://www.youtube.com/watch?v=sRpXMnaOAcU"
+      ]
      },
      {
       "url": "https://learnopengl.com/",
@@ -674,7 +754,11 @@
      {
       "url": "https://developer.apple.com/documentation/metal",
       "do": "read",
-      "note": "Apple cihazları üçün Metal-ın əsas anlayışlarını oxu və Vulkan-dakı fikirlərlə müqayisə et."
+      "note": "Apple cihazları üçün Metal-ın əsas anlayışlarını oxu və Vulkan-dakı fikirlərlə müqayisə et.",
+      "alt": [
+       "https://www.youtube.com/watch?v=G9-TutKpUUc",
+       "https://www.youtube.com/watch?v=eHPQzhJ_-kM"
+      ]
      }
     ],
     [
@@ -686,14 +770,22 @@
      {
       "url": "https://learnopengl.com/",
       "do": "read",
-      "note": "'Framebuffers', 'Compute Shaders' məqaləsi və 2D Game-dəki 'Particles', 'Postprocessing' fəsillərini oxu."
+      "note": "'Framebuffers', 'Compute Shaders' məqaləsi və 2D Game-dəki 'Particles', 'Postprocessing' fəsillərini oxu.",
+      "alt": [
+       "https://www.youtube.com/watch?v=8Yqp3o5_QrQ",
+       "https://www.youtube.com/watch?v=jKjbeWHujV0"
+      ]
      }
     ],
     [
      {
       "url": "https://youtube.com/@SebastianLague",
       "do": "watch",
-      "note": "Kanalda 'Coding Adventure: Simulating Fluids' və 'Coding Adventure: Marching Cubes' videolarına bax."
+      "note": "Kanalda 'Coding Adventure: Simulating Fluids' və 'Coding Adventure: Marching Cubes' videolarına bax.",
+      "alt": [
+       "https://www.youtube.com/watch?v=NBkMpBPj-jg",
+       "https://www.youtube.com/watch?v=kf3IGxTSOzo"
+      ]
      },
      {
       "url": "https://www.scratchapixel.com/",
@@ -728,7 +820,11 @@
      {
       "url": "https://discoverthreejs.com/",
       "do": "read",
-      "note": "'Transformations and Coordinate Systems' fəslini oxu: mövqe, fırlanma və miqyas 3D-də necə işləyir."
+      "note": "'Transformations and Coordinate Systems' fəslini oxu: mövqe, fırlanma və miqyas 3D-də necə işləyir.",
+      "alt": [
+       "https://www.youtube.com/watch?v=r6E8uIAY8Lw",
+       "https://www.youtube.com/watch?v=UTumRlKMi-w"
+      ]
      },
      {
       "url": "https://developer.mozilla.org/en-US/docs/Web/API/WebXR_Device_API",
@@ -764,14 +860,23 @@
      {
       "url": "https://learn.unity.com",
       "do": "practice",
-      "note": "'Junior Programmer' yolunu et: C# skriptləri, debugging və OOP (inheritance, encapsulation)."
+      "note": "'Junior Programmer' yolunu et: C# skriptləri, debugging və OOP (inheritance, encapsulation).",
+      "alt": [
+       "https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/",
+       "https://www.youtube.com/watch?v=2EkMrrX9sYY",
+       "https://metanit.com/sharp/tutorial/1.1.php"
+      ]
      }
     ],
     [
      {
       "url": "https://discoverthreejs.com/",
       "do": "read",
-      "note": "'Physically Based Rendering and Lighting', 'Load 3D Models in glTF Format' və 'The three.js Animation System'-i oxu."
+      "note": "'Physically Based Rendering and Lighting', 'Load 3D Models in glTF Format' və 'The three.js Animation System'-i oxu.",
+      "alt": [
+       "https://www.youtube.com/watch?v=WUs3m_6_n6s",
+       "https://www.youtube.com/watch?v=b21VnIvgjjs"
+      ]
      }
     ],
     [
@@ -780,7 +885,8 @@
       "do": "read",
       "note": "'Set up an XR Project' və 'Set up an XR scene' hissələrini oxu.",
       "alt": [
-       "https://docs.godotengine.org/ru/stable/tutorials/xr/index.html"
+       "https://docs.godotengine.org/ru/stable/tutorials/xr/index.html",
+       "https://www.youtube.com/watch?v=uE7gu9Ms6tQ"
       ]
      },
      {
@@ -798,7 +904,11 @@
      {
       "url": "https://doc.babylonjs.com/features/featuresDeepDive/webXR/introToWebXR",
       "do": "read",
-      "note": "'WebXR Teleportation feature' və 'WebXR Input Sources and Controller Support' səhifələrini oxu."
+      "note": "'WebXR Teleportation feature' və 'WebXR Input Sources and Controller Support' səhifələrini oxu.",
+      "alt": [
+       "https://www.youtube.com/watch?v=nu2vmTB9BzU",
+       "https://www.youtube.com/watch?v=vbQFMTzjxe0"
+      ]
      },
      {
       "url": "https://threejs.org/manual/",
@@ -815,7 +925,11 @@
      {
       "url": "https://developer.mozilla.org/en-US/docs/Web/API/WebXR_Device_API",
       "do": "read",
-      "note": "'WebXR performance guide' bələdçisini oxu: kadr sürətini saxlamaq və render yükünü azaltmaq."
+      "note": "'WebXR performance guide' bələdçisini oxu: kadr sürətini saxlamaq və render yükünü azaltmaq.",
+      "alt": [
+       "https://www.youtube.com/watch?v=EwQqrK6fePo",
+       "https://www.youtube.com/watch?v=UJRuk5zlXMY"
+      ]
      },
      {
       "url": "https://threejs.org/manual/",
@@ -832,7 +946,11 @@
      {
       "url": "https://docs.unity3d.com/6000.0/Documentation/Manual/XR.html",
       "do": "read",
-      "note": "'XR audio' hissəsində məkan səsinin Unity-də necə qurulduğunu oxu."
+      "note": "'XR audio' hissəsində məkan səsinin Unity-də necə qurulduğunu oxu.",
+      "alt": [
+       "https://www.youtube.com/watch?v=1ooL2NhdLhU",
+       "https://www.youtube.com/watch?v=Gd8_Qcgm1Mg"
+      ]
      },
      {
       "url": "https://doc.babylonjs.com/features/featuresDeepDive/webXR/introToWebXR",
@@ -844,7 +962,11 @@
      {
       "url": "https://developers.meta.com/horizon/documentation/",
       "do": "read",
-      "note": "'Meta Spatial SDK' bölməsini oxu: real və virtual dünyanı birləşdirən qarışıq reallıq tətbiqləri."
+      "note": "'Meta Spatial SDK' bölməsini oxu: real və virtual dünyanı birləşdirən qarışıq reallıq tətbiqləri.",
+      "alt": [
+       "https://www.youtube.com/watch?v=jwTYEtzVfv8",
+       "https://www.youtube.com/watch?v=dgUWx2quN4o"
+      ]
      },
      {
       "url": "https://docs.godotengine.org/en/stable/tutorials/xr/index.html",
@@ -1119,7 +1241,10 @@
      {
       "url": "https://www.youtube.com/playlist?list=PLblh5JKOoLUICTaGLRoHQDuF_7q2GfuJF",
       "do": "watch",
-      "note": "CNN, Transformer və Decoder-Only Transformers videolarını izlə; şəkil və mətn modellərinin fərqini tut."
+      "note": "CNN, Transformer və Decoder-Only Transformers videolarını izlə; şəkil və mətn modellərinin fərqini tut.",
+      "alt": [
+       "https://www.youtube.com/watch?v=U1C1MXo8JEw"
+      ]
      },
      {
       "url": "https://developers.google.com/machine-learning/crash-course",
@@ -1141,7 +1266,8 @@
       "do": "read",
       "note": "Production ML Systems modulunu oxu; modelin istehsalda necə işlədiyini və izləndiyini anla.",
       "alt": [
-       "https://www.btkakademi.gov.tr/portal/course/yapay-zeka-ve-bulut-teknolojileri-57978"
+       "https://www.btkakademi.gov.tr/portal/course/yapay-zeka-ve-bulut-teknolojileri-57978",
+       "https://www.youtube.com/watch?v=iaK9g990Unw"
       ]
      },
      {
@@ -1221,7 +1347,8 @@
       "do": "watch",
       "note": "Deep Computer Vision mühazirəsini izlə; konvolyusiya şəbəkələrinin ümumi məntiqini burada tut.",
       "alt": [
-       "https://stepik.org/course/50352"
+       "https://stepik.org/course/50352",
+       "https://www.youtube.com/watch?v=4rgnwzhRnh8"
       ]
      },
      {
@@ -1265,7 +1392,8 @@
       "do": "watch",
       "note": "Deep Generative Modeling mühazirəsini izlə; generativ modellərin əsas ideyasını tut.",
       "alt": [
-       "https://gelecegiyazanlar.turkcell.com.tr/egitimler/prompt-muhendisligi"
+       "https://gelecegiyazanlar.turkcell.com.tr/egitimler/prompt-muhendisligi",
+       "https://www.youtube.com/watch?v=_zyh1mzXDqQ"
       ]
      },
      {
@@ -1283,7 +1411,11 @@
      {
       "url": "https://introtodeeplearning.com/",
       "do": "watch",
-      "note": "Deep Reinforcement Learning mühazirəsini izlə; agent, mükafat və siyasət anlayışlarını tut."
+      "note": "Deep Reinforcement Learning mühazirəsini izlə; agent, mükafat və siyasət anlayışlarını tut.",
+      "alt": [
+       "https://www.youtube.com/watch?v=t6a5BNEHzwM",
+       "https://www.youtube.com/watch?v=PVeuQu1j6Y4"
+      ]
      },
      {
       "url": "https://udlbook.github.io/udlbook/",
@@ -1300,7 +1432,11 @@
      {
       "url": "https://d2l.ai/",
       "do": "read",
-      "note": "Computational Performance fəslindən Training on Multiple GPUs bölməsini oxu."
+      "note": "Computational Performance fəslindən Training on Multiple GPUs bölməsini oxu.",
+      "alt": [
+       "https://www.youtube.com/watch?v=npCpQZNu2MU",
+       "https://www.youtube.com/watch?v=0H3zbfwMsW0"
+      ]
      },
      {
       "url": "https://docs.pytorch.org/tutorials/",
@@ -1402,7 +1538,11 @@
      {
       "url": "https://www.youtube.com/watch?v=sVcwVQRHIc8",
       "do": "watch",
-      "note": "Overview, Indexing, Retrieval və Generation hissələrini izlə; qabaqcıl hissələri sonraya saxla."
+      "note": "Overview, Indexing, Retrieval və Generation hissələrini izlə; qabaqcıl hissələri sonraya saxla.",
+      "alt": [
+       "https://www.youtube.com/watch?v=c6a54ahp2Uc",
+       "https://www.youtube.com/watch?v=YX6BvI_zRtI"
+      ]
      },
      {
       "url": "https://huggingface.co/learn/nlp-course",
@@ -1429,14 +1569,22 @@
      {
       "url": "https://www.deeplearning.ai/short-courses/",
       "do": "watch",
-      "note": "Çox agentli sistemlər üçün Multi AI Agent Systems with crewAI qısa kursunu izlə."
+      "note": "Çox agentli sistemlər üçün Multi AI Agent Systems with crewAI qısa kursunu izlə.",
+      "alt": [
+       "https://www.youtube.com/watch?v=eqYooy3xBGI",
+       "https://www.youtube.com/watch?v=YHYBPQ7N00A"
+      ]
      }
     ],
     [
      {
       "url": "https://web.stanford.edu/~jurafsky/slp3/",
       "do": "read",
-      "note": "Post-training fəslini oxu; modelin təlimatlara uyğunlaşdırılmasının məntiqini anla."
+      "note": "Post-training fəslini oxu; modelin təlimatlara uyğunlaşdırılmasının məntiqini anla.",
+      "alt": [
+       "https://www.youtube.com/watch?v=VeW5w2kjKLU",
+       "https://www.youtube.com/watch?v=PVeuQu1j6Y4"
+      ]
      },
      {
       "url": "https://huggingface.co/learn/nlp-course",
@@ -1453,7 +1601,11 @@
      {
       "url": "https://huggingface.co/learn/nlp-course",
       "do": "read",
-      "note": "İkinci fəsildəki Optimized Inference Deployment bölməsini oxu."
+      "note": "İkinci fəsildəki Optimized Inference Deployment bölməsini oxu.",
+      "alt": [
+       "https://www.youtube.com/watch?v=-MSwiPRPvkE",
+       "https://www.youtube.com/watch?v=bq8NMQg2MeE"
+      ]
      },
      {
       "url": "https://docs.langchain.com/",
@@ -1526,7 +1678,8 @@
       "do": "read",
       "note": "Map-Reduce and the New Software Stack fəslini oxu: paylanmış fayl sistemi və MapReduce ideyası buradadır.",
       "alt": [
-       "https://stepik.org/course/150"
+       "https://stepik.org/course/150",
+       "https://www.youtube.com/watch?v=DidEZ6qbcbI"
       ]
      },
      {
@@ -1539,7 +1692,11 @@
      {
       "url": "https://www.youtube.com/watch?v=_C8kWso4ne4",
       "do": "watch",
-      "note": "Pyspark Introduction, Dataframe və Groupby hissələrini izlə; Databricks hissəsi də faydalıdır."
+      "note": "Pyspark Introduction, Dataframe və Groupby hissələrini izlə; Databricks hissəsi də faydalıdır.",
+      "alt": [
+       "https://www.youtube.com/watch?v=rz7agsqD0wE",
+       "https://www.youtube.com/watch?v=OfS5o8vz-O8"
+      ]
      },
      {
       "url": "https://spark.apache.org/docs/latest/quick-start.html",
@@ -1563,7 +1720,8 @@
       "do": "read",
       "note": "Learn Flink bölməsindən Overview və Streaming Analytics səhifələrini oxu; First Steps ilə sına.",
       "alt": [
-       "https://www.youtube.com/watch?v=ZphPT3r6fnU"
+       "https://www.youtube.com/watch?v=ZphPT3r6fnU",
+       "https://www.youtube.com/watch?v=64ZBMgnXTow"
       ]
      },
      {
@@ -1576,14 +1734,22 @@
      {
       "url": "https://www.youtube.com/watch?v=xh4gy1lbL2k",
       "do": "watch",
-      "note": "Tabular, Document, Key-value və Graph Type hissələrini izlə; NoSQL bazalarının növlərini ayırd et."
+      "note": "Tabular, Document, Key-value və Graph Type hissələrini izlə; NoSQL bazalarının növlərini ayırd et.",
+      "alt": [
+       "https://www.youtube.com/watch?v=V29-GMYRYNs",
+       "https://www.youtube.com/watch?v=IBzTDkYNB7I"
+      ]
      }
     ],
     [
      {
       "url": "https://github.com/DataTalksClub/data-engineering-zoomcamp",
       "do": "build",
-      "note": "Module 3: Data Warehousing modulunu keç; BigQuery-də anbar cədvəlləri qurmağı öyrən."
+      "note": "Module 3: Data Warehousing modulunu keç; BigQuery-də anbar cədvəlləri qurmağı öyrən.",
+      "alt": [
+       "https://www.youtube.com/watch?v=sRcrsSAe0rM",
+       "https://www.youtube.com/watch?v=CzrOa15QbWk"
+      ]
      }
     ],
     [
@@ -1592,7 +1758,8 @@
       "do": "watch",
       "note": "CRON Job və Airflow hissələrini izlə; işlərin cədvəllə avtomatik işə düşməsini görəcəksən.",
       "alt": [
-       "https://www.youtube.com/watch?v=4XVfmGE1F_w"
+       "https://www.youtube.com/watch?v=4XVfmGE1F_w",
+       "https://www.youtube.com/watch?v=ou8a_d0kG-E"
       ]
      },
      {
@@ -1655,7 +1822,8 @@
       "do": "read",
       "note": "Pulsuz qeydiyyatla kitabın Linux Fundamentals fəslini oxu: fayl sistemi, proseslər və əsas əmrlər buradadır.",
       "alt": [
-       "https://gelecegiyazanlar.turkcell.com.tr/egitimler/temel-linux"
+       "https://gelecegiyazanlar.turkcell.com.tr/egitimler/temel-linux",
+       "https://www.youtube.com/watch?v=nok4P9cYw_g"
       ]
      },
      {
@@ -1699,7 +1867,8 @@
       "do": "read",
       "note": "Siyahıdakı 10 risk kateqoriyasını oxu və hər birini öz sözlərinlə qısa qeyd et.",
       "alt": [
-       "https://www.youtube.com/watch?v=-NhHfWKVyYw"
+       "https://www.youtube.com/watch?v=-NhHfWKVyYw",
+       "https://www.youtube.com/watch?v=RR4E910lIAc"
       ]
      },
      {
@@ -1719,7 +1888,8 @@
       "do": "watch",
       "note": "Security Monitoring, Intrusion Prevention, Firewall Types və Firewalls videoları SIEM və IDS/IPS məntiqini verir.",
       "alt": [
-       "https://gelecegiyazanlar.turkcell.com.tr/egitimler/siber-guvenlik-analisti"
+       "https://gelecegiyazanlar.turkcell.com.tr/egitimler/siber-guvenlik-analisti",
+       "https://www.youtube.com/watch?v=FEfHCjooC-c"
       ]
      },
      {
@@ -1732,7 +1902,11 @@
      {
       "url": "https://www.youtube.com/playlist?list=PLG49S3nxzAnl4QDVqK-hOnoqcSKEIDDuv",
       "do": "watch",
-      "note": "Buffer Overflows və An Overview of Malware videoları ilə bu mövzuları əvvəlcə nəzəri anla."
+      "note": "Buffer Overflows və An Overview of Malware videoları ilə bu mövzuları əvvəlcə nəzəri anla.",
+      "alt": [
+       "https://www.youtube.com/watch?v=S9-BTK5wP58",
+       "https://www.youtube.com/watch?v=eBQo-RNCNcY"
+      ]
      },
      {
       "url": "https://www.youtube.com/watch?v=3Kq1MIfTWCE",
@@ -1749,7 +1923,11 @@
      {
       "url": "https://www.youtube.com/playlist?list=PLG49S3nxzAnl4QDVqK-hOnoqcSKEIDDuv",
       "do": "watch",
-      "note": "Cloud Infrastructures, Cloud-specific Vulnerabilities və Misconfiguration Vulnerabilities videolarını izlə."
+      "note": "Cloud Infrastructures, Cloud-specific Vulnerabilities və Misconfiguration Vulnerabilities videolarını izlə.",
+      "alt": [
+       "https://www.youtube.com/watch?v=jWvQ2avrIHY",
+       "https://www.youtube.com/watch?v=TJvqHCi-lYQ"
+      ]
      },
      {
       "url": "https://cheatsheetseries.owasp.org/",
@@ -1768,7 +1946,8 @@
       "do": "watch",
       "note": "Security+ kimi giriş sertifikatına bu kursla hazırlaş; ilk video imtahan planını izah edir.",
       "alt": [
-       "https://www.youtube.com/watch?v=cCqZBBZUkYs"
+       "https://www.youtube.com/watch?v=cCqZBBZUkYs",
+       "https://www.youtube.com/watch?v=qyRrV2D93nw"
       ]
      },
      {
@@ -1834,7 +2013,11 @@
      {
       "url": "https://www.youtube.com/playlist?list=PLhTW6Fulbw1Tqaa9cTEpAZo86TCO6xfYS",
       "do": "watch",
-      "note": "Day 1 Network Devices videosunda router, switch, firewall və digər cihazların rolunu izlə."
+      "note": "Day 1 Network Devices videosunda router, switch, firewall və digər cihazların rolunu izlə.",
+      "alt": [
+       "https://www.youtube.com/watch?v=_RmBFDnCQ1M",
+       "https://www.youtube.com/watch?v=AzjOIcDyR9M"
+      ]
      },
      {
       "url": "https://www.cloudflare.com/learning/",
@@ -1848,7 +2031,8 @@
       "do": "watch",
       "note": "Network Topologies və Network Types videolarında LAN, WAN, WLAN kimi şəbəkə növlərini izlə.",
       "alt": [
-       "https://www.youtube.com/playlist?list=PLtPJ9lKvJ4oiNMvYbOzCmWy6cRzYAh9B1"
+       "https://www.youtube.com/playlist?list=PLtPJ9lKvJ4oiNMvYbOzCmWy6cRzYAh9B1",
+       "https://www.youtube.com/watch?v=5RjbfangPBU"
       ]
      },
      {
@@ -1909,7 +2093,8 @@
       "do": "watch",
       "note": "DHCP, Network Address Translation və VPNs videolarını izlə; hər xidmətin hansı problemi həll etdiyini yaz.",
       "alt": [
-       "https://www.youtube.com/playlist?list=PLtPJ9lKvJ4oiNMvYbOzCmWy6cRzYAh9B1"
+       "https://www.youtube.com/playlist?list=PLtPJ9lKvJ4oiNMvYbOzCmWy6cRzYAh9B1",
+       "https://www.youtube.com/watch?v=aioNLQfu_YA"
       ]
      },
      {
@@ -1924,7 +2109,8 @@
       "do": "watch",
       "note": "VLANs (Part 1-3) videolarını (Day 16-18) izlə, lab videolarında konfiqurasiyanı özün təkrarla.",
       "alt": [
-       "https://www.youtube.com/playlist?list=PLtPJ9lKvJ4oiNMvYbOzCmWy6cRzYAh9B1"
+       "https://www.youtube.com/playlist?list=PLtPJ9lKvJ4oiNMvYbOzCmWy6cRzYAh9B1",
+       "https://www.youtube.com/watch?v=71YGBCssipo"
       ]
      },
      {
@@ -1961,7 +2147,8 @@
       "do": "watch",
       "note": "Section 2: Foundation of Electronics hissəsini izlə: gərginlik, cərəyan, müqavimət və Om qanunu.",
       "alt": [
-       "https://wiki.amperka.ru/arduino"
+       "https://wiki.amperka.ru/arduino",
+       "https://www.youtube.com/watch?v=0pJQxHx7OtA"
       ]
      },
      {
@@ -1992,7 +2179,8 @@
       "do": "read",
       "note": "1-ci fəsildə I/O Ports və Registers, 6-cı fəsildə Interrupt Concepts və SysTick hissələrini oxu.",
       "alt": [
-       "https://www.btkakademi.gov.tr/portal/course/projelerle-arduino-programlama-19045"
+       "https://www.btkakademi.gov.tr/portal/course/projelerle-arduino-programlama-19045",
+       "https://www.youtube.com/watch?v=0zwkRLyeAgo"
       ]
      },
      {
@@ -2005,7 +2193,11 @@
      {
       "url": "https://docs.arduino.cc/",
       "do": "read",
-      "note": "Communication bölməsindəki UART, I2C, SPI və CAN Bus məqalələrini bu ardıcıllıqla oxu."
+      "note": "Communication bölməsindəki UART, I2C, SPI və CAN Bus məqalələrini bu ardıcıllıqla oxu.",
+      "alt": [
+       "https://www.youtube.com/watch?v=1IGm99He7g4",
+       "https://www.youtube.com/watch?v=55SyAQ7-4qw"
+      ]
      },
      {
       "url": "https://users.ece.utexas.edu/~valvano/Volume1/IntroToEmbSys/",
@@ -2017,7 +2209,11 @@
      {
       "url": "https://www.freertos.org/Documentation/RTOS_book.html",
       "do": "read",
-      "note": "Kitabın Task Management, Queue Management və Resource Management fəsillərini oxu: task, növbə, mutex."
+      "note": "Kitabın Task Management, Queue Management və Resource Management fəsillərini oxu: task, növbə, mutex.",
+      "alt": [
+       "https://www.youtube.com/watch?v=cB4tZoUGWo0",
+       "https://www.youtube.com/watch?v=Cm7IAEAwRRI"
+      ]
      },
      {
       "url": "https://docs.espressif.com/projects/esp-idf/en/stable/esp32/get-started/index.html",
@@ -2029,7 +2225,11 @@
      {
       "url": "https://users.ece.utexas.edu/~valvano/Volume1/IntroToEmbSys/",
       "do": "read",
-      "note": "9.3.3 UART1 Device Driver bölməsində sadə drayverin C-də necə yazıldığını addım-addım gör."
+      "note": "9.3.3 UART1 Device Driver bölməsində sadə drayverin C-də necə yazıldığını addım-addım gör.",
+      "alt": [
+       "https://www.youtube.com/watch?v=3dnq3d4Fjng",
+       "https://www.youtube.com/watch?v=0YZVgH1MjEo"
+      ]
      },
      {
       "url": "https://doc.rust-lang.org/stable/embedded-book/",
@@ -2041,7 +2241,11 @@
      {
       "url": "https://docs.arduino.cc/",
       "do": "read",
-      "note": "Debugging Fundamentals məqaləsində logic analyzer, osiloqraf və digər debug alətlərinin rolunu oxu."
+      "note": "Debugging Fundamentals məqaləsində logic analyzer, osiloqraf və digər debug alətlərinin rolunu oxu.",
+      "alt": [
+       "https://www.youtube.com/watch?v=3JmC4qvzBAI",
+       "https://www.youtube.com/watch?v=8k-2rNLYps4"
+      ]
      },
      {
       "url": "https://docs.platformio.org/en/latest/",
@@ -2058,7 +2262,11 @@
      {
       "url": "https://docs.arduino.cc/",
       "do": "read",
-      "note": "Edge AI seriyasını (AI Fundamentals for Edge Devices) və FPGA HDL Basics məqaləsini oxu."
+      "note": "Edge AI seriyasını (AI Fundamentals for Edge Devices) və FPGA HDL Basics məqaləsini oxu.",
+      "alt": [
+       "https://www.youtube.com/watch?v=5UTRjlaMEEk",
+       "https://www.youtube.com/watch?v=FSRaHsGdTYo"
+      ]
      },
      {
       "url": "https://docs.espressif.com/projects/esp-idf/en/stable/esp32/get-started/index.html",
@@ -2090,7 +2298,8 @@
       "do": "watch",
       "note": "Electronic Basics seriyasından #16 Resistors, #14 Capacitors və EB#49 (osiloqraf) videolarını izlə.",
       "alt": [
-       "https://gelecegiyazanlar.turkcell.com.tr/egitimler/arduino"
+       "https://gelecegiyazanlar.turkcell.com.tr/egitimler/arduino",
+       "https://www.youtube.com/watch?v=j9mLaFd-rZA"
       ]
      },
      {
@@ -2136,7 +2345,11 @@
      {
       "url": "https://www.youtube.com/watch?v=xPlN_Tk3VLQ",
       "do": "watch",
-      "note": "ESP32 Introduction, ESP32 Boards və Blink hissələrini izlə, ESP32-ni Arduino IDE-yə qoş."
+      "note": "ESP32 Introduction, ESP32 Boards və Blink hissələrini izlə, ESP32-ni Arduino IDE-yə qoş.",
+      "alt": [
+       "https://www.youtube.com/watch?v=3STmw2Of2JU",
+       "https://www.youtube.com/watch?v=ZbAqbnkv8WM"
+      ]
      },
      {
       "url": "https://docs.arduino.cc",
@@ -2148,7 +2361,11 @@
      {
       "url": "https://www.hivemq.com/mqtt/",
       "do": "read",
-      "note": "MQTT Essentials seriyasının ilk hissələrini Quality of Service Levels-ə qədər oxu."
+      "note": "MQTT Essentials seriyasının ilk hissələrini Quality of Service Levels-ə qədər oxu.",
+      "alt": [
+       "https://www.youtube.com/watch?v=13827dxjFEo",
+       "https://www.youtube.com/watch?v=PWeCdzc8tRw"
+      ]
      },
      {
       "url": "https://github.com/microsoft/IoT-For-Beginners",
@@ -2167,7 +2384,8 @@
       "do": "build",
       "note": "Sensors and actuators dərsində sensor və aktuatorla gecə lampası qur.",
       "alt": [
-       "https://gelecegiyazanlar.turkcell.com.tr/egitimler/arduino"
+       "https://gelecegiyazanlar.turkcell.com.tr/egitimler/arduino",
+       "https://www.youtube.com/watch?v=tJYDV3FFCWQ"
       ]
      },
      {
@@ -2187,7 +2405,8 @@
       "do": "practice",
       "note": "Getting Started with Arduino Cloud ilə cihazını buluda qoş, Dashboards & Widgets ilə məlumatı göstər.",
       "alt": [
-       "https://learn.microsoft.com/ru-ru/azure/iot-hub/"
+       "https://learn.microsoft.com/ru-ru/azure/iot-hub/",
+       "https://www.youtube.com/watch?v=Wgo4M0R_YY8"
       ]
      },
      {
@@ -2215,14 +2434,22 @@
      {
       "url": "https://youtube.com/@GreatScottLab",
       "do": "watch",
-      "note": "Electronic Basics seriyasındakı EB#40 videosunda RFID və NFC-nin necə işlədiyini izlə."
+      "note": "Electronic Basics seriyasındakı EB#40 videosunda RFID və NFC-nin necə işlədiyini izlə.",
+      "alt": [
+       "https://www.youtube.com/watch?v=coMnva--zso",
+       "https://www.youtube.com/watch?v=HsWLIFT53HY"
+      ]
      }
     ],
     [
      {
       "url": "https://espressif.github.io/esp32-c3-book-en/",
       "do": "read",
-      "note": "11-ci (OTA: Firmware Upgrade and Version Management) və 12-ci (Power Management) fəsilləri oxu."
+      "note": "11-ci (OTA: Firmware Upgrade and Version Management) və 12-ci (Power Management) fəsilləri oxu.",
+      "alt": [
+       "https://www.youtube.com/watch?v=g5riFFElIDk",
+       "https://www.youtube.com/watch?v=xaMs7-Cy2UY"
+      ]
      },
      {
       "url": "https://github.com/microsoft/IoT-For-Beginners",
@@ -2234,7 +2461,11 @@
      {
       "url": "https://github.com/microsoft/IoT-For-Beginners",
       "do": "read",
-      "note": "Keep your plant secure dərsində açarlar və sertifikatlarla cihazı necə qoruyacağını oxu."
+      "note": "Keep your plant secure dərsində açarlar və sertifikatlarla cihazı necə qoruyacağını oxu.",
+      "alt": [
+       "https://www.youtube.com/watch?v=0IlwKfAb8oQ",
+       "https://www.youtube.com/watch?v=1unQgM4fexk"
+      ]
      },
      {
       "url": "https://espressif.github.io/esp32-c3-book-en/",
@@ -2281,7 +2512,8 @@
       "do": "read",
       "note": "Intro to Ethereum və Consensus Mechanisms (Proof-of-Work, Proof-of-Stake) səhifələrini oxu.",
       "alt": [
-       "https://gelecegiyazanlar.turkcell.com.tr/egitimler/blockchain-teknolojileri"
+       "https://gelecegiyazanlar.turkcell.com.tr/egitimler/blockchain-teknolojileri",
+       "https://ethereum.org/ru/developers/docs/intro-to-ethereum/"
       ]
      }
     ],
@@ -2326,7 +2558,11 @@
      {
       "url": "https://www.youtube.com/watch?v=gyMwXuJrbJQ",
       "do": "watch",
-      "note": "Lesson 6: Hardhat Simple Storage hissəsini izlə; videodakı Hardhat versiyası köhnədir."
+      "note": "Lesson 6: Hardhat Simple Storage hissəsini izlə; videodakı Hardhat versiyası köhnədir.",
+      "alt": [
+       "https://www.youtube.com/watch?v=1h43HzpzEvo",
+       "https://www.youtube.com/watch?v=nMZlVNmC5-I"
+      ]
      },
      {
       "url": "https://hardhat.org/docs",
@@ -2343,7 +2579,11 @@
      {
       "url": "https://www.youtube.com/watch?v=gyMwXuJrbJQ",
       "do": "watch",
-      "note": "Lesson 5: Ethers.js Simple Storage və Lesson 8: HTML / Javascript Fund Me hissələrini izlə."
+      "note": "Lesson 5: Ethers.js Simple Storage və Lesson 8: HTML / Javascript Fund Me hissələrini izlə.",
+      "alt": [
+       "https://www.youtube.com/watch?v=0stIYoi3KG8",
+       "https://www.youtube.com/watch?v=K608okBC3L0"
+      ]
      },
      {
       "url": "https://ethereum.org/en/developers/",
@@ -2355,7 +2595,11 @@
      {
       "url": "https://ethereum.org/en/developers/",
       "do": "read",
-      "note": "Storage və Oracles səhifələrində mərkəzləşdirilməmiş saxlama və oracle məntiqini oxu."
+      "note": "Storage və Oracles səhifələrində mərkəzləşdirilməmiş saxlama və oracle məntiqini oxu.",
+      "alt": [
+       "https://ethereum.org/tr/developers/docs/storage/",
+       "https://ethereum.org/ru/developers/docs/storage/"
+      ]
      },
      {
       "url": "https://www.youtube.com/watch?v=gyMwXuJrbJQ",
@@ -2377,7 +2621,11 @@
      {
       "url": "https://ethereum.org/en/developers/",
       "do": "read",
-      "note": "Token Standards altında ERC-20, ERC-721 və ERC-1155 səhifələrini oxu."
+      "note": "Token Standards altında ERC-20, ERC-721 və ERC-1155 səhifələrini oxu.",
+      "alt": [
+       "https://ethereum.org/tr/defi/",
+       "https://ethereum.org/ru/defi/"
+      ]
      },
      {
       "url": "https://speedrunethereum.com/",
@@ -2389,7 +2637,11 @@
      {
       "url": "https://ethereum.org/en/developers/",
       "do": "read",
-      "note": "Scaling altındakı Optimistic Rollups, Zero-Knowledge Rollups, Sidechains və Bridges səhifələrini oxu."
+      "note": "Scaling altındakı Optimistic Rollups, Zero-Knowledge Rollups, Sidechains və Bridges səhifələrini oxu.",
+      "alt": [
+       "https://ethereum.org/tr/layer-2/",
+       "https://ethereum.org/ru/layer-2/"
+      ]
      },
      {
       "url": "https://github.com/ethereumbook/ethereumbook",
@@ -2406,7 +2658,11 @@
      {
       "url": "https://updraft.cyfrin.io",
       "do": "watch",
-      "note": "Smart Contract Security kursunu keç: audit prosesini və əsas hücum növlərini praktik öyrədir."
+      "note": "Smart Contract Security kursunu keç: audit prosesini və əsas hücum növlərini praktik öyrədir.",
+      "alt": [
+       "https://www.youtube.com/watch?v=SqTW-uKnsoE",
+       "https://www.youtube.com/watch?v=IM_a5PZbAGo"
+      ]
      },
      {
       "url": "https://ethereum.org/en/developers/",
@@ -2443,7 +2699,8 @@
       "do": "read",
       "note": "Prerequisites bölməsindəki 'How Does the Web Work?' dərsi ilə başla: internetin necə işlədiyini sadə dillə görəcəksən.",
       "alt": [
-       "https://www.youtube.com/watch?v=XaTwnKLQi4A"
+       "https://www.youtube.com/watch?v=XaTwnKLQi4A",
+       "https://www.youtube.com/watch?v=jeKEI9WMaaw"
       ]
      },
      {
@@ -2482,7 +2739,8 @@
       "do": "read",
       "note": "'Version control' modulunda Git, GitHub və pull request anlayışlarının nə üçün lazım olduğunu oxu.",
       "alt": [
-       "https://ru.hexlet.io/courses/intro_to_git"
+       "https://ru.hexlet.io/courses/intro_to_git",
+       "https://www.youtube.com/watch?v=84KYa_eaqWg"
       ]
      },
      {
@@ -2500,7 +2758,8 @@
       "do": "read",
       "note": "Utility class yanaşmasını, hover, breakpoint və dark mode yazılışını burada öyrən; nümunələri özün təkrarla.",
       "alt": [
-       "https://www.youtube.com/watch?v=3bbfisTVMcE"
+       "https://www.youtube.com/watch?v=3bbfisTVMcE",
+       "https://www.youtube.com/watch?v=iC6VolnyRcw"
       ]
      },
      {
@@ -2518,7 +2777,8 @@
       "do": "watch",
       "note": "JS əsaslarını izlə, sonda arrow function, destructuring və spread kimi ES6 mövzularını buraxma.",
       "alt": [
-       "https://learn.javascript.ru/"
+       "https://learn.javascript.ru/",
+       "https://www.youtube.com/watch?v=8A7RWDgkXgg"
       ]
      },
      {
@@ -2552,7 +2812,8 @@
       "do": "read",
       "note": "React-dan sonra Vue-nun giriş səhifəsini oxu ki, iki freymvorkun yanaşma fərqini görəsən.",
       "alt": [
-       "https://metanit.com/web/react/"
+       "https://metanit.com/web/react/",
+       "https://www.youtube.com/watch?v=jgOhoPrNzMM"
       ]
      }
     ],
@@ -2562,7 +2823,8 @@
       "do": "read",
       "note": "'Managing State' bölməsini oxu; reducer və Context dərsləri Redux və Zustand-ı anlamağa zəmin yaradır.",
       "alt": [
-       "https://www.youtube.com/playlist?list=PL6DxKON1uLOHsBCJ_vVuvRsW84VnqmPp6"
+       "https://www.youtube.com/playlist?list=PL6DxKON1uLOHsBCJ_vVuvRsW84VnqmPp6",
+       "https://www.youtube.com/watch?v=9AYN5UgKkoc"
       ]
      }
     ],
@@ -2572,7 +2834,8 @@
       "do": "read",
       "note": "'Learn Testing' kursunda 'Types of automated testing' və 'Component testing in practice' modullarını oxu.",
       "alt": [
-       "https://www.youtube.com/watch?v=IEDe8jl5efU"
+       "https://www.youtube.com/watch?v=IEDe8jl5efU",
+       "https://www.youtube.com/watch?v=7ZgIqwPu_n0"
       ]
      }
     ],
@@ -2619,7 +2882,8 @@
       "do": "read",
       "note": "Part 0-da 'Fundamentals of Web apps' bölməsini oxu: HTTP GET və POST sorğularını brauzerin Network tabında izləyəcəksən.",
       "alt": [
-       "https://ru.hexlet.io/courses/cli-basics"
+       "https://ru.hexlet.io/courses/cli-basics",
+       "https://www.youtube.com/watch?v=ef2PCd-DXZY"
       ]
      },
      {
@@ -2653,7 +2917,8 @@
       "do": "watch",
       "note": "'SQL, Models, and Migrations' mühazirəsinin yalnız SQL hissəsini izlə; Django hissəsinə ORM dərsində qayıdacaqsan.",
       "alt": [
-       "https://stepik.org/course/63054/promo"
+       "https://stepik.org/course/63054/promo",
+       "https://www.youtube.com/watch?v=URskGHtvFlE"
       ]
      },
      {
@@ -2671,7 +2936,9 @@
       "do": "reference",
       "note": "Redis-in data tiplərini (string, hash, list) oxu və key-value bazanın SQL-dən fərqini özün sına.",
       "alt": [
-       "https://metanit.com/nosql/mongodb/"
+       "https://metanit.com/nosql/mongodb/",
+       "https://www.mongodb.com/docs/manual/",
+       "https://www.youtube.com/watch?v=ZMgs0wSsfUk"
       ]
      }
     ],
@@ -2681,7 +2948,8 @@
       "do": "watch",
       "note": "Express-siz HTTP server qurulmasını və fs, path, events modullarını izlə; Heroku hissəsini keçə bilərsən.",
       "alt": [
-       "https://metanit.com/web/nodejs/"
+       "https://metanit.com/web/nodejs/",
+       "https://www.youtube.com/watch?v=aNr3QXvPpFU"
       ]
      },
      {
@@ -2712,7 +2980,8 @@
       "do": "watch",
       "note": "'SQL, Models, and Migrations' mühazirəsinin 'SQL Vulnerabilities', 'Django Models' və 'Migrations' hissələrini izlə.",
       "alt": [
-       "https://metanit.com/sharp/efcore/"
+       "https://metanit.com/sharp/efcore/",
+       "https://www.youtube.com/watch?v=dbI-kostQWo"
       ]
      }
     ],
@@ -2722,7 +2991,8 @@
       "do": "watch",
       "note": "'Testing, CI/CD' mühazirəsinin 'CI/CD', 'GitHub Actions' və 'Docker' hissələrini izlə.",
       "alt": [
-       "https://www.youtube.com/watch?v=aZTL2zRmOnA"
+       "https://www.youtube.com/watch?v=aZTL2zRmOnA",
+       "https://www.youtube.com/watch?v=4XVfmGE1F_w"
       ]
      },
      {
@@ -2806,7 +3076,8 @@
       "do": "watch",
       "note": "'Unit 1 - What is an API' və 'Unit 2 - Exploring APIs' hissələrini izlə: HTTP və REST məntiqi buradadır.",
       "alt": [
-       "https://learn.javascript.ru/"
+       "https://learn.javascript.ru/",
+       "https://www.youtube.com/watch?v=BHlFsqpKMEo"
       ]
      },
      {
@@ -2829,7 +3100,8 @@
       "do": "build",
       "note": "Part 1 və Part 2-ni et: React komponentləri, state və serverdən məlumat almaq burada öyrədilir.",
       "alt": [
-       "https://metanit.com/web/react/"
+       "https://metanit.com/web/react/",
+       "https://www.youtube.com/watch?v=lNfBlYAk3Lw"
       ]
      },
      {
@@ -2864,7 +3136,10 @@
      {
       "url": "https://www.youtube.com/watch?v=HXV3zeQKqGY",
       "do": "watch",
-      "note": "'Joins', 'ER Diagrams Intro' və 'Designing an ER Diagram' hissələrinə xüsusi diqqət et: modelləmə buradadır."
+      "note": "'Joins', 'ER Diagrams Intro' və 'Designing an ER Diagram' hissələrinə xüsusi diqqət et: modelləmə buradadır.",
+      "alt": [
+       "https://www.youtube.com/watch?v=lC8xh60CIG4"
+      ]
      },
      {
       "url": "https://www.postgresql.org/docs/current/tutorial.html",
@@ -2889,7 +3164,8 @@
       "do": "build",
       "note": "'Learn Next.js' kursunu fəsil-fəsil et; 'Static and Dynamic Rendering' və 'Streaming' fəsilləri SSR-i izah edir.",
       "alt": [
-       "https://itproger.com/course/next-js"
+       "https://itproger.com/course/next-js",
+       "https://www.youtube.com/watch?v=QLFahNliOW0"
       ]
      },
      {
@@ -2922,7 +3198,8 @@
       "do": "build",
       "note": "Part 3-dəki 'Deploying app to internet' bölməsi ilə backend-i internetə çıxar.",
       "alt": [
-       "https://www.youtube.com/watch?v=aZTL2zRmOnA"
+       "https://www.youtube.com/watch?v=aZTL2zRmOnA",
+       "https://www.youtube.com/watch?v=4XVfmGE1F_w"
       ]
      },
      {
@@ -2940,7 +3217,8 @@
       "do": "build",
       "note": "Dərsliyi ilk fəsildən sona qədər et; Expo ilə Android, iOS və vebdə işləyən bir tətbiq quracaqsan.",
       "alt": [
-       "https://www.youtube.com/watch?v=j9nVVIq9eSQ"
+       "https://www.youtube.com/watch?v=j9nVVIq9eSQ",
+       "https://www.youtube.com/watch?v=2YwXf7SOHbw"
       ]
      }
     ]
@@ -2972,7 +3250,8 @@
       "do": "read",
       "note": "1, 2, 4 və 5-ci fəsilləri oxu: SDLC-də test, test case texnikaları, test planı və defekt idarəsi buradadır.",
       "alt": [
-       "https://www.youtube.com/playlist?list=PLKbJd47Kcbjs0MsaWIBkrKqb_Gy9uvqdk"
+       "https://www.youtube.com/playlist?list=PLKbJd47Kcbjs0MsaWIBkrKqb_Gy9uvqdk",
+       "https://www.youtube.com/watch?v=JpE0AMAWCcc"
       ]
      }
     ],
@@ -2982,7 +3261,8 @@
       "do": "watch",
       "note": "'Java Programming' kursunu keç; 'Inheritance', 'Polymorphism', 'Interfaces' və 'Java for Test Automation' fəsilləri vacibdir.",
       "alt": [
-       "https://metanit.com/java/tutorial/"
+       "https://metanit.com/java/tutorial/",
+       "https://www.youtube.com/watch?v=2Vx_Z-5Dr4I"
       ]
      }
     ],
@@ -3017,7 +3297,8 @@
       "do": "watch",
       "note": "Unit 1-də sorğu növlərini, Unit 2-də Postman ilə test yazmağı və Newman ilə avtomatlaşdırmanı izlə.",
       "alt": [
-       "https://stepik.org/course/120679/promo"
+       "https://stepik.org/course/120679/promo",
+       "https://www.youtube.com/watch?v=ngbRU3abqLA"
       ]
      },
      {
@@ -3038,7 +3319,11 @@
      {
       "url": "https://testautomationu.applitools.com/",
       "do": "watch",
-      "note": "Əvvəl 'Introduction to TestNG', sonra 'Cucumber with Java' kursunu keç: test strukturu və BDD buradadır."
+      "note": "Əvvəl 'Introduction to TestNG', sonra 'Cucumber with Java' kursunu keç: test strukturu və BDD buradadır.",
+      "alt": [
+       "https://www.youtube.com/watch?v=_xxVPLs4sZ4",
+       "https://www.youtube.com/watch?v=EUVsznJiA8E"
+      ]
      },
      {
       "url": "https://www.selenium.dev/documentation/",
@@ -3052,7 +3337,8 @@
       "do": "watch",
       "note": "'Mobile Automation with Appium in Java' kursunu keç; Java və Selenium biliyin burada birbaşa işə yarayacaq.",
       "alt": [
-       "https://www.youtube.com/watch?v=Tj_1DavX8cI"
+       "https://www.youtube.com/watch?v=Tj_1DavX8cI",
+       "https://www.youtube.com/watch?v=8ud1yFS1Iz4"
       ]
      }
     ],
@@ -3062,7 +3348,8 @@
       "do": "watch",
       "note": "'Continuous Integration with Jenkins', sonra 'Scaling Tests with Docker' kursunu keç.",
       "alt": [
-       "https://docs.github.com/ru/actions"
+       "https://docs.github.com/ru/actions",
+       "https://www.youtube.com/watch?v=PrqzBimgsiI"
       ]
      },
      {
@@ -3094,7 +3381,11 @@
      {
       "url": "https://abseil.io/resources/swe-book",
       "do": "read",
-      "note": "'Testing Overview', 'Unit Testing', 'Test Doubles' və 'Larger Testing' fəsillərini oxu; flaky testlər də burada var."
+      "note": "'Testing Overview', 'Unit Testing', 'Test Doubles' və 'Larger Testing' fəsillərini oxu; flaky testlər də burada var.",
+      "alt": [
+       "https://www.youtube.com/watch?v=uHMUfM2Z1kc",
+       "https://www.youtube.com/watch?v=hXFSlZM83Ns"
+      ]
      },
      {
       "url": "https://playwright.dev/docs/intro",
@@ -3150,7 +3441,8 @@
       "do": "read",
       "note": "'Writing Shell Scripts' hissəsini oxu və hər fəsildəki skripti özün yazıb işlət.",
       "alt": [
-       "https://metanit.com/go/tutorial/"
+       "https://metanit.com/go/tutorial/",
+       "https://www.youtube.com/watch?v=R75Oo--O5Q4"
       ]
      }
     ],
@@ -3171,7 +3463,8 @@
       "do": "watch",
       "note": "Kursu izlə, 'Dockerfile', 'Docker Compose' və 'Docker Volumes' hissələrini isə əllə təkrarla.",
       "alt": [
-       "https://www.youtube.com/watch?v=aZTL2zRmOnA"
+       "https://www.youtube.com/watch?v=aZTL2zRmOnA",
+       "https://www.youtube.com/watch?v=4XVfmGE1F_w"
       ]
      },
      {
@@ -3186,7 +3479,8 @@
       "do": "watch",
       "note": "'Main K8s Components', 'K8s Ingress explained' və 'Helm - Package Manager' hissələrini izlə, minikube-da təkrarla.",
       "alt": [
-       "https://www.youtube.com/watch?v=yVIrhcv9Toc"
+       "https://www.youtube.com/watch?v=yVIrhcv9Toc",
+       "https://www.youtube.com/watch?v=noVNWBea_ug"
       ]
      },
      {
@@ -3228,7 +3522,8 @@
       "do": "read",
       "note": "'What is Terraform?' ilə başla, sonra 'Configuration Language' bölməsində resurs yazmağı öyrən.",
       "alt": [
-       "https://yandex.cloud/ru/docs/tutorials/infrastructure-management/terraform-quickstart"
+       "https://yandex.cloud/ru/docs/tutorials/infrastructure-management/terraform-quickstart",
+       "https://www.youtube.com/watch?v=bjaWOVQQC7w"
       ]
      }
     ],
@@ -3288,7 +3583,8 @@
       "do": "watch",
       "note": "'Getting Started' və 'AWS Global Infrastructure' hissələrini izlə: hesab açmağı və region anlayışını görəcəksən.",
       "alt": [
-       "https://yandex.cloud/ru/docs/compute/quickstart/quick-create-linux"
+       "https://yandex.cloud/ru/docs/compute/quickstart/quick-create-linux",
+       "https://www.youtube.com/watch?v=JL1MDNxKNNk"
       ]
      },
      {
@@ -3308,7 +3604,8 @@
       "do": "watch",
       "note": "'Compute', 'EC2', 'Storage', 'Networking' və 'Identity' hissələrini izlə: EC2, S3, VPC və IAM buradadır.",
       "alt": [
-       "https://yandex.cloud/ru/docs/storage/quickstart"
+       "https://yandex.cloud/ru/docs/storage/quickstart",
+       "https://www.youtube.com/watch?v=ZDJatqhZey4"
       ]
      },
      {
@@ -3339,7 +3636,10 @@
      {
       "url": "https://www.youtube.com/watch?v=7HKot-brXFE",
       "do": "watch",
-      "note": "'Provisioning' hissəsini izlə: infrastrukturu kodla yaratmaq ideyasını burada görəcəksən."
+      "note": "'Provisioning' hissəsini izlə: infrastrukturu kodla yaratmaq ideyasını burada görəcəksən.",
+      "alt": [
+       "https://www.youtube.com/watch?v=Ndpg0S0QUCU"
+      ]
      },
      {
       "url": "https://developer.hashicorp.com/terraform/tutorials/aws-get-started",
@@ -3356,7 +3656,8 @@
       "do": "watch",
       "note": "'Containers', 'Serverless Services' və 'Application Integration' hissələrini izlə: Lambda və hadisə əsaslı servislər buradadır.",
       "alt": [
-       "https://yandex.cloud/ru/docs/functions/quickstart"
+       "https://yandex.cloud/ru/docs/functions/quickstart",
+       "https://www.youtube.com/watch?v=4zI1jceIMCQ"
       ]
      },
      {
@@ -3372,7 +3673,11 @@
      {
       "url": "https://www.youtube.com/watch?v=7HKot-brXFE",
       "do": "watch",
-      "note": "'AWS Well Architected Framework', 'Billing Pricing and Support' və 'Security' hissələrini izlə."
+      "note": "'AWS Well Architected Framework', 'Billing Pricing and Support' və 'Security' hissələrini izlə.",
+      "alt": [
+       "https://www.youtube.com/watch?v=RMkw7OhVVlc",
+       "https://www.youtube.com/watch?v=TJvqHCi-lYQ"
+      ]
      }
     ],
     [

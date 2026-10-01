@@ -1,4 +1,5 @@
 // AZEDEV Learn - shared state, i18n helpers, toast and document meta
+import { ruText, translateTree } from './ru.js'
 import {
     languages, countries, ui, categories, contentData, globalFaqData, globalResourcesData, glossary, toolOfTheWeek
 } from './data.js'
@@ -101,6 +102,7 @@ export const renderToast = () => {
             <span class="text-[14px] text-text">${message}</span>
         </div>
     `;
+    if (state.lang === 'ru') translateTree(container);
 };
 
 export const updateMeta = () => {
@@ -146,7 +148,8 @@ export const updateMeta = () => {
     else if (state.view === 'hall-of-fame') subTitle = t('hallOfFame');
 
     if (subTitle) title = `${subTitle} | AZEDEV Learn`;
-    document.title = title;
+    document.title = state.lang === 'ru' ? ruText(title) : title;
+    document.documentElement.lang = state.lang === 'ru' ? 'ru' : 'az';
 
     const metaTitle = document.querySelector('meta[name="title"]');
     if (metaTitle) metaTitle.setAttribute('content', title);

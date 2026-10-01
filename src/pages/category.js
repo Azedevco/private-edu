@@ -88,8 +88,20 @@ const QuizRow = (id, title, count) => {
 const hostOf = (url) => { try { return new URL(url).hostname.replace(/^www\./, ''); } catch { return ''; } };
 const StepNumber = (n) => `<span class="ln-num w-6 shrink-0 pt-0.5" aria-hidden="true">${n}</span>`;
 // The same material in another language, as quiet links: "Türkcə: Python 3 Dersleri".
-const AltLinks = (alt) => alt.length ? `
-    <p class="mt-2 flex flex-wrap gap-x-4 gap-y-1 text-[13px]">${alt.map((a) => `<span class="text-text-mute">${langWord(a.lang) || 'Başqa dildə'}:</span>${ExternalLink(esc(a.title), a.url)}`).join('')}</p>` : '';
+// The same step in other languages, as labelled links: "İngiliscə ↗", "Rusca ↗" (one per language).
+const AltLinks = (alt) => {
+    const seen = new Set();
+    const list = alt.filter((a) => !seen.has(a.lang) && seen.add(a.lang));
+    return list.length ? `
+    <div class="mt-3 flex flex-wrap items-center gap-2">
+        <span class="text-[13px] text-text-mute">Digər dillərdə:</span>
+        ${list.map((a) => `<a href="${a.url}" target="_blank" rel="noopener noreferrer" title="${esc(a.title)}" class="inline-flex min-h-9 items-center gap-1.5 rounded-full border border-alpha-15 px-3 text-[13px] text-text-soft transition-colors hover:border-alpha-40 hover:text-text">${langWord(a.lang) || 'Başqa dil'}${icon(a.type === 'youtube' ? 'circle-play' : 'arrow-up-right', 'size-3.5')}${newTabNote()}</a>`).join('')}
+    </div>` : '';
+};
+
+// The learner's content language decides which language leads in a step: Azerbaijani readers get Turkish first
+// (the closest language with real materials), English, Turkish and Russian readers get their own.
+const leadLang = () => (state.lang === 'az' ? 'tr' : state.lang);
 
 // Lesson page: one ruled row per step: the number, the verb (İzlə, Oxu, Məşq et), the material as a link, its note.
 const PlanStep = (step, n) => {
@@ -124,7 +136,7 @@ const PlanRow = (step, n) => {
             ${StepNumber(n)}
             <span class="min-w-0 flex-1">
                 <span class="ln-row__title block text-[15px] leading-snug text-text">${esc(step.res.title)}</span>
-                <span class="mt-0.5 block text-[13px] text-text-mute">${[step.verb, type.label, langWord(step.res.lang)].filter(Boolean).join(' · ')}</span>
+                <span class="mt-0.5 block text-[13px] text-text-mute">${[step.verb, type.label, langWord(step.res.lang), step.alt.length ? `${[...new Set(step.alt.map((a) => langWord(a.lang)).filter(Boolean))].join(', ')} variantı da var` : ''].filter(Boolean).join(' · ')}</span>
             </span>
             <span class="shrink-0 pt-0.5 text-text-mute transition-colors group-hover:text-text">${icon('arrow-up-right', 'size-4')}</span>
             ${newTabNote()}
@@ -231,7 +243,7 @@ export const CategoryDetail = () => {
     const jobs = data.jobs || {};
     const markets = MARKETS.filter((m) => jobs[m.id]);
     const prog = trackProgress(sub.id, state.lang);
-    const plan = pathPlan(sub.id, state.lang);
+    const plan = pathPlan(sub.id, leadLang());
     const materialCount = plan ? planSize(sub.id) : resources.length;
 
     // Short tabs in plain words. Karyera and Suallar appear only when beginner mode is off.
@@ -452,7 +464,7 @@ export const TopicPage = () => {
 
     // The study plan's steps for this lesson, in order. A path without a plan falls back to materials that share a
     // word with the lesson (those first; only those say why).
-    const planSteps = lessonPlan(sub.id, idx, state.lang);
+    const planSteps = lessonPlan(sub.id, idx, leadLang());
     const scored = planSteps.length ? [] : ((data.resources && data.resources.items) || []).map((res) => ({ res, topic: matchTopic(stage, `${res.title} ${res.desc || ''}`) }));
     const materials = [...scored.filter((x) => x.topic), ...scored.filter((x) => !x.topic)].slice(0, 4);
 

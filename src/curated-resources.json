@@ -258,6 +258,86 @@
     "source": "selfedu",
     "curated": true,
     "duration": "33 video"
+   },
+   {
+    "type": "youtube",
+    "title": "RAG nedir? Fine-Tuning ile farkı nedir? Embedding nasıl kullanılır?",
+    "url": "https://www.youtube.com/watch?v=c6a54ahp2Uc",
+    "desc": "Bu video RAG məntiqini və embedding istifadəsini izah edir, sən modelə xarici məlumatı necə verməyi öyrənirsən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "Muzaffer Kadir | mkdir dev",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Дмитрий Легчиков | Ваш первый RAG на LangChain и LangSmith",
+    "url": "https://www.youtube.com/watch?v=YX6BvI_zRtI",
+    "desc": "Bu dərs LangChain ilə ilk RAG tətbiqini qurmağı göstərir, sən vektor axtarışı və konteksti öyrənirsən.",
+    "lang": "ru",
+    "level": "beginner",
+    "source": "ODS AI Ru",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Ders 02: AI Agent Uygulama Geliştirme (LangChain & Ollama & Streamlit)",
+    "url": "https://www.youtube.com/watch?v=eqYooy3xBGI",
+    "desc": "Bu dərs LangChain ilə AI agenti proqramı yazmağı göstərir, sən agent məntiqini addım-addım qurursan.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "Tirendaz Academy | Evren Özkip",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Как работают AI-агенты: MCP, Function Calling, архитектура и примеры",
+    "url": "https://www.youtube.com/watch?v=YHYBPQ7N00A",
+    "desc": "Bu video AI agentlərin quruluşunu və function calling-i izah edir, sən agentlərin necə işlədiyini öyrənirsən.",
+    "lang": "ru",
+    "level": "beginner",
+    "source": "Галера Морева",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "İnce Ayar (Fine Tuning): QLoRA Adaptöründen GGUF Modeline Dönüştürme",
+    "url": "https://www.youtube.com/watch?v=VeW5w2kjKLU",
+    "desc": "Bu video QLoRA ilə model incə sazlamasını göstərir, sən modeli öz məlumatınla uyğunlaşdırmağı öyrənirsən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "Murat Karakaya Akademi",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Как дообучить LLM с помощью LoRA Fine-tuning",
+    "url": "https://www.youtube.com/watch?v=PVeuQu1j6Y4",
+    "desc": "Bu dərs LoRA ilə LLM doöyrətməsini izah edir, sən modeli ucuz və təsirli üsulla sazlayırsan.",
+    "lang": "ru",
+    "level": "beginner",
+    "source": "Yandex Cloud",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Kendi bilgisayarınızda yapay zeka kurun: Ollama + Deepseek + Anything LLM",
+    "url": "https://www.youtube.com/watch?v=-MSwiPRPvkE",
+    "desc": "Bu video Ollama ilə kompüterində yerli model işlətməyi göstərir, sən öz süni zəka mühitini qurursan.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "Mücteba Dikmen",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Ollama. ИИ-модели - локально, приватно и без интернета",
+    "url": "https://www.youtube.com/watch?v=bq8NMQg2MeE",
+    "desc": "Bu video Ollama ilə modelləri yerli və gizli işlətməyi izah edir, sən internetdən asılı olmayan həll qurursan.",
+    "lang": "ru",
+    "level": "beginner",
+    "source": "Теплица социальных технологий",
+    "curated": true
    }
   ],
   "android": [
@@ -453,6 +533,86 @@
     "source": "BTK Akademi TV",
     "curated": true,
     "duration": "1 video, 3 saat"
+   },
+   {
+    "type": "youtube",
+    "title": "Урок 1: Введение и подготовка окружения |  Курс Android Jetpack Compose",
+    "url": "https://www.youtube.com/watch?v=wgXW7zST0lE",
+    "desc": "Bu videoda Jetpack Compose kursuna girişi və iş mühitini necə hazırladığını öyrənirsən.",
+    "lang": "ru",
+    "level": "beginner",
+    "source": "Kotlin & Android с нуля – Иван Ветров",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "05. RecyclerView — Сергей Кришталь",
+    "url": "https://www.youtube.com/watch?v=2-TIYJRkypk",
+    "desc": "Bu videoda RecyclerView ilə uzun siyahıları necə göstərdiyini öyrənirsən.",
+    "lang": "ru",
+    "level": "beginner",
+    "source": "Yandex for Developers",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Android & Java : Retrofit Kütüphanesi Kurulum",
+    "url": "https://www.youtube.com/watch?v=RpLSzVcNw-8",
+    "desc": "Bu videoda Retrofit kitabxanasını qurmağı və API sorğularına necə hazırlaşdığını öyrənirsən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "Kasım Adalan",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Курс по Retrofit в Android Studio + Kotlin | Урок 1",
+    "url": "https://www.youtube.com/watch?v=Dy1i8anKZdM",
+    "desc": "Bu videoda Retrofit ilə API-dən məlumat almağa necə başladığını öyrənirsən.",
+    "lang": "ru",
+    "level": "beginner",
+    "source": "Neco Ru",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Clean Architecture Nedir?",
+    "url": "https://www.youtube.com/watch?v=uKlstDh_wLA",
+    "desc": "Bu videoda təmiz memarlığın nə olduğunu və qatlarının necə qurulduğunu öyrənirsən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "Tunahan Demir",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Чистая архитектура android - Простыми Словами!",
+    "url": "https://www.youtube.com/watch?v=WNSalUae5nk",
+    "desc": "Bu videoda Android-də təmiz memarlığı sadə dillə başa düşürsən.",
+    "lang": "ru",
+    "level": "beginner",
+    "source": "Boris Pro IT",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Android Bootcamp Turkey | Repository and workManager",
+    "url": "https://www.youtube.com/watch?v=2ckGbPeAvGY",
+    "desc": "Bu videoda WorkManager ilə arxa plan işlərini və repozitorini necə idarə etdiyini öyrənirsən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "Google Developer Communities Turkey",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Google Play Store’a Uygulama Nasıl Yüklenir? | 2026 Play Console Rehberi",
+    "url": "https://www.youtube.com/watch?v=-9BPtwL_Km4",
+    "desc": "Bu videoda tətbiqini Play Console üzərindən mağazaya necə yüklədiyini öyrənirsən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "Webze",
+    "curated": true
    }
   ],
   "ar-vr": [
@@ -638,6 +798,166 @@
     "source": "KODLAB YAYIN",
     "curated": true,
     "duration": "21 video"
+   },
+   {
+    "type": "youtube",
+    "title": "Unity3D C# Dersi--Vektörler--Matematiksel Vektörler",
+    "url": "https://www.youtube.com/watch?v=r6E8uIAY8Lw",
+    "desc": "Bu dərsdə sən Unity-də vektorların nə olduğunu və 3D məkanda hərəkət üçün onlardan necə istifadə edəcəyini öyrənirsən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "Gurkan Karaman",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Математика. Основы линейной алгебры для 3D приложений - лекция UNIGINE",
+    "url": "https://www.youtube.com/watch?v=UTumRlKMi-w",
+    "desc": "Bu mühazirədə sən 3D tətbiqlər üçün xətti cəbrin əsaslarını — vektorları və matrisləri öyrənirsən.",
+    "lang": "ru",
+    "level": "beginner",
+    "source": "UNIGINE - 3D-движок, разработка игр, VR-проекты",
+    "curated": true
+   },
+   {
+    "type": "doc",
+    "title": "C# docs - get started, tutorials, reference. - A tour of C# | Microsoft Learn",
+    "url": "https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/",
+    "desc": "Bu sənəddə sən C# dilinin əsaslarını — sintaksis, tiplər və OOP anlayışlarını öyrənirsən.",
+    "lang": "en",
+    "level": "beginner",
+    "source": "Microsoft Learn",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Canlı - 5 Saatlik C# Programlama Kampı / Dersleri",
+    "url": "https://www.youtube.com/watch?v=2EkMrrX9sYY",
+    "desc": "Bu kampda sən C# proqramlaşdırmanın əsaslarını və OOP anlayışlarını sıfırdan öyrənirsən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "Engin Demiroğ",
+    "curated": true
+   },
+   {
+    "type": "article",
+    "title": "C# и .NET | Введение",
+    "url": "https://metanit.com/sharp/tutorial/1.1.php",
+    "desc": "Bu dərslikdə sən C# və .NET-ə girişi və ilk proqramlarını yazmağı öyrənirsən.",
+    "lang": "ru",
+    "level": "beginner",
+    "source": "Metanit",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Unity Dersleri Shader Graph - PBR Master Node",
+    "url": "https://www.youtube.com/watch?v=WUs3m_6_n6s",
+    "desc": "Bu dərsdə sən Shader Graph-də PBR qovşağının nə işə yaradığını və materialları necə quracağını öyrənirsən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "Karadot",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Изучение Unity для начинающих / Урок #2 – Основные панели. Создание объектов и работа с ними",
+    "url": "https://www.youtube.com/watch?v=b21VnIvgjjs",
+    "desc": "Bu dərsdə sən Unity-də obyektlərin necə yaradıldığını və onlarla necə işləyəcəyini öyrənirsən.",
+    "lang": "ru",
+    "level": "beginner",
+    "source": "Школа itProger / Программирование",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Unity ile Artırılmış Gerçeklik Ders 1",
+    "url": "https://www.youtube.com/watch?v=uE7gu9Ms6tQ",
+    "desc": "Bu dərsdə sən Unity ilə artırılmış reallıq tətbiqini sıfırdan necə quracağını öyrənirsən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "Hakan Erkan",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Unity 2020/2021 Raycast Kullanımı - DERS 5",
+    "url": "https://www.youtube.com/watch?v=nu2vmTB9BzU",
+    "desc": "Bu dərsdə sən Unity-də raycast-in nə olduğunu və ondan qarşılıqlı təsir üçün necə istifadə edəcəyini öyrənirsən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "Unity ile Kodluyoruz",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "VR в Unity: XR Interaction Toolkit - Часть 1 (Основы)",
+    "url": "https://www.youtube.com/watch?v=vbQFMTzjxe0",
+    "desc": "Bu dərsdə sən XR Interaction Toolkit-in əsaslarını və VR-də idarəetməni necə quracağını öyrənirsən.",
+    "lang": "ru",
+    "level": "beginner",
+    "source": "VR&AR Dreamer",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Unity ile Occlusion Culling/Optimizasyon Ayarı",
+    "url": "https://www.youtube.com/watch?v=EwQqrK6fePo",
+    "desc": "Bu dərsdə sən occlusion culling ilə Unity səhnəsini necə sürətləndirəcəyini öyrənirsən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "OneGames Studio",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Unity3D Урок 33 [Оптимизация, LOD]",
+    "url": "https://www.youtube.com/watch?v=UJRuk5zlXMY",
+    "desc": "Bu dərsdə sən Unity-də LOD ilə oyunu necə optimallaşdıracağını öyrənirsən.",
+    "lang": "ru",
+    "level": "beginner",
+    "source": "SkyGamesCompany",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Unity ile Shader Kavramı ve Shader Graph Kullanımı - Bölüm 1",
+    "url": "https://www.youtube.com/watch?v=1ooL2NhdLhU",
+    "desc": "Bu dərsdə sən shader anlayışını və Shader Graph-dən necə istifadə edəcəyini öyrənirsən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "Tolga Karanlikoglu",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Shader graph в Unity! Проще чем кажется! Шейдер граф",
+    "url": "https://www.youtube.com/watch?v=Gd8_Qcgm1Mg",
+    "desc": "Bu dərsdə sən Unity-də shader graph-ın nə qədər sadə olduğunu və ilk şeyderini necə yığacağını öyrənirsən.",
+    "lang": "ru",
+    "level": "beginner",
+    "source": "Яковлев Илья - IT и игры",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Dijital İkiz Teknolojisi",
+    "url": "https://www.youtube.com/watch?v=jwTYEtzVfv8",
+    "desc": "Bu videoda sən rəqəmsal əkiz texnologiyasının nə olduğunu və harada işləndiyini öyrənirsən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "İTÜ ARI Teknokent",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Цифровые двойники: что, зачем и почему? (Мария Горденко)",
+    "url": "https://www.youtube.com/watch?v=dgUWx2quN4o",
+    "desc": "Bu mühazirədə sən rəqəmsal əkizlərin nə olduğunu və nə üçün lazım olduğunu öyrənirsən.",
+    "lang": "ru",
+    "level": "beginner",
+    "source": "ФКН ВШЭ",
+    "curated": true
    }
   ],
   "backend": [
@@ -1007,6 +1327,76 @@
     "source": "Engin Demiroğ",
     "curated": true,
     "duration": "1 video, 5 saat"
+   },
+   {
+    "type": "youtube",
+    "title": "Sıfırdan İleri Seviyeye Linux Öğreniyoruz  | Linux Ders-1",
+    "url": "https://www.youtube.com/watch?v=ef2PCd-DXZY",
+    "desc": "Bu dərsdə Linux sistemini və terminaldə əsas əmrlərlə işləməyi öyrənirsən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "Siber Kampüs",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Yalnızca Veritabanı Tasarımı , Normalizasyon ve SQL - (1 Videoda)",
+    "url": "https://www.youtube.com/watch?v=URskGHtvFlE",
+    "desc": "Bu videoda verilənlər bazası dizaynını, normalizasiyanı və SQL sorğularını öyrənirsən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "Yazılım Bilimi",
+    "curated": true
+   },
+   {
+    "type": "doc",
+    "title": "What is MongoDB? - Database Manual - MongoDB Docs",
+    "url": "https://www.mongodb.com/docs/manual/",
+    "desc": "Bu sənəddə MongoDB-nin nə olduğunu və sənəd yönümlü NoSQL bazasının necə işlədiyini öyrənirsən.",
+    "lang": "en",
+    "level": "beginner",
+    "source": "MongoDB",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Yeni Başlayanlar İçin MongoDB (70 Dakika)",
+    "url": "https://www.youtube.com/watch?v=ZMgs0wSsfUk",
+    "desc": "Bu videoda MongoDB-ni sıfırdan qurmağı və ilk sorğuları yazmağı öyrənirsən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "Arin Yazilim",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Rest API Tasarımı ve En iyi Pratikler | Designing RESTful APIs, Best-Practices & Golden Rules",
+    "url": "https://www.youtube.com/watch?v=aNr3QXvPpFU",
+    "desc": "Bu seminarda REST API dizaynını və ən yaxşı təcrübə qaydalarını öyrənirsən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "Türkiye Java Community",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Entity Framework Core #1 - ORM Nedir?",
+    "url": "https://www.youtube.com/watch?v=dbI-kostQWo",
+    "desc": "Bu dərsdə ORM-in nə olduğunu və Entity Framework Core ilə işə necə başlayacağını öyrənirsən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "Gençay Yıldız",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Docker Nedir Nasıl Kullanılır? | Part #1 | Image Nedir? Container Nedir? Docker Komutları",
+    "url": "https://www.youtube.com/watch?v=4XVfmGE1F_w",
+    "desc": "Bu videoda Docker imiclərini, konteynerləri və əsas Docker əmrlərini öyrənirsən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "kablosuzkedi",
+    "curated": true
    }
   ],
   "big-data": [
@@ -1257,6 +1647,96 @@
     "source": "AUZEF Yönetim Bilişim Sistemleri",
     "curated": true,
     "duration": "15 video"
+   },
+   {
+    "type": "youtube",
+    "title": "Hadoop Dünyasına Giriş ve Temel Kavramlar (Hadoop Serisi 1)",
+    "url": "https://www.youtube.com/watch?v=DidEZ6qbcbI",
+    "desc": "Bu videoda Hadoop dünyasına girişi və HDFS kimi saxlama anlayışlarını öyrənirsən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "BilgisayarKavramlari",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Spark 1: Spark'a ve Eğitim Serisine Giriş",
+    "url": "https://www.youtube.com/watch?v=rz7agsqD0wE",
+    "desc": "Bu videoda Apache Spark-ın nə olduğunu və məlumat emalında necə işlədiyini öyrənirsən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "BilgisayarKavramlari",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "ВВЕДЕНИЕ В PYSPARK И SPARKSQL / ОЛЕГ АГАПОВ",
+    "url": "https://www.youtube.com/watch?v=OfS5o8vz-O8",
+    "desc": "Bu videoda PySpark və SparkSQL ilə böyük məlumatı necə emal etdiyini öyrənirsən.",
+    "lang": "ru",
+    "level": "beginner",
+    "source": "DataLearn",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "01. Зачем нужна kafka (Kafka - полный курс)",
+    "url": "https://www.youtube.com/watch?v=64ZBMgnXTow",
+    "desc": "Bu videoda Kafka-nın nə üçün lazım olduğunu və axın məlumatında yerini öyrənirsən.",
+    "lang": "ru",
+    "level": "beginner",
+    "source": "JavaGuru",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "7 Dakikada NOSQL Nedir? (Veri Bilimi Eğitim Serisi 46. Video)",
+    "url": "https://www.youtube.com/watch?v=V29-GMYRYNs",
+    "desc": "Bu videoda NoSQL-in nə olduğunu və müasir bazalarda nə üçün işləndiyini öyrənirsən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "BilgisayarKavramlari",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "NoSQL простым языком: что это и зачем нужно?",
+    "url": "https://www.youtube.com/watch?v=IBzTDkYNB7I",
+    "desc": "Bu videoda NoSQL bazalarının nə olduğunu və onları nə vaxt seçdiyini öyrənirsən.",
+    "lang": "ru",
+    "level": "beginner",
+    "source": "Merion Academy",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "GCP üzerinde BigQuery Temelleri ve Mimarisi",
+    "url": "https://www.youtube.com/watch?v=sRcrsSAe0rM",
+    "desc": "Bu videoda BigQuery-nin əsaslarını və məlumat anbarı kimi memarlığını öyrənirsən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "Cloud Türkiye",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "DATALEARN | DE - 101 | МОДУЛЬ 6-5 ЗНАКОМСТВО С SNOWFLAKE - THE ELASTIC DATA WAREHOUSE",
+    "url": "https://www.youtube.com/watch?v=CzrOa15QbWk",
+    "desc": "Bu videoda Snowflake bulud anbarının nə olduğunu və necə işlədiyini öyrənirsən.",
+    "lang": "ru",
+    "level": "beginner",
+    "source": "DataLearn",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Apache Airflow: от установки до составного DAG за 72 минуты",
+    "url": "https://www.youtube.com/watch?v=ou8a_d0kG-E",
+    "desc": "Bu videoda Airflow-u qurmağı və tapşırıqları DAG ilə necə avtomatlaşdırdığını öyrənirsən.",
+    "lang": "ru",
+    "level": "beginner",
+    "source": "ПРО ДАННЫЕ",
+    "curated": true
    }
   ],
   "blockchain": [
@@ -1442,6 +1922,136 @@
     "source": "ITU Blockchain",
     "curated": true,
     "duration": "59 video"
+   },
+   {
+    "type": "doc",
+    "title": "Техническое введение в Эфириум | ethereum.org",
+    "url": "https://ethereum.org/ru/developers/docs/intro-to-ethereum/",
+    "desc": "Bu sənəddə blokçeyn və Ethereum-un necə işlədiyini öyrənirsən.",
+    "lang": "ru",
+    "level": "beginner",
+    "source": "ethereum.org",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Akıllı Kontrat Geliştiriciliği Kampı 2.2 - Hardhat vs Foundry  - Dev. Environments | İTÜ Blockchain",
+    "url": "https://www.youtube.com/watch?v=1h43HzpzEvo",
+    "desc": "Bu videoda Hardhat və Foundry mühitlərini müqayisə edib sınaq üçün necə quracağını öyrənirsən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "ITU Blockchain",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Solidity и смарт-контракты Ethereum, урок #37 | Foundry: альтернатива Hardhat для разработки/тестов",
+    "url": "https://www.youtube.com/watch?v=nMZlVNmC5-I",
+    "desc": "Bu dərsdə Foundry ilə kontrakt yazıb Hardhat alternativi kimi test etməyi öyrənirsən.",
+    "lang": "ru",
+    "level": "beginner",
+    "source": "Ilya Krukowski",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Akıllı Kontrat Geliştiriciliği Kampı 2.0 - Hardhat ve Ethers  - Dev. Environments | İTÜ Blockchain",
+    "url": "https://www.youtube.com/watch?v=0stIYoi3KG8",
+    "desc": "Bu videoda Ethers kitabxanası ilə kontraktlara necə qoşulacağını öyrənirsən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "ITU Blockchain",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Работа со смарт-контрактами Ethereum с помощью Ethers.js",
+    "url": "https://www.youtube.com/watch?v=K608okBC3L0",
+    "desc": "Bu videoda Ethers.js ilə Ethereum kontraktları ilə işləməyi öyrənirsən.",
+    "lang": "ru",
+    "level": "beginner",
+    "source": "Ilya Krukowski",
+    "curated": true
+   },
+   {
+    "type": "doc",
+    "title": "Merkeziyetsiz Depolama | ethereum.org",
+    "url": "https://ethereum.org/tr/developers/docs/storage/",
+    "desc": "Bu sənəddə IPFS və Arweave kimi mərkəzləşdirilməmiş saxlama üsullarını öyrənirsən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "ethereum.org",
+    "curated": true
+   },
+   {
+    "type": "doc",
+    "title": "Децентрализованное хранилище | ethereum.org",
+    "url": "https://ethereum.org/ru/developers/docs/storage/",
+    "desc": "Bu sənəddə IPFS və Arweave kimi mərkəzləşdirilməmiş saxlama üsullarını öyrənirsən.",
+    "lang": "ru",
+    "level": "beginner",
+    "source": "ethereum.org",
+    "curated": true
+   },
+   {
+    "type": "doc",
+    "title": "DeFi Nedir? | Merkeziyetsiz Finansın Faydaları ve Kullanımı | ethereum.org",
+    "url": "https://ethereum.org/tr/defi/",
+    "desc": "Bu sənəddə DeFi, token standartları və hovuz məntiqini öyrənirsən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "ethereum.org",
+    "curated": true
+   },
+   {
+    "type": "doc",
+    "title": "Что такое DeFi? | Преимущества и использование децентрализованных финансов | ethereum.org",
+    "url": "https://ethereum.org/ru/defi/",
+    "desc": "Bu sənəddə DeFi, token standartları və hovuz məntiqini öyrənirsən.",
+    "lang": "ru",
+    "level": "beginner",
+    "source": "ethereum.org",
+    "curated": true
+   },
+   {
+    "type": "doc",
+    "title": "Ethereum Katman 2&#x27;ye giriş: faydaları ve kullanım alanları | ethereum.org",
+    "url": "https://ethereum.org/tr/layer-2/",
+    "desc": "Bu sənəddə Arbitrum, Optimism, ZK-rollup və körpülərlə ölçəklənməni öyrənirsən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "ethereum.org",
+    "curated": true
+   },
+   {
+    "type": "doc",
+    "title": "Введение в уровень 2 (l2) Эфириума: преимущества и применение | ethereum.org",
+    "url": "https://ethereum.org/ru/layer-2/",
+    "desc": "Bu sənəddə Arbitrum, Optimism, ZK-rollup və körpülərlə ölçəklənməni öyrənirsən.",
+    "lang": "ru",
+    "level": "beginner",
+    "source": "ethereum.org",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Akıllı Kontrat Geliştiriciliği Kampı 4.0 - Security I - Security | İTÜ Blockchain",
+    "url": "https://www.youtube.com/watch?v=SqTW-uKnsoE",
+    "desc": "Bu videoda smart kontrakt zəiflikləri və audit əsaslarını öyrənirsən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "ITU Blockchain",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Аудит безопасности смарт-контрактов / Дмитрий Мишунин (HashEx)",
+    "url": "https://www.youtube.com/watch?v=IM_a5PZbAGo",
+    "desc": "Bu videoda HashEx nümunəsində kontrakt auditi və təhlükəsizlik yoxlamalarını öyrənirsən.",
+    "lang": "ru",
+    "level": "beginner",
+    "source": "Blockchain Channel",
+    "curated": true
    }
   ],
   "cloud": [
@@ -1687,6 +2297,66 @@
     "source": "Ayti Tech",
     "curated": true,
     "duration": "30 video"
+   },
+   {
+    "type": "youtube",
+    "title": "E-Ticaret Projesi #2 - Cloud Sistemler Nedir? AWS'e Giriş ve IAM, EC2 Servisleri",
+    "url": "https://www.youtube.com/watch?v=JL1MDNxKNNk",
+    "desc": "Bu video bulud sistemlərə girişi və AWS-i izah edir, sən provayder seçimi və quraşdırma addımlarını öyrənirsən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "FolksDev",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "En Popüler AWS Ürünleri Tek Video Kısa Özet - AWS Servisler #1 | Devops Yolu",
+    "url": "https://www.youtube.com/watch?v=ZDJatqhZey4",
+    "desc": "Bu video populyar AWS servislərini tanıtdırır, sən hesablama, yaddaş və şəbəkə xidmətlərini öyrənirsən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "Devops Yolu",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Başlangıç  Sıfırdan Terraform Mantığı - Terraform Öğren IaC | Devops Yolu",
+    "url": "https://www.youtube.com/watch?v=Ndpg0S0QUCU",
+    "desc": "Bu video sıfırdan Terraform məntiqini izah edir, sən infrastrukturu kodla idarə etməyi öyrənirsən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "Devops Yolu",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Tek Video'da Kubernetes Mimarisi Nasıl Çalışır ⚙️ - Kubernetes Öğren | Devops Yolu",
+    "url": "https://www.youtube.com/watch?v=4zI1jceIMCQ",
+    "desc": "Bu video Kubernetes arxitekturasını izah edir, sən konteyner əsaslı müasir memarlıqları öyrənirsən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "Devops Yolu",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "AWS Türkiye Webinar Serisi Maliyet Optimizasyonu",
+    "url": "https://www.youtube.com/watch?v=RMkw7OhVVlc",
+    "desc": "Bu rəsmi vebinar AWS-də xərc optimizasiyasını izah edir, sən büdcəni idarə etməyi öyrənirsən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "Amazon Web Services",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Кто отвечает за безопасность данных в облаке — разбираем на примерах",
+    "url": "https://www.youtube.com/watch?v=TJvqHCi-lYQ",
+    "desc": "Bu video buludda məlumat təhlükəsizliyini izah edir, sən məsuliyyət bölgüsünü və uyğunluğu öyrənirsən.",
+    "lang": "ru",
+    "level": "beginner",
+    "source": "Yandex Cloud",
+    "curated": true
    }
   ],
   "cross-platform": [
@@ -1916,6 +2586,76 @@
     "source": "HQ NET",
     "curated": true,
     "duration": "46 video"
+   },
+   {
+    "type": "youtube",
+    "title": "Flutter Go Router Paketi Kullanımı",
+    "url": "https://www.youtube.com/watch?v=_yFUC2mro-Y",
+    "desc": "Bu videoda sən Flutter-da GoRouter paketi ilə səhifələr arası keçidi necə quracağını öyrənirsən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "Hasan koç",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Настраиваем навигацию во Flutter-приложении через AutoRoute",
+    "url": "https://www.youtube.com/watch?v=nn9gmFcEFM0",
+    "desc": "Bu videoda sən Flutter tətbiqində AutoRoute ilə naviqasiyanı necə sazlayacağını öyrənirsən.",
+    "lang": "ru",
+    "level": "beginner",
+    "source": "Surf Tech",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "React Native | Получение данных с камеры",
+    "url": "https://www.youtube.com/watch?v=eJ0AcgiJsZw",
+    "desc": "Bu dərsdə sən React Native-də kamera məlumatını necə alacağını öyrənirsən.",
+    "lang": "ru",
+    "level": "beginner",
+    "source": "GoIT",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "1. Flutter ile Firebase Kullanımı -  Firebase nedir? Projeye Firebase'i Eklemek",
+    "url": "https://www.youtube.com/watch?v=3gyip7m8ubE",
+    "desc": "Bu dərsdə sən Firebase-in nə olduğunu və onu Flutter layihəsinə necə əlavə edəcəyini öyrənirsən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "DTech Eğitim",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Flutter уроки - Подключение SQLite",
+    "url": "https://www.youtube.com/watch?v=CHGnIoU_55U",
+    "desc": "Bu dərsdə sən Flutter-da SQLite verilənlər bazasını layihəyə necə qoşacağını öyrənirsən.",
+    "lang": "ru",
+    "level": "beginner",
+    "source": "ART PROGRAMS",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Flutter Google Play Store Uygulama Yayınlama",
+    "url": "https://www.youtube.com/watch?v=8BxgBF-Y1wA",
+    "desc": "Bu videoda sən Flutter tətbiqini Google Play Store-da necə yayımlayacağını öyrənirsən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "Mehmet Güler",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Развертывание приложений Flutter в PlayStore и AppStore. Codemagic",
+    "url": "https://www.youtube.com/watch?v=o0BLBMkTiXI",
+    "desc": "Bu videoda sən Flutter tətbiqini Codemagic ilə PlayStore və AppStore-a necə yerləşdirəcəyini öyrənirsən.",
+    "lang": "ru",
+    "level": "beginner",
+    "source": "ART PROGRAMS",
+    "curated": true
    }
   ],
   "cyber-security": [
@@ -2185,6 +2925,86 @@
     "source": "Siber Kampüs",
     "curated": true,
     "duration": "184 video"
+   },
+   {
+    "type": "youtube",
+    "title": "Операционные системы. Основные компоненты",
+    "url": "https://www.youtube.com/watch?v=nok4P9cYw_g",
+    "desc": "Bu mühazirədə əməliyyat sistemlərinin əsas komponentlərini öyrənirsən.",
+    "lang": "ru",
+    "level": "beginner",
+    "source": "Dr Bragin",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "OWASP TOP-10 на русском [Введение]",
+    "url": "https://www.youtube.com/watch?v=RR4E910lIAc",
+    "desc": "Bu videoda OWASP Top-10 siyahısı ilə veb zəifliklərinə girişi öyrənirsən.",
+    "lang": "ru",
+    "level": "beginner",
+    "source": "[NO OFFENCE]",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Выявление атак с помощью SIEM // Демо-занятие курса «Специалист по внедрению SIEM»",
+    "url": "https://www.youtube.com/watch?v=FEfHCjooC-c",
+    "desc": "Bu dərsdə SIEM ilə hücumları necə aşkarlamağı və log təhlilini öyrənirsən.",
+    "lang": "ru",
+    "level": "beginner",
+    "source": "OTUS IT Онлайн - образование",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Türkiye Siber Güvenlik Kümelenmesi - Windows Zararlı Yazılım Analizi Eğitimi",
+    "url": "https://www.youtube.com/watch?v=S9-BTK5wP58",
+    "desc": "Bu təlimdə Windows zərərli proqramlarını analiz etməyi öyrənirsən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "Türkiye Siber Güvenlik Kümelenmesi",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Все команды для атаки Buffer overflow - Переполнение стекового буфера",
+    "url": "https://www.youtube.com/watch?v=eBQo-RNCNcY",
+    "desc": "Bu dərsdə buffer overflow hücumunun necə işlədiyini öyrənirsən.",
+    "lang": "ru",
+    "level": "beginner",
+    "source": "PracticU - онлайн IT курсы",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Mikro Servis Güvenliği (Cloud Güvenliği / Orchestration Güvenliği / Container Güvenliği)",
+    "url": "https://www.youtube.com/watch?v=jWvQ2avrIHY",
+    "desc": "Bu videoda bulud və konteyner mühitlərində mikro servis təhlükəsizliyini öyrənirsən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "BGA Cyber Security",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Кто отвечает за безопасность данных в облаке — разбираем на примерах",
+    "url": "https://www.youtube.com/watch?v=TJvqHCi-lYQ",
+    "desc": "Bu videoda buludda məlumat təhlükəsizliyinə kimin cavabdeh olduğunu nümunələrlə öyrənirsən.",
+    "lang": "ru",
+    "level": "beginner",
+    "source": "Yandex Cloud",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Как стать пентестером в 2026 году: дорожная карта от нуля до OSCP",
+    "url": "https://www.youtube.com/watch?v=qyRrV2D93nw",
+    "desc": "Bu videoda sıfırdan OSCP-yə qədər pentester yol xəritəsini öyrənirsən.",
+    "lang": "ru",
+    "level": "beginner",
+    "source": "Offensive Mentor",
+    "curated": true
    }
   ],
   "data-science": [
@@ -2822,6 +3642,66 @@
     "source": "Tirendaz Academy | Evren Özkip",
     "curated": true,
     "duration": "116 video"
+   },
+   {
+    "type": "youtube",
+    "title": "Evrişimli Sinir Ağları (CNN)  Mimarisi  🔥 TensorFlow ile Derin Öğrenme",
+    "url": "https://www.youtube.com/watch?v=4rgnwzhRnh8",
+    "desc": "Bu videoda CNN memarlığını və təsvir tanıma işində necə tətbiq edildiyini öyrənirsən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "Tirendaz Academy | Evren Özkip",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Что такое генеративно-состязательные сети (GAN) | #31 нейросети на Python",
+    "url": "https://www.youtube.com/watch?v=_zyh1mzXDqQ",
+    "desc": "Bu videoda GAN-ların nə olduğunu və generativ modellərə necə aid olduğunu öyrənirsən.",
+    "lang": "ru",
+    "level": "beginner",
+    "source": "selfedu",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Gemma 4 İnce Ayar : Kendi Verisetiniz İle Fine-Tuning",
+    "url": "https://www.youtube.com/watch?v=t6a5BNEHzwM",
+    "desc": "Bu videoda hazır modeli öz məlumatınla necə incə ayar etdiyini öyrənirsən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "Murat Karakaya Akademi",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Как дообучить LLM с помощью LoRA Fine-tuning",
+    "url": "https://www.youtube.com/watch?v=PVeuQu1j6Y4",
+    "desc": "Bu videoda LoRA ilə dil modelini əlavə məlumatla necə öyrətdiyini öyrənirsən.",
+    "lang": "ru",
+    "level": "beginner",
+    "source": "Yandex Cloud",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Quantization ve OffLoading Nedir? Büyük Dil Modelini (Mixtral-8x7B) Google Colab Ücretsiz Çalıştır",
+    "url": "https://www.youtube.com/watch?v=npCpQZNu2MU",
+    "desc": "Bu videoda kvantizasiya və offloading ilə böyük modeli necə yüngülləşdirdiyini öyrənirsən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "Murat Karakaya Akademi",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Квантизация LLM: делаем модели легче в 4 раза",
+    "url": "https://www.youtube.com/watch?v=0H3zbfwMsW0",
+    "desc": "Bu videoda kvantizasiya ilə modeli yüngülləşdirməyi və yerləşdirməyə hazırlamağı öyrənirsən.",
+    "lang": "ru",
+    "level": "beginner",
+    "source": "ШВМ - Программы по AI и высшей математике",
+    "curated": true
    }
   ],
   "devops": [
@@ -2990,7 +3870,7 @@
     "type": "course",
     "title": "Основы Git",
     "url": "https://ru.hexlet.io/courses/intro_to_git",
-    "desc": "Versiya nəzarətini və GitHub axınını məşq тренажорunda möhkəmləndirəcəksən.",
+    "desc": "Versiya nəzarətini və GitHub axınını məşq simulyatorunda möhkəmləndirəcəksən.",
     "lang": "ru",
     "level": "beginner",
     "source": "Hexlet",
@@ -3119,6 +3999,36 @@
     "source": "Владилен Минин",
     "curated": true,
     "duration": "1 video, 2 saat"
+   },
+   {
+    "type": "youtube",
+    "title": "Python3 Dersleri 1 -  Başlıyoruz (Python 3'ü Windows'a kurmak)",
+    "url": "https://www.youtube.com/watch?v=R75Oo--O5Q4",
+    "desc": "Bu dərsdə Python-u qurmağı və ilk addımlarla skript yazmağa başlamağı öyrənirsən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "Yazılım Bilimi",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Kubernetes'e Giriş | Kubernetes nedir?  | #Türkçe #Kubernetes",
+    "url": "https://www.youtube.com/watch?v=noVNWBea_ug",
+    "desc": "Bu videoda Kubernetes-in nə olduğunu və nə üçün lazım gəldiyini öyrənirsən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "Türkçe Kubernetes",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Terraform nedir",
+    "url": "https://www.youtube.com/watch?v=bjaWOVQQC7w",
+    "desc": "Bu videoda Terraform-un nə olduğunu və infrastrukturu kodla idarə etməyi öyrənirsən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "Emrah Göksel",
+    "curated": true
    }
   ],
   "embedded": [
@@ -3283,6 +4193,126 @@
     "source": "Electrobrains",
     "curated": true,
     "duration": "46 video"
+   },
+   {
+    "type": "youtube",
+    "title": "Temel Elektronik - 1. Hafta 3.ve 4. Ders",
+    "url": "https://www.youtube.com/watch?v=0pJQxHx7OtA",
+    "desc": "Bu video ilə sən elektronika əsaslarını — Om qanunu və passiv komponentləri öyrənirsən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "Resul Tuna",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Урок №20. Настраиваем прерывание от таймера TIM1 в микроконтроллере STM32f103.",
+    "url": "https://www.youtube.com/watch?v=0zwkRLyeAgo",
+    "desc": "Bu dərsdə sən STM32-də taymerdən interrupt qurmağı öyrənirsən.",
+    "lang": "ru",
+    "level": "beginner",
+    "source": "Александр Рожков",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Manuel STM32CubeIDE + HAL Driver + STM32F1 UART Part 5: ADC UART DMA Mode",
+    "url": "https://www.youtube.com/watch?v=1IGm99He7g4",
+    "desc": "Bu dərsdə sən STM32-də HAL ilə UART rabitəsini qurmağı öyrənirsən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "Gömülü Sistemler Eğitimi (Zenopix.com)",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "STM32. Урок 13. USART. Теория. Часть 1",
+    "url": "https://www.youtube.com/watch?v=55SyAQ7-4qw",
+    "desc": "Bu dərsdə sən STM32-də USART interfeysinin nəzəriyyəsini öyrənirsən.",
+    "lang": "ru",
+    "level": "beginner",
+    "source": "NR.electronics",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "STM32 & FreeRTOS ile Görev Yönetimi (FreeRTOS Task Management)",
+    "url": "https://www.youtube.com/watch?v=cB4tZoUGWo0",
+    "desc": "Bu dərsdə sən FreeRTOS-da tapşırıqların idarə olunmasını öyrənirsən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "Gömülü Sistemler Eğitimi (Zenopix.com)",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Операционная система FreeRTOS. Самый полный курс на русском языке. Часть 1. Необходимость ОС.",
+    "url": "https://www.youtube.com/watch?v=Cm7IAEAwRRI",
+    "desc": "Bu dərsdə sən FreeRTOS-un niyə lazım olduğunu və əsas anlayışlarını öyrənirsən.",
+    "lang": "ru",
+    "level": "beginner",
+    "source": "Vladimir Medintsev",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "STM32G0 GPIO  HAL Manuel Yapılandırma",
+    "url": "https://www.youtube.com/watch?v=3dnq3d4Fjng",
+    "desc": "Bu dərsdə sən STM32G0-da HAL ilə GPIO-nu əl ilə sazlamağı öyrənirsən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "Gömülü Sistemler Eğitimi (Zenopix.com)",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Урок по STM32 N2 знакомство с программой CubeMX",
+    "url": "https://www.youtube.com/watch?v=0YZVgH1MjEo",
+    "desc": "Bu dərsdə sən CubeMX proqramı ilə tanış olub layihə qurmağı öyrənirsən.",
+    "lang": "ru",
+    "level": "beginner",
+    "source": "RADIOSOFT",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "STM32F103C8T6 PROGRAMLAMA | KOD YÜKLEME | STM LİNK V2(Klon)",
+    "url": "https://www.youtube.com/watch?v=3JmC4qvzBAI",
+    "desc": "Bu dərsdə sən ST-Link proqramlayıcısı ilə STM32-yə kod yükləməyi öyrənirsən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "MHI Design",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Нестандартные приемы отладки прикладного программного обеспечения микроконтроллеров.",
+    "url": "https://www.youtube.com/watch?v=8k-2rNLYps4",
+    "desc": "Bu dərsdə sən mikrokontroller proqramlarını sazlamağın qeyri-standart üsullarını öyrənirsən.",
+    "lang": "ru",
+    "level": "beginner",
+    "source": "Vladimir Medintsev",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "VHDL ile Basys3 Programlama Serisi - #1 FPGA Nedir?",
+    "url": "https://www.youtube.com/watch?v=5UTRjlaMEEk",
+    "desc": "Bu dərsdə sən FPGA-nin nə olduğunu və harada işləndiyini öyrənirsən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "Halil İbrahim Ayan",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Verilog - Язык Проектирования Схем §0",
+    "url": "https://www.youtube.com/watch?v=FSRaHsGdTYo",
+    "desc": "Bu dərsdə sən sxem layihələndirmə dili olan Verilog-a girişi öyrənirsən.",
+    "lang": "ru",
+    "level": "beginner",
+    "source": "ПЛИСоводство",
+    "curated": true
    }
   ],
   "frontend": [
@@ -3640,6 +4670,76 @@
     "source": "Türkiye Yazılım Akademisi",
     "curated": true,
     "duration": "1 video, 4 saat"
+   },
+   {
+    "type": "youtube",
+    "title": "39-) HTTP ve HTTPS Nedir? | Sıfırdan Network Dersleri",
+    "url": "https://www.youtube.com/watch?v=jeKEI9WMaaw",
+    "desc": "Bu dərsdə sən HTTP və HTTPS-in necə işlədiyini öyrənirsən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "Siber Kampüs",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "En Temel Git Komutları | Git/GitHub Dersleri #2",
+    "url": "https://www.youtube.com/watch?v=84KYa_eaqWg",
+    "desc": "Bu dərsdə sən ən vacib Git əmrlərini öyrənirsən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "Cihan Loyan",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "TailwindCSS ile Landing Page Nasıl Yapılır? 0. Bölüm (TailwindCSS Dersleri)",
+    "url": "https://www.youtube.com/watch?v=iC6VolnyRcw",
+    "desc": "Bu dərsdə sən TailwindCSS ilə səhifə yığmağı öyrənirsən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "Uğur Kılcı",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "30 Günde Javascript - 1. Gün (Giriş)",
+    "url": "https://www.youtube.com/watch?v=8A7RWDgkXgg",
+    "desc": "Bu dərsdə sən JavaScript-in əsaslarına girişi öyrənirsən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "PROTOTURK",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "ReactJS Eğitim Serisi 2 - Component Nedir ?",
+    "url": "https://www.youtube.com/watch?v=jgOhoPrNzMM",
+    "desc": "Bu dərsdə sən React-də komponent anlayışını öyrənirsən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "Yazılım Bilimi",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Redux Alternatifi - Zustand",
+    "url": "https://www.youtube.com/watch?v=9AYN5UgKkoc",
+    "desc": "Bu dərsdə sən Zustand ilə state idarəetməsini öyrənirsən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "PROTOTURK",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Part 1: Cypress Nedir? & Cypress Kurulumu",
+    "url": "https://www.youtube.com/watch?v=7ZgIqwPu_n0",
+    "desc": "Bu dərsdə sən Cypress-in nə olduğunu və necə qurulduğunu öyrənirsən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "Miktad Öztürk",
+    "curated": true
    }
   ],
   "fullstack": [
@@ -3947,6 +5047,66 @@
     "source": "Berkant KAYA",
     "curated": true,
     "duration": "1 video, 2 saat"
+   },
+   {
+    "type": "youtube",
+    "title": "API Nedir?",
+    "url": "https://www.youtube.com/watch?v=BHlFsqpKMEo",
+    "desc": "Bu videoda sən API-nin nə olduğunu və REST məntiqinin necə işlədiyini öyrənirsən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "Yusuf İpek",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "ReactJS Eğitim Serisi 1 - Giriş ve ReactJS Nedir ?",
+    "url": "https://www.youtube.com/watch?v=lNfBlYAk3Lw",
+    "desc": "Bu dərsdə sən React-in nə olduğunu və ilk komponentlərini necə quracağını öyrənirsən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "Yazılım Bilimi",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Postgre SQL Ders 1 Nedir İndirme Kurulum",
+    "url": "https://www.youtube.com/watch?v=lC8xh60CIG4",
+    "desc": "Bu dərsdə sən PostgreSQL-in nə olduğunu və onu necə quracağını öyrənirsən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "Murat Yücedağ",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "#1 - Tanıtım - Sıfırdan İleri Seviye Next.js v13",
+    "url": "https://www.youtube.com/watch?v=QLFahNliOW0",
+    "desc": "Bu seriyada sən Next.js-in nə üçün lazım olduğunu və ilk layihəni necə başlayacağını öyrənirsən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "Mehmet Pekcan",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Docker Nedir Nasıl Kullanılır? | Part #1 | Image Nedir? Container Nedir? Docker Komutları",
+    "url": "https://www.youtube.com/watch?v=4XVfmGE1F_w",
+    "desc": "Bu dərsdə sən Docker-in nə olduğunu, image və container anlayışlarını və əsas əmrləri öyrənirsən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "kablosuzkedi",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Part 1 Geliştirme Ortamı Kurulumu  Başlangıç Rehberi  React Native Expo Baştan Sona Eğitimi",
+    "url": "https://www.youtube.com/watch?v=2YwXf7SOHbw",
+    "desc": "Bu dərsdə sən Expo ilə React Native üçün iş mühitini necə quracağını öyrənirsən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "Efe Görkem Ümit",
+    "curated": true
    }
   ],
   "game-programming": [
@@ -4162,6 +5322,76 @@
     "source": "MakeYourGame! - Уроки Unity",
     "curated": true,
     "duration": "1 video, 7 saat"
+   },
+   {
+    "type": "youtube",
+    "title": "Karakter Hareket Ettirme | Sıfırdan #Unity #C# Dersleri - 5",
+    "url": "https://www.youtube.com/watch?v=EkHrscg74lc",
+    "desc": "Bu dərsdə Unity-də personajı input ilə hərəkət etdirməyi öyrənirsən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "Yakın Kampüs",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Sıfırdan Unity Eğitimi Serisi #6 | Animation Tab'i ile Animasyon Ekleme, AudioSource ile Ses Ekleme",
+    "url": "https://www.youtube.com/watch?v=Td3WCHnZzeM",
+    "desc": "Bu dərsdə animasiya pəncərəsi və səslə vizual hissəni qurmağı öyrənirsən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "SkinnyDev",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "2D Игра на Unity 5 | Урок #17 - Музыка в игре",
+    "url": "https://www.youtube.com/watch?v=cLBRcWRP4V0",
+    "desc": "Bu dərsdə Unity oyununa musiqi və səs əlavə etməyi öyrənirsən.",
+    "lang": "ru",
+    "level": "beginner",
+    "source": "Гоша Дударь",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "\"Singleton Pattern\" Nedir? Unity'de Nasıl Kullanılır? | Arka plan müziği yapımı | Design Patterns #1",
+    "url": "https://www.youtube.com/watch?v=CNtL73EdA4A",
+    "desc": "Bu videoda singleton şablonunu Unity-də tətbiq etməyi öyrənirsən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "SkinnyDev",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Unity - Photon Network 2- Online Oyunun Yapısı, Çalışma Şekli, #DERS 1",
+    "url": "https://www.youtube.com/watch?v=H_rgF2a978Y",
+    "desc": "Bu dərsdə Photon ilə onlayn oyun quruluşu və şəbəkə məntiqini öyrənirsən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "Mustafa Bayraktar",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "3D шутер c мультиплеером в Unity / Урок #1 - Начало",
+    "url": "https://www.youtube.com/watch?v=rmidcOOhFII",
+    "desc": "Bu dərsdə Unity-də multiplayer atıcı oyunun əsasını qurmağı öyrənirsən.",
+    "lang": "ru",
+    "level": "beginner",
+    "source": "Гоша Дударь",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Как сделать игру на Андроид Unity 5 | Урок #16 - Загрузка игры в Google Play",
+    "url": "https://www.youtube.com/watch?v=nuKU9ofeQqg",
+    "desc": "Bu dərsdə Unity oyununu Android üçün yığıb Google Play-ə yükləməyi öyrənirsən.",
+    "lang": "ru",
+    "level": "beginner",
+    "source": "Гоша Дударь",
+    "curated": true
    }
   ],
   "graphics-programming": [
@@ -4377,6 +5607,136 @@
     "source": "Cengiz Güngör",
     "curated": true,
     "duration": "30 video"
+   },
+   {
+    "type": "youtube",
+    "title": "OpenGL Eğitim Serisi #7 | Bufferlar ve İlk Üçgen",
+    "url": "https://www.youtube.com/watch?v=4dzoYaEsUHo",
+    "desc": "Bu videoda VBO və VAO buferləri ilə ekrana ilk üçbucağı necə çəkəcəyini öyrənirsən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "Ali Efe GÜR",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "OpenGL Eğitim Serisi #6 | Shader",
+    "url": "https://www.youtube.com/watch?v=oSxfsfUeP3U",
+    "desc": "Bu videoda shaderlərin nə olduğunu və GLSL ilə ilk shaderi necə yazacağını öyrənirsən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "Ali Efe GÜR",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "11. Шейдеры OpenGL: компиляция, передача данных и текстур | Компьютерная графика 2026",
+    "url": "https://www.youtube.com/watch?v=yTwhQvCkq_Q",
+    "desc": "Bu mühazirədə OpenGL shaderlərinin kompilyasiyasını və teksturalarla iş üçün məlumat ötürməyi öyrənirsən.",
+    "lang": "ru",
+    "level": "beginner",
+    "source": "Алексей Малов (лекции по программированию)",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "OpenGL Eğitim Serisi #5 | Graphics Pipeline",
+    "url": "https://www.youtube.com/watch?v=gfxza6dpPUs",
+    "desc": "Bu videoda qrafika pipeline-ının mərhələlərini və renderin necə qurulduğunu öyrənirsən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "Ali Efe GÜR",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "OpenGL - Урок 9 - Ортогональная и перспективная проекции. Буфер глубины (Z-буфер)",
+    "url": "https://www.youtube.com/watch?v=lG75rBTcesk",
+    "desc": "Bu dərsdə ortoqonal və perspektiv proyeksiyaları, eləcə də Z-buferin necə işlədiyini öyrənirsən.",
+    "lang": "ru",
+    "level": "beginner",
+    "source": "Begin End",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Bilgisayar Grafikleri 10 - Aydınlanma, Işıklar, Gölgeler",
+    "url": "https://www.youtube.com/watch?v=pfnmBTKfiQ8",
+    "desc": "Bu dərsdə işıqlandırma modellərini, işıq növlərini və kölgələrin necə yarandığını öyrənirsən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "Cengiz Güngör",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "OpenGL - Урок 16 - Основы освещения.",
+    "url": "https://www.youtube.com/watch?v=sRpXMnaOAcU",
+    "desc": "Bu dərsdə OpenGL-də işıqlandırmanın əsaslarını və işığın obyektlərə necə təsir etdiyini öyrənirsən.",
+    "lang": "ru",
+    "level": "beginner",
+    "source": "Begin End",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Grafik motoru geliştirme #1 Vulkan nedir? | (Vulkan, C++)",
+    "url": "https://www.youtube.com/watch?v=G9-TutKpUUc",
+    "desc": "Bu videoda Vulkan API-nin nə olduğunu və niyə yüksək performans verdiyini öyrənirsən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "Developer House",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Vulkan API #0 Вступление (уроки для начинающих)",
+    "url": "https://www.youtube.com/watch?v=eHPQzhJ_-kM",
+    "desc": "Bu giriş dərsində Vulkan API-nin nə olduğunu və onunla işə haradan başlayacağını öyrənirsən.",
+    "lang": "ru",
+    "level": "beginner",
+    "source": "Smith Smith",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Eğlenceli GLSL 10 - Ray Marching'e Giriş",
+    "url": "https://www.youtube.com/watch?v=8Yqp3o5_QrQ",
+    "desc": "Bu videoda ray marching üsulu ilə şüa izləməyə necə başlayacağını öyrənirsən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "sina5an",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Написал рейтрейсинг с нуля | Как работает 3D-графика",
+    "url": "https://www.youtube.com/watch?v=jKjbeWHujV0",
+    "desc": "Bu videoda sıfırdan sadə reytreyser yazaraq şüa izləmənin necə işlədiyini öyrənirsən.",
+    "lang": "ru",
+    "level": "beginner",
+    "source": "Onigiri",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Unity Fizik Motoru | Sıfırdan #Unity #C# Dersleri - 4",
+    "url": "https://www.youtube.com/watch?v=NBkMpBPj-jg",
+    "desc": "Bu dərsdə oyunlarda fizika motorunun necə işlədiyini və ondan necə istifadə edəcəyini öyrənirsən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "Yakın Kampüs",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Полная теория процедурной генерации",
+    "url": "https://www.youtube.com/watch?v=kf3IGxTSOzo",
+    "desc": "Bu videoda prosedural generasiyanın nəzəriyyəsini və oyun dünyalarının necə yaradıldığını öyrənirsən.",
+    "lang": "ru",
+    "level": "beginner",
+    "source": "Alexey Rival",
+    "curated": true
    }
   ],
   "ios": [
@@ -4532,6 +5892,116 @@
     "source": "Seyfeddin Başsaraç",
     "curated": true,
     "duration": "19 video"
+   },
+   {
+    "type": "youtube",
+    "title": "Основы Swift | Урок 1. Установка Xcode",
+    "url": "https://www.youtube.com/watch?v=iAdn9Eb6Q5I",
+    "desc": "Bu dərsdə Xcode-u necə quraşdıracağını və ilk Swift layihəni necə yaradacağını öyrənirsən.",
+    "lang": "ru",
+    "level": "beginner",
+    "source": "Swift & SwiftUI",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "SwiftUI Derin Bakış 01: Layout Temelleri",
+    "url": "https://www.youtube.com/watch?v=lxYLRepi5yk",
+    "desc": "Bu videoda SwiftUI-də layout əsaslarını və view-lərin necə düzüldüyünü öyrənirsən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "Seyfeddin Başsaraç",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Основы SwiftUI / Урок 1 / Стаки: VStack, HStack, ZStack",
+    "url": "https://www.youtube.com/watch?v=LaTIxxsYU38",
+    "desc": "Bu dərsdə SwiftUI-də VStack, HStack və ZStack ilə interfeys qurmağı öyrənirsən.",
+    "lang": "ru",
+    "level": "beginner",
+    "source": "Swift lessons",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Основы UIKit. Урок 1. Как работать со storyboard и что такое UIViewController? MVC.",
+    "url": "https://www.youtube.com/watch?v=8sFjltNgM_s",
+    "desc": "Bu dərsdə storyboard ilə işləməyi, UIViewController-i və MVC-ni öyrənirsən.",
+    "lang": "ru",
+    "level": "beginner",
+    "source": "Error Nil",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "SwiftUI ile iOS Geliştirme #17: İnternetten Veri Çekmek, URL, URLRequest, URLSession",
+    "url": "https://www.youtube.com/watch?v=k0x9zxnk120",
+    "desc": "Bu videoda URLSession ilə internetdən məlumat çəkməyi və JSON-u emal etməyi öyrənirsən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "Seyfeddin Başsaraç",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "URLSession в Swift. Основа. Как отправить запрос к любому API",
+    "url": "https://www.youtube.com/watch?v=K497c13YAg4",
+    "desc": "Bu dərsdə URLSession ilə istənilən API-yə sorğu göndərməyi öyrənirsən.",
+    "lang": "ru",
+    "level": "beginner",
+    "source": "Error Nil",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "iOS Mimarisinin Evrimi: MVC'den MVVM'e (Bonus: SwiftUI)",
+    "url": "https://www.youtube.com/watch?v=KnSsJm6xEHE",
+    "desc": "Bu videoda MVC-dən MVVM-ə keçidi və iOS memarlıqlarını müqayisə etməyi öyrənirsən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "Uğur Kılıç",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "MVC, MVVM Архитектура. Наглядная теория и примеры",
+    "url": "https://www.youtube.com/watch?v=X85soC5evw0",
+    "desc": "Bu dərsdə MVC və MVVM memarlıqlarının fərqini nümunələrlə öyrənirsən.",
+    "lang": "ru",
+    "level": "beginner",
+    "source": "Ulbi TV",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Swift’te Modern Asenkron Kod: async-await",
+    "url": "https://www.youtube.com/watch?v=pPD_VKbT3yE",
+    "desc": "Bu videoda Swift-də async-await ilə müasir asinxron kod yazmağı öyrənirsən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "Uğur Kılıç",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "App Store’a Uygulama Yükleme | Xcode + TestFlight + Review Süreci",
+    "url": "https://www.youtube.com/watch?v=IthuOQ12J_w",
+    "desc": "Bu videoda tətbiqi App Store-a yükləməyi, TestFlight-ı və review prosesini öyrənirsən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "Eren AKTAŞ",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Публикация приложения в App Store от А до Я. Отправка на публикацию и в TestFlight",
+    "url": "https://www.youtube.com/watch?v=9KHOxmNLLKU",
+    "desc": "Bu dərsdə tətbiqi App Store-da dərc etməyi və TestFlight-a göndərməyi öyrənirsən.",
+    "lang": "ru",
+    "level": "beginner",
+    "source": "Error Nil",
+    "curated": true
    }
   ],
   "iot": [
@@ -4687,6 +6157,136 @@
     "source": "Robotistan",
     "curated": true,
     "duration": "33 video"
+   },
+   {
+    "type": "youtube",
+    "title": "Как понять электронику с нуля: закон Ома, мультиметр, резисторы, мощность и законы Кирхгофа",
+    "url": "https://www.youtube.com/watch?v=j9mLaFd-rZA",
+    "desc": "Bu videoda sən Om qanununu, multimetrdən istifadəni və rezistorların necə işlədiyini sıfırdan öyrənirsən.",
+    "lang": "ru",
+    "level": "beginner",
+    "source": "ElectronicsClub",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Arduino Başlangıç Seti Dersleri -1 ( Arduino giriş, CH340 ve LED Yakma )",
+    "url": "https://www.youtube.com/watch?v=3STmw2Of2JU",
+    "desc": "Bu dərsdə sən Arduino-ya girişi, kartı kompüterə qoşmağı və ilk LED proqramını yazmağı öyrənirsən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "Robolink",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Arduino для начинающих. Начало работы",
+    "url": "https://www.youtube.com/watch?v=ZbAqbnkv8WM",
+    "desc": "Bu videoda sən Arduino ilə işə başlamağı və ilk addımları atmağı öyrənirsən.",
+    "lang": "ru",
+    "level": "beginner",
+    "source": "AlexGyver",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "MQTT Nedir? | ESP8266 ile MQTT Kullanımı | Akıllı Ev Teknolojisinde MQTT Nasıl Kullanılır?",
+    "url": "https://www.youtube.com/watch?v=13827dxjFEo",
+    "desc": "Bu videoda sən MQTT protokolunun nə olduğunu və ESP8266 ilə ağıllı evdə necə istifadə edildiyini öyrənirsən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "Meraklı Mühendis",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Протокол MQTT",
+    "url": "https://www.youtube.com/watch?v=PWeCdzc8tRw",
+    "desc": "Bu videoda sən MQTT protokolunun necə işlədiyini və IoT-də nə üçün istifadə edildiyini öyrənirsən.",
+    "lang": "ru",
+    "level": "beginner",
+    "source": "arduinoLab",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Управление моторами с Arduino",
+    "url": "https://www.youtube.com/watch?v=tJYDV3FFCWQ",
+    "desc": "Bu dərsdə sən Arduino ilə motorları necə idarə edəcəyini və PWM siqnalının nə işə yaradığını öyrənirsən.",
+    "lang": "ru",
+    "level": "beginner",
+    "source": "Заметки Ардуинщика",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Yeni Blynk Arayüzü ile ESP8266 NodeMCU LED Kontrolü – Güncel Rehber IoT",
+    "url": "https://www.youtube.com/watch?v=Wgo4M0R_YY8",
+    "desc": "Bu rəhbərdə sən Blynk bulud platforması ilə ESP8266-ya qoşulmağı və LED-i internetlə idarə etməyi öyrənirsən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "Elektronik Arşivi | Electronic Archive",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Bluetooth Üzerinden ESP32 Kontrolü ve Dabble Uygulaması",
+    "url": "https://www.youtube.com/watch?v=coMnva--zso",
+    "desc": "Bu videoda sən ESP32-ni Bluetooth-la idarə etməyi və Dabble tətbiqindən istifadə etməyi öyrənirsən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "Mucit Pilot",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "ESP-WROOM-32 платформа Интернета Вещей с Wi-Fi и Bluetooth. Железки Амперки",
+    "url": "https://www.youtube.com/watch?v=HsWLIFT53HY",
+    "desc": "Bu videoda sən Wi-Fi və Bluetooth-lu ESP32 platformasının nə olduğunu və nə üçün istifadə edildiyini öyrənirsən.",
+    "lang": "ru",
+    "level": "beginner",
+    "source": "AmperkaRu",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "RTOS Nedir ? (Gerçek Zamanlı İşletim Sistemleri) | STM32 ile RTOS 'a Giriş Kursu",
+    "url": "https://www.youtube.com/watch?v=g5riFFElIDk",
+    "desc": "Bu kursda sən RTOS-un nə olduğunu və STM32-də real vaxt əməliyyat sisteminə necə giriş edəcəyini öyrənirsən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "Electrobrains",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "FreeRTOS on ESP32-C3 #1 - What is RTOS простыми словами",
+    "url": "https://www.youtube.com/watch?v=xaMs7-Cy2UY",
+    "desc": "Bu videoda sən RTOS-un nə olduğunu və ESP32-də FreeRTOS-un necə işlədiyini sadə dillə öyrənirsən.",
+    "lang": "ru",
+    "level": "beginner",
+    "source": "SkillGarage",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "SSL/TLS Nedir? HTTPS ve CA Nasıl Çalışıyor ? | Devops Yolu",
+    "url": "https://www.youtube.com/watch?v=0IlwKfAb8oQ",
+    "desc": "Bu videoda sən SSL/TLS-in nə olduğunu və HTTPS bağlantısının sertifikatlarla necə qorunduğunu öyrənirsən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "Devops Yolu",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Протокол MQTT и шифрование TLS в задачах АСУ ТП и IoT",
+    "url": "https://www.youtube.com/watch?v=1unQgM4fexk",
+    "desc": "Bu videoda sən IoT sistemlərində MQTT ilə yanaşı TLS şifrələməsinin necə tətbiq edildiyini öyrənirsən.",
+    "lang": "ru",
+    "level": "beginner",
+    "source": "Innovation Center 4.0",
+    "curated": true
    }
   ],
   "ml": [
@@ -5031,6 +6631,26 @@
     "source": "Tirendaz Academy | Evren Özkip",
     "curated": true,
     "duration": "161 video"
+   },
+   {
+    "type": "youtube",
+    "title": "3.9. Metin İşleme : Derin Öğrenme ile NLP: RNN, LSTM ve Transformer Mimarileri",
+    "url": "https://www.youtube.com/watch?v=U1C1MXo8JEw",
+    "desc": "Bu videoda NLP üçün RNN, LSTM və Transformer memarlıqlarının necə işlədiyini öyrənirsən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "BilgisayarKavramlari",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Деплой ML моделей: от кода до продакшена",
+    "url": "https://www.youtube.com/watch?v=iaK9g990Unw",
+    "desc": "Bu videoda ML modelini koddan satışa çıxarmağın bütün mərhələlərini öyrənirsən.",
+    "lang": "ru",
+    "level": "beginner",
+    "source": "Дмитрий Колесников",
+    "curated": true
    }
   ],
   "network": [
@@ -5186,6 +6806,56 @@
     "source": "Siber Kampüs",
     "curated": true,
     "duration": "85 video"
+   },
+   {
+    "type": "youtube",
+    "title": "8-) Router (Yönlendirici) Nedir? | Sıfırdan Network Dersleri",
+    "url": "https://www.youtube.com/watch?v=_RmBFDnCQ1M",
+    "desc": "Bu dərsdə sən routerin nə olduğunu və nə işə yaradığını öyrənirsən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "Siber Kampüs",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Организация компьютерных сетей | Компьютерные сети - 2",
+    "url": "https://www.youtube.com/watch?v=AzjOIcDyR9M",
+    "desc": "Bu dərsdə sən kompüter şəbəkələrinin necə təşkil olunduğunu öyrənirsən.",
+    "lang": "ru",
+    "level": "beginner",
+    "source": "Andrey Sozykin",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "5-) Ağ Türleri Nelerdir (WAN, LAN, WLAN..) | Sıfırdan Network Dersleri",
+    "url": "https://www.youtube.com/watch?v=5RjbfangPBU",
+    "desc": "Bu dərsdə sən WAN, LAN və WLAN şəbəkə növlərini öyrənirsən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "Siber Kampüs",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "41-) DHCP Protokolü Nedir? | Sıfırdan Network Dersleri",
+    "url": "https://www.youtube.com/watch?v=aioNLQfu_YA",
+    "desc": "Bu dərsdə sən DHCP protokolunun necə işlədiyini öyrənirsən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "Siber Kampüs",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "03 - VLAN Etiketleme Nedir ? | 802.1Q | Virtual Local Area Network",
+    "url": "https://www.youtube.com/watch?v=71YGBCssipo",
+    "desc": "Bu dərsdə sən VLAN etiketləməni və 802.1Q standartını öyrənirsən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "Deltanet Akademi",
+    "curated": true
    }
   ],
   "qa-automation": [
@@ -5483,6 +7153,96 @@
     "source": "Лёша Маршал",
     "curated": true,
     "duration": "1 video, 4 saat"
+   },
+   {
+    "type": "youtube",
+    "title": "Yazılım Testinin Temelleri & SDLC/STLC || Yazılım Test Uzmanlığı #1",
+    "url": "https://www.youtube.com/watch?v=JpE0AMAWCcc",
+    "desc": "Bu video SDLC və STLC mərhələlərini izah edir, sən testin əsaslarını öyrənirsən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "KesifPlus",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "(2022) Java Yazılım Geliştirici Yetiştirme Kampı 2 :  OOP Giriş",
+    "url": "https://www.youtube.com/watch?v=2Vx_Z-5Dr4I",
+    "desc": "Bu dərs Java dilində OOP prinsiplərini göstərir, sən test avtomatlaşdırması üçün proqramlaşdırma təməlini qurursan.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "Engin Demiroğ",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Postman ile API Testleri ve Rest Assured ile Test Otomasyon - Software Testing Bootcamp",
+    "url": "https://www.youtube.com/watch?v=ngbRU3abqLA",
+    "desc": "Bu video Postman və Rest Assured ilə API sorğularını yoxlamağı öyrədir, sən request və response testləri yazırsan.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "Software Testing Bootcamp",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "30 DAKIKADA SELENIUM-11 Test Otomasyonunda Page Object Model",
+    "url": "https://www.youtube.com/watch?v=_xxVPLs4sZ4",
+    "desc": "Bu video Selenium-da Page Object Model quruluşunu izah edir, sən test çərçivəni düzgün təşkil edirsən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "Ahmet Bulutluoz",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Паттерн PageObject // Демо-занятие «Java QA Engineer»",
+    "url": "https://www.youtube.com/watch?v=EUVsznJiA8E",
+    "desc": "Bu dərs Java-da PageObject patterni ilə test çərçivəsi yazmağı göstərir, sən kodunu səliqəli qurursan.",
+    "lang": "ru",
+    "level": "beginner",
+    "source": "OTUS IT Онлайн - образование",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Mobil Test Otomasyon (Appium|Java)",
+    "url": "https://www.youtube.com/watch?v=8ud1yFS1Iz4",
+    "desc": "Bu video Appium və Java ilə mobil test avtomatlaşdırmasını göstərir, sən Android və iOS testlərini öyrənirsən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "Test Hive",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Başlangıç Jenkins CI/CD Kurulum ve Uygulama | Devops Yolu",
+    "url": "https://www.youtube.com/watch?v=PrqzBimgsiI",
+    "desc": "Bu video Jenkins ilə CI/CD quraşdırmağı izah edir, sən testləri avtomatik işə salmağı öyrənirsən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "Devops Yolu",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Selenium Grid ile Paralel Web Testleri ve Jenkins ile Entegrasyon - Software Testing Bootcamp",
+    "url": "https://www.youtube.com/watch?v=uHMUfM2Z1kc",
+    "desc": "Bu video Selenium Grid ilə paralel testləri və Jenkins inteqrasiyasını göstərir, sən testləri sürətləndirirsən.",
+    "lang": "tr",
+    "level": "beginner",
+    "source": "Software Testing Bootcamp",
+    "curated": true
+   },
+   {
+    "type": "youtube",
+    "title": "Паттерны проектирования в автоматизации тестирования | Java QA Automation",
+    "url": "https://www.youtube.com/watch?v=hXFSlZM83Ns",
+    "desc": "Bu video test avtomatlaşdırmasında dizayn patternlərini izah edir, sən sabit və genişlənən çərçivə qurursan.",
+    "lang": "ru",
+    "level": "beginner",
+    "source": "Oleh Pendrak",
+    "curated": true
    }
   ]
  },

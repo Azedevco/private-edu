@@ -1,4 +1,5 @@
 import curatedResources from './curated-resources.json' with { type: 'json' }
+import ruContent from './i18n-ru.json' with { type: 'json' }
 // Languages
 export const languages = [
     { code: 'en', name: 'English', flag: '🇬🇧' },
@@ -9030,4 +9031,29 @@ for (const [sub, items] of Object.entries(curatedResources.paths)) {
         .filter((r) => !legacyDrop.has(r.url) && !seen.has(String(r.url || '').replace(/\/$/, '')))
         .map((r) => (legacy.fix[r.url] ? { ...r, ...legacy.fix[r.url] } : r));
     entry.resources.items = [...items, ...rest];
+}
+
+// Russian content (i18n-ru.json): every { en, tr, az } text gets its "ru" by its path in this file (the same walk that
+// exported it for translation), and every path's lessons get roadmap.ru. The interface itself stays Azerbaijani.
+{
+    const walk = (o, path) => {
+        if (!o || typeof o !== 'object') return;
+        if (!Array.isArray(o) && typeof o.en === 'string' && ('az' in o || 'tr' in o)) {
+            if (ruContent.strings[path]) o.ru = ruContent.strings[path];
+            return;
+        }
+        for (const [k, v] of Object.entries(o)) {
+            if (k === 'roadmap') continue;
+            walk(v, path + (Array.isArray(o) ? `[${k}]` : `.${k}`));
+        }
+    };
+    walk(categories, 'categories');
+    walk(contentData, 'contentData');
+    walk(globalFaqData, 'faq');
+    for (const [sub, lessons] of Object.entries(ruContent.roadmap)) {
+        const rm = contentData[sub]?.roadmap;
+        if (rm && lessons.length === (rm.en || rm.az || []).length) {
+            rm.ru = lessons.map((l, i) => ({ ...(rm.az || rm.en)[i], title: l.title, items: l.items }));
+        }
+    }
 }

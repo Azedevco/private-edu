@@ -1,5 +1,6 @@
 // AZEDEV Learn - Konspektlər (the Learn section's files): official cheat sheets and community uploads as compact cards,
 // the submission sheet, the reading view, and the admin panel. Phones get full-screen sheets; desktop, centred windows.
+import { ruSheet } from '../ru.js'
 import { categories } from '../data.js'
 import { downloadableCheatSheets } from '../azedev-data.js'
 import { getCommunityUploads } from '../storage.js'
@@ -216,7 +217,8 @@ export const UploadResourceModal = () => {
 export const ResourcePreviewModal = () => {
     if (!state.previewResource) return '';
 
-    const res = state.previewResource;
+    const ruSheetText = state.lang === 'ru' && ruSheet(state.previewResource.id);
+    const res = ruSheetText ? { ...state.previewResource, ...ruSheetText } : state.previewResource;
     const official = downloadableCheatSheets.some((cs) => cs.id === res.id);
     const category = official ? categoryName(sheetCategory(res)) : categoryName(res.category);
 
